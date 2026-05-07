@@ -1,0 +1,146 @@
+{
+  "workflow": [
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "Liquid",
+        "targets": "samples",
+        "asp_vols": [
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0
+        ],
+        "dis_vols": [
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_9",
+        "liquid_height": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "delays": [
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0
+        ]
+      }
+    }
+  ],
+  "reagent": {
+    "Liquid": {
+      "slot": 3,
+      "well": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12"
+      ],
+      "labware": "stellarscientific_96_wellplate_100ul",
+      "object": "source"
+    },
+    "samples": {
+      "slot": 6,
+      "well": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12"
+      ],
+      "labware": "stellarscientific_96_wellplate_100ul",
+      "object": "target"
+    },
+    "tiprack_9": {
+      "slot": 9,
+      "labware": "opentrons_96_filtertiprack_20ul",
+      "object": "tiprack"
+    },
+    "trash": {
+      "slot": 12,
+      "labware": "opentrons_1_trash_1100ml_fixed",
+      "object": "trash"
+    }
+  }
+}

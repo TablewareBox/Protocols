@@ -1,0 +1,80 @@
+{
+  "workflow": [
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "strand_reagent",
+        "targets": "samples",
+        "asp_vols": [
+          8.0,
+          2.0
+        ],
+        "dis_vols": [
+          8.0,
+          2.0
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_8",
+        "liquid_height": [
+          0,
+          0
+        ],
+        "mix_stage": "after",
+        "mix_times": 6,
+        "mix_vol": 10.0,
+        "mix_rate": 7.6
+      }
+    }
+  ],
+  "reagent": {
+    "strand_reagent": {
+      "slot": 3,
+      "well": [
+        "A1",
+        "A3"
+      ],
+      "labware": "opentrons_96_aluminumblock_generic_pcr_strip_200ul",
+      "object": "source"
+    },
+    "samples": {
+      "slot": 1,
+      "well": [
+        "A1"
+      ],
+      "labware": "thermofisher_96_wellplate_200ul",
+      "object": "target"
+    },
+    "tiprack_7": {
+      "slot": 7,
+      "labware": "opentrons_96_filtertiprack_200ul",
+      "object": "tiprack"
+    },
+    "tiprack_8": {
+      "slot": 8,
+      "labware": "opentrons_96_filtertiprack_20ul",
+      "object": "tiprack"
+    },
+    "tiprack_10": {
+      "slot": 10,
+      "labware": "opentrons_96_filtertiprack_200ul",
+      "object": "tiprack"
+    },
+    "tiprack_11": {
+      "slot": 11,
+      "labware": "opentrons_96_filtertiprack_20ul",
+      "object": "tiprack"
+    },
+    "trash": {
+      "slot": 12,
+      "labware": "opentrons_1_trash_1100ml_fixed",
+      "object": "trash"
+    }
+  }
+}

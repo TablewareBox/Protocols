@@ -1,0 +1,235 @@
+{
+  "workflow": [
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "tcep",
+        "targets": "samples",
+        "asp_vols": [
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0
+        ],
+        "dis_vols": [
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_5",
+        "liquid_height": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "mix_stage": "after",
+        "mix_times": 3,
+        "mix_vol": 20.0,
+        "mix_rate": 7.6
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "trypsin",
+        "targets": "samples_2",
+        "asp_vols": [
+          125.0,
+          125.0,
+          125.0,
+          125.0,
+          125.0,
+          125.0,
+          125.0,
+          125.0,
+          125.0,
+          125.0,
+          125.0,
+          125.0
+        ],
+        "dis_vols": [
+          125.0,
+          125.0,
+          125.0,
+          125.0,
+          125.0,
+          125.0,
+          125.0,
+          125.0,
+          125.0,
+          125.0,
+          125.0,
+          125.0
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_6",
+        "liquid_height": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  ],
+  "reagent": {
+    "tcep": {
+      "slot": 1,
+      "well": [
+        "A1"
+      ],
+      "labware": "3dprint_96_tuberack_200ul",
+      "object": "source"
+    },
+    "trypsin": {
+      "slot": 4,
+      "well": [
+        "A1"
+      ],
+      "labware": "nest_12_reservoir_15ml",
+      "object": "source"
+    },
+    "samples": {
+      "slot": 2,
+      "well": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12"
+      ],
+      "labware": "agilent_96_wellplate_1400ul",
+      "object": "target"
+    },
+    "samples_2": {
+      "slot": 3,
+      "well": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12"
+      ],
+      "labware": "protifistrap_96_wellplate_400ul",
+      "object": "target"
+    },
+    "tiprack_5": {
+      "slot": 5,
+      "labware": "opentrons_96_tiprack_20ul",
+      "object": "tiprack"
+    },
+    "tiprack_6": {
+      "slot": 6,
+      "labware": "opentrons_96_tiprack_300ul",
+      "object": "tiprack"
+    },
+    "trash": {
+      "slot": 12,
+      "labware": "opentrons_1_trash_1100ml_fixed",
+      "object": "trash"
+    }
+  }
+}

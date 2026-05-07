@@ -1,0 +1,121 @@
+{
+  "workflow": [
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "Liquid_1",
+        "targets": "samples",
+        "asp_vols": [
+          7.0
+        ],
+        "dis_vols": [
+          7.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_4",
+        "liquid_height": [
+          9.0
+        ],
+        "touch_tip": true,
+        "mix_stage": "after",
+        "mix_times": 3,
+        "mix_vol": 5.0,
+        "mix_rate": 7.6,
+        "mix_liquid_height": -1.0
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "source",
+        "targets": "samples_2",
+        "asp_vols": [
+          9.0
+        ],
+        "dis_vols": [
+          9.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_4",
+        "liquid_height": [
+          9.0
+        ],
+        "touch_tip": true,
+        "mix_stage": "after",
+        "mix_times": 3,
+        "mix_vol": 5.0,
+        "mix_rate": 7.6,
+        "mix_liquid_height": -1.0
+      }
+    }
+  ],
+  "reagent": {
+    "Liquid_1": {
+      "slot": 1,
+      "well": [
+        "A2"
+      ],
+      "labware": "biorad_96_wellplate_200ul_pcr",
+      "object": "source"
+    },
+    "source": {
+      "slot": 2,
+      "well": [
+        "H10"
+      ],
+      "labware": "biorad_96_wellplate_200ul_pcr",
+      "object": "source"
+    },
+    "samples": {
+      "slot": 5,
+      "well": [
+        "A4"
+      ],
+      "labware": "opentrons_24_tuberack_eppendorf_1.5ml_safelock_snapcap",
+      "object": "target"
+    },
+    "samples_2": {
+      "slot": 3,
+      "well": [
+        "D1"
+      ],
+      "labware": "opentrons_24_tuberack_eppendorf_1.5ml_safelock_snapcap",
+      "object": "target"
+    },
+    "tiprack_4": {
+      "slot": 4,
+      "labware": "biotix_96_filtertiprack_10ul",
+      "object": "tiprack"
+    },
+    "tiprack_7": {
+      "slot": 7,
+      "labware": "opentrons_96_filtertiprack_200ul",
+      "object": "tiprack"
+    },
+    "tiprack_8": {
+      "slot": 8,
+      "labware": "opentrons_96_filtertiprack_200ul",
+      "object": "tiprack"
+    },
+    "tiprack_9": {
+      "slot": 9,
+      "labware": "biotix_96_filtertiprack_10ul",
+      "object": "tiprack"
+    },
+    "trash": {
+      "slot": 12,
+      "labware": "opentrons_1_trash_1100ml_fixed",
+      "object": "trash"
+    }
+  }
+}

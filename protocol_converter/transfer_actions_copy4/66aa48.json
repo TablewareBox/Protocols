@@ -1,0 +1,146 @@
+{
+  "workflow": [
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "Liquid",
+        "targets": "samples",
+        "asp_vols": [
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0
+        ],
+        "dis_vols": [
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_2",
+        "liquid_height": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  ],
+  "reagent": {
+    "Liquid": {
+      "slot": 1,
+      "well": [
+        "A5",
+        "A6",
+        "B1",
+        "A2",
+        "A3",
+        "A4",
+        "A7",
+        "A8",
+        "B3",
+        "B5",
+        "B4",
+        "B6",
+        "A1",
+        "B2"
+      ],
+      "labware": "opentrons_96_aluminumblock_generic_pcr_strip_200ul",
+      "object": "source"
+    },
+    "samples": {
+      "slot": 4,
+      "well": [
+        "A1",
+        "A1",
+        "A1",
+        "B1",
+        "B1",
+        "B1",
+        "B1",
+        "B1",
+        "B1",
+        "B1",
+        "C1",
+        "C1",
+        "D1",
+        "D1"
+      ],
+      "labware": "opentrons_24_tuberack_eppendorf_2ml_safelock_snapcap",
+      "object": "target"
+    },
+    "tiprack_2": {
+      "slot": 2,
+      "labware": "opentrons_96_tiprack_300ul",
+      "object": "tiprack"
+    },
+    "trash": {
+      "slot": 12,
+      "labware": "opentrons_1_trash_1100ml_fixed",
+      "object": "trash"
+    }
+  }
+}

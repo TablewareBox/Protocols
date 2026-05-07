@@ -1,0 +1,67 @@
+{
+  "workflow": [
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "source",
+        "targets": "samples",
+        "asp_vols": [
+          50.0
+        ],
+        "dis_vols": [
+          50.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_10",
+        "blow_out_air_volume": [
+          10.0
+        ],
+        "liquid_height": [
+          0
+        ],
+        "mix_stage": "before",
+        "mix_times": 3,
+        "mix_vol": 40.0,
+        "mix_rate": 7.6
+      }
+    }
+  ],
+  "reagent": {
+    "source": {
+      "slot": 1,
+      "well": [
+        "A1"
+      ],
+      "labware": "perkinelmer_384_wellplate_110ul",
+      "object": "source"
+    },
+    "samples": {
+      "slot": 7,
+      "well": [
+        "A1"
+      ],
+      "labware": "corning_96_wellplate_360ul",
+      "object": "target"
+    },
+    "tiprack_10": {
+      "slot": 10,
+      "labware": "opentrons_96_filtertiprack_200ul",
+      "object": "tiprack"
+    },
+    "tiprack_11": {
+      "slot": 11,
+      "labware": "opentrons_96_filtertiprack_200ul",
+      "object": "tiprack"
+    },
+    "trash": {
+      "slot": 12,
+      "labware": "opentrons_1_trash_1100ml_fixed",
+      "object": "trash"
+    }
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "workflow": [
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "water",
+        "targets": "samples",
+        "asp_vols": [
+          10.0
+        ],
+        "dis_vols": [
+          10.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_5",
+        "liquid_height": [
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "dna",
+        "targets": "samples",
+        "asp_vols": [
+          5.0
+        ],
+        "dis_vols": [
+          5.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_5",
+        "liquid_height": [
+          0
+        ],
+        "mix_stage": "both",
+        "mix_times": 10,
+        "mix_vol": 12.0,
+        "mix_rate": 7.6
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "mastermix",
+        "targets": "samples",
+        "asp_vols": [
+          10.0
+        ],
+        "dis_vols": [
+          10.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_5",
+        "liquid_height": [
+          0
+        ],
+        "delays": [
+          1.5
+        ],
+        "mix_stage": "after",
+        "mix_times": 15,
+        "mix_vol": 18.0,
+        "mix_rate": 7.6
+      }
+    }
+  ],
+  "reagent": {
+    "water": {
+      "slot": 4,
+      "well": [
+        "A1"
+      ],
+      "labware": "nest_12_reservoir_15ml",
+      "object": "source"
+    },
+    "dna": {
+      "slot": 2,
+      "well": [
+        "A1"
+      ],
+      "labware": "biorad_96_wellplate_200ul_pcr",
+      "object": "source"
+    },
+    "mastermix": {
+      "slot": 1,
+      "well": [
+        "A1"
+      ],
+      "labware": "biorad_96_wellplate_200ul_pcr",
+      "object": "source"
+    },
+    "samples": {
+      "slot": 3,
+      "well": [
+        "A1"
+      ],
+      "labware": "biorad_96_wellplate_200ul_pcr",
+      "object": "target"
+    },
+    "tiprack_5": {
+      "slot": 5,
+      "labware": "opentrons_96_filtertiprack_20ul",
+      "object": "tiprack"
+    },
+    "tiprack_6": {
+      "slot": 6,
+      "labware": "opentrons_96_filtertiprack_20ul",
+      "object": "tiprack"
+    },
+    "tiprack_7": {
+      "slot": 7,
+      "labware": "opentrons_96_filtertiprack_20ul",
+      "object": "tiprack"
+    },
+    "tiprack_8": {
+      "slot": 8,
+      "labware": "opentrons_96_filtertiprack_200ul",
+      "object": "tiprack"
+    },
+    "trash": {
+      "slot": 12,
+      "labware": "opentrons_1_trash_1100ml_fixed",
+      "object": "trash"
+    }
+  }
+}

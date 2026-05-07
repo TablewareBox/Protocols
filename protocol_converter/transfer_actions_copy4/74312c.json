@@ -1,0 +1,60 @@
+{
+  "workflow": [
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "trough",
+        "targets": "samples",
+        "asp_vols": [
+          10.0,
+          10.0
+        ],
+        "dis_vols": [
+          10.0,
+          10.0
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_3",
+        "liquid_height": [
+          0,
+          0
+        ]
+      }
+    }
+  ],
+  "reagent": {
+    "trough": {
+      "slot": 6,
+      "well": [
+        "A1"
+      ],
+      "labware": "agilent_1_reservoir_290ml",
+      "object": "source"
+    },
+    "samples": {
+      "slot": 1,
+      "well": [
+        "A1"
+      ],
+      "labware": "pcb_board_250_wells",
+      "object": "target"
+    },
+    "tiprack_3": {
+      "slot": 3,
+      "labware": "opentrons_96_tiprack_20ul",
+      "object": "tiprack"
+    },
+    "trash": {
+      "slot": 12,
+      "labware": "opentrons_1_trash_1100ml_fixed",
+      "object": "trash"
+    }
+  }
+}

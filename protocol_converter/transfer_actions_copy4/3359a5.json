@@ -1,0 +1,158 @@
+{
+  "workflow": [
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "Liquid_1",
+        "targets": "samples",
+        "asp_vols": [
+          1.0
+        ],
+        "dis_vols": [
+          1.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_6",
+        "liquid_height": [
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "Liquid_2",
+        "targets": "samples_2",
+        "asp_vols": [
+          3.0
+        ],
+        "dis_vols": [
+          3.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_6",
+        "liquid_height": [
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "Liquid_3",
+        "targets": "samples_3",
+        "asp_vols": [
+          7.0
+        ],
+        "dis_vols": [
+          7.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_6",
+        "liquid_height": [
+          0
+        ]
+      }
+    }
+  ],
+  "reagent": {
+    "Liquid_1": {
+      "slot": 1,
+      "well": [
+        "A1"
+      ],
+      "labware": "agilent_1_reservoir_290ml",
+      "object": "source"
+    },
+    "Liquid_2": {
+      "slot": 2,
+      "well": [
+        "A1"
+      ],
+      "labware": "nest_12_reservoir_15ml",
+      "object": "source"
+    },
+    "Liquid_3": {
+      "slot": 3,
+      "well": [
+        "A1"
+      ],
+      "labware": "nest_1_reservoir_195ml",
+      "object": "source"
+    },
+    "samples": {
+      "slot": 4,
+      "well": [
+        "A11"
+      ],
+      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
+      "object": "target"
+    },
+    "samples_2": {
+      "slot": 5,
+      "well": [
+        "A5"
+      ],
+      "labware": "nest_96_wellplate_2ml_deep",
+      "object": "target"
+    },
+    "samples_3": {
+      "slot": 5,
+      "well": [
+        "H12"
+      ],
+      "labware": "nest_96_wellplate_2ml_deep",
+      "object": "target"
+    },
+    "tiprack_6": {
+      "slot": 6,
+      "labware": "opentrons_96_tiprack_20ul",
+      "object": "tiprack"
+    },
+    "tiprack_7": {
+      "slot": 7,
+      "labware": "opentrons_96_tiprack_20ul",
+      "object": "tiprack"
+    },
+    "tiprack_8": {
+      "slot": 8,
+      "labware": "opentrons_96_tiprack_20ul",
+      "object": "tiprack"
+    },
+    "tiprack_9": {
+      "slot": 9,
+      "labware": "opentrons_96_tiprack_20ul",
+      "object": "tiprack"
+    },
+    "tiprack_10": {
+      "slot": 10,
+      "labware": "opentrons_96_tiprack_20ul",
+      "object": "tiprack"
+    },
+    "tiprack_11": {
+      "slot": 11,
+      "labware": "opentrons_96_tiprack_20ul",
+      "object": "tiprack"
+    },
+    "trash": {
+      "slot": 12,
+      "labware": "opentrons_1_trash_1100ml_fixed",
+      "object": "trash"
+    }
+  }
+}

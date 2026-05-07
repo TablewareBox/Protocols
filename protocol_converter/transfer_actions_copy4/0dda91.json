@@ -1,0 +1,60 @@
+{
+  "workflow": [
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "all_samples",
+        "targets": "samples",
+        "asp_vols": [
+          4.7
+        ],
+        "dis_vols": [
+          4.7
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_1",
+        "liquid_height": [
+          0
+        ]
+      }
+    }
+  ],
+  "reagent": {
+    "all_samples": {
+      "slot": 2,
+      "well": [
+        "A1"
+      ],
+      "labware": "armadillo_96_wellplate_200ul_pcr_full_skirt",
+      "object": "source"
+    },
+    "samples": {
+      "slot": 3,
+      "well": [
+        "A2"
+      ],
+      "labware": "opentrons_24_tuberack_eppendorf_2ml_safelock_snapcap",
+      "object": "target"
+    },
+    "tiprack_1": {
+      "slot": 1,
+      "labware": "opentrons_96_filtertiprack_20ul",
+      "object": "tiprack"
+    },
+    "tiprack_4": {
+      "slot": 4,
+      "labware": "opentrons_96_filtertiprack_20ul",
+      "object": "tiprack"
+    },
+    "trash": {
+      "slot": 12,
+      "labware": "opentrons_1_trash_1100ml_fixed",
+      "object": "trash"
+    }
+  }
+}

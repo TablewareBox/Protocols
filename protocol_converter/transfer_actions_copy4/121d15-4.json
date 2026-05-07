@@ -1,0 +1,102 @@
+{
+  "workflow": [
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "Liquid_1",
+        "targets": "samples",
+        "asp_vols": [
+          250.0,
+          250.0,
+          250.0,
+          250.0,
+          250.0,
+          250.0,
+          250.0,
+          250.0
+        ],
+        "dis_vols": [
+          250.0,
+          250.0,
+          250.0,
+          250.0,
+          250.0,
+          250.0,
+          250.0,
+          250.0
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_11",
+        "liquid_height": [
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0
+        ]
+      }
+    }
+  ],
+  "reagent": {
+    "Liquid_1": {
+      "slot": 9,
+      "well": [
+        "A1"
+      ],
+      "labware": "test_1_reservoir_300000ul",
+      "object": "source"
+    },
+    "samples": {
+      "slot": 4,
+      "well": [
+        "E1",
+        "A1",
+        "E1",
+        "A1",
+        "E1",
+        "A1",
+        "E1",
+        "A1"
+      ],
+      "labware": "custom_96_tuberack_500ul",
+      "object": "target"
+    },
+    "tiprack_10": {
+      "slot": 10,
+      "labware": "opentrons_96_tiprack_300ul",
+      "object": "tiprack"
+    },
+    "tiprack_11": {
+      "slot": 11,
+      "labware": "opentrons_96_tiprack_300ul",
+      "object": "tiprack"
+    },
+    "trash": {
+      "slot": 12,
+      "labware": "opentrons_1_trash_1100ml_fixed",
+      "object": "trash"
+    }
+  }
+}

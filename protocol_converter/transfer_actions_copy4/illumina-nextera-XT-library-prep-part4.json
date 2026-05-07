@@ -1,0 +1,55 @@
+{
+  "workflow": [
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "input",
+        "targets": "samples",
+        "asp_vols": [
+          5.0
+        ],
+        "dis_vols": [
+          5.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_3",
+        "liquid_height": [
+          0
+        ]
+      }
+    }
+  ],
+  "reagent": {
+    "input": {
+      "slot": 1,
+      "well": [
+        "A1"
+      ],
+      "labware": "biorad_96_wellplate_200ul_pcr",
+      "object": "source"
+    },
+    "samples": {
+      "slot": 2,
+      "well": [
+        "A1"
+      ],
+      "labware": "opentrons_24_tuberack_eppendorf_2ml_safelock_snapcap",
+      "object": "target"
+    },
+    "tiprack_3": {
+      "slot": 3,
+      "labware": "opentrons_96_tiprack_10ul",
+      "object": "tiprack"
+    },
+    "trash": {
+      "slot": 12,
+      "labware": "opentrons_1_trash_1100ml_fixed",
+      "object": "trash"
+    }
+  }
+}

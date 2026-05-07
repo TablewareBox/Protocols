@@ -1,0 +1,79 @@
+{
+  "workflow": [
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "Liquid",
+        "targets": "samples",
+        "asp_vols": [
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0
+        ],
+        "dis_vols": [
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_4",
+        "liquid_height": [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0
+        ]
+      }
+    }
+  ],
+  "reagent": {
+    "Liquid": {
+      "slot": 5,
+      "well": [
+        "A1",
+        "B12",
+        "C5",
+        "G3",
+        "H9"
+      ],
+      "labware": "nest_96_wellplate_2ml_deep",
+      "object": "source"
+    },
+    "samples": {
+      "slot": 6,
+      "well": [
+        "A1"
+      ],
+      "labware": "lvltechnologies_48_wellplate_2000ul",
+      "object": "target"
+    },
+    "tiprack_4": {
+      "slot": 4,
+      "labware": "opentrons_96_tiprack_300ul",
+      "object": "tiprack"
+    },
+    "trash": {
+      "slot": 12,
+      "labware": "opentrons_1_trash_1100ml_fixed",
+      "object": "trash"
+    }
+  }
+}

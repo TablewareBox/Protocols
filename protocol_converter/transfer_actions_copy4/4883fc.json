@@ -1,0 +1,86 @@
+{
+  "workflow": [
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "Liquid",
+        "targets": "samples",
+        "asp_vols": [
+          40.0,
+          67.0,
+          20.0,
+          10.0
+        ],
+        "dis_vols": [
+          40.0,
+          67.0,
+          20.0,
+          10.0
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_2",
+        "liquid_height": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "touch_tip": true,
+        "mix_stage": "after",
+        "mix_times": 3,
+        "mix_vol": 20.0,
+        "mix_rate": 7.6
+      }
+    }
+  ],
+  "reagent": {
+    "Liquid": {
+      "slot": 5,
+      "well": [
+        "A1",
+        "C1",
+        "D1",
+        "E3"
+      ],
+      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
+      "object": "source"
+    },
+    "samples": {
+      "slot": 6,
+      "well": [
+        "A1",
+        "B1",
+        "C1",
+        "D1"
+      ],
+      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
+      "object": "target"
+    },
+    "tiprack_2": {
+      "slot": 2,
+      "labware": "opentrons_96_tiprack_300ul",
+      "object": "tiprack"
+    },
+    "tiprack_3": {
+      "slot": 3,
+      "labware": "opentrons_96_tiprack_300ul",
+      "object": "tiprack"
+    },
+    "trash": {
+      "slot": 12,
+      "labware": "opentrons_1_trash_1100ml_fixed",
+      "object": "trash"
+    }
+  }
+}

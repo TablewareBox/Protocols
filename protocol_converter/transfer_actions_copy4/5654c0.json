@@ -1,0 +1,350 @@
+{
+  "workflow": [
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "Liquid_1",
+        "targets": "samples_3",
+        "asp_vols": [
+          81.82,
+          80.0,
+          81.82
+        ],
+        "dis_vols": [
+          81.82,
+          80.0,
+          81.82
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_1",
+        "liquid_height": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "Liquid",
+        "targets": "samples_4",
+        "asp_vols": [
+          10.0,
+          10.0,
+          10.0
+        ],
+        "dis_vols": [
+          10.0,
+          10.0,
+          10.0
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_3",
+        "liquid_height": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "Liquid_2",
+        "targets": "samples_5",
+        "asp_vols": [
+          10.0,
+          10.0,
+          10.0
+        ],
+        "dis_vols": [
+          10.0,
+          10.0,
+          10.0
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_3",
+        "liquid_height": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "Liquid",
+        "targets": "samples_6",
+        "asp_vols": [
+          20.0,
+          20.0,
+          18.18
+        ],
+        "dis_vols": [
+          20.0,
+          20.0,
+          18.18
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_3",
+        "liquid_height": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "samples",
+        "targets": "samples_6",
+        "asp_vols": [
+          20.0,
+          20.0,
+          18.18
+        ],
+        "dis_vols": [
+          20.0,
+          20.0,
+          18.18
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_3",
+        "liquid_height": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "Liquid_2",
+        "targets": "samples_3",
+        "asp_vols": [
+          20.0,
+          20.0,
+          20.0
+        ],
+        "dis_vols": [
+          20.0,
+          20.0,
+          20.0
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_3",
+        "liquid_height": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "samples_2",
+        "targets": "samples_3",
+        "asp_vols": [
+          20.0,
+          20.0,
+          20.0
+        ],
+        "dis_vols": [
+          20.0,
+          20.0,
+          20.0
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_3",
+        "liquid_height": [
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  ],
+  "reagent": {
+    "Liquid_1": {
+      "slot": 7,
+      "well": [
+        "A1"
+      ],
+      "labware": "agilent_1_reservoir_290ml",
+      "object": "source"
+    },
+    "Liquid": {
+      "slot": 5,
+      "well": [
+        "A1",
+        "G3",
+        "H3"
+      ],
+      "labware": "thermofisher_96_skirted_pcr_200ul",
+      "object": "source"
+    },
+    "Liquid_2": {
+      "slot": 6,
+      "well": [
+        "F3",
+        "G3",
+        "H3"
+      ],
+      "labware": "thermofisher_96_skirted_pcr_200ul",
+      "object": "source"
+    },
+    "samples": {
+      "slot": 8,
+      "well": [
+        "A1",
+        "G3",
+        "H3"
+      ],
+      "labware": "thermofisher_96_skirted_pcr_200ul",
+      "object": "source"
+    },
+    "samples_2": {
+      "slot": 9,
+      "well": [
+        "F3",
+        "G3",
+        "H3"
+      ],
+      "labware": "thermofisher_96_skirted_pcr_200ul",
+      "object": "source"
+    },
+    "samples_3": {
+      "slot": 10,
+      "well": [
+        "F3",
+        "G3",
+        "H3"
+      ],
+      "labware": "thermofisher_96_skirted_pcr_200ul",
+      "object": "target"
+    },
+    "samples_4": {
+      "slot": 8,
+      "well": [
+        "A1",
+        "G3",
+        "H3"
+      ],
+      "labware": "thermofisher_96_skirted_pcr_200ul",
+      "object": "target"
+    },
+    "samples_5": {
+      "slot": 9,
+      "well": [
+        "F3",
+        "G3",
+        "H3"
+      ],
+      "labware": "thermofisher_96_skirted_pcr_200ul",
+      "object": "target"
+    },
+    "samples_6": {
+      "slot": 10,
+      "well": [
+        "A1",
+        "G3",
+        "H3"
+      ],
+      "labware": "thermofisher_96_skirted_pcr_200ul",
+      "object": "target"
+    },
+    "tiprack_1": {
+      "slot": 1,
+      "labware": "opentrons_96_tiprack_300ul",
+      "object": "tiprack"
+    },
+    "tiprack_2": {
+      "slot": 2,
+      "labware": "opentrons_96_tiprack_300ul",
+      "object": "tiprack"
+    },
+    "tiprack_3": {
+      "slot": 3,
+      "labware": "opentrons_96_tiprack_20ul",
+      "object": "tiprack"
+    },
+    "tiprack_4": {
+      "slot": 4,
+      "labware": "opentrons_96_tiprack_20ul",
+      "object": "tiprack"
+    },
+    "trash": {
+      "slot": 12,
+      "labware": "opentrons_1_trash_1100ml_fixed",
+      "object": "trash"
+    }
+  }
+}

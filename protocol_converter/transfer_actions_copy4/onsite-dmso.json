@@ -1,0 +1,137 @@
+{
+  "workflow": [
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "Liquid_1",
+        "targets": "samples_3",
+        "asp_vols": [
+          886.35
+        ],
+        "dis_vols": [
+          886.35
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_6",
+        "liquid_height": [
+          2.0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "samples",
+        "targets": "samples_4",
+        "asp_vols": [
+          986.35
+        ],
+        "dis_vols": [
+          986.35
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_6",
+        "liquid_height": [
+          3.0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "samples_2",
+        "targets": "samples_5",
+        "asp_vols": [
+          200.0
+        ],
+        "dis_vols": [
+          200.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_6",
+        "blow_out_air_volume": [
+          30.0
+        ],
+        "liquid_height": [
+          5.0
+        ],
+        "touch_tip": true
+      }
+    }
+  ],
+  "reagent": {
+    "Liquid_1": {
+      "slot": 1,
+      "well": [
+        "A1"
+      ],
+      "labware": "nest_1_reservoir_195ml",
+      "object": "source"
+    },
+    "samples": {
+      "slot": 4,
+      "well": [
+        "A1"
+      ],
+      "labware": "bricklabwaretype1racklong_24_wellplate_4000ul",
+      "object": "source"
+    },
+    "samples_2": {
+      "slot": 2,
+      "well": [
+        "A1"
+      ],
+      "labware": "altemislab_48_wellplate_2000ul",
+      "object": "source"
+    },
+    "samples_3": {
+      "slot": 4,
+      "well": [
+        "A1"
+      ],
+      "labware": "bricklabwaretype1racklong_24_wellplate_4000ul",
+      "object": "target"
+    },
+    "samples_4": {
+      "slot": 2,
+      "well": [
+        "A1"
+      ],
+      "labware": "altemislab_48_wellplate_2000ul",
+      "object": "target"
+    },
+    "samples_5": {
+      "slot": 5,
+      "well": [
+        "A1"
+      ],
+      "labware": "micronic_96_wellplate_1000ul",
+      "object": "target"
+    },
+    "tiprack_6": {
+      "slot": 6,
+      "labware": "opentrons_96_filtertiprack_1000ul",
+      "object": "tiprack"
+    },
+    "trash": {
+      "slot": 12,
+      "labware": "opentrons_1_trash_1100ml_fixed",
+      "object": "trash"
+    }
+  }
+}

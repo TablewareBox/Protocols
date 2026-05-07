@@ -1,0 +1,424 @@
+{
+  "workflow": [
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "src_cols",
+        "targets": "samples",
+        "asp_vols": [
+          30.0,
+          30.0,
+          30.0
+        ],
+        "dis_vols": [
+          30.0,
+          30.0,
+          30.0
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_2",
+        "liquid_height": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "src_cols_2",
+        "targets": "samples_2",
+        "asp_vols": [
+          30.0,
+          30.0,
+          30.0
+        ],
+        "dis_vols": [
+          30.0,
+          30.0,
+          30.0
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_2",
+        "liquid_height": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "src_cols_3",
+        "targets": "samples_3",
+        "asp_vols": [
+          30.0,
+          30.0,
+          30.0
+        ],
+        "dis_vols": [
+          30.0,
+          30.0,
+          30.0
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_2",
+        "liquid_height": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "src_cols_4",
+        "targets": "samples_4",
+        "asp_vols": [
+          30.0,
+          30.0,
+          30.0
+        ],
+        "dis_vols": [
+          30.0,
+          30.0,
+          30.0
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_2",
+        "liquid_height": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "src_cols_5",
+        "targets": "samples_5",
+        "asp_vols": [
+          30.0,
+          30.0,
+          30.0
+        ],
+        "dis_vols": [
+          30.0,
+          30.0,
+          30.0
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_2",
+        "liquid_height": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "src_cols_6",
+        "targets": "samples_6",
+        "asp_vols": [
+          30.0,
+          30.0,
+          30.0
+        ],
+        "dis_vols": [
+          30.0,
+          30.0,
+          30.0
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_2",
+        "liquid_height": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "src_cols_7",
+        "targets": "samples_7",
+        "asp_vols": [
+          30.0,
+          30.0,
+          30.0
+        ],
+        "dis_vols": [
+          30.0,
+          30.0,
+          30.0
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_2",
+        "liquid_height": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "src_cols_8",
+        "targets": "samples_8",
+        "asp_vols": [
+          30.0,
+          30.0,
+          30.0
+        ],
+        "dis_vols": [
+          30.0,
+          30.0,
+          30.0
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_2",
+        "liquid_height": [
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  ],
+  "reagent": {
+    "src_cols": {
+      "slot": 4,
+      "well": [
+        "A1"
+      ],
+      "labware": "opentrons_96_aluminumblock_nest_wellplate_100ul",
+      "object": "source"
+    },
+    "src_cols_2": {
+      "slot": 4,
+      "well": [
+        "A2"
+      ],
+      "labware": "opentrons_96_aluminumblock_nest_wellplate_100ul",
+      "object": "source"
+    },
+    "src_cols_3": {
+      "slot": 4,
+      "well": [
+        "A3"
+      ],
+      "labware": "opentrons_96_aluminumblock_nest_wellplate_100ul",
+      "object": "source"
+    },
+    "src_cols_4": {
+      "slot": 4,
+      "well": [
+        "A4"
+      ],
+      "labware": "opentrons_96_aluminumblock_nest_wellplate_100ul",
+      "object": "source"
+    },
+    "src_cols_5": {
+      "slot": 4,
+      "well": [
+        "A5"
+      ],
+      "labware": "opentrons_96_aluminumblock_nest_wellplate_100ul",
+      "object": "source"
+    },
+    "src_cols_6": {
+      "slot": 4,
+      "well": [
+        "A6"
+      ],
+      "labware": "opentrons_96_aluminumblock_nest_wellplate_100ul",
+      "object": "source"
+    },
+    "src_cols_7": {
+      "slot": 4,
+      "well": [
+        "A7"
+      ],
+      "labware": "opentrons_96_aluminumblock_nest_wellplate_100ul",
+      "object": "source"
+    },
+    "src_cols_8": {
+      "slot": 4,
+      "well": [
+        "A8"
+      ],
+      "labware": "opentrons_96_aluminumblock_nest_wellplate_100ul",
+      "object": "source"
+    },
+    "samples": {
+      "slot": 1,
+      "well": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "labware": "greinerbioone_384_wellplate_100ul",
+      "object": "target"
+    },
+    "samples_2": {
+      "slot": 1,
+      "well": [
+        "A4",
+        "A5",
+        "A6"
+      ],
+      "labware": "greinerbioone_384_wellplate_100ul",
+      "object": "target"
+    },
+    "samples_3": {
+      "slot": 1,
+      "well": [
+        "A7",
+        "A8",
+        "A9"
+      ],
+      "labware": "greinerbioone_384_wellplate_100ul",
+      "object": "target"
+    },
+    "samples_4": {
+      "slot": 1,
+      "well": [
+        "A10",
+        "A11",
+        "A12"
+      ],
+      "labware": "greinerbioone_384_wellplate_100ul",
+      "object": "target"
+    },
+    "samples_5": {
+      "slot": 1,
+      "well": [
+        "A13",
+        "A14",
+        "A15"
+      ],
+      "labware": "greinerbioone_384_wellplate_100ul",
+      "object": "target"
+    },
+    "samples_6": {
+      "slot": 1,
+      "well": [
+        "A16",
+        "A17",
+        "A18"
+      ],
+      "labware": "greinerbioone_384_wellplate_100ul",
+      "object": "target"
+    },
+    "samples_7": {
+      "slot": 1,
+      "well": [
+        "A19",
+        "A20",
+        "A21"
+      ],
+      "labware": "greinerbioone_384_wellplate_100ul",
+      "object": "target"
+    },
+    "samples_8": {
+      "slot": 1,
+      "well": [
+        "A22",
+        "A23",
+        "A24"
+      ],
+      "labware": "greinerbioone_384_wellplate_100ul",
+      "object": "target"
+    },
+    "tiprack_2": {
+      "slot": 2,
+      "labware": "opentrons_96_tiprack_300ul",
+      "object": "tiprack"
+    },
+    "trash": {
+      "slot": 12,
+      "labware": "opentrons_1_trash_1100ml_fixed",
+      "object": "trash"
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "workflow": [
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "water",
+        "targets": "samples",
+        "asp_vols": [
+          17.0
+        ],
+        "dis_vols": [
+          17.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_3",
+        "liquid_height": [
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "mm",
+        "targets": "samples",
+        "asp_vols": [
+          10.0
+        ],
+        "dis_vols": [
+          10.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_3",
+        "liquid_height": [
+          0
+        ],
+        "mix_stage": "after",
+        "mix_times": 5,
+        "mix_vol": 10.0,
+        "mix_rate": 7.6
+      }
+    }
+  ],
+  "reagent": {
+    "water": {
+      "slot": 2,
+      "well": [
+        "A1"
+      ],
+      "labware": "perkinelmer_12_reservoir_21000ul",
+      "object": "source"
+    },
+    "mm": {
+      "slot": 10,
+      "well": [
+        "A1"
+      ],
+      "labware": "opentrons_96_aluminumblock_biorad_wellplate_200ul",
+      "object": "source"
+    },
+    "samples": {
+      "slot": 7,
+      "well": [
+        "A1"
+      ],
+      "labware": "appliedbiosystemsenduraplate_96_aluminumblock_220ul",
+      "object": "target"
+    },
+    "tiprack_3": {
+      "slot": 3,
+      "labware": "opentrons_96_tiprack_20ul",
+      "object": "tiprack"
+    },
+    "tiprack_5": {
+      "slot": 5,
+      "labware": "opentrons_96_tiprack_20ul",
+      "object": "tiprack"
+    },
+    "tiprack_8": {
+      "slot": 8,
+      "labware": "opentrons_96_tiprack_300ul",
+      "object": "tiprack"
+    },
+    "trash": {
+      "slot": 12,
+      "labware": "opentrons_1_trash_1100ml_fixed",
+      "object": "trash"
+    }
+  }
+}

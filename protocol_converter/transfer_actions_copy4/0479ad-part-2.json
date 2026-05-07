@@ -1,0 +1,217 @@
+{
+  "workflow": [
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "Liquid_1",
+        "targets": "samples",
+        "asp_vols": [
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0
+        ],
+        "dis_vols": [
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_7",
+        "liquid_height": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mix_stage": "after",
+        "mix_times": 10,
+        "mix_vol": 16.0,
+        "mix_rate": 7.6,
+        "mix_liquid_height": 1.0
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "Liquid_2",
+        "targets": "samples_2",
+        "asp_vols": [
+          60.0,
+          60.0,
+          60.0
+        ],
+        "dis_vols": [
+          60.0,
+          60.0,
+          60.0
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_6",
+        "liquid_height": [
+          2.0,
+          2.0,
+          2.0
+        ],
+        "delays": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mix_stage": "after",
+        "mix_times": 10,
+        "mix_vol": 64.0,
+        "mix_rate": 7.6,
+        "mix_liquid_height": 2.0
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "Liquid_3",
+        "targets": "samples_3",
+        "asp_vols": [
+          60.0,
+          60.0,
+          60.0
+        ],
+        "dis_vols": [
+          60.0,
+          60.0,
+          60.0
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_6",
+        "liquid_height": [
+          2.0,
+          2.0,
+          2.0
+        ],
+        "delays": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mix_stage": "after",
+        "mix_times": 10,
+        "mix_vol": 64.0,
+        "mix_rate": 7.6,
+        "mix_liquid_height": 2.0
+      }
+    }
+  ],
+  "reagent": {
+    "Liquid_1": {
+      "slot": 1,
+      "well": [
+        "A2"
+      ],
+      "labware": "opentrons_96_aluminumblock_nest_wellplate_100ul",
+      "object": "source"
+    },
+    "Liquid_2": {
+      "slot": 1,
+      "well": [
+        "A3"
+      ],
+      "labware": "opentrons_96_aluminumblock_nest_wellplate_100ul",
+      "object": "source"
+    },
+    "Liquid_3": {
+      "slot": 1,
+      "well": [
+        "A4"
+      ],
+      "labware": "opentrons_96_aluminumblock_nest_wellplate_100ul",
+      "object": "source"
+    },
+    "samples": {
+      "slot": 4,
+      "well": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6"
+      ],
+      "labware": "thermofisher_96_well_pcrplate_200_aluminumblock",
+      "object": "target"
+    },
+    "samples_2": {
+      "slot": 4,
+      "well": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "labware": "thermofisher_96_well_pcrplate_200_aluminumblock",
+      "object": "target"
+    },
+    "samples_3": {
+      "slot": 4,
+      "well": [
+        "A4",
+        "A5",
+        "A6"
+      ],
+      "labware": "thermofisher_96_well_pcrplate_200_aluminumblock",
+      "object": "target"
+    },
+    "tiprack_6": {
+      "slot": 6,
+      "labware": "opentrons_96_filtertiprack_200ul",
+      "object": "tiprack"
+    },
+    "tiprack_7": {
+      "slot": 7,
+      "labware": "opentrons_96_filtertiprack_20ul",
+      "object": "tiprack"
+    },
+    "trash": {
+      "slot": 12,
+      "labware": "opentrons_1_trash_1100ml_fixed",
+      "object": "trash"
+    }
+  }
+}

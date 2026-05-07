@@ -1,0 +1,166 @@
+{
+  "workflow": [
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "Liquid_1",
+        "targets": "samples",
+        "asp_vols": [
+          0
+        ],
+        "dis_vols": [
+          0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_10",
+        "blow_out_air_volume_before": [
+          25.0
+        ],
+        "liquid_height": [
+          3.5
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "Liquid_2",
+        "targets": "samples",
+        "asp_vols": [
+          5.0
+        ],
+        "dis_vols": [
+          5.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_1",
+        "liquid_height": [
+          2.0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "Liquid_3",
+        "targets": "samples",
+        "asp_vols": [
+          5.0
+        ],
+        "dis_vols": [
+          5.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_1",
+        "liquid_height": [
+          2.0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "Liquid_4",
+        "targets": "samples",
+        "asp_vols": [
+          5.0
+        ],
+        "dis_vols": [
+          5.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_1",
+        "liquid_height": [
+          2.0
+        ]
+      }
+    }
+  ],
+  "reagent": {
+    "Liquid_1": {
+      "slot": 11,
+      "well": [
+        "A1"
+      ],
+      "labware": "thermofisherdwplate_96_wellplate_2000ul",
+      "object": "source"
+    },
+    "Liquid_2": {
+      "slot": 11,
+      "well": [
+        "A11"
+      ],
+      "labware": "thermofisherdwplate_96_wellplate_2000ul",
+      "object": "source"
+    },
+    "Liquid_3": {
+      "slot": 2,
+      "well": [
+        "A1"
+      ],
+      "labware": "thermofisherdwplate_96_wellplate_2000ul",
+      "object": "source"
+    },
+    "Liquid_4": {
+      "slot": 11,
+      "well": [
+        "A12"
+      ],
+      "labware": "thermofisherdwplate_96_wellplate_2000ul",
+      "object": "source"
+    },
+    "samples": {
+      "slot": 3,
+      "well": [
+        "A1"
+      ],
+      "labware": "thermofishermicroampfast96well0.1_96_wellplate_100ul",
+      "object": "target"
+    },
+    "tiprack_1": {
+      "slot": 1,
+      "labware": "opentrons_96_tiprack_20ul",
+      "object": "tiprack"
+    },
+    "tiprack_4": {
+      "slot": 4,
+      "labware": "opentrons_96_tiprack_20ul",
+      "object": "tiprack"
+    },
+    "tiprack_7": {
+      "slot": 7,
+      "labware": "opentrons_96_tiprack_20ul",
+      "object": "tiprack"
+    },
+    "tiprack_10": {
+      "slot": 10,
+      "labware": "opentrons_96_tiprack_300ul",
+      "object": "tiprack"
+    },
+    "trash": {
+      "slot": 12,
+      "labware": "opentrons_1_trash_1100ml_fixed",
+      "object": "trash"
+    }
+  }
+}

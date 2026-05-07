@@ -1,0 +1,135 @@
+{
+  "workflow": [
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "RSB",
+        "targets": "samples",
+        "asp_vols": [
+          3.0,
+          19.900000000000006,
+          19.5,
+          18.1,
+          19.6,
+          14.100000000000001
+        ],
+        "dis_vols": [
+          3.0,
+          19.900000000000006,
+          19.5,
+          18.1,
+          19.6,
+          14.100000000000001
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_1",
+        "liquid_height": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "mix_stage": "after",
+        "mix_times": 10,
+        "mix_vol": 20.0,
+        "mix_rate": 7.6
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "RSB",
+        "targets": "samples_2",
+        "asp_vols": [
+          23.9,
+          21.6
+        ],
+        "dis_vols": [
+          23.9,
+          21.6
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_4",
+        "liquid_height": [
+          0,
+          0
+        ],
+        "mix_stage": "after",
+        "mix_times": 10,
+        "mix_vol": 41.6,
+        "mix_rate": 7.6
+      }
+    }
+  ],
+  "reagent": {
+    "RSB": {
+      "slot": 5,
+      "well": [
+        "A1"
+      ],
+      "labware": "opentrons_10_tuberack_falcon_4x50ml_6x15ml_conical",
+      "object": "source"
+    },
+    "samples": {
+      "slot": 2,
+      "well": [
+        "A1",
+        "B1",
+        "D1",
+        "F1",
+        "G1",
+        "H1"
+      ],
+      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
+      "object": "target"
+    },
+    "samples_2": {
+      "slot": 2,
+      "well": [
+        "C1",
+        "E1"
+      ],
+      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
+      "object": "target"
+    },
+    "tiprack_1": {
+      "slot": 1,
+      "labware": "opentrons_96_filtertiprack_20ul",
+      "object": "tiprack"
+    },
+    "tiprack_4": {
+      "slot": 4,
+      "labware": "opentrons_96_filtertiprack_200ul",
+      "object": "tiprack"
+    },
+    "trash": {
+      "slot": 12,
+      "labware": "opentrons_1_trash_1100ml_fixed",
+      "object": "trash"
+    }
+  }
+}

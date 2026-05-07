@@ -1,0 +1,145 @@
+{
+  "workflow": [
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "trans_mix_tube",
+        "targets": "samples",
+        "asp_vols": [
+          40.0,
+          40.0
+        ],
+        "dis_vols": [
+          40.0,
+          40.0
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_10",
+        "liquid_height": [
+          0,
+          0
+        ],
+        "touch_tip": true
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "Liquid_1",
+        "targets": "samples_2",
+        "asp_vols": [
+          20.0
+        ],
+        "dis_vols": [
+          20.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_11",
+        "liquid_height": [
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "source_well",
+        "targets": "samples_3",
+        "asp_vols": [
+          20.0
+        ],
+        "dis_vols": [
+          20.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_11",
+        "liquid_height": [
+          0
+        ]
+      }
+    }
+  ],
+  "reagent": {
+    "trans_mix_tube": {
+      "slot": 7,
+      "well": [
+        "A4"
+      ],
+      "labware": "opentrons_10_tuberack_falcon_4x50ml_6x15ml_conical",
+      "object": "source"
+    },
+    "Liquid_1": {
+      "slot": 1,
+      "well": [
+        "A1"
+      ],
+      "labware": "thermofisher_96_wellplate_1400ul",
+      "object": "source"
+    },
+    "source_well": {
+      "slot": 2,
+      "well": [
+        "A2"
+      ],
+      "labware": "thermofisher_96_wellplate_1400ul",
+      "object": "source"
+    },
+    "samples": {
+      "slot": 8,
+      "well": [
+        "A1",
+        "A2"
+      ],
+      "labware": "nest_96_wellplate_2ml_deep",
+      "object": "target"
+    },
+    "samples_2": {
+      "slot": 8,
+      "well": [
+        "A1"
+      ],
+      "labware": "nest_96_wellplate_2ml_deep",
+      "object": "target"
+    },
+    "samples_3": {
+      "slot": 8,
+      "well": [
+        "A2"
+      ],
+      "labware": "nest_96_wellplate_2ml_deep",
+      "object": "target"
+    },
+    "tiprack_10": {
+      "slot": 10,
+      "labware": "opentrons_96_filtertiprack_200ul",
+      "object": "tiprack"
+    },
+    "tiprack_11": {
+      "slot": 11,
+      "labware": "opentrons_96_filtertiprack_20ul",
+      "object": "tiprack"
+    },
+    "trash": {
+      "slot": 12,
+      "labware": "opentrons_1_trash_1100ml_fixed",
+      "object": "trash"
+    }
+  }
+}

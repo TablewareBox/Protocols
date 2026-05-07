@@ -1,0 +1,99 @@
+{
+  "workflow": [
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "Liquid_1",
+        "targets": "samples",
+        "asp_vols": [
+          1000.0
+        ],
+        "dis_vols": [
+          1000.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_6",
+        "liquid_height": [
+          9.0
+        ],
+        "delays": [
+          2.0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "samp_well",
+        "targets": "samples",
+        "asp_vols": [
+          20.0
+        ],
+        "dis_vols": [
+          20.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_5",
+        "liquid_height": [
+          5.0
+        ],
+        "mix_stage": "after",
+        "mix_times": 2,
+        "mix_vol": 20.0,
+        "mix_rate": 7.6,
+        "mix_liquid_height": 5.0
+      }
+    }
+  ],
+  "reagent": {
+    "Liquid_1": {
+      "slot": 4,
+      "well": [
+        "A1"
+      ],
+      "labware": "opentrons_6_tuberack_falcon_50ml_conical",
+      "object": "source"
+    },
+    "samp_well": {
+      "slot": 2,
+      "well": [
+        "A1"
+      ],
+      "labware": "nest_96_wellplate_200ul_flat",
+      "object": "source"
+    },
+    "samples": {
+      "slot": 1,
+      "well": [
+        "A1"
+      ],
+      "labware": "thermofisher_40_tuberack_2000ul",
+      "object": "target"
+    },
+    "tiprack_5": {
+      "slot": 5,
+      "labware": "opentrons_96_tiprack_20ul",
+      "object": "tiprack"
+    },
+    "tiprack_6": {
+      "slot": 6,
+      "labware": "geb_96_tiprack_1000ul",
+      "object": "tiprack"
+    },
+    "trash": {
+      "slot": 12,
+      "labware": "opentrons_1_trash_1100ml_fixed",
+      "object": "trash"
+    }
+  }
+}

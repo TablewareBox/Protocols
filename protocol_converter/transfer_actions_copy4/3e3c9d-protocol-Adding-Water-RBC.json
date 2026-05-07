@@ -1,0 +1,125 @@
+{
+  "workflow": [
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "source",
+        "targets": "samples",
+        "asp_vols": [
+          250.0,
+          250.0,
+          250.0,
+          250.0,
+          250.0,
+          250.0,
+          250.0,
+          250.0,
+          250.0,
+          250.0,
+          250.0,
+          250.0
+        ],
+        "dis_vols": [
+          250.0,
+          250.0,
+          250.0,
+          250.0,
+          250.0,
+          250.0,
+          250.0,
+          250.0,
+          250.0,
+          250.0,
+          250.0,
+          250.0
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_4",
+        "liquid_height": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "mix_stage": "before",
+        "mix_times": 3,
+        "mix_vol": 300.0,
+        "mix_rate": 7.6
+      }
+    }
+  ],
+  "reagent": {
+    "source": {
+      "slot": 1,
+      "well": [
+        "A1"
+      ],
+      "labware": "electronmicroscopysciences_1_reservoir_100000ul",
+      "object": "source"
+    },
+    "samples": {
+      "slot": 2,
+      "well": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12"
+      ],
+      "labware": "corning_96_wellplate_360ul_flat",
+      "object": "target"
+    },
+    "tiprack_4": {
+      "slot": 4,
+      "labware": "opentrons_96_tiprack_300ul",
+      "object": "tiprack"
+    },
+    "trash": {
+      "slot": 12,
+      "labware": "opentrons_1_trash_1100ml_fixed",
+      "object": "trash"
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "workflow": [
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "buffer",
+        "targets": "samples",
+        "asp_vols": [
+          300.0
+        ],
+        "dis_vols": [
+          300.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_7",
+        "liquid_height": [
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "Liquid_1",
+        "targets": "samples",
+        "asp_vols": [
+          400.0
+        ],
+        "dis_vols": [
+          400.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_7",
+        "liquid_height": [
+          0
+        ],
+        "mix_stage": "before",
+        "mix_times": 3,
+        "mix_vol": 1000.0,
+        "mix_rate": 7.6
+      }
+    }
+  ],
+  "reagent": {
+    "buffer": {
+      "slot": 4,
+      "well": [
+        "A1"
+      ],
+      "labware": "agilent_1_reservoir_290ml",
+      "object": "source"
+    },
+    "Liquid_1": {
+      "slot": 2,
+      "well": [
+        "A1"
+      ],
+      "labware": "corning_24_wellplate_3.4ml_flat",
+      "object": "source"
+    },
+    "samples": {
+      "slot": 6,
+      "well": [
+        "A1"
+      ],
+      "labware": "corning_24_wellplate_3.4ml_flat",
+      "object": "target"
+    },
+    "tiprack_7": {
+      "slot": 7,
+      "labware": "opentrons_96_tiprack_1000ul",
+      "object": "tiprack"
+    },
+    "trash": {
+      "slot": 12,
+      "labware": "opentrons_1_trash_1100ml_fixed",
+      "object": "trash"
+    }
+  }
+}
