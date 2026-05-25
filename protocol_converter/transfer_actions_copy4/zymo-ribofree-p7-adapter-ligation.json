@@ -1,4 +1,17 @@
 {
+  "metadata": {
+    "workflow_name": "Zymo-Seq RiboFree™ Total RNA Library Prep P7 Adapter Ligation (robot 1)",
+    "tags": [
+      "NGS Library Prep",
+      "Zymo RiboFree™ Total RNA Library Prep"
+    ],
+    "raw": {
+      "protocolName": "Zymo-Seq RiboFree™ Total RNA Library Prep P7 Adapter Ligation (robot 1)",
+      "author": "Nick <protocols@opentrons.com>",
+      "source": "Custom Protocol Request",
+      "apiLevel": "2.0"
+    }
+  },
   "workflow": [
     {
       "action": "transfer_liquid",
@@ -1012,7 +1025,8 @@
         "C1"
       ],
       "labware": "opentrons_24_aluminumblock_nest_1.5ml_screwcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "l2": {
       "slot": 4,
@@ -1020,7 +1034,8 @@
         "C2"
       ],
       "labware": "opentrons_24_aluminumblock_nest_1.5ml_screwcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "samples": {
       "slot": 7,
@@ -1123,7 +1138,8 @@
         "H12"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "tiprack_1": {
       "slot": 1,

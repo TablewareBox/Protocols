@@ -19,6 +19,21 @@ from typing import List, Dict, Any, Optional
 # 默认 flow_rate (p20/p300 常用)
 _DEFAULT_FLOW_RATE = 7.6
 
+
+def _stringify_for_json(value: Any) -> Any:
+    """递归把 metadata 值序列化为 JSON 安全的标量 / list / dict。
+
+    Opentrons 协议的 ``metadata`` 字段通常都是字符串 / 数字 / bool / None，
+    但偶有作者会塞 Path / 自定义对象。统一兜底为 ``str(value)``。
+    """
+    if value is None or isinstance(value, (bool, int, float, str)):
+        return value
+    if isinstance(value, (list, tuple)):
+        return [_stringify_for_json(v) for v in value]
+    if isinstance(value, dict):
+        return {str(k): _stringify_for_json(v) for k, v in value.items()}
+    return str(value)
+
 # 标准 well ordering
 _96_WELL_ORDER = [f"{r}{c}" for c in range(1, 13) for r in "ABCDEFGH"]
 _384_WELL_ORDER = [f"{r}{c}" for c in range(1, 25) for r in "ABCDEFGHIJKLMNOP"]
@@ -326,7 +341,38 @@ class MockWell:
         return self._name
 
     def load_liquid(self, *args, **kwargs):
-        pass
+        # 解析人写名称：兼容 well.load_liquid(liquid=Liquid) /
+        # well.load_liquid(Liquid) / well.load_liquid(volume=200, liquid=Liquid)
+        liquid_obj = kwargs.get("liquid")
+        if liquid_obj is None:
+            for arg in args:
+                if hasattr(arg, "name") or isinstance(arg, str):
+                    liquid_obj = arg
+                    break
+        if liquid_obj is None:
+            return
+        if hasattr(liquid_obj, "name"):
+            name = getattr(liquid_obj, "name", None)
+        elif isinstance(liquid_obj, str):
+            name = liquid_obj
+        else:
+            name = None
+        if not name or not self._labware:
+            return
+        recorder = getattr(self._labware, "_recorder", None)
+        if recorder is None or not hasattr(recorder, "record_liquid_definition"):
+            return
+        try:
+            recorder.record_liquid_definition(
+                var_name=str(name),
+                slot=self._labware._slot,
+                well=self._name,
+                liquid_name=str(name),
+                source="load_liquid",
+            )
+        except Exception:
+            # 不影响协议执行
+            pass
 
     @property
     def point(self):
@@ -585,25 +631,34 @@ class MockPipette:
                 well = self._get_next_tip()
         self._has_tip = True
         self._current_volume = 0.0
+        channels = self.channels
         if well is not None:
             lab = well._labware
             tip_well = well._name
             if hasattr(well, "has_tip"):
                 well.has_tip = False
-            self._recorder.record_pick_tip(tip_well, lab.display_name, lab._slot)
+            # multi 模式：整列消耗 tip（与 Opentrons 真实行为一致）
+            if channels == 8 and lab is not None and hasattr(lab, "columns_by_name"):
+                col_key = tip_well[1:] if tip_well and tip_well[1:].isdigit() else ""
+                col_wells = lab.columns_by_name().get(col_key, [])
+                for w in col_wells:
+                    if hasattr(w, "has_tip"):
+                        w.has_tip = False
+            self._recorder.record_pick_tip(tip_well, lab.display_name, lab._slot, channels=channels)
         else:
             fallback_slot = self._tip_racks[0]._slot if self._tip_racks else 1
             fallback_name = self._tip_racks[0].display_name if self._tip_racks else ""
-            self._recorder.record_pick_tip("A1", fallback_name, fallback_slot)
+            self._recorder.record_pick_tip("A1", fallback_name, fallback_slot, channels=channels)
 
     def drop_tip(self, well=None, **kwargs):
         self._has_tip = False
         self._current_volume = 0.0
+        channels = self.channels
         if well is not None:
             lab = well._labware
-            self._recorder.record_drop_tip(well._name, lab.display_name, lab._slot)
+            self._recorder.record_drop_tip(well._name, lab.display_name, lab._slot, channels=channels)
         else:
-            self._recorder.record_drop_tip("A1", "Opentrons Fixed Trash", 12)
+            self._recorder.record_drop_tip("A1", "Opentrons Fixed Trash", 12, channels=channels)
 
     def return_tip(self, well=None):
         if well is not None and hasattr(well, "has_tip"):
@@ -619,7 +674,10 @@ class MockPipette:
                 return
             pose_z = getattr(target, "_pose_z", None)
             self._last_location = target
-            self._recorder.record_aspirate(float(volume), target._name, lab.display_name, lab._slot, pose_z=pose_z)
+            self._recorder.record_aspirate(
+                float(volume), target._name, lab.display_name, lab._slot,
+                pose_z=pose_z, channels=self.channels,
+            )
 
     def dispense(self, volume=None, well=None, rate=1.0, **kwargs):
         req_vol = float(volume) if volume is not None else self._current_volume
@@ -633,9 +691,15 @@ class MockPipette:
             pose_z = getattr(target, "_pose_z", None)
             self._last_location = target
             if vol == -1 or vol < 0:
-                self._recorder.record_dispense(-1, target._name, lab.display_name, lab._slot, is_blowout=True, pose_z=pose_z)
+                self._recorder.record_dispense(
+                    -1, target._name, lab.display_name, lab._slot,
+                    is_blowout=True, pose_z=pose_z, channels=self.channels,
+                )
             else:
-                self._recorder.record_dispense(vol, target._name, lab.display_name, lab._slot, pose_z=pose_z)
+                self._recorder.record_dispense(
+                    vol, target._name, lab.display_name, lab._slot,
+                    pose_z=pose_z, channels=self.channels,
+                )
 
     def blow_out(self, well=None, location=None):
         self._current_volume = 0
@@ -646,15 +710,20 @@ class MockPipette:
                 return
             pose_z = getattr(target, "_pose_z", None)
             self._last_location = target
-            self._recorder.record_blow_out(target._name, lab.display_name, lab._slot, pose_z=pose_z)
+            self._recorder.record_blow_out(
+                target._name, lab.display_name, lab._slot,
+                pose_z=pose_z, channels=self.channels,
+            )
         else:
-            self._recorder.record_blow_out("A1", "Opentrons Fixed Trash", 12)
+            self._recorder.record_blow_out(
+                "A1", "Opentrons Fixed Trash", 12, channels=self.channels,
+            )
 
     def air_gap(self, volume=0, *args, **kwargs):
         vol = float(volume)
         self._current_volume += vol
         if vol > 0:
-            self._recorder.record_air_gap(vol)
+            self._recorder.record_air_gap(vol, channels=self.channels)
 
     def touch_tip(self, well=None, **kwargs):
         target = well or self._last_location
@@ -664,9 +733,12 @@ class MockPipette:
                 return
             pose_z = getattr(target, "_pose_z", None)
             self._last_location = target
-            self._recorder.record_touch_tip(target._name, lab.display_name, lab._slot, pose_z=pose_z)
+            self._recorder.record_touch_tip(
+                target._name, lab.display_name, lab._slot,
+                pose_z=pose_z, channels=self.channels,
+            )
         else:
-            self._recorder.record_touch_tip()
+            self._recorder.record_touch_tip(channels=self.channels)
 
     def transfer(self, volume, source, dest, **kwargs):
         """transfer(vol, src, dst) 或 transfer(vol, [s1,s2], [d1,d2])，vol 可为列表"""
@@ -749,7 +821,10 @@ class MockPipette:
                 return
             pose_z = getattr(target, "_pose_z", None)
             self._last_location = target
-            self._recorder.record_mix(repetitions, volume, target._name, lab.display_name, lab._slot, pose_z=pose_z)
+            self._recorder.record_mix(
+                repetitions, volume, target._name, lab.display_name, lab._slot,
+                pose_z=pose_z, channels=self.channels,
+            )
 
     def move_to(self, *args, **kwargs):
         if args:
@@ -821,14 +896,116 @@ class ProtocolRecorder:
 
     def __init__(self):
         self.actions: List[Dict] = []
+        # P4 — mock 层显式液体记录：
+        #   defined_liquids[name] = {"description": ..., "display_color": ...}
+        #   liquid_locations[name] = {"slot": int, "well": str,
+        #                             "liquid_name": name, "source": "load_liquid"}
+        # 下游 detailed_action_json 生成器可消费这些字段填充
+        # ``detailed_action_json/<name>.json`` 的 ``liquid_locations``。
+        self.defined_liquids: Dict[str, Dict[str, Any]] = {}
+        self.liquid_locations: Dict[str, Dict[str, Any]] = {}
+        # P5 — mock 层捕获原 .py 协议顶层的 ``metadata = {...}`` 字典，
+        # 字段保持 Opentrons 原命名（protocolName / author / source / apiLevel），
+        # 不重命名为 snake_case。下游 ``change_to_transfer_group.py`` 的
+        # ``load_protocol_metadata`` 优先从此处取值，正则解析 *.py 是兜底。
+        self.protocol_metadata: Dict[str, Any] = {}
 
-    def record_pick_tip(self, well: str, tip_type: str, slot: int):
-        self.actions.append({
+    def record_protocol_metadata(self, metadata: Any) -> None:
+        """从 ``exec`` 命名空间抓到的 ``metadata`` dict 注入 recorder。"""
+        if not isinstance(metadata, dict):
+            return
+        try:
+            normalized = {str(k): _stringify_for_json(v) for k, v in metadata.items()}
+        except Exception:
+            return
+        self.protocol_metadata = normalized
+
+    def dump_detailed_action_json(self, out_path: Path) -> None:
+        """把 mock 层捕获的 ``metadata`` / ``liquid_locations`` 写入
+        ``detailed_action_json/<name>.json``。
+
+        与旧 ``modified_code.py`` 注入方案兼容：若目标文件已存在，只 patch
+        本次新增的字段（``metadata`` + 来自 mock 层 ``load_liquid`` 的
+        ``liquid_locations`` 条目），保留已有 ``event_logs`` 等字段不动。
+        """
+        out_path = Path(out_path)
+        existing: Dict[str, Any] = {}
+        if out_path.exists():
+            try:
+                with out_path.open("r", encoding="utf-8") as fp:
+                    loaded = json.load(fp)
+                    if isinstance(loaded, dict):
+                        existing = loaded
+            except Exception:
+                existing = {}
+
+        existing.setdefault("event_logs", [])
+        existing_liquid_locs = existing.get("liquid_locations") or {}
+        if not isinstance(existing_liquid_locs, dict):
+            existing_liquid_locs = {}
+
+        for var_name, loc_info in self.liquid_locations.items():
+            if not isinstance(loc_info, dict):
+                continue
+            merged = dict(existing_liquid_locs.get(var_name) or {})
+            merged.update(loc_info)
+            existing_liquid_locs[var_name] = merged
+        existing["liquid_locations"] = existing_liquid_locs
+
+        if self.protocol_metadata:
+            existing["metadata"] = self.protocol_metadata
+
+        out_path.parent.mkdir(parents=True, exist_ok=True)
+        with out_path.open("w", encoding="utf-8") as fp:
+            json.dump(existing, fp, indent=2, ensure_ascii=False, default=str)
+
+    def record_define_liquid(self, name: str, description: Any = None, display_color: Any = None):
+        """记录 ``ProtocolContext.define_liquid(name, description, display_color)`` 调用。"""
+        if not name:
+            return
+        self.defined_liquids[str(name)] = {
+            "description": description,
+            "display_color": display_color,
+        }
+
+    def record_liquid_definition(
+        self,
+        var_name: str,
+        slot: int,
+        well: str,
+        liquid_name: Optional[str] = None,
+        source: str = "load_liquid",
+    ):
+        """记录孔位与液体名的绑定（来自 ``Well.load_liquid`` 调用）。"""
+        if not var_name or not well or slot is None:
+            return
+        try:
+            slot_int = int(slot)
+        except (TypeError, ValueError):
+            slot_int = 0
+        self.liquid_locations[str(var_name)] = {
+            "slot": slot_int,
+            "well": str(well),
+            "liquid_name": str(liquid_name or var_name),
+            "source": str(source),
+        }
+
+    @staticmethod
+    def _maybe_set_channels(act: Dict, channels: int) -> None:
+        # 仅当 multi pipette（channels != 1）时才写入 channels 字段，
+        # 保证单通道协议的 step JSON 与历史 baseline 字节级一致。
+        if channels and int(channels) != 1:
+            act["channels"] = int(channels)
+
+    def record_pick_tip(self, well: str, tip_type: str, slot: int, channels: int = 1):
+        act = {
             "action": "pick_tip",
             "tip_rack": {"well": well, "type": tip_type, "slot": slot}
-        })
+        }
+        self._maybe_set_channels(act, channels)
+        self.actions.append(act)
 
-    def record_aspirate(self, vol: float, well: str, labware: str, slot: int, pose_z: str = None):
+    def record_aspirate(self, vol: float, well: str, labware: str, slot: int, pose_z: str = None, channels: int = 1):
         act = {
             "action": "aspirate",
             "vol": vol,
@@ -837,9 +1014,10 @@ class ProtocolRecorder:
         }
         if pose_z:
             act["pose_z"] = pose_z
+        self._maybe_set_channels(act, channels)
         self.actions.append(act)
 
-    def record_dispense(self, vol: float, well: str, labware: str, slot: int, is_blowout=False, pose_z: str = None):
+    def record_dispense(self, vol: float, well: str, labware: str, slot: int, is_blowout=False, pose_z: str = None, channels: int = 1):
         act = {
             "action": "dispense",
             "vol": vol,
@@ -848,6 +1026,7 @@ class ProtocolRecorder:
         }
         if pose_z:
             act["pose_z"] = pose_z
+        self._maybe_set_channels(act, channels)
         self.actions.append(act)
 
     def record_delay(self, seconds: float = 0, minutes: float = 0):
@@ -857,7 +1036,7 @@ class ProtocolRecorder:
             "seconds": float(seconds)
         })
 
-    def record_mix(self, reps: int, vol, well: str, labware: str, slot: int, pose_z: str = None):
+    def record_mix(self, reps: int, vol, well: str, labware: str, slot: int, pose_z: str = None, channels: int = 1):
         vol_val = float(vol[0]) if isinstance(vol, (list, tuple)) and vol else float(vol)
         act = {
             "action": "mix",
@@ -868,36 +1047,43 @@ class ProtocolRecorder:
         }
         if pose_z:
             act["pose_z"] = pose_z
+        self._maybe_set_channels(act, channels)
         self.actions.append(act)
 
-    def record_blow_out(self, well: str, labware: str, slot: int, pose_z: str = None):
+    def record_blow_out(self, well: str, labware: str, slot: int, pose_z: str = None, channels: int = 1):
         act = {
             "action": "blow_out",
             "at": {"well": well, "labware": labware, "slot": slot}
         }
         if pose_z:
             act["pose_z"] = pose_z
+        self._maybe_set_channels(act, channels)
         self.actions.append(act)
 
-    def record_touch_tip(self, well: str = None, labware: str = None, slot: int = None, pose_z: str = None):
+    def record_touch_tip(self, well: str = None, labware: str = None, slot: int = None, pose_z: str = None, channels: int = 1):
         act = {"action": "touch_tip"}
         if well is not None and labware is not None and slot is not None:
             act["location"] = {"well": well, "labware": labware, "slot": slot}
         if pose_z:
             act["pose_z"] = pose_z
+        self._maybe_set_channels(act, channels)
         self.actions.append(act)
 
-    def record_air_gap(self, vol: float):
-        self.actions.append({
+    def record_air_gap(self, vol: float, channels: int = 1):
+        act = {
             "action": "air_gap",
             "vol": vol
-        })
+        }
+        self._maybe_set_channels(act, channels)
+        self.actions.append(act)
 
-    def record_drop_tip(self, well: str, labware: str, slot: int):
-        self.actions.append({
+    def record_drop_tip(self, well: str, labware: str, slot: int, channels: int = 1):
+        act = {
             "action": "drop_tip",
             "location": {"well": well, "labware": labware, "slot": slot}
-        })
+        }
+        self._maybe_set_channels(act, channels)
+        self.actions.append(act)
 
 
 def build_mock_ctx(protocol_dir: Path, fields: List[Dict], recorder: ProtocolRecorder):
@@ -951,6 +1137,8 @@ def build_mock_ctx(protocol_dir: Path, fields: List[Dict], recorder: ProtocolRec
         else:
             order = _get_well_order(load_name_str)
         lab = MockLabware(slot, label or load_name, load_name, order, defn=defn)
+        # 注入 recorder 引用，让 MockWell.load_liquid 能写入 liquid_locations
+        lab._recorder = recorder
         loaded_labwares[slot] = lab
         return lab
 
@@ -1200,7 +1388,16 @@ def build_mock_ctx(protocol_dir: Path, fields: List[Dict], recorder: ProtocolRec
             return True
 
         def define_liquid(self, name=None, description=None, display_color=None):
-            return type("Liquid", (), {"name": name})()
+            # P4：将人写名称回记到 recorder，供下游 detailed_action_json /
+            # well_to_varname 命名链消费。Liquid 对象保留 name/description/
+            # display_color 三个属性，下游 well.load_liquid(liquid) 会再读取 name。
+            if name:
+                recorder.record_define_liquid(name, description, display_color)
+            return type("Liquid", (), {
+                "name": name,
+                "description": description,
+                "display_color": display_color,
+            })()
 
         @property
         def fixed_trash(self):
@@ -1290,11 +1487,24 @@ def run_protocol_with_mock(protocol_path: Path, protocol_dir: Path) -> List[Dict
     old_stdout, sys.stdout = sys.stdout, io.StringIO()
     try:
         exec(code, exec_globals)
+        # P5 — 抓取协议顶层的 metadata 字典（exec 后留在 exec_globals 命名空间里）
+        recorder.record_protocol_metadata(exec_globals.get("metadata"))
         run_fn = exec_globals.get("run")
         if run_fn:
             run_fn(ctx)
     finally:
         sys.stdout = old_stdout
+
+    # P5 — 把 metadata + mock 层 liquid_locations 落盘到
+    # detailed_action_json/<name>.json，保留旧 modified_code.py 注入产物
+    # 的 event_logs / 既有 liquid_locations 字段不动。
+    try:
+        detailed_dir = Path(__file__).parent / "detailed_action_json"
+        detailed_path = detailed_dir / f"{protocol_dir.name}.json"
+        recorder.dump_detailed_action_json(detailed_path)
+    except Exception as e:
+        # 落盘失败不影响 steps 输出，仅打印 warning
+        print(f"  [warn] 写入 detailed_action_json 失败: {e}")
 
     return recorder.actions
 

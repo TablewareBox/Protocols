@@ -1,4 +1,17 @@
 {
+  "metadata": {
+    "workflow_name": "Lyra Direct Covid-19 Mastermix Distribution",
+    "tags": [
+      "Sample Prep",
+      "Plate Filling"
+    ],
+    "raw": {
+      "protocolName": "Lyra Direct Covid-19 Mastermix Distribution",
+      "author": "Chaz <chaz@opentrons.com>",
+      "source": "Custom Protocol Request",
+      "apiLevel": "2.7"
+    }
+  },
   "workflow": [
     {
       "action": "transfer_liquid",
@@ -506,7 +519,8 @@
         "D1"
       ],
       "labware": "opentrons_24_tuberack_eppendorf_1.5ml_safelock_snapcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "mastermix"
     },
     "samples": {
       "slot": 3,
@@ -609,7 +623,8 @@
         "H12"
       ],
       "labware": "opentrons_96_aluminumblock_nest_wellplate_100ul",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "tiprack_2": {
       "slot": 2,

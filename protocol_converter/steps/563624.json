@@ -6,7 +6,8 @@
                 "well": "A1",
                 "type": "300ul resin tiprack",
                 "slot": 1
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -16,37 +17,8 @@
                 "labware": "equilibration buffer plate",
                 "slot": 2
             },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "delay",
-            "minutes": 0,
-            "seconds": 20.0
-        },
-        {
-            "action": "dispense",
-            "vol": 90.0,
-            "target": {
-                "well": "A1",
-                "labware": "equilibration buffer plate",
-                "slot": 2
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "delay",
-            "minutes": 0,
-            "seconds": 20.0
-        },
-        {
-            "action": "aspirate",
-            "vol": 90.0,
-            "source": {
-                "well": "A1",
-                "labware": "equilibration buffer plate",
-                "slot": 2
-            },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -61,7 +33,40 @@
                 "labware": "equilibration buffer plate",
                 "slot": 2
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "delay",
+            "minutes": 0,
+            "seconds": 20.0
+        },
+        {
+            "action": "aspirate",
+            "vol": 90.0,
+            "source": {
+                "well": "A1",
+                "labware": "equilibration buffer plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "delay",
+            "minutes": 0,
+            "seconds": 20.0
+        },
+        {
+            "action": "dispense",
+            "vol": 90.0,
+            "target": {
+                "well": "A1",
+                "labware": "equilibration buffer plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -76,7 +81,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -91,7 +97,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -105,7 +112,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -115,7 +123,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -130,7 +139,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -144,7 +154,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -154,7 +165,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -169,7 +181,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -183,7 +196,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -193,7 +207,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -208,7 +223,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -222,7 +238,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -232,7 +249,8 @@
                 "labware": "wash buffer 1 plate",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -247,7 +265,8 @@
                 "labware": "wash buffer 1 plate",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -262,7 +281,8 @@
                 "labware": "wash buffer 1 plate",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -277,7 +297,8 @@
                 "labware": "wash buffer 1 plate",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -292,7 +313,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -307,7 +329,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -321,7 +344,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -331,7 +355,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -346,7 +371,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -360,7 +386,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -370,7 +397,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -385,7 +413,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -399,7 +428,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -409,7 +439,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -424,7 +455,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -438,7 +470,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -448,7 +481,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -463,7 +497,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -477,7 +512,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -487,7 +523,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -502,7 +539,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -516,7 +554,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -524,7 +563,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -534,7 +574,8 @@
                 "well": "A2",
                 "type": "300ul resin tiprack",
                 "slot": 1
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -544,37 +585,8 @@
                 "labware": "equilibration buffer plate",
                 "slot": 2
             },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "delay",
-            "minutes": 0,
-            "seconds": 20.0
-        },
-        {
-            "action": "dispense",
-            "vol": 90.0,
-            "target": {
-                "well": "A2",
-                "labware": "equilibration buffer plate",
-                "slot": 2
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "delay",
-            "minutes": 0,
-            "seconds": 20.0
-        },
-        {
-            "action": "aspirate",
-            "vol": 90.0,
-            "source": {
-                "well": "A2",
-                "labware": "equilibration buffer plate",
-                "slot": 2
-            },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -589,7 +601,40 @@
                 "labware": "equilibration buffer plate",
                 "slot": 2
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "delay",
+            "minutes": 0,
+            "seconds": 20.0
+        },
+        {
+            "action": "aspirate",
+            "vol": 90.0,
+            "source": {
+                "well": "A2",
+                "labware": "equilibration buffer plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "delay",
+            "minutes": 0,
+            "seconds": 20.0
+        },
+        {
+            "action": "dispense",
+            "vol": 90.0,
+            "target": {
+                "well": "A2",
+                "labware": "equilibration buffer plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -604,7 +649,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -619,7 +665,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -633,7 +680,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -643,7 +691,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -658,7 +707,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -672,7 +722,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -682,7 +733,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -697,7 +749,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -711,7 +764,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -721,7 +775,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -736,7 +791,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -750,7 +806,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -760,7 +817,8 @@
                 "labware": "wash buffer 1 plate",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -775,7 +833,8 @@
                 "labware": "wash buffer 1 plate",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -790,7 +849,8 @@
                 "labware": "wash buffer 1 plate",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -805,7 +865,8 @@
                 "labware": "wash buffer 1 plate",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -820,7 +881,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -835,7 +897,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -849,7 +912,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -859,7 +923,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -874,7 +939,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -888,7 +954,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -898,7 +965,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -913,7 +981,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -927,7 +996,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -937,7 +1007,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -952,7 +1023,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -966,7 +1038,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -976,7 +1049,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -991,7 +1065,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1005,7 +1080,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1015,7 +1091,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1030,7 +1107,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1044,7 +1122,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -1052,7 +1131,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -1062,7 +1142,8 @@
                 "well": "A3",
                 "type": "300ul resin tiprack",
                 "slot": 1
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1072,37 +1153,8 @@
                 "labware": "equilibration buffer plate",
                 "slot": 2
             },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "delay",
-            "minutes": 0,
-            "seconds": 20.0
-        },
-        {
-            "action": "dispense",
-            "vol": 90.0,
-            "target": {
-                "well": "A3",
-                "labware": "equilibration buffer plate",
-                "slot": 2
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "delay",
-            "minutes": 0,
-            "seconds": 20.0
-        },
-        {
-            "action": "aspirate",
-            "vol": 90.0,
-            "source": {
-                "well": "A3",
-                "labware": "equilibration buffer plate",
-                "slot": 2
-            },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1117,7 +1169,40 @@
                 "labware": "equilibration buffer plate",
                 "slot": 2
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "delay",
+            "minutes": 0,
+            "seconds": 20.0
+        },
+        {
+            "action": "aspirate",
+            "vol": 90.0,
+            "source": {
+                "well": "A3",
+                "labware": "equilibration buffer plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "delay",
+            "minutes": 0,
+            "seconds": 20.0
+        },
+        {
+            "action": "dispense",
+            "vol": 90.0,
+            "target": {
+                "well": "A3",
+                "labware": "equilibration buffer plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1132,7 +1217,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1147,7 +1233,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1161,7 +1248,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1171,7 +1259,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1186,7 +1275,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1200,7 +1290,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1210,7 +1301,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1225,7 +1317,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1239,7 +1332,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1249,7 +1343,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1264,7 +1359,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1278,7 +1374,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1288,7 +1385,8 @@
                 "labware": "wash buffer 1 plate",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1303,7 +1401,8 @@
                 "labware": "wash buffer 1 plate",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1318,7 +1417,8 @@
                 "labware": "wash buffer 1 plate",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1333,7 +1433,8 @@
                 "labware": "wash buffer 1 plate",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1348,7 +1449,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1363,7 +1465,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1377,7 +1480,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1387,7 +1491,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1402,7 +1507,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1416,7 +1522,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1426,7 +1533,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1441,7 +1549,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1455,7 +1564,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1465,7 +1575,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1480,7 +1591,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1494,7 +1606,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1504,7 +1617,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1519,7 +1633,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1533,7 +1648,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1543,7 +1659,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1558,7 +1675,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1572,7 +1690,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -1580,7 +1699,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -1590,7 +1710,8 @@
                 "well": "A4",
                 "type": "300ul resin tiprack",
                 "slot": 1
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1600,37 +1721,8 @@
                 "labware": "equilibration buffer plate",
                 "slot": 2
             },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "delay",
-            "minutes": 0,
-            "seconds": 20.0
-        },
-        {
-            "action": "dispense",
-            "vol": 90.0,
-            "target": {
-                "well": "A4",
-                "labware": "equilibration buffer plate",
-                "slot": 2
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "delay",
-            "minutes": 0,
-            "seconds": 20.0
-        },
-        {
-            "action": "aspirate",
-            "vol": 90.0,
-            "source": {
-                "well": "A4",
-                "labware": "equilibration buffer plate",
-                "slot": 2
-            },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1645,7 +1737,40 @@
                 "labware": "equilibration buffer plate",
                 "slot": 2
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "delay",
+            "minutes": 0,
+            "seconds": 20.0
+        },
+        {
+            "action": "aspirate",
+            "vol": 90.0,
+            "source": {
+                "well": "A4",
+                "labware": "equilibration buffer plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "delay",
+            "minutes": 0,
+            "seconds": 20.0
+        },
+        {
+            "action": "dispense",
+            "vol": 90.0,
+            "target": {
+                "well": "A4",
+                "labware": "equilibration buffer plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1660,7 +1785,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1675,7 +1801,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1689,7 +1816,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1699,7 +1827,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1714,7 +1843,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1728,7 +1858,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1738,7 +1869,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1753,7 +1885,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1767,7 +1900,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1777,7 +1911,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1792,7 +1927,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1806,7 +1942,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1816,7 +1953,8 @@
                 "labware": "wash buffer 1 plate",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1831,7 +1969,8 @@
                 "labware": "wash buffer 1 plate",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1846,7 +1985,8 @@
                 "labware": "wash buffer 1 plate",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1861,7 +2001,8 @@
                 "labware": "wash buffer 1 plate",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1876,7 +2017,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1891,7 +2033,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1905,7 +2048,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1915,7 +2059,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1930,7 +2075,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1944,7 +2090,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1954,7 +2101,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1969,7 +2117,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1983,7 +2132,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1993,7 +2143,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2008,7 +2159,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2022,7 +2174,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2032,7 +2185,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2047,7 +2201,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2061,7 +2216,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2071,7 +2227,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2086,7 +2243,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2100,7 +2258,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -2108,7 +2267,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -2118,7 +2278,8 @@
                 "well": "A5",
                 "type": "300ul resin tiprack",
                 "slot": 1
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2128,37 +2289,8 @@
                 "labware": "equilibration buffer plate",
                 "slot": 2
             },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "delay",
-            "minutes": 0,
-            "seconds": 20.0
-        },
-        {
-            "action": "dispense",
-            "vol": 90.0,
-            "target": {
-                "well": "A5",
-                "labware": "equilibration buffer plate",
-                "slot": 2
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "delay",
-            "minutes": 0,
-            "seconds": 20.0
-        },
-        {
-            "action": "aspirate",
-            "vol": 90.0,
-            "source": {
-                "well": "A5",
-                "labware": "equilibration buffer plate",
-                "slot": 2
-            },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2173,7 +2305,40 @@
                 "labware": "equilibration buffer plate",
                 "slot": 2
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "delay",
+            "minutes": 0,
+            "seconds": 20.0
+        },
+        {
+            "action": "aspirate",
+            "vol": 90.0,
+            "source": {
+                "well": "A5",
+                "labware": "equilibration buffer plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "delay",
+            "minutes": 0,
+            "seconds": 20.0
+        },
+        {
+            "action": "dispense",
+            "vol": 90.0,
+            "target": {
+                "well": "A5",
+                "labware": "equilibration buffer plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2188,7 +2353,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2203,7 +2369,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2217,7 +2384,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2227,7 +2395,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2242,7 +2411,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2256,7 +2426,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2266,7 +2437,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2281,7 +2453,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2295,7 +2468,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2305,7 +2479,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2320,7 +2495,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2334,7 +2510,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2344,7 +2521,8 @@
                 "labware": "wash buffer 1 plate",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2359,7 +2537,8 @@
                 "labware": "wash buffer 1 plate",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2374,7 +2553,8 @@
                 "labware": "wash buffer 1 plate",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2389,7 +2569,8 @@
                 "labware": "wash buffer 1 plate",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2404,7 +2585,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2419,7 +2601,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2433,7 +2616,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2443,7 +2627,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2458,7 +2643,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2472,7 +2658,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2482,7 +2669,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2497,7 +2685,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2511,7 +2700,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2521,7 +2711,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2536,7 +2727,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2550,7 +2742,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2560,7 +2753,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2575,7 +2769,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2589,7 +2784,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2599,7 +2795,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2614,7 +2811,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2628,7 +2826,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -2636,7 +2835,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -2646,7 +2846,8 @@
                 "well": "A6",
                 "type": "300ul resin tiprack",
                 "slot": 1
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2656,37 +2857,8 @@
                 "labware": "equilibration buffer plate",
                 "slot": 2
             },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "delay",
-            "minutes": 0,
-            "seconds": 20.0
-        },
-        {
-            "action": "dispense",
-            "vol": 90.0,
-            "target": {
-                "well": "A6",
-                "labware": "equilibration buffer plate",
-                "slot": 2
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "delay",
-            "minutes": 0,
-            "seconds": 20.0
-        },
-        {
-            "action": "aspirate",
-            "vol": 90.0,
-            "source": {
-                "well": "A6",
-                "labware": "equilibration buffer plate",
-                "slot": 2
-            },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2701,7 +2873,40 @@
                 "labware": "equilibration buffer plate",
                 "slot": 2
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "delay",
+            "minutes": 0,
+            "seconds": 20.0
+        },
+        {
+            "action": "aspirate",
+            "vol": 90.0,
+            "source": {
+                "well": "A6",
+                "labware": "equilibration buffer plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "delay",
+            "minutes": 0,
+            "seconds": 20.0
+        },
+        {
+            "action": "dispense",
+            "vol": 90.0,
+            "target": {
+                "well": "A6",
+                "labware": "equilibration buffer plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2716,7 +2921,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2731,7 +2937,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2745,7 +2952,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2755,7 +2963,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2770,7 +2979,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2784,7 +2994,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2794,7 +3005,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2809,7 +3021,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2823,7 +3036,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2833,7 +3047,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2848,7 +3063,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2862,7 +3078,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2872,7 +3089,8 @@
                 "labware": "wash buffer 1 plate",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2887,7 +3105,8 @@
                 "labware": "wash buffer 1 plate",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2902,7 +3121,8 @@
                 "labware": "wash buffer 1 plate",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2917,7 +3137,8 @@
                 "labware": "wash buffer 1 plate",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2932,7 +3153,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2947,7 +3169,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2961,7 +3184,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2971,7 +3195,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2986,7 +3211,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3000,7 +3226,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3010,7 +3237,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3025,7 +3253,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3039,7 +3268,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3049,7 +3279,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3064,7 +3295,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3078,7 +3310,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3088,7 +3321,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3103,7 +3337,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3117,7 +3352,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3127,7 +3363,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3142,7 +3379,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3156,7 +3394,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -3164,7 +3403,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -3174,7 +3414,8 @@
                 "well": "A7",
                 "type": "300ul resin tiprack",
                 "slot": 1
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3184,37 +3425,8 @@
                 "labware": "equilibration buffer plate",
                 "slot": 2
             },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "delay",
-            "minutes": 0,
-            "seconds": 20.0
-        },
-        {
-            "action": "dispense",
-            "vol": 90.0,
-            "target": {
-                "well": "A7",
-                "labware": "equilibration buffer plate",
-                "slot": 2
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "delay",
-            "minutes": 0,
-            "seconds": 20.0
-        },
-        {
-            "action": "aspirate",
-            "vol": 90.0,
-            "source": {
-                "well": "A7",
-                "labware": "equilibration buffer plate",
-                "slot": 2
-            },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3229,7 +3441,40 @@
                 "labware": "equilibration buffer plate",
                 "slot": 2
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "delay",
+            "minutes": 0,
+            "seconds": 20.0
+        },
+        {
+            "action": "aspirate",
+            "vol": 90.0,
+            "source": {
+                "well": "A7",
+                "labware": "equilibration buffer plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "delay",
+            "minutes": 0,
+            "seconds": 20.0
+        },
+        {
+            "action": "dispense",
+            "vol": 90.0,
+            "target": {
+                "well": "A7",
+                "labware": "equilibration buffer plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3244,7 +3489,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3259,7 +3505,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3273,7 +3520,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3283,7 +3531,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3298,7 +3547,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3312,7 +3562,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3322,7 +3573,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3337,7 +3589,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3351,7 +3604,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3361,7 +3615,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3376,7 +3631,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3390,7 +3646,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3400,7 +3657,8 @@
                 "labware": "wash buffer 1 plate",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3415,7 +3673,8 @@
                 "labware": "wash buffer 1 plate",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3430,7 +3689,8 @@
                 "labware": "wash buffer 1 plate",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3445,7 +3705,8 @@
                 "labware": "wash buffer 1 plate",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3460,7 +3721,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3475,7 +3737,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3489,7 +3752,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3499,7 +3763,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3514,7 +3779,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3528,7 +3794,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3538,7 +3805,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3553,7 +3821,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3567,7 +3836,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3577,7 +3847,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3592,7 +3863,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3606,7 +3878,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3616,7 +3889,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3631,7 +3905,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3645,7 +3920,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3655,7 +3931,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3670,7 +3947,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3684,7 +3962,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -3692,7 +3971,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -3702,7 +3982,8 @@
                 "well": "A8",
                 "type": "300ul resin tiprack",
                 "slot": 1
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3712,37 +3993,8 @@
                 "labware": "equilibration buffer plate",
                 "slot": 2
             },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "delay",
-            "minutes": 0,
-            "seconds": 20.0
-        },
-        {
-            "action": "dispense",
-            "vol": 90.0,
-            "target": {
-                "well": "A8",
-                "labware": "equilibration buffer plate",
-                "slot": 2
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "delay",
-            "minutes": 0,
-            "seconds": 20.0
-        },
-        {
-            "action": "aspirate",
-            "vol": 90.0,
-            "source": {
-                "well": "A8",
-                "labware": "equilibration buffer plate",
-                "slot": 2
-            },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3757,7 +4009,40 @@
                 "labware": "equilibration buffer plate",
                 "slot": 2
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "delay",
+            "minutes": 0,
+            "seconds": 20.0
+        },
+        {
+            "action": "aspirate",
+            "vol": 90.0,
+            "source": {
+                "well": "A8",
+                "labware": "equilibration buffer plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "delay",
+            "minutes": 0,
+            "seconds": 20.0
+        },
+        {
+            "action": "dispense",
+            "vol": 90.0,
+            "target": {
+                "well": "A8",
+                "labware": "equilibration buffer plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3772,7 +4057,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3787,7 +4073,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3801,7 +4088,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3811,7 +4099,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3826,7 +4115,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3840,7 +4130,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3850,7 +4141,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3865,7 +4157,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3879,7 +4172,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3889,7 +4183,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3904,7 +4199,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3918,7 +4214,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3928,7 +4225,8 @@
                 "labware": "wash buffer 1 plate",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3943,7 +4241,8 @@
                 "labware": "wash buffer 1 plate",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3958,7 +4257,8 @@
                 "labware": "wash buffer 1 plate",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3973,7 +4273,8 @@
                 "labware": "wash buffer 1 plate",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3988,7 +4289,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4003,7 +4305,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4017,7 +4320,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4027,7 +4331,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4042,7 +4347,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4056,7 +4362,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4066,7 +4373,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4081,7 +4389,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4095,7 +4404,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4105,7 +4415,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4120,7 +4431,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4134,7 +4446,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4144,7 +4457,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4159,7 +4473,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4173,7 +4488,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4183,7 +4499,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4198,7 +4515,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4212,7 +4530,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -4220,7 +4539,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -4230,7 +4550,8 @@
                 "well": "A9",
                 "type": "300ul resin tiprack",
                 "slot": 1
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4240,37 +4561,8 @@
                 "labware": "equilibration buffer plate",
                 "slot": 2
             },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "delay",
-            "minutes": 0,
-            "seconds": 20.0
-        },
-        {
-            "action": "dispense",
-            "vol": 90.0,
-            "target": {
-                "well": "A9",
-                "labware": "equilibration buffer plate",
-                "slot": 2
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "delay",
-            "minutes": 0,
-            "seconds": 20.0
-        },
-        {
-            "action": "aspirate",
-            "vol": 90.0,
-            "source": {
-                "well": "A9",
-                "labware": "equilibration buffer plate",
-                "slot": 2
-            },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4285,7 +4577,40 @@
                 "labware": "equilibration buffer plate",
                 "slot": 2
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "delay",
+            "minutes": 0,
+            "seconds": 20.0
+        },
+        {
+            "action": "aspirate",
+            "vol": 90.0,
+            "source": {
+                "well": "A9",
+                "labware": "equilibration buffer plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "delay",
+            "minutes": 0,
+            "seconds": 20.0
+        },
+        {
+            "action": "dispense",
+            "vol": 90.0,
+            "target": {
+                "well": "A9",
+                "labware": "equilibration buffer plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4300,7 +4625,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4315,7 +4641,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4329,7 +4656,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4339,7 +4667,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4354,7 +4683,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4368,7 +4698,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4378,7 +4709,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4393,7 +4725,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4407,7 +4740,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4417,7 +4751,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4432,7 +4767,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4446,7 +4782,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4456,7 +4793,8 @@
                 "labware": "wash buffer 1 plate",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4471,7 +4809,8 @@
                 "labware": "wash buffer 1 plate",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4486,7 +4825,8 @@
                 "labware": "wash buffer 1 plate",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4501,7 +4841,8 @@
                 "labware": "wash buffer 1 plate",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4516,7 +4857,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4531,7 +4873,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4545,7 +4888,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4555,7 +4899,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4570,7 +4915,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4584,7 +4930,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4594,7 +4941,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4609,7 +4957,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4623,7 +4972,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4633,7 +4983,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4648,7 +4999,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4662,7 +5014,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4672,7 +5025,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4687,7 +5041,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4701,7 +5056,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4711,7 +5067,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4726,7 +5083,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4740,7 +5098,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -4748,7 +5107,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -4758,7 +5118,8 @@
                 "well": "A10",
                 "type": "300ul resin tiprack",
                 "slot": 1
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4768,37 +5129,8 @@
                 "labware": "equilibration buffer plate",
                 "slot": 2
             },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "delay",
-            "minutes": 0,
-            "seconds": 20.0
-        },
-        {
-            "action": "dispense",
-            "vol": 90.0,
-            "target": {
-                "well": "A10",
-                "labware": "equilibration buffer plate",
-                "slot": 2
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "delay",
-            "minutes": 0,
-            "seconds": 20.0
-        },
-        {
-            "action": "aspirate",
-            "vol": 90.0,
-            "source": {
-                "well": "A10",
-                "labware": "equilibration buffer plate",
-                "slot": 2
-            },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4813,7 +5145,40 @@
                 "labware": "equilibration buffer plate",
                 "slot": 2
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "delay",
+            "minutes": 0,
+            "seconds": 20.0
+        },
+        {
+            "action": "aspirate",
+            "vol": 90.0,
+            "source": {
+                "well": "A10",
+                "labware": "equilibration buffer plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "delay",
+            "minutes": 0,
+            "seconds": 20.0
+        },
+        {
+            "action": "dispense",
+            "vol": 90.0,
+            "target": {
+                "well": "A10",
+                "labware": "equilibration buffer plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4828,7 +5193,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4843,7 +5209,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4857,7 +5224,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4867,7 +5235,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4882,7 +5251,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4896,7 +5266,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4906,7 +5277,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4921,7 +5293,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4935,7 +5308,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4945,7 +5319,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4960,7 +5335,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4974,7 +5350,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4984,7 +5361,8 @@
                 "labware": "wash buffer 1 plate",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4999,7 +5377,8 @@
                 "labware": "wash buffer 1 plate",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5014,7 +5393,8 @@
                 "labware": "wash buffer 1 plate",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5029,7 +5409,8 @@
                 "labware": "wash buffer 1 plate",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5044,7 +5425,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5059,7 +5441,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5073,7 +5456,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5083,7 +5467,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5098,7 +5483,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5112,7 +5498,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5122,7 +5509,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5137,7 +5525,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5151,7 +5540,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5161,7 +5551,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5176,7 +5567,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5190,7 +5582,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5200,7 +5593,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5215,7 +5609,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5229,7 +5624,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5239,7 +5635,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5254,7 +5651,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5268,7 +5666,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -5276,7 +5675,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -5286,7 +5686,8 @@
                 "well": "A11",
                 "type": "300ul resin tiprack",
                 "slot": 1
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5296,37 +5697,8 @@
                 "labware": "equilibration buffer plate",
                 "slot": 2
             },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "delay",
-            "minutes": 0,
-            "seconds": 20.0
-        },
-        {
-            "action": "dispense",
-            "vol": 90.0,
-            "target": {
-                "well": "A11",
-                "labware": "equilibration buffer plate",
-                "slot": 2
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "delay",
-            "minutes": 0,
-            "seconds": 20.0
-        },
-        {
-            "action": "aspirate",
-            "vol": 90.0,
-            "source": {
-                "well": "A11",
-                "labware": "equilibration buffer plate",
-                "slot": 2
-            },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5341,7 +5713,40 @@
                 "labware": "equilibration buffer plate",
                 "slot": 2
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "delay",
+            "minutes": 0,
+            "seconds": 20.0
+        },
+        {
+            "action": "aspirate",
+            "vol": 90.0,
+            "source": {
+                "well": "A11",
+                "labware": "equilibration buffer plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "delay",
+            "minutes": 0,
+            "seconds": 20.0
+        },
+        {
+            "action": "dispense",
+            "vol": 90.0,
+            "target": {
+                "well": "A11",
+                "labware": "equilibration buffer plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5356,7 +5761,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5371,7 +5777,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5385,7 +5792,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5395,7 +5803,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5410,7 +5819,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5424,7 +5834,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5434,7 +5845,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5449,7 +5861,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5463,7 +5876,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5473,7 +5887,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5488,7 +5903,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5502,7 +5918,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5512,7 +5929,8 @@
                 "labware": "wash buffer 1 plate",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5527,7 +5945,8 @@
                 "labware": "wash buffer 1 plate",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5542,7 +5961,8 @@
                 "labware": "wash buffer 1 plate",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5557,7 +5977,8 @@
                 "labware": "wash buffer 1 plate",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5572,7 +5993,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5587,7 +6009,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5601,7 +6024,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5611,7 +6035,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5626,7 +6051,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5640,7 +6066,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5650,7 +6077,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5665,7 +6093,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5679,7 +6108,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5689,7 +6119,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5704,7 +6135,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5718,7 +6150,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5728,7 +6161,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5743,7 +6177,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5757,7 +6192,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5767,7 +6203,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5782,7 +6219,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5796,7 +6234,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -5804,7 +6243,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -5814,7 +6254,8 @@
                 "well": "A12",
                 "type": "300ul resin tiprack",
                 "slot": 1
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5824,37 +6265,8 @@
                 "labware": "equilibration buffer plate",
                 "slot": 2
             },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "delay",
-            "minutes": 0,
-            "seconds": 20.0
-        },
-        {
-            "action": "dispense",
-            "vol": 90.0,
-            "target": {
-                "well": "A12",
-                "labware": "equilibration buffer plate",
-                "slot": 2
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "delay",
-            "minutes": 0,
-            "seconds": 20.0
-        },
-        {
-            "action": "aspirate",
-            "vol": 90.0,
-            "source": {
-                "well": "A12",
-                "labware": "equilibration buffer plate",
-                "slot": 2
-            },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5869,7 +6281,40 @@
                 "labware": "equilibration buffer plate",
                 "slot": 2
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "delay",
+            "minutes": 0,
+            "seconds": 20.0
+        },
+        {
+            "action": "aspirate",
+            "vol": 90.0,
+            "source": {
+                "well": "A12",
+                "labware": "equilibration buffer plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "delay",
+            "minutes": 0,
+            "seconds": 20.0
+        },
+        {
+            "action": "dispense",
+            "vol": 90.0,
+            "target": {
+                "well": "A12",
+                "labware": "equilibration buffer plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5884,7 +6329,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5899,7 +6345,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5913,7 +6360,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5923,7 +6371,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5938,7 +6387,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5952,7 +6402,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5962,7 +6413,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5977,7 +6429,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5991,7 +6444,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -6001,7 +6455,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6016,7 +6471,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6030,7 +6486,8 @@
                 "labware": "sample plate",
                 "slot": 3
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -6040,7 +6497,8 @@
                 "labware": "wash buffer 1 plate",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6055,7 +6513,8 @@
                 "labware": "wash buffer 1 plate",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6070,7 +6529,8 @@
                 "labware": "wash buffer 1 plate",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6085,7 +6545,8 @@
                 "labware": "wash buffer 1 plate",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6100,7 +6561,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6115,7 +6577,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6129,7 +6592,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -6139,7 +6603,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6154,7 +6619,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6168,7 +6634,8 @@
                 "labware": "wash buffer 2 plate",
                 "slot": 5
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -6178,7 +6645,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6193,7 +6661,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6207,7 +6676,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -6217,7 +6687,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6232,7 +6703,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6246,7 +6718,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -6256,7 +6729,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6271,7 +6745,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6285,7 +6760,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -6295,7 +6771,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6310,7 +6787,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6324,7 +6802,8 @@
                 "labware": "elution buffer plate",
                 "slot": 6
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -6332,7 +6811,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ]
 ]

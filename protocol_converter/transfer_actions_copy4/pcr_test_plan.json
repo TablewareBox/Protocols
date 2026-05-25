@@ -1,4 +1,17 @@
 {
+  "metadata": {
+    "workflow_name": "PCR Prep",
+    "tags": [
+      "Sample Prep",
+      "Sequencing"
+    ],
+    "raw": {
+      "protocolName": "PCR Prep",
+      "author": "Opentrons <protocols@opentrons.com>",
+      "source": "Protocol Library",
+      "apiLevel": "2.0"
+    }
+  },
   "workflow": [
     {
       "action": "transfer_liquid",
@@ -1502,7 +1515,8 @@
         "A1"
       ],
       "labware": "opentrons_24_tuberack_nest_1.5ml_snapcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "master_mix"
     },
     "primer_1": {
       "slot": 6,
@@ -1510,7 +1524,8 @@
         "A2"
       ],
       "labware": "opentrons_24_tuberack_nest_1.5ml_snapcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "primer_1"
     },
     "primer_2": {
       "slot": 6,
@@ -1518,7 +1533,8 @@
         "B2"
       ],
       "labware": "opentrons_24_tuberack_nest_1.5ml_snapcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "primer_2"
     },
     "samples": {
       "slot": 7,
@@ -1621,7 +1637,8 @@
         "H12"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "tiprack_1": {
       "slot": 1,

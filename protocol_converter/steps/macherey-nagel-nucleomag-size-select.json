@@ -6,7 +6,8 @@
                 "well": "A1",
                 "type": "300µl filtertiprack",
                 "slot": 2
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -17,7 +18,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -28,7 +30,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -39,7 +42,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -50,7 +54,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -61,7 +66,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -72,7 +78,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -83,7 +90,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -94,7 +102,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -105,7 +114,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -116,7 +126,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -127,7 +138,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "top(-10)"
+            "pose_z": "top(-10)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -143,7 +155,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "top(-10)"
+            "pose_z": "top(-10)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -152,7 +165,8 @@
                 "labware": "NucleoMag Buffers",
                 "slot": 7
             },
-            "pose_z": "top(-10)"
+            "pose_z": "top(-10)",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -160,7 +174,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -170,7 +185,8 @@
                 "well": "A2",
                 "type": "300µl filtertiprack",
                 "slot": 2
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -181,7 +197,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -197,7 +214,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -213,7 +231,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -229,7 +248,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "top(-3)"
+            "pose_z": "top(-3)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -241,7 +261,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 15,
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -252,7 +273,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "top(-1)"
+            "pose_z": "top(-1)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -268,7 +290,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "top(-1)"
+            "pose_z": "top(-1)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -277,11 +300,13 @@
                 "labware": "Separation Plate",
                 "slot": 10
             },
-            "pose_z": "top(-1)"
+            "pose_z": "top(-1)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 20.0
+            "vol": 20.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -289,7 +314,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -299,7 +325,8 @@
                 "well": "A3",
                 "type": "300µl filtertiprack",
                 "slot": 2
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -310,7 +337,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -326,7 +354,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -342,7 +371,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -358,7 +388,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "top(-3)"
+            "pose_z": "top(-3)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -370,7 +401,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 15,
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -381,7 +413,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "top(-1)"
+            "pose_z": "top(-1)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -397,7 +430,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "top(-1)"
+            "pose_z": "top(-1)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -406,11 +440,13 @@
                 "labware": "Separation Plate",
                 "slot": 10
             },
-            "pose_z": "top(-1)"
+            "pose_z": "top(-1)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 20.0
+            "vol": 20.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -418,7 +454,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -428,7 +465,8 @@
                 "well": "A4",
                 "type": "300µl filtertiprack",
                 "slot": 2
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -439,7 +477,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -455,7 +494,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -471,7 +511,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -487,7 +528,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "top(-3)"
+            "pose_z": "top(-3)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -499,7 +541,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 15,
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -510,7 +553,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "top(-1)"
+            "pose_z": "top(-1)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -526,7 +570,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "top(-1)"
+            "pose_z": "top(-1)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -535,11 +580,13 @@
                 "labware": "Separation Plate",
                 "slot": 10
             },
-            "pose_z": "top(-1)"
+            "pose_z": "top(-1)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 20.0
+            "vol": 20.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -547,7 +594,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -557,7 +605,8 @@
                 "well": "A5",
                 "type": "300µl filtertiprack",
                 "slot": 2
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -568,7 +617,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -584,7 +634,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -600,7 +651,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -616,7 +668,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "top(-3)"
+            "pose_z": "top(-3)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -628,7 +681,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 15,
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -639,7 +693,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "top(-1)"
+            "pose_z": "top(-1)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -655,7 +710,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "top(-1)"
+            "pose_z": "top(-1)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -664,11 +720,13 @@
                 "labware": "Separation Plate",
                 "slot": 10
             },
-            "pose_z": "top(-1)"
+            "pose_z": "top(-1)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 20.0
+            "vol": 20.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -676,7 +734,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -686,7 +745,8 @@
                 "well": "A6",
                 "type": "300µl filtertiprack",
                 "slot": 2
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -697,7 +757,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -713,7 +774,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -729,7 +791,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -745,7 +808,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "top(-3)"
+            "pose_z": "top(-3)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -757,7 +821,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 15,
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -768,7 +833,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "top(-1)"
+            "pose_z": "top(-1)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -784,7 +850,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "top(-1)"
+            "pose_z": "top(-1)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -793,11 +860,13 @@
                 "labware": "Separation Plate",
                 "slot": 10
             },
-            "pose_z": "top(-1)"
+            "pose_z": "top(-1)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 20.0
+            "vol": 20.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -805,7 +874,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -815,7 +885,8 @@
                 "well": "A7",
                 "type": "300µl filtertiprack",
                 "slot": 2
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -826,7 +897,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -842,7 +914,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -858,7 +931,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -874,7 +948,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "top(-3)"
+            "pose_z": "top(-3)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -886,7 +961,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 15,
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -897,7 +973,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "top(-1)"
+            "pose_z": "top(-1)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -913,7 +990,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "top(-1)"
+            "pose_z": "top(-1)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -922,11 +1000,13 @@
                 "labware": "Separation Plate",
                 "slot": 10
             },
-            "pose_z": "top(-1)"
+            "pose_z": "top(-1)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 20.0
+            "vol": 20.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -934,7 +1014,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         },
         {
             "action": "delay",
@@ -954,7 +1035,8 @@
                 "well": "A8",
                 "type": "300µl filtertiprack",
                 "slot": 2
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -965,7 +1047,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.2)"
+            "pose_z": "bottom(0.2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -976,7 +1059,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(4)"
+            "pose_z": "bottom(4)",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -984,7 +1068,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -994,7 +1079,8 @@
                 "well": "A9",
                 "type": "300µl filtertiprack",
                 "slot": 2
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1005,7 +1091,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.2)"
+            "pose_z": "bottom(0.2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -1016,7 +1103,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(4)"
+            "pose_z": "bottom(4)",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -1024,7 +1112,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -1034,7 +1123,8 @@
                 "well": "A10",
                 "type": "300µl filtertiprack",
                 "slot": 2
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1045,7 +1135,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.2)"
+            "pose_z": "bottom(0.2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -1056,7 +1147,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(4)"
+            "pose_z": "bottom(4)",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -1064,7 +1156,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -1074,7 +1167,8 @@
                 "well": "A11",
                 "type": "300µl filtertiprack",
                 "slot": 2
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1085,7 +1179,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.2)"
+            "pose_z": "bottom(0.2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -1096,7 +1191,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(4)"
+            "pose_z": "bottom(4)",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -1104,7 +1200,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -1114,7 +1211,8 @@
                 "well": "A12",
                 "type": "300µl filtertiprack",
                 "slot": 2
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1125,7 +1223,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.2)"
+            "pose_z": "bottom(0.2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -1136,7 +1235,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(4)"
+            "pose_z": "bottom(4)",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -1144,7 +1244,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -1154,7 +1255,8 @@
                 "well": "A1",
                 "type": "300µl filtertiprack",
                 "slot": 3
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1165,7 +1267,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.2)"
+            "pose_z": "bottom(0.2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -1176,7 +1279,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(4)"
+            "pose_z": "bottom(4)",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -1184,7 +1288,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -1194,7 +1299,8 @@
                 "well": "A2",
                 "type": "300µl filtertiprack",
                 "slot": 3
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1205,7 +1311,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1221,7 +1328,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1237,7 +1345,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1253,7 +1362,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "top(-3)"
+            "pose_z": "top(-3)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -1265,7 +1375,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 15,
-            "pose_z": "bottom(0.8)"
+            "pose_z": "bottom(0.8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1276,7 +1387,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "top(-1)"
+            "pose_z": "top(-1)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1292,7 +1404,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "top(-1)"
+            "pose_z": "top(-1)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -1301,11 +1414,13 @@
                 "labware": "Separation Plate",
                 "slot": 10
             },
-            "pose_z": "top(-1)"
+            "pose_z": "top(-1)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 20.0
+            "vol": 20.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -1313,7 +1428,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -1323,7 +1439,8 @@
                 "well": "A3",
                 "type": "300µl filtertiprack",
                 "slot": 3
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1334,7 +1451,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1350,7 +1468,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1366,7 +1485,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1382,7 +1502,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "top(-3)"
+            "pose_z": "top(-3)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -1394,7 +1515,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 15,
-            "pose_z": "bottom(0.8)"
+            "pose_z": "bottom(0.8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1405,7 +1527,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "top(-1)"
+            "pose_z": "top(-1)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1421,7 +1544,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "top(-1)"
+            "pose_z": "top(-1)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -1430,11 +1554,13 @@
                 "labware": "Separation Plate",
                 "slot": 10
             },
-            "pose_z": "top(-1)"
+            "pose_z": "top(-1)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 20.0
+            "vol": 20.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -1442,7 +1568,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -1452,7 +1579,8 @@
                 "well": "A4",
                 "type": "300µl filtertiprack",
                 "slot": 3
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1463,7 +1591,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1479,7 +1608,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1495,7 +1625,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1511,7 +1642,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "top(-3)"
+            "pose_z": "top(-3)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -1523,7 +1655,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 15,
-            "pose_z": "bottom(0.8)"
+            "pose_z": "bottom(0.8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1534,7 +1667,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "top(-1)"
+            "pose_z": "top(-1)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1550,7 +1684,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "top(-1)"
+            "pose_z": "top(-1)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -1559,11 +1694,13 @@
                 "labware": "Separation Plate",
                 "slot": 10
             },
-            "pose_z": "top(-1)"
+            "pose_z": "top(-1)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 20.0
+            "vol": 20.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -1571,7 +1708,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -1581,7 +1719,8 @@
                 "well": "A5",
                 "type": "300µl filtertiprack",
                 "slot": 3
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1592,7 +1731,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1608,7 +1748,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1624,7 +1765,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1640,7 +1782,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "top(-3)"
+            "pose_z": "top(-3)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -1652,7 +1795,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 15,
-            "pose_z": "bottom(0.8)"
+            "pose_z": "bottom(0.8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1663,7 +1807,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "top(-1)"
+            "pose_z": "top(-1)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1679,7 +1824,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "top(-1)"
+            "pose_z": "top(-1)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -1688,11 +1834,13 @@
                 "labware": "Separation Plate",
                 "slot": 10
             },
-            "pose_z": "top(-1)"
+            "pose_z": "top(-1)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 20.0
+            "vol": 20.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -1700,7 +1848,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -1710,7 +1859,8 @@
                 "well": "A6",
                 "type": "300µl filtertiprack",
                 "slot": 3
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1721,7 +1871,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1737,7 +1888,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1753,7 +1905,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1769,7 +1922,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "top(-3)"
+            "pose_z": "top(-3)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -1781,7 +1935,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 15,
-            "pose_z": "bottom(0.8)"
+            "pose_z": "bottom(0.8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1792,7 +1947,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "top(-1)"
+            "pose_z": "top(-1)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1808,7 +1964,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "top(-1)"
+            "pose_z": "top(-1)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -1817,11 +1974,13 @@
                 "labware": "Separation Plate",
                 "slot": 10
             },
-            "pose_z": "top(-1)"
+            "pose_z": "top(-1)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 20.0
+            "vol": 20.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -1829,7 +1988,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -1839,7 +1999,8 @@
                 "well": "A7",
                 "type": "300µl filtertiprack",
                 "slot": 3
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1850,7 +2011,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1866,7 +2028,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1882,7 +2045,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1898,7 +2062,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "top(-3)"
+            "pose_z": "top(-3)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -1910,7 +2075,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 15,
-            "pose_z": "bottom(0.8)"
+            "pose_z": "bottom(0.8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1921,7 +2087,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "top(-1)"
+            "pose_z": "top(-1)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1937,7 +2104,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "top(-1)"
+            "pose_z": "top(-1)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -1946,11 +2114,13 @@
                 "labware": "Separation Plate",
                 "slot": 10
             },
-            "pose_z": "top(-1)"
+            "pose_z": "top(-1)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 20.0
+            "vol": 20.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -1958,7 +2128,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1978,7 +2149,8 @@
                 "well": "A8",
                 "type": "300µl filtertiprack",
                 "slot": 3
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1989,7 +2161,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2000,7 +2173,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -2009,7 +2183,8 @@
                 "labware": "Liquid Waste",
                 "slot": 11
             },
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -2017,7 +2192,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -2027,7 +2203,8 @@
                 "well": "A9",
                 "type": "300µl filtertiprack",
                 "slot": 3
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2038,7 +2215,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2049,7 +2227,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -2058,7 +2237,8 @@
                 "labware": "Liquid Waste",
                 "slot": 11
             },
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -2066,7 +2246,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -2076,7 +2257,8 @@
                 "well": "A10",
                 "type": "300µl filtertiprack",
                 "slot": 3
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2087,7 +2269,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2098,7 +2281,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -2107,7 +2291,8 @@
                 "labware": "Liquid Waste",
                 "slot": 11
             },
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -2115,7 +2300,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -2125,7 +2311,8 @@
                 "well": "A11",
                 "type": "300µl filtertiprack",
                 "slot": 3
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2136,7 +2323,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2147,7 +2335,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -2156,7 +2345,8 @@
                 "labware": "Liquid Waste",
                 "slot": 11
             },
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -2164,7 +2354,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -2174,7 +2365,8 @@
                 "well": "A12",
                 "type": "300µl filtertiprack",
                 "slot": 3
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2185,7 +2377,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2196,7 +2389,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -2205,7 +2399,8 @@
                 "labware": "Liquid Waste",
                 "slot": 11
             },
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -2213,7 +2408,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -2223,7 +2419,8 @@
                 "well": "A1",
                 "type": "300µl filtertiprack",
                 "slot": 5
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2234,7 +2431,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2245,7 +2443,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -2254,7 +2453,8 @@
                 "labware": "Liquid Waste",
                 "slot": 11
             },
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -2262,7 +2462,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -2272,7 +2473,8 @@
                 "well": "A2",
                 "type": "300µl filtertiprack",
                 "slot": 5
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2283,7 +2485,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2294,7 +2497,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -2303,11 +2507,13 @@
                 "labware": "Separation Plate",
                 "slot": 10
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 20.0
+            "vol": 20.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -2315,7 +2521,8 @@
                 "well": "A1",
                 "labware": "empty tiprack for parking",
                 "slot": 8
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -2325,7 +2532,8 @@
                 "well": "A3",
                 "type": "300µl filtertiprack",
                 "slot": 5
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2336,7 +2544,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2347,7 +2556,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -2356,11 +2566,13 @@
                 "labware": "Separation Plate",
                 "slot": 10
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 20.0
+            "vol": 20.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -2368,7 +2580,8 @@
                 "well": "A2",
                 "labware": "empty tiprack for parking",
                 "slot": 8
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -2378,7 +2591,8 @@
                 "well": "A4",
                 "type": "300µl filtertiprack",
                 "slot": 5
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2389,7 +2603,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2400,7 +2615,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -2409,11 +2625,13 @@
                 "labware": "Separation Plate",
                 "slot": 10
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 20.0
+            "vol": 20.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -2421,7 +2639,8 @@
                 "well": "A3",
                 "labware": "empty tiprack for parking",
                 "slot": 8
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -2431,7 +2650,8 @@
                 "well": "A5",
                 "type": "300µl filtertiprack",
                 "slot": 5
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2442,7 +2662,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2453,7 +2674,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -2462,11 +2684,13 @@
                 "labware": "Separation Plate",
                 "slot": 10
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 20.0
+            "vol": 20.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -2474,7 +2698,8 @@
                 "well": "A4",
                 "labware": "empty tiprack for parking",
                 "slot": 8
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -2484,7 +2709,8 @@
                 "well": "A6",
                 "type": "300µl filtertiprack",
                 "slot": 5
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2495,7 +2721,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2506,7 +2733,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -2515,11 +2743,13 @@
                 "labware": "Separation Plate",
                 "slot": 10
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 20.0
+            "vol": 20.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -2527,7 +2757,8 @@
                 "well": "A5",
                 "labware": "empty tiprack for parking",
                 "slot": 8
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -2537,7 +2768,8 @@
                 "well": "A7",
                 "type": "300µl filtertiprack",
                 "slot": 5
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2548,7 +2780,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2559,7 +2792,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -2568,11 +2802,13 @@
                 "labware": "Separation Plate",
                 "slot": 10
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 20.0
+            "vol": 20.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -2580,7 +2816,8 @@
                 "well": "A6",
                 "labware": "empty tiprack for parking",
                 "slot": 8
-            }
+            },
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2595,7 +2832,8 @@
                 "well": "A1",
                 "type": "empty tiprack for parking",
                 "slot": 8
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2606,7 +2844,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2617,7 +2856,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -2626,7 +2866,8 @@
                 "labware": "Liquid Waste",
                 "slot": 11
             },
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -2634,7 +2875,8 @@
                 "well": "A1",
                 "labware": "empty tiprack for parking",
                 "slot": 8
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -2644,7 +2886,8 @@
                 "well": "A2",
                 "type": "empty tiprack for parking",
                 "slot": 8
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2655,7 +2898,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2666,7 +2910,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -2675,7 +2920,8 @@
                 "labware": "Liquid Waste",
                 "slot": 11
             },
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -2683,7 +2929,8 @@
                 "well": "A2",
                 "labware": "empty tiprack for parking",
                 "slot": 8
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -2693,7 +2940,8 @@
                 "well": "A3",
                 "type": "empty tiprack for parking",
                 "slot": 8
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2704,7 +2952,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2715,7 +2964,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -2724,7 +2974,8 @@
                 "labware": "Liquid Waste",
                 "slot": 11
             },
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -2732,7 +2983,8 @@
                 "well": "A3",
                 "labware": "empty tiprack for parking",
                 "slot": 8
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -2742,7 +2994,8 @@
                 "well": "A4",
                 "type": "empty tiprack for parking",
                 "slot": 8
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2753,7 +3006,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2764,7 +3018,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -2773,7 +3028,8 @@
                 "labware": "Liquid Waste",
                 "slot": 11
             },
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -2781,7 +3037,8 @@
                 "well": "A4",
                 "labware": "empty tiprack for parking",
                 "slot": 8
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -2791,7 +3048,8 @@
                 "well": "A5",
                 "type": "empty tiprack for parking",
                 "slot": 8
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2802,7 +3060,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2813,7 +3072,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -2822,7 +3082,8 @@
                 "labware": "Liquid Waste",
                 "slot": 11
             },
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -2830,7 +3091,8 @@
                 "well": "A5",
                 "labware": "empty tiprack for parking",
                 "slot": 8
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -2840,7 +3102,8 @@
                 "well": "A6",
                 "type": "empty tiprack for parking",
                 "slot": 8
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2851,7 +3114,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2862,7 +3126,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -2871,7 +3136,8 @@
                 "labware": "Liquid Waste",
                 "slot": 11
             },
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -2879,7 +3145,8 @@
                 "well": "A6",
                 "labware": "empty tiprack for parking",
                 "slot": 8
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -2889,7 +3156,8 @@
                 "well": "A8",
                 "type": "300µl filtertiprack",
                 "slot": 5
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2900,7 +3168,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2911,7 +3180,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2922,7 +3192,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2933,7 +3204,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2944,7 +3216,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2955,7 +3228,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2966,7 +3240,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2977,7 +3252,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2988,7 +3264,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2999,7 +3276,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3010,7 +3288,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3021,7 +3300,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -3029,7 +3309,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3044,7 +3325,8 @@
                 "well": "A1",
                 "type": "empty tiprack for parking",
                 "slot": 8
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3055,7 +3337,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.7)"
+            "pose_z": "bottom(0.7)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3066,7 +3349,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -3075,7 +3359,8 @@
                 "labware": "Liquid Waste",
                 "slot": 11
             },
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3086,7 +3371,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.3)"
+            "pose_z": "bottom(0.3)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3097,7 +3383,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -3106,7 +3393,8 @@
                 "labware": "Liquid Waste",
                 "slot": 11
             },
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -3114,7 +3402,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -3124,7 +3413,8 @@
                 "well": "A2",
                 "type": "empty tiprack for parking",
                 "slot": 8
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3135,7 +3425,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.7)"
+            "pose_z": "bottom(0.7)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3146,7 +3437,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -3155,7 +3447,8 @@
                 "labware": "Liquid Waste",
                 "slot": 11
             },
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3166,7 +3459,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.3)"
+            "pose_z": "bottom(0.3)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3177,7 +3471,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -3186,7 +3481,8 @@
                 "labware": "Liquid Waste",
                 "slot": 11
             },
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -3194,7 +3490,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -3204,7 +3501,8 @@
                 "well": "A3",
                 "type": "empty tiprack for parking",
                 "slot": 8
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3215,7 +3513,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.7)"
+            "pose_z": "bottom(0.7)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3226,7 +3525,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -3235,7 +3535,8 @@
                 "labware": "Liquid Waste",
                 "slot": 11
             },
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3246,7 +3547,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.3)"
+            "pose_z": "bottom(0.3)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3257,7 +3559,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -3266,7 +3569,8 @@
                 "labware": "Liquid Waste",
                 "slot": 11
             },
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -3274,7 +3578,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -3284,7 +3589,8 @@
                 "well": "A4",
                 "type": "empty tiprack for parking",
                 "slot": 8
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3295,7 +3601,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.7)"
+            "pose_z": "bottom(0.7)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3306,7 +3613,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -3315,7 +3623,8 @@
                 "labware": "Liquid Waste",
                 "slot": 11
             },
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3326,7 +3635,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.3)"
+            "pose_z": "bottom(0.3)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3337,7 +3647,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -3346,7 +3657,8 @@
                 "labware": "Liquid Waste",
                 "slot": 11
             },
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -3354,7 +3666,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -3364,7 +3677,8 @@
                 "well": "A5",
                 "type": "empty tiprack for parking",
                 "slot": 8
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3375,7 +3689,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.7)"
+            "pose_z": "bottom(0.7)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3386,7 +3701,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -3395,7 +3711,8 @@
                 "labware": "Liquid Waste",
                 "slot": 11
             },
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3406,7 +3723,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.3)"
+            "pose_z": "bottom(0.3)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3417,7 +3735,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -3426,7 +3745,8 @@
                 "labware": "Liquid Waste",
                 "slot": 11
             },
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -3434,7 +3754,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -3444,7 +3765,8 @@
                 "well": "A6",
                 "type": "empty tiprack for parking",
                 "slot": 8
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3455,7 +3777,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.7)"
+            "pose_z": "bottom(0.7)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3466,7 +3789,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -3475,7 +3799,8 @@
                 "labware": "Liquid Waste",
                 "slot": 11
             },
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3486,7 +3811,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.3)"
+            "pose_z": "bottom(0.3)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3497,7 +3823,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -3506,7 +3833,8 @@
                 "labware": "Liquid Waste",
                 "slot": 11
             },
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -3514,7 +3842,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3529,7 +3858,8 @@
                 "well": "A9",
                 "type": "300µl filtertiprack",
                 "slot": 5
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3540,7 +3870,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3551,7 +3882,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3562,7 +3894,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3573,7 +3906,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3584,7 +3918,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3595,7 +3930,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3606,7 +3942,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3617,7 +3954,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3628,7 +3966,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3639,7 +3978,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3650,7 +3990,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3661,7 +4002,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3672,7 +4014,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3683,7 +4026,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3694,7 +4038,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3705,7 +4050,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3716,7 +4062,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3727,7 +4074,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3738,7 +4086,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3749,7 +4098,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3760,7 +4110,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3771,7 +4122,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3782,7 +4134,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3793,7 +4146,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3804,7 +4158,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3815,7 +4170,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3826,7 +4182,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3837,7 +4194,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3848,7 +4206,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3859,7 +4218,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3870,7 +4230,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3881,7 +4242,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3892,7 +4254,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3903,7 +4266,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3914,7 +4278,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3925,7 +4290,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3936,7 +4302,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3947,7 +4314,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3958,7 +4326,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3969,7 +4338,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3980,7 +4350,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3991,7 +4362,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -4000,11 +4372,13 @@
                 "labware": "Separation Plate",
                 "slot": 10
             },
-            "pose_z": "bottom(5)"
+            "pose_z": "bottom(5)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 20.0
+            "vol": 20.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -4012,7 +4386,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -4022,7 +4397,8 @@
                 "well": "A10",
                 "type": "300µl filtertiprack",
                 "slot": 5
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4033,7 +4409,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4044,7 +4421,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4055,7 +4433,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4066,7 +4445,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4077,7 +4457,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4088,7 +4469,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4099,7 +4481,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4110,7 +4493,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4121,7 +4505,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4132,7 +4517,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4143,7 +4529,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4154,7 +4541,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4165,7 +4553,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4176,7 +4565,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4187,7 +4577,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4198,7 +4589,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4209,7 +4601,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4220,7 +4613,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4231,7 +4625,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4242,7 +4637,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4253,7 +4649,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4264,7 +4661,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4275,7 +4673,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4286,7 +4685,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4297,7 +4697,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4308,7 +4709,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4319,7 +4721,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4330,7 +4733,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4341,7 +4745,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4352,7 +4757,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4363,7 +4769,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4374,7 +4781,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4385,7 +4793,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4396,7 +4805,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4407,7 +4817,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4418,7 +4829,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4429,7 +4841,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4440,7 +4853,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4451,7 +4865,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4462,7 +4877,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4473,7 +4889,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4484,7 +4901,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -4493,11 +4911,13 @@
                 "labware": "Separation Plate",
                 "slot": 10
             },
-            "pose_z": "bottom(5)"
+            "pose_z": "bottom(5)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 20.0
+            "vol": 20.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -4505,7 +4925,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -4515,7 +4936,8 @@
                 "well": "A11",
                 "type": "300µl filtertiprack",
                 "slot": 5
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4526,7 +4948,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4537,7 +4960,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4548,7 +4972,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4559,7 +4984,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4570,7 +4996,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4581,7 +5008,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4592,7 +5020,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4603,7 +5032,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4614,7 +5044,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4625,7 +5056,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4636,7 +5068,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4647,7 +5080,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4658,7 +5092,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4669,7 +5104,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4680,7 +5116,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4691,7 +5128,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4702,7 +5140,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4713,7 +5152,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4724,7 +5164,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4735,7 +5176,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4746,7 +5188,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4757,7 +5200,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4768,7 +5212,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4779,7 +5224,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4790,7 +5236,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4801,7 +5248,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4812,7 +5260,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4823,7 +5272,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4834,7 +5284,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4845,7 +5296,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4856,7 +5308,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4867,7 +5320,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4878,7 +5332,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4889,7 +5344,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4900,7 +5356,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4911,7 +5368,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4922,7 +5380,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4933,7 +5392,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4944,7 +5404,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4955,7 +5416,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4966,7 +5428,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4977,7 +5440,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -4986,11 +5450,13 @@
                 "labware": "Separation Plate",
                 "slot": 10
             },
-            "pose_z": "bottom(5)"
+            "pose_z": "bottom(5)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 20.0
+            "vol": 20.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -4998,7 +5464,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -5008,7 +5475,8 @@
                 "well": "A12",
                 "type": "300µl filtertiprack",
                 "slot": 5
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5019,7 +5487,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5030,7 +5499,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5041,7 +5511,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5052,7 +5523,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5063,7 +5535,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5074,7 +5547,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5085,7 +5559,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5096,7 +5571,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5107,7 +5583,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5118,7 +5595,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5129,7 +5607,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5140,7 +5619,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5151,7 +5631,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5162,7 +5643,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5173,7 +5655,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5184,7 +5667,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5195,7 +5679,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5206,7 +5691,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5217,7 +5703,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5228,7 +5715,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5239,7 +5727,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5250,7 +5739,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5261,7 +5751,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5272,7 +5763,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5283,7 +5775,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5294,7 +5787,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5305,7 +5799,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5316,7 +5811,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5327,7 +5823,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5338,7 +5835,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5349,7 +5847,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5360,7 +5859,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5371,7 +5871,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5382,7 +5883,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5393,7 +5895,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5404,7 +5907,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5415,7 +5919,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5426,7 +5931,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5437,7 +5943,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5448,7 +5955,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5459,7 +5967,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5470,7 +5979,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -5479,11 +5989,13 @@
                 "labware": "Separation Plate",
                 "slot": 10
             },
-            "pose_z": "bottom(5)"
+            "pose_z": "bottom(5)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 20.0
+            "vol": 20.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -5491,7 +6003,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -5501,7 +6014,8 @@
                 "well": "A1",
                 "type": "300µl filtertiprack",
                 "slot": 6
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5512,7 +6026,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5523,7 +6038,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5534,7 +6050,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5545,7 +6062,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5556,7 +6074,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5567,7 +6086,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5578,7 +6098,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5589,7 +6110,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5600,7 +6122,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5611,7 +6134,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5622,7 +6146,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5633,7 +6158,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5644,7 +6170,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5655,7 +6182,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5666,7 +6194,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5677,7 +6206,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5688,7 +6218,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5699,7 +6230,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5710,7 +6242,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5721,7 +6254,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5732,7 +6266,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5743,7 +6278,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5754,7 +6290,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5765,7 +6302,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5776,7 +6314,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5787,7 +6326,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5798,7 +6338,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5809,7 +6350,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5820,7 +6362,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5831,7 +6374,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5842,7 +6386,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5853,7 +6398,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5864,7 +6410,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5875,7 +6422,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5886,7 +6434,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5897,7 +6446,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5908,7 +6458,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5919,7 +6470,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5930,7 +6482,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5941,7 +6494,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5952,7 +6506,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5963,7 +6518,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -5972,11 +6528,13 @@
                 "labware": "Separation Plate",
                 "slot": 10
             },
-            "pose_z": "bottom(5)"
+            "pose_z": "bottom(5)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 20.0
+            "vol": 20.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -5984,7 +6542,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -5994,7 +6553,8 @@
                 "well": "A2",
                 "type": "300µl filtertiprack",
                 "slot": 6
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -6005,7 +6565,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2.8)"
+            "pose_z": "bottom(2.8)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -6016,7 +6577,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -6027,7 +6589,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -6038,7 +6601,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -6049,7 +6613,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -6060,7 +6625,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -6071,7 +6637,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -6082,7 +6649,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -6093,7 +6661,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -6104,7 +6673,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -6115,7 +6685,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -6126,7 +6697,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -6137,7 +6709,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -6148,7 +6721,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -6159,7 +6733,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -6170,7 +6745,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -6181,7 +6757,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -6192,7 +6769,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -6203,7 +6781,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -6214,7 +6793,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -6225,7 +6805,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -6236,7 +6817,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -6247,7 +6829,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -6258,7 +6841,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -6269,7 +6853,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -6280,7 +6865,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -6291,7 +6877,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -6302,7 +6889,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -6313,7 +6901,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -6324,7 +6913,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -6335,7 +6925,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -6346,7 +6937,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -6357,7 +6949,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -6368,7 +6961,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -6379,7 +6973,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -6390,7 +6985,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -6401,7 +6997,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -6412,7 +7009,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -6423,7 +7021,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -6434,7 +7033,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -6445,7 +7045,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.4)"
+            "pose_z": "bottom(0.4)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -6456,7 +7057,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.2)"
+            "pose_z": "bottom(1.2)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -6465,11 +7067,13 @@
                 "labware": "Separation Plate",
                 "slot": 10
             },
-            "pose_z": "bottom(5)"
+            "pose_z": "bottom(5)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 20.0
+            "vol": 20.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -6477,7 +7081,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6492,7 +7097,8 @@
                 "well": "A3",
                 "type": "300µl filtertiprack",
                 "slot": 6
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -6503,7 +7109,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.2)"
+            "pose_z": "bottom(0.2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -6514,7 +7121,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -6523,11 +7131,13 @@
                 "labware": "Elution Plate",
                 "slot": 1
             },
-            "pose_z": "top(-1)"
+            "pose_z": "top(-1)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 10.0
+            "vol": 10.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -6535,7 +7145,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -6545,7 +7156,8 @@
                 "well": "A4",
                 "type": "300µl filtertiprack",
                 "slot": 6
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -6556,7 +7168,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.2)"
+            "pose_z": "bottom(0.2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -6567,7 +7180,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -6576,11 +7190,13 @@
                 "labware": "Elution Plate",
                 "slot": 1
             },
-            "pose_z": "top(-1)"
+            "pose_z": "top(-1)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 10.0
+            "vol": 10.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -6588,7 +7204,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -6598,7 +7215,8 @@
                 "well": "A5",
                 "type": "300µl filtertiprack",
                 "slot": 6
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -6609,7 +7227,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.2)"
+            "pose_z": "bottom(0.2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -6620,7 +7239,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -6629,11 +7249,13 @@
                 "labware": "Elution Plate",
                 "slot": 1
             },
-            "pose_z": "top(-1)"
+            "pose_z": "top(-1)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 10.0
+            "vol": 10.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -6641,7 +7263,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -6651,7 +7274,8 @@
                 "well": "A6",
                 "type": "300µl filtertiprack",
                 "slot": 6
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -6662,7 +7286,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.2)"
+            "pose_z": "bottom(0.2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -6673,7 +7298,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -6682,11 +7308,13 @@
                 "labware": "Elution Plate",
                 "slot": 1
             },
-            "pose_z": "top(-1)"
+            "pose_z": "top(-1)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 10.0
+            "vol": 10.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -6694,7 +7322,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -6704,7 +7333,8 @@
                 "well": "A7",
                 "type": "300µl filtertiprack",
                 "slot": 6
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -6715,7 +7345,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.2)"
+            "pose_z": "bottom(0.2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -6726,7 +7357,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -6735,11 +7367,13 @@
                 "labware": "Elution Plate",
                 "slot": 1
             },
-            "pose_z": "top(-1)"
+            "pose_z": "top(-1)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 10.0
+            "vol": 10.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -6747,7 +7381,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -6757,7 +7392,8 @@
                 "well": "A8",
                 "type": "300µl filtertiprack",
                 "slot": 6
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -6768,7 +7404,8 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.2)"
+            "pose_z": "bottom(0.2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -6779,7 +7416,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -6788,11 +7426,13 @@
                 "labware": "Elution Plate",
                 "slot": 1
             },
-            "pose_z": "top(-1)"
+            "pose_z": "top(-1)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 10.0
+            "vol": 10.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -6800,7 +7440,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ]
 ]

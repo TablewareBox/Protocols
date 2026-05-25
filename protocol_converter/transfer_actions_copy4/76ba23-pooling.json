@@ -1,10 +1,23 @@
 {
+  "metadata": {
+    "workflow_name": "Pooling and Clean Up",
+    "tags": [
+      "NGS Library Prep",
+      "Zymoresearch: EZ DNA Methylation-Gold Kit"
+    ],
+    "raw": {
+      "protocolName": "Pooling and Clean Up",
+      "author": "Steve <protocols@opentrons.com>",
+      "source": "Custom Protocol Request",
+      "apiLevel": "2.9"
+    }
+  },
   "workflow": [
     {
       "action": "transfer_liquid",
       "action_args": {
         "sources": "beads",
-        "targets": "samples_4",
+        "targets": "samples_5",
         "asp_vols": [
           200.0,
           200.0,
@@ -76,7 +89,7 @@
       "action": "transfer_liquid",
       "action_args": {
         "sources": "samples",
-        "targets": "samples_5",
+        "targets": "samples_6",
         "asp_vols": [
           200.0,
           200.0,
@@ -144,7 +157,7 @@
       "action": "transfer_liquid",
       "action_args": {
         "sources": "samples_2",
-        "targets": "samples_5",
+        "targets": "samples_6",
         "asp_vols": [
           200.0,
           200.0,
@@ -212,7 +225,7 @@
       "action": "transfer_liquid",
       "action_args": {
         "sources": "etoh",
-        "targets": "samples_6",
+        "targets": "samples_7",
         "asp_vols": [
           100.0,
           100.0,
@@ -250,7 +263,7 @@
       "action": "transfer_liquid",
       "action_args": {
         "sources": "water",
-        "targets": "samples_7",
+        "targets": "samples_8",
         "asp_vols": [
           22.0,
           22.0
@@ -281,30 +294,7 @@
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "Liquid_1",
-        "targets": "samples_8",
-        "asp_vols": [
-          5.0
-        ],
-        "dis_vols": [
-          5.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_8",
-        "liquid_height": [
-          0
-        ]
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "Liquid_2",
+        "sources": "prior_to_addition",
         "targets": "samples_9",
         "asp_vols": [
           5.0
@@ -327,27 +317,68 @@
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "samples_3",
+        "sources": "Liquid_1",
         "targets": "samples_10",
         "asp_vols": [
-          22.0,
-          22.0
+          5.0
         ],
         "dis_vols": [
-          22.0,
-          22.0
+          5.0
         ],
         "asp_flow_rates": [
-          7.6,
           7.6
         ],
         "dis_flow_rates": [
-          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_8",
+        "liquid_height": [
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "samples_3",
+        "targets": "samples_11",
+        "asp_vols": [
+          22.0
+        ],
+        "dis_vols": [
+          22.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
           7.6
         ],
         "tip_racks": "tiprack_3",
         "liquid_height": [
-          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "samples_4",
+        "targets": "samples_12",
+        "asp_vols": [
+          22.0
+        ],
+        "dis_vols": [
+          22.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_3",
+        "liquid_height": [
           0
         ]
       }
@@ -360,7 +391,8 @@
         "A3"
       ],
       "labware": "usascientific_96_wellplate_2.4ml_deep",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "beads"
     },
     "samples": {
       "slot": 4,
@@ -368,7 +400,8 @@
         "A1"
       ],
       "labware": "usascientific_96_wellplate_2.4ml_deep",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "samples_2": {
       "slot": 4,
@@ -376,7 +409,8 @@
         "A2"
       ],
       "labware": "usascientific_96_wellplate_2.4ml_deep",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "etoh": {
       "slot": 4,
@@ -384,7 +418,8 @@
         "A4"
       ],
       "labware": "usascientific_96_wellplate_2.4ml_deep",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "water": {
       "slot": 4,
@@ -392,34 +427,46 @@
         "A5"
       ],
       "labware": "usascientific_96_wellplate_2.4ml_deep",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "water"
     },
-    "Liquid_1": {
+    "prior_to_addition": {
       "slot": 2,
       "well": [
         "A1"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
-    "Liquid_2": {
+    "Liquid_1": {
       "slot": 5,
       "well": [
         "A1"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "samples_3": {
       "slot": 4,
       "well": [
-        "A1",
+        "A1"
+      ],
+      "labware": "usascientific_96_wellplate_2.4ml_deep",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "samples_4": {
+      "slot": 4,
+      "well": [
         "A2"
       ],
       "labware": "usascientific_96_wellplate_2.4ml_deep",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
-    "samples_4": {
+    "samples_5": {
       "slot": 4,
       "well": [
         "A1",
@@ -434,17 +481,19 @@
         "A2"
       ],
       "labware": "usascientific_96_wellplate_2.4ml_deep",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
-    "samples_5": {
+    "samples_6": {
       "slot": 6,
       "well": [
         "A1"
       ],
       "labware": "nest_12_reservoir_15ml",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
-    "samples_6": {
+    "samples_7": {
       "slot": 4,
       "well": [
         "A1",
@@ -453,41 +502,54 @@
         "A2"
       ],
       "labware": "usascientific_96_wellplate_2.4ml_deep",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
-    "samples_7": {
+    "samples_8": {
       "slot": 4,
       "well": [
         "A1",
         "A2"
       ],
       "labware": "usascientific_96_wellplate_2.4ml_deep",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
-    "samples_8": {
+    "samples_9": {
       "slot": 4,
       "well": [
         "A1"
       ],
       "labware": "usascientific_96_wellplate_2.4ml_deep",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
-    "samples_9": {
+    "samples_10": {
       "slot": 4,
       "well": [
         "A2"
       ],
       "labware": "usascientific_96_wellplate_2.4ml_deep",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
-    "samples_10": {
+    "samples_11": {
       "slot": 1,
       "well": [
-        "A1",
+        "A1"
+      ],
+      "labware": "opentrons_24_tuberack_eppendorf_1.5ml_safelock_snapcap",
+      "object": "target",
+      "liquid_name": "sample"
+    },
+    "samples_12": {
+      "slot": 1,
+      "well": [
         "A2"
       ],
       "labware": "opentrons_24_tuberack_eppendorf_1.5ml_safelock_snapcap",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "tiprack_3": {
       "slot": 3,

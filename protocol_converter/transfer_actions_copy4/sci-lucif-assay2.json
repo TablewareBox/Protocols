@@ -1,4 +1,17 @@
 {
+  "metadata": {
+    "workflow_name": "Luciferase Reporter Assay for NF-kB Activation - Protocol 2: Transfection of Luciferase Reporter Construct",
+    "tags": [
+      "Broad Category",
+      "Specific Category"
+    ],
+    "raw": {
+      "protocolName": "Luciferase Reporter Assay for NF-kB Activation - Protocol 2: Transfection of Luciferase Reporter Construct",
+      "author": "Boren Lin, Opentrons",
+      "source": "Custom Protocol Request",
+      "apiLevel": "2.13"
+    }
+  },
   "workflow": [
     {
       "action": "transfer_liquid",
@@ -512,7 +525,8 @@
         "A1"
       ],
       "labware": "opentrons_24_tuberack_nest_2ml_snapcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "mastermix"
     },
     "samples": {
       "slot": 6,
@@ -615,7 +629,8 @@
         "H12"
       ],
       "labware": "corning_96_wellplate_360ul_flat",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "tiprack_8": {
       "slot": 8,

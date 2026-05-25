@@ -1,4 +1,17 @@
 {
+  "metadata": {
+    "workflow_name": "Nextera DNA Flex NGS Library Prep: Cherrypick Samples",
+    "tags": [
+      "NGS Library Prep",
+      "Nextera DNA Flex Library Prep"
+    ],
+    "raw": {
+      "protocolName": "Nextera DNA Flex NGS Library Prep: Cherrypick Samples",
+      "author": "Nick <protocols@opentrons.com>",
+      "source": "Custom Protocol Request",
+      "apiLevel": "2.2"
+    }
+  },
   "workflow": [
     {
       "action": "transfer_liquid",
@@ -215,7 +228,8 @@
         "A1"
       ],
       "labware": "olympus_96_wellplate_200ul_pcr",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "Liquid_2": {
       "slot": 2,
@@ -223,7 +237,8 @@
         "H2"
       ],
       "labware": "olympus_96_wellplate_200ul_pcr",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "Liquid_3": {
       "slot": 3,
@@ -231,7 +246,8 @@
         "B3"
       ],
       "labware": "olympus_96_wellplate_200ul_pcr",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "Liquid_4": {
       "slot": 4,
@@ -239,7 +255,8 @@
         "C7"
       ],
       "labware": "olympus_96_wellplate_200ul_pcr",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "Liquid_5": {
       "slot": 5,
@@ -247,7 +264,8 @@
         "A3"
       ],
       "labware": "olympus_96_wellplate_200ul_pcr",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "Liquid_6": {
       "slot": 6,
@@ -255,7 +273,8 @@
         "G1"
       ],
       "labware": "olympus_96_wellplate_200ul_pcr",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "Liquid_7": {
       "slot": 7,
@@ -263,7 +282,8 @@
         "H1"
       ],
       "labware": "olympus_96_wellplate_200ul_pcr",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "Liquid_8": {
       "slot": 8,
@@ -271,7 +291,8 @@
         "A12"
       ],
       "labware": "olympus_96_wellplate_200ul_pcr",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "Liquid_9": {
       "slot": 9,
@@ -279,7 +300,8 @@
         "B11"
       ],
       "labware": "olympus_96_wellplate_200ul_pcr",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "samples": {
       "slot": 10,
@@ -287,7 +309,8 @@
         "A1"
       ],
       "labware": "biorad_96_wellplate_200ul_pcr",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_2": {
       "slot": 10,
@@ -295,7 +318,8 @@
         "B1"
       ],
       "labware": "biorad_96_wellplate_200ul_pcr",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_3": {
       "slot": 10,
@@ -303,7 +327,8 @@
         "C3"
       ],
       "labware": "biorad_96_wellplate_200ul_pcr",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_4": {
       "slot": 10,
@@ -311,7 +336,8 @@
         "D2"
       ],
       "labware": "biorad_96_wellplate_200ul_pcr",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_5": {
       "slot": 10,
@@ -319,7 +345,8 @@
         "C1"
       ],
       "labware": "biorad_96_wellplate_200ul_pcr",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_6": {
       "slot": 10,
@@ -327,7 +354,8 @@
         "D1"
       ],
       "labware": "biorad_96_wellplate_200ul_pcr",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_7": {
       "slot": 10,
@@ -335,7 +363,8 @@
         "D8"
       ],
       "labware": "biorad_96_wellplate_200ul_pcr",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_8": {
       "slot": 10,
@@ -343,7 +372,8 @@
         "C12"
       ],
       "labware": "biorad_96_wellplate_200ul_pcr",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_9": {
       "slot": 10,
@@ -351,7 +381,8 @@
         "E11"
       ],
       "labware": "biorad_96_wellplate_200ul_pcr",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "tiprack_11": {
       "slot": 11,

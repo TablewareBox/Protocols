@@ -1,10 +1,23 @@
 {
+  "metadata": {
+    "workflow_name": "Rapid Barcoding Kit (SQK-RBK004)",
+    "tags": [
+      "NGS Library Prep",
+      "Nanopore"
+    ],
+    "raw": {
+      "apiLevel": "2.12",
+      "protocolName": "Rapid Barcoding Kit (SQK-RBK004)",
+      "author": "Opentrons <protocols@opentrons.com>",
+      "source": "Custom Protocol Request"
+    }
+  },
   "workflow": [
     {
       "action": "transfer_liquid",
       "action_args": {
         "sources": "samples",
-        "targets": "samples_3",
+        "targets": "samples_4",
         "asp_vols": [
           200.0,
           200.0,
@@ -37,7 +50,7 @@
       "action": "transfer_liquid",
       "action_args": {
         "sources": "ethanol_70",
-        "targets": "samples_4",
+        "targets": "samples_5",
         "asp_vols": [
           200.0,
           200.0
@@ -64,8 +77,8 @@
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "H2O",
-        "targets": "samples_5",
+        "sources": "h2o",
+        "targets": "samples_6",
         "asp_vols": [
           5.0
         ],
@@ -92,7 +105,7 @@
       "action": "transfer_liquid",
       "action_args": {
         "sources": "fragmentation_mixes",
-        "targets": "samples_5",
+        "targets": "samples_6",
         "asp_vols": [
           2.5
         ],
@@ -119,7 +132,7 @@
       "action": "transfer_liquid",
       "action_args": {
         "sources": "samples_2",
-        "targets": "samples_6",
+        "targets": "samples_7",
         "asp_vols": [
           10.0
         ],
@@ -141,8 +154,8 @@
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "AMPure_beads",
-        "targets": "samples_6",
+        "sources": "ampure_beads",
+        "targets": "samples_7",
         "asp_vols": [
           10.0
         ],
@@ -169,7 +182,7 @@
       "action": "transfer_liquid",
       "action_args": {
         "sources": "tris_nacl",
-        "targets": "samples_6",
+        "targets": "samples_7",
         "asp_vols": [
           10.0
         ],
@@ -195,8 +208,8 @@
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "samples",
-        "targets": "samples_7",
+        "sources": "samples_3",
+        "targets": "samples_8",
         "asp_vols": [
           10.0
         ],
@@ -218,8 +231,8 @@
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "RAP",
-        "targets": "samples_6",
+        "sources": "rap",
+        "targets": "samples_7",
         "asp_vols": [
           1.0
         ],
@@ -250,7 +263,8 @@
         "A1"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "ethanol_70": {
       "slot": 5,
@@ -258,15 +272,17 @@
         "A2"
       ],
       "labware": "opentrons_24_tuberack_eppendorf_1.5ml_safelock_snapcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "ethanol_70"
     },
-    "H2O": {
+    "h2o": {
       "slot": 5,
       "well": [
         "A1"
       ],
       "labware": "opentrons_24_tuberack_eppendorf_1.5ml_safelock_snapcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "fragmentation_mixes": {
       "slot": 1,
@@ -274,7 +290,8 @@
         "B1"
       ],
       "labware": "opentrons_24_aluminumblock_nest_0.5ml_screwcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "samples_2": {
       "slot": 7,
@@ -282,15 +299,17 @@
         "A1"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
-    "AMPure_beads": {
+    "ampure_beads": {
       "slot": 1,
       "well": [
         "A2"
       ],
       "labware": "opentrons_24_aluminumblock_nest_0.5ml_screwcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "ampure_beads"
     },
     "tris_nacl": {
       "slot": 5,
@@ -298,55 +317,71 @@
         "A3"
       ],
       "labware": "opentrons_24_tuberack_eppendorf_1.5ml_safelock_snapcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "tris_nacl"
     },
-    "RAP": {
+    "samples_3": {
+      "slot": 4,
+      "well": [
+        "A1"
+      ],
+      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "rap": {
       "slot": 1,
       "well": [
         "A1"
       ],
       "labware": "opentrons_24_aluminumblock_nest_0.5ml_screwcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
-    "samples_3": {
+    "samples_4": {
       "slot": 5,
       "well": [
         "B1"
       ],
       "labware": "opentrons_24_tuberack_eppendorf_1.5ml_safelock_snapcap",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
-    "samples_4": {
+    "samples_5": {
       "slot": 4,
       "well": [
         "A1"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
-    "samples_5": {
+    "samples_6": {
       "slot": 7,
       "well": [
         "A1"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
-    "samples_6": {
+    "samples_7": {
       "slot": 4,
       "well": [
         "A1"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
-    "samples_7": {
+    "samples_8": {
       "slot": 5,
       "well": [
         "C1"
       ],
       "labware": "opentrons_24_tuberack_eppendorf_1.5ml_safelock_snapcap",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "tiprack_6": {
       "slot": 6,

@@ -1,28 +1,121 @@
 {
+  "metadata": {
+    "workflow_name": "Oncomine Focus Assay - Pt 2: Partial Digestion",
+    "tags": [
+      "NGS Library Prep",
+      "Oncomine Focus Assay"
+    ],
+    "raw": {
+      "protocolName": "Oncomine Focus Assay - Pt 2: Partial Digestion",
+      "author": "Chaz <protocols@opentrons.com>",
+      "source": "Custom Protocol Request",
+      "apiLevel": "2.11"
+    }
+  },
   "workflow": [
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "Liquid_1",
+        "sources": "columns_with_samples",
         "targets": "samples",
         "asp_vols": [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
           2.0,
           2.0
         ],
         "dis_vols": [
           2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
           2.0
         ],
         "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
           7.6,
           7.6
         ],
         "dis_flow_rates": [
           7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
           7.6
         ],
         "tip_racks": "tiprack_3",
+        "use_channels": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
         "liquid_height": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           0,
           0
         ],
@@ -34,22 +127,45 @@
     }
   ],
   "reagent": {
-    "Liquid_1": {
+    "columns_with_samples": {
       "slot": 4,
       "well": [
-        "A2"
+        "A2",
+        "B2",
+        "C2",
+        "D2",
+        "E2",
+        "F2",
+        "G2",
+        "H2"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "samples": {
       "slot": 7,
       "well": [
         "A3",
-        "A10"
+        "B3",
+        "C3",
+        "D3",
+        "E3",
+        "F3",
+        "G3",
+        "H3",
+        "A10",
+        "B10",
+        "C10",
+        "D10",
+        "E10",
+        "F10",
+        "G10",
+        "H10"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "tiprack_3": {
       "slot": 3,

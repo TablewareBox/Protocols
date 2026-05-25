@@ -1,9 +1,22 @@
 {
+  "metadata": {
+    "workflow_name": "Dilution with CSV File and Custom Tube Rack",
+    "tags": [
+      "Sample Prep",
+      "Plate Filling"
+    ],
+    "raw": {
+      "protocolName": "Dilution with CSV File and Custom Tube Rack",
+      "author": "Rami Farawi <rami.farawi@opentrons.com>",
+      "source": "Custom Protocol Request",
+      "apiLevel": "2.11"
+    }
+  },
   "workflow": [
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "Liquid_1",
+        "sources": "diluent",
         "targets": "samples",
         "asp_vols": [
           1000.0
@@ -56,13 +69,14 @@
     }
   ],
   "reagent": {
-    "Liquid_1": {
+    "diluent": {
       "slot": 4,
       "well": [
         "A1"
       ],
       "labware": "opentrons_6_tuberack_falcon_50ml_conical",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "diluent"
     },
     "samp_well": {
       "slot": 2,
@@ -70,7 +84,8 @@
         "A1"
       ],
       "labware": "nest_96_wellplate_200ul_flat",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "diluent"
     },
     "samples": {
       "slot": 1,
@@ -78,7 +93,8 @@
         "A1"
       ],
       "labware": "sh_48_wellplate_2500ul",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "tiprack_5": {
       "slot": 5,

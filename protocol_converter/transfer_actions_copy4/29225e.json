@@ -1,0 +1,221 @@
+{
+  "metadata": {
+    "workflow_name": "qRT-PCR Setup: Part 1 - Custom RNA Normalization from CSV",
+    "tags": [
+      "Sample Prep",
+      "Normalization"
+    ],
+    "raw": {
+      "title": "RNA Normalization",
+      "author": "Steve Plonk",
+      "apiLevel": "2.10"
+    }
+  },
+  "workflow": [
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "water",
+        "targets": "samples",
+        "asp_vols": [
+          15.0,
+          37.5,
+          40.0
+        ],
+        "dis_vols": [
+          15.0,
+          37.5,
+          40.0
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_11",
+        "liquid_height": [
+          1.72606221972501,
+          2.815155549312525,
+          2.9361659192666933
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "Liquid_1",
+        "targets": "samples_2",
+        "asp_vols": [
+          35.0
+        ],
+        "dis_vols": [
+          35.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_11",
+        "pre_aspirate_from_target": [
+          120.0
+        ],
+        "liquid_height": [
+          3.420207399083367
+        ],
+        "touch_tip": true
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "Liquid_2",
+        "targets": "samples_3",
+        "asp_vols": [
+          12.5
+        ],
+        "dis_vols": [
+          12.5
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_10",
+        "pre_aspirate_from_target": [
+          60.0
+        ],
+        "liquid_height": [
+          3.420207399083367
+        ],
+        "touch_tip": true
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "Liquid_3",
+        "targets": "samples_4",
+        "asp_vols": [
+          10.0
+        ],
+        "dis_vols": [
+          10.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_10",
+        "pre_aspirate_from_target": [
+          60.0
+        ],
+        "liquid_height": [
+          3.420207399083367
+        ],
+        "touch_tip": true
+      }
+    }
+  ],
+  "reagent": {
+    "water": {
+      "slot": 4,
+      "well": [
+        "A1"
+      ],
+      "labware": "opentrons_24_tuberack_eppendorf_1.5ml_safelock_snapcap",
+      "object": "source",
+      "liquid_name": "water"
+    },
+    "Liquid_1": {
+      "slot": 3,
+      "well": [
+        "A1"
+      ],
+      "labware": "thermo_ab_0600_96_aluminumblock_300ul",
+      "object": "source",
+      "liquid_name": "water"
+    },
+    "Liquid_2": {
+      "slot": 3,
+      "well": [
+        "B1"
+      ],
+      "labware": "thermo_ab_0600_96_aluminumblock_300ul",
+      "object": "source",
+      "liquid_name": "water"
+    },
+    "Liquid_3": {
+      "slot": 3,
+      "well": [
+        "C1"
+      ],
+      "labware": "thermo_ab_0600_96_aluminumblock_300ul",
+      "object": "source",
+      "liquid_name": "water"
+    },
+    "samples": {
+      "slot": 1,
+      "well": [
+        "A1",
+        "B1",
+        "C1"
+      ],
+      "labware": "thermo_ab_0600_96_aluminumblock_300ul",
+      "object": "target",
+      "liquid_name": "sample"
+    },
+    "samples_2": {
+      "slot": 1,
+      "well": [
+        "A1"
+      ],
+      "labware": "thermo_ab_0600_96_aluminumblock_300ul",
+      "object": "target",
+      "liquid_name": "sample"
+    },
+    "samples_3": {
+      "slot": 1,
+      "well": [
+        "B1"
+      ],
+      "labware": "thermo_ab_0600_96_aluminumblock_300ul",
+      "object": "target",
+      "liquid_name": "sample"
+    },
+    "samples_4": {
+      "slot": 1,
+      "well": [
+        "C1"
+      ],
+      "labware": "thermo_ab_0600_96_aluminumblock_300ul",
+      "object": "target",
+      "liquid_name": "sample"
+    },
+    "tiprack_10": {
+      "slot": 10,
+      "labware": "opentrons_96_filtertiprack_20ul",
+      "object": "tiprack"
+    },
+    "tiprack_11": {
+      "slot": 11,
+      "labware": "opentrons_96_filtertiprack_200ul",
+      "object": "tiprack"
+    },
+    "trash": {
+      "slot": 12,
+      "labware": "opentrons_1_trash_1100ml_fixed",
+      "object": "trash"
+    }
+  }
+}

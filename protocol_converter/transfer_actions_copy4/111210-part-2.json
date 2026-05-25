@@ -1,4 +1,17 @@
 {
+  "metadata": {
+    "workflow_name": "GeneRead QIAact Lung RNA Fusion UMI Panel Kit:\n                    Reverse Transcription",
+    "tags": [
+      "NGS Library Prep",
+      "GeneRead QIAact Lung RNA Fusion UMI Panel Kit"
+    ],
+    "raw": {
+      "protocolName": "GeneRead QIAact Lung RNA Fusion UMI Panel Kit:\n                    Reverse Transcription",
+      "author": "Sakib <sakib.hossain@opentrons.com>",
+      "description": "Custom Protocol Request",
+      "apiLevel": "2.11"
+    }
+  },
   "workflow": [
     {
       "action": "transfer_liquid",
@@ -246,7 +259,8 @@
         "A1"
       ],
       "labware": "opentrons_24_aluminumblock_nest_1.5ml_screwcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "rnase_inhib": {
       "slot": 5,
@@ -254,7 +268,8 @@
         "B1"
       ],
       "labware": "opentrons_24_aluminumblock_nest_1.5ml_screwcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "rna"
     },
     "ez_rev": {
       "slot": 5,
@@ -262,7 +277,8 @@
         "C1"
       ],
       "labware": "opentrons_24_aluminumblock_nest_1.5ml_screwcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "samples": {
       "slot": 3,
@@ -281,7 +297,8 @@
         "D2"
       ],
       "labware": "opentrons_96_aluminumblock_nest_wellplate_100ul",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "tiprack_6": {
       "slot": 6,

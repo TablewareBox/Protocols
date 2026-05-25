@@ -7303,6 +7303,65 @@
     "tip_ref": {
       "well": "A1",
       "slot": "unknown"
+    },
+    "listeria postive control": {
+      "slot": 6,
+      "well": "A1",
+      "liquid_name": "listeria postive control",
+      "source": "load_liquid"
+    },
+    "salmonella positive control": {
+      "slot": 6,
+      "well": "E1",
+      "liquid_name": "salmonella positive control",
+      "source": "load_liquid"
+    },
+    "listeria samples": {
+      "slot": 8,
+      "well": "H6",
+      "liquid_name": "listeria samples",
+      "source": "load_liquid"
+    },
+    "salmonella samples": {
+      "slot": 8,
+      "well": "H12",
+      "liquid_name": "salmonella samples",
+      "source": "load_liquid"
+    },
+    "listeria lysis buffer (fresh)": {
+      "slot": 6,
+      "well": "B3",
+      "liquid_name": "listeria lysis buffer (fresh)",
+      "source": "load_liquid"
+    },
+    "listeria enzyme 1": {
+      "slot": 6,
+      "well": "B2",
+      "liquid_name": "listeria enzyme 1",
+      "source": "load_liquid"
+    },
+    "listeria enzyme 2": {
+      "slot": 6,
+      "well": "C2",
+      "liquid_name": "listeria enzyme 2",
+      "source": "load_liquid"
+    },
+    "salmonella lysis buffer (fresh)": {
+      "slot": 6,
+      "well": "D3",
+      "liquid_name": "salmonella lysis buffer (fresh)",
+      "source": "load_liquid"
+    },
+    "salmonella enzyme": {
+      "slot": 6,
+      "well": "D2",
+      "liquid_name": "salmonella enzyme",
+      "source": "load_liquid"
     }
+  },
+  "metadata": {
+    "protocolName": "BACGene",
+    "author": "Nick Diehl <ndiehl@opentrons.com",
+    "apiLevel": "2.14"
   }
 }

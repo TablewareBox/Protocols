@@ -1,4 +1,17 @@
 {
+  "metadata": {
+    "workflow_name": "Swift Rapid NGS Part 5 - Indexing and SPRI Clean",
+    "tags": [
+      "NGS Library Prep",
+      "Swift Rapid RNA Library Kit"
+    ],
+    "raw": {
+      "protocolName": "Swift Rapid NGS Part 5 - Indexing and SPRI Clean",
+      "author": "Rami Farawi <rami.farawi@opentrons.com>",
+      "source": "Custom Protocol Request",
+      "apiLevel": "2.7"
+    }
+  },
   "workflow": [
     {
       "action": "transfer_liquid",
@@ -7,15 +20,78 @@
         "targets": "samples_2",
         "asp_vols": [
           85.0,
+          85.0,
+          85.0,
+          85.0,
+          85.0,
+          85.0,
+          85.0,
+          85.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0,
           100.0,
           100.0
         ],
         "dis_vols": [
           85.0,
+          85.0,
+          85.0,
+          85.0,
+          85.0,
+          85.0,
+          85.0,
+          85.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0,
           100.0,
           100.0
         ],
         "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
           7.6,
           7.6,
           7.6
@@ -23,20 +99,114 @@
         "dis_flow_rates": [
           7.6,
           7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
           7.6
         ],
         "tip_racks": "tiprack_4",
+        "use_channels": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
         "blow_out_air_volume_before": [
           0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
           50.0,
           50.0
         ],
         "blow_out_air_volume": [
           0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
           50.0,
           50.0
         ],
         "liquid_height": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           0,
           0,
           0
@@ -50,22 +220,102 @@
         "targets": "samples_3",
         "asp_vols": [
           200.0,
+          200.0,
+          200.0,
+          200.0,
+          200.0,
+          200.0,
+          200.0,
+          200.0,
+          200.0,
+          200.0,
+          200.0,
+          200.0,
+          200.0,
+          200.0,
+          200.0,
           200.0
         ],
         "dis_vols": [
+          200.0,
+          200.0,
+          200.0,
+          200.0,
+          200.0,
+          200.0,
+          200.0,
+          200.0,
+          200.0,
+          200.0,
+          200.0,
+          200.0,
+          200.0,
+          200.0,
           200.0,
           200.0
         ],
         "asp_flow_rates": [
           7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
           7.6
         ],
         "dis_flow_rates": [
           7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
           7.6
         ],
         "tip_racks": "tiprack_4",
+        "use_channels": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
         "liquid_height": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           0,
           0
         ]
@@ -74,67 +324,214 @@
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "Liquid",
+        "sources": "index_primers",
         "targets": "samples_4",
         "asp_vols": [
-          5.0,
-          5.0,
-          5.0,
-          5.0,
-          5.0,
-          5.0,
-          5.0,
           5.0
         ],
         "dis_vols": [
-          5.0,
-          5.0,
-          5.0,
-          5.0,
-          5.0,
-          5.0,
-          5.0,
           5.0
         ],
         "asp_flow_rates": [
-          7.6,
-          7.6,
-          7.6,
-          7.6,
-          7.6,
-          7.6,
-          7.6,
           7.6
         ],
         "dis_flow_rates": [
-          7.6,
-          7.6,
-          7.6,
-          7.6,
-          7.6,
-          7.6,
-          7.6,
           7.6
         ],
         "tip_racks": "tiprack_6",
         "blow_out_air_volume": [
-          5.0,
-          5.0,
-          5.0,
-          5.0,
-          5.0,
-          5.0,
-          5.0,
           5.0
         ],
         "liquid_height": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
+          0
+        ],
+        "touch_tip": true
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "magnetic_beads",
+        "targets": "samples_5",
+        "asp_vols": [
+          5.0
+        ],
+        "dis_vols": [
+          5.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_6",
+        "blow_out_air_volume": [
+          5.0
+        ],
+        "liquid_height": [
+          0
+        ],
+        "touch_tip": true
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "indexing_pcr",
+        "targets": "samples_6",
+        "asp_vols": [
+          5.0
+        ],
+        "dis_vols": [
+          5.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_6",
+        "blow_out_air_volume": [
+          5.0
+        ],
+        "liquid_height": [
+          0
+        ],
+        "touch_tip": true
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "spri_cleanup",
+        "targets": "samples_7",
+        "asp_vols": [
+          5.0
+        ],
+        "dis_vols": [
+          5.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_6",
+        "blow_out_air_volume": [
+          5.0
+        ],
+        "liquid_height": [
+          0
+        ],
+        "touch_tip": true
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "pcr_mastermix",
+        "targets": "samples_8",
+        "asp_vols": [
+          5.0
+        ],
+        "dis_vols": [
+          5.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_6",
+        "blow_out_air_volume": [
+          5.0
+        ],
+        "liquid_height": [
+          0
+        ],
+        "touch_tip": true
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "Liquid_1",
+        "targets": "samples_9",
+        "asp_vols": [
+          5.0
+        ],
+        "dis_vols": [
+          5.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_6",
+        "blow_out_air_volume": [
+          5.0
+        ],
+        "liquid_height": [
+          0
+        ],
+        "touch_tip": true
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "Liquid_2",
+        "targets": "samples_10",
+        "asp_vols": [
+          5.0
+        ],
+        "dis_vols": [
+          5.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_6",
+        "blow_out_air_volume": [
+          5.0
+        ],
+        "liquid_height": [
+          0
+        ],
+        "touch_tip": true
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "index_primer_well",
+        "targets": "samples_11",
+        "asp_vols": [
+          5.0
+        ],
+        "dis_vols": [
+          5.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_6",
+        "blow_out_air_volume": [
+          5.0
+        ],
+        "liquid_height": [
           0
         ],
         "touch_tip": true
@@ -144,21 +541,66 @@
       "action": "transfer_liquid",
       "action_args": {
         "sources": "mastermix",
-        "targets": "samples_5",
+        "targets": "samples_4",
         "asp_vols": [
+          26.875,
+          26.875,
+          26.875,
+          26.875,
+          26.875,
+          26.875,
+          26.875,
           26.875
         ],
         "dis_vols": [
+          26.875,
+          26.875,
+          26.875,
+          26.875,
+          26.875,
+          26.875,
+          26.875,
           26.875
         ],
         "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
           7.6
         ],
         "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
           7.6
         ],
         "tip_racks": "tiprack_4",
+        "use_channels": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
         "liquid_height": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           0
         ],
         "touch_tip": true,
@@ -172,25 +614,133 @@
       "action": "transfer_liquid",
       "action_args": {
         "sources": "beads",
-        "targets": "samples_3",
+        "targets": "samples_12",
         "asp_vols": [
           42.5,
-          27.0
+          42.5,
+          42.5,
+          42.5,
+          42.5,
+          42.5,
+          42.5,
+          42.5
         ],
         "dis_vols": [
           42.5,
-          27.0
+          42.5,
+          42.5,
+          42.5,
+          42.5,
+          42.5,
+          42.5,
+          42.5
         ],
         "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
           7.6,
           7.6
         ],
         "dis_flow_rates": [
           7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
           7.6
         ],
         "tip_racks": "tiprack_4",
+        "use_channels": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
         "liquid_height": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "te",
+        "targets": "samples_12",
+        "asp_vols": [
+          27.0,
+          27.0,
+          27.0,
+          27.0,
+          27.0,
+          27.0,
+          27.0,
+          27.0
+        ],
+        "dis_vols": [
+          27.0,
+          27.0,
+          27.0,
+          27.0,
+          27.0,
+          27.0,
+          27.0,
+          27.0
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_4",
+        "use_channels": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "liquid_height": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           0,
           0
         ]
@@ -200,21 +750,66 @@
       "action": "transfer_liquid",
       "action_args": {
         "sources": "well",
-        "targets": "samples_6",
+        "targets": "samples_12",
         "asp_vols": [
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
           25.0
         ],
         "dis_vols": [
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
           25.0
         ],
         "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
           7.6
         ],
         "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
           7.6
         ],
         "tip_racks": "tiprack_4",
+        "use_channels": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
         "liquid_height": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           0
         ]
       }
@@ -224,10 +819,18 @@
     "samples": {
       "slot": 1,
       "well": [
-        "A9"
+        "A9",
+        "B9",
+        "C9",
+        "D9",
+        "E9",
+        "F9",
+        "G9",
+        "H9"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample_cols"
     },
     "ethanol": {
       "slot": 2,
@@ -235,22 +838,80 @@
         "A12"
       ],
       "labware": "nest_12_reservoir_15ml",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "ethanol"
     },
-    "Liquid": {
+    "index_primers": {
       "slot": 3,
       "well": [
-        "A1",
-        "B1",
-        "C1",
-        "D1",
-        "E1",
-        "F1",
-        "G1",
+        "A1"
+      ],
+      "labware": "thermofisherarmadillo_96_wellplate_200ul",
+      "object": "source",
+      "liquid_name": "primer"
+    },
+    "magnetic_beads": {
+      "slot": 3,
+      "well": [
+        "B1"
+      ],
+      "labware": "thermofisherarmadillo_96_wellplate_200ul",
+      "object": "source",
+      "liquid_name": "beads"
+    },
+    "indexing_pcr": {
+      "slot": 3,
+      "well": [
+        "C1"
+      ],
+      "labware": "thermofisherarmadillo_96_wellplate_200ul",
+      "object": "source",
+      "liquid_name": "primer"
+    },
+    "spri_cleanup": {
+      "slot": 3,
+      "well": [
+        "D1"
+      ],
+      "labware": "thermofisherarmadillo_96_wellplate_200ul",
+      "object": "source",
+      "liquid_name": "primer"
+    },
+    "pcr_mastermix": {
+      "slot": 3,
+      "well": [
+        "E1"
+      ],
+      "labware": "thermofisherarmadillo_96_wellplate_200ul",
+      "object": "source",
+      "liquid_name": "mastermix"
+    },
+    "Liquid_1": {
+      "slot": 3,
+      "well": [
+        "F1"
+      ],
+      "labware": "thermofisherarmadillo_96_wellplate_200ul",
+      "object": "source",
+      "liquid_name": "primer"
+    },
+    "Liquid_2": {
+      "slot": 3,
+      "well": [
+        "G1"
+      ],
+      "labware": "thermofisherarmadillo_96_wellplate_200ul",
+      "object": "source",
+      "liquid_name": "primer"
+    },
+    "index_primer_well": {
+      "slot": 3,
+      "well": [
         "H1"
       ],
       "labware": "thermofisherarmadillo_96_wellplate_200ul",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "index_primer_well"
     },
     "mastermix": {
       "slot": 2,
@@ -258,24 +919,42 @@
         "A3"
       ],
       "labware": "nest_12_reservoir_15ml",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "mastermix"
     },
     "beads": {
       "slot": 2,
       "well": [
-        "A2",
+        "A2"
+      ],
+      "labware": "nest_12_reservoir_15ml",
+      "object": "source",
+      "liquid_name": "beads"
+    },
+    "te": {
+      "slot": 2,
+      "well": [
         "A1"
       ],
       "labware": "nest_12_reservoir_15ml",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "primer"
     },
     "well": {
       "slot": 1,
       "well": [
-        "A5"
+        "A5",
+        "B5",
+        "C5",
+        "D5",
+        "E5",
+        "F5",
+        "G5",
+        "H5"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "primer"
     },
     "samples_2": {
       "slot": 2,
@@ -283,15 +962,24 @@
         "A5"
       ],
       "labware": "nest_12_reservoir_15ml",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_3": {
       "slot": 1,
       "well": [
-        "A9"
+        "A9",
+        "B9",
+        "C9",
+        "D9",
+        "E9",
+        "F9",
+        "G9",
+        "H9"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample_cols"
     },
     "samples_4": {
       "slot": 7,
@@ -306,23 +994,87 @@
         "H5"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_5": {
       "slot": 7,
       "well": [
-        "A5"
+        "B5"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_6": {
-      "slot": 1,
+      "slot": 7,
       "well": [
-        "A9"
+        "C5"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
+    },
+    "samples_7": {
+      "slot": 7,
+      "well": [
+        "D5"
+      ],
+      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
+      "object": "target",
+      "liquid_name": "sample"
+    },
+    "samples_8": {
+      "slot": 7,
+      "well": [
+        "E5"
+      ],
+      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
+      "object": "target",
+      "liquid_name": "sample"
+    },
+    "samples_9": {
+      "slot": 7,
+      "well": [
+        "F5"
+      ],
+      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
+      "object": "target",
+      "liquid_name": "sample"
+    },
+    "samples_10": {
+      "slot": 7,
+      "well": [
+        "G5"
+      ],
+      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
+      "object": "target",
+      "liquid_name": "sample"
+    },
+    "samples_11": {
+      "slot": 7,
+      "well": [
+        "H5"
+      ],
+      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
+      "object": "target",
+      "liquid_name": "sample"
+    },
+    "samples_12": {
+      "slot": 1,
+      "well": [
+        "A9",
+        "B9",
+        "C9",
+        "D9",
+        "E9",
+        "F9",
+        "G9",
+        "H9"
+      ],
+      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
+      "object": "target",
+      "liquid_name": "sample_cols"
     },
     "tiprack_4": {
       "slot": 4,

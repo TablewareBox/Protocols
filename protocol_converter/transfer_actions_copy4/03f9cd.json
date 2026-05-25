@@ -1,4 +1,17 @@
 {
+  "metadata": {
+    "workflow_name": "Custom Emulsions via CSV File",
+    "tags": [
+      "Sample Prep",
+      "Plate Filling"
+    ],
+    "raw": {
+      "protocolName": "Custom Emulsions via CSV File",
+      "author": "Rami Farawi <rami.farawi@opentrons.com>",
+      "source": "Custom Protocol Request",
+      "apiLevel": "2.11"
+    }
+  },
   "workflow": [
     {
       "action": "transfer_liquid",
@@ -28,36 +41,93 @@
       "action": "transfer_liquid",
       "action_args": {
         "sources": "aq_source_rows_2",
-        "targets": "samples_2",
+        "targets": "samples",
         "asp_vols": [
-          600.0,
-          600.0,
-          300.0,
-          300.0
+          600.0
         ],
         "dis_vols": [
-          600.0,
-          600.0,
-          300.0,
-          300.0
+          600.0
         ],
         "asp_flow_rates": [
-          7.6,
-          7.6,
-          7.6,
           7.6
         ],
         "dis_flow_rates": [
-          7.6,
-          7.6,
-          7.6,
           7.6
         ],
         "tip_racks": "tiprack_4",
         "liquid_height": [
-          7.0,
-          7.0,
-          7.0,
+          7.0
+        ],
+        "touch_tip": true
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "aq_source_rows_3",
+        "targets": "samples",
+        "asp_vols": [
+          600.0
+        ],
+        "dis_vols": [
+          600.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_4",
+        "liquid_height": [
+          7.0
+        ],
+        "touch_tip": true
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "aq_source_rows_4",
+        "targets": "samples",
+        "asp_vols": [
+          300.0
+        ],
+        "dis_vols": [
+          300.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_4",
+        "liquid_height": [
+          7.0
+        ],
+        "touch_tip": true
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "aq_source_rows_5",
+        "targets": "samples",
+        "asp_vols": [
+          300.0
+        ],
+        "dis_vols": [
+          300.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_4",
+        "liquid_height": [
           7.0
         ],
         "touch_tip": true
@@ -115,36 +185,93 @@
       "action": "transfer_liquid",
       "action_args": {
         "sources": "oil_source_rows_2",
-        "targets": "samples_2",
+        "targets": "samples",
         "asp_vols": [
-          600.0,
-          600.0,
-          300.0,
-          300.0
+          600.0
         ],
         "dis_vols": [
-          600.0,
-          600.0,
-          300.0,
-          300.0
+          600.0
         ],
         "asp_flow_rates": [
-          7.6,
-          7.6,
-          7.6,
           7.6
         ],
         "dis_flow_rates": [
-          7.6,
-          7.6,
-          7.6,
           7.6
         ],
         "tip_racks": "tiprack_4",
         "liquid_height": [
-          7.0,
-          7.0,
-          7.0,
+          7.0
+        ],
+        "touch_tip": true
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "oil_source_rows_3",
+        "targets": "samples",
+        "asp_vols": [
+          600.0
+        ],
+        "dis_vols": [
+          600.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_4",
+        "liquid_height": [
+          7.0
+        ],
+        "touch_tip": true
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "oil_source_rows_4",
+        "targets": "samples",
+        "asp_vols": [
+          300.0
+        ],
+        "dis_vols": [
+          300.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_4",
+        "liquid_height": [
+          7.0
+        ],
+        "touch_tip": true
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "oil_source_rows_5",
+        "targets": "samples",
+        "asp_vols": [
+          300.0
+        ],
+        "dis_vols": [
+          300.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_4",
+        "liquid_height": [
           7.0
         ],
         "touch_tip": true
@@ -182,18 +309,44 @@
         "A1"
       ],
       "labware": "opentrons_6_tuberack_falcon_50ml_conical",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "oil"
     },
     "aq_source_rows_2": {
       "slot": 10,
       "well": [
-        "A2",
-        "A3",
-        "B1",
+        "A2"
+      ],
+      "labware": "opentrons_6_tuberack_falcon_50ml_conical",
+      "object": "source",
+      "liquid_name": "oil"
+    },
+    "aq_source_rows_3": {
+      "slot": 10,
+      "well": [
+        "A3"
+      ],
+      "labware": "opentrons_6_tuberack_falcon_50ml_conical",
+      "object": "source",
+      "liquid_name": "oil"
+    },
+    "aq_source_rows_4": {
+      "slot": 10,
+      "well": [
+        "B1"
+      ],
+      "labware": "opentrons_6_tuberack_falcon_50ml_conical",
+      "object": "source",
+      "liquid_name": "oil"
+    },
+    "aq_source_rows_5": {
+      "slot": 10,
+      "well": [
         "B2"
       ],
       "labware": "opentrons_6_tuberack_falcon_50ml_conical",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "oil"
     },
     "aq_source_rows_6": {
       "slot": 10,
@@ -201,7 +354,8 @@
         "B3"
       ],
       "labware": "opentrons_6_tuberack_falcon_50ml_conical",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "oil"
     },
     "oil_source_rows": {
       "slot": 11,
@@ -209,18 +363,44 @@
         "A1"
       ],
       "labware": "opentrons_6_tuberack_falcon_50ml_conical",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "oil_source_rows"
     },
     "oil_source_rows_2": {
       "slot": 11,
       "well": [
-        "A2",
-        "A3",
-        "B1",
+        "A2"
+      ],
+      "labware": "opentrons_6_tuberack_falcon_50ml_conical",
+      "object": "source",
+      "liquid_name": "oil_source_rows"
+    },
+    "oil_source_rows_3": {
+      "slot": 11,
+      "well": [
+        "A3"
+      ],
+      "labware": "opentrons_6_tuberack_falcon_50ml_conical",
+      "object": "source",
+      "liquid_name": "oil_source_rows"
+    },
+    "oil_source_rows_4": {
+      "slot": 11,
+      "well": [
+        "B1"
+      ],
+      "labware": "opentrons_6_tuberack_falcon_50ml_conical",
+      "object": "source",
+      "liquid_name": "oil_source_rows"
+    },
+    "oil_source_rows_5": {
+      "slot": 11,
+      "well": [
         "B2"
       ],
       "labware": "opentrons_6_tuberack_falcon_50ml_conical",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "oil_source_rows"
     },
     "oil_source_rows_6": {
       "slot": 11,
@@ -228,7 +408,8 @@
         "B3"
       ],
       "labware": "opentrons_6_tuberack_falcon_50ml_conical",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "oil_source_rows"
     },
     "samples": {
       "slot": 7,
@@ -236,15 +417,8 @@
         "A1"
       ],
       "labware": "vpscientific_48_wellplate_2000ul",
-      "object": "target"
-    },
-    "samples_2": {
-      "slot": 7,
-      "well": [
-        "A1"
-      ],
-      "labware": "vpscientific_48_wellplate_2000ul",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "tiprack_1": {
       "slot": 1,

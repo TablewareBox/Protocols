@@ -1,9 +1,22 @@
 {
+  "metadata": {
+    "workflow_name": "Lysis Pre-Fill (Salmonella/Listeria)",
+    "tags": [
+      "Sample Prep",
+      "Plate Filling"
+    ],
+    "raw": {
+      "protocolName": "Lysis Pre-Fill (Salmonella/Listeria)",
+      "author": "Chaz <protocols@opentrons.com>",
+      "source": "Custom Protocol Request",
+      "apiLevel": "2.0"
+    }
+  },
   "workflow": [
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "Liquid",
+        "sources": "lysis_type",
         "targets": "samples",
         "asp_vols": [
           90.0,
@@ -500,13 +513,14 @@
     }
   ],
   "reagent": {
-    "Liquid": {
+    "lysis_type": {
       "slot": 2,
       "well": [
         "A1"
       ],
       "labware": "nest_1_reservoir_195ml",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "lysis"
     },
     "samples": {
       "slot": 3,
@@ -609,7 +623,8 @@
         "H12"
       ],
       "labware": "custom_96_tubeholder_500ul",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "tiprack_1": {
       "slot": 1,

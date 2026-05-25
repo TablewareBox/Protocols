@@ -1,0 +1,1751 @@
+{
+  "metadata": {
+    "workflow_name": "NGS Prep Part 1/3: Size Selection",
+    "tags": [
+      "NGS Library Prep",
+      "Custom"
+    ],
+    "raw": {
+      "protocolName": "NGS Prep Part 1/3: Size Selection",
+      "author": "Nick <protocols@opentrons.com>",
+      "source": "Custom Protocol Request",
+      "apiLevel": "2.0"
+    }
+  },
+  "workflow": [
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "beads",
+        "targets": "samples_25",
+        "asp_vols": [
+          40.0,
+          40.0,
+          40.0,
+          40.0,
+          40.0,
+          40.0,
+          40.0,
+          40.0,
+          40.0,
+          40.0,
+          40.0,
+          40.0,
+          40.0,
+          40.0,
+          40.0,
+          40.0,
+          40.0,
+          40.0,
+          40.0,
+          40.0,
+          40.0,
+          40.0,
+          40.0,
+          40.0
+        ],
+        "dis_vols": [
+          40.0,
+          40.0,
+          40.0,
+          40.0,
+          40.0,
+          40.0,
+          40.0,
+          40.0,
+          40.0,
+          40.0,
+          40.0,
+          40.0,
+          40.0,
+          40.0,
+          40.0,
+          40.0,
+          40.0,
+          40.0,
+          40.0,
+          40.0,
+          40.0,
+          40.0,
+          40.0,
+          40.0
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_5",
+        "liquid_height": [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0
+        ],
+        "mix_stage": "after",
+        "mix_times": 3,
+        "mix_vol": 30.0,
+        "mix_rate": 7.6,
+        "mix_liquid_height": 2.0
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "etoh",
+        "targets": "samples_26",
+        "asp_vols": [
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0
+        ],
+        "dis_vols": [
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_5",
+        "liquid_height": [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "etoh_2",
+        "targets": "samples_27",
+        "asp_vols": [
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0
+        ],
+        "dis_vols": [
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_5",
+        "liquid_height": [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "etoh_3",
+        "targets": "samples_28",
+        "asp_vols": [
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0
+        ],
+        "dis_vols": [
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0,
+          180.0
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_5",
+        "liquid_height": [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "edta",
+        "targets": "samples_25",
+        "asp_vols": [
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0
+        ],
+        "dis_vols": [
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_3",
+        "liquid_height": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "mix_stage": "after",
+        "mix_times": 10,
+        "mix_vol": 8.0,
+        "mix_rate": 7.6
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "samples",
+        "targets": "samples_29",
+        "asp_vols": [
+          10.0
+        ],
+        "dis_vols": [
+          10.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_3",
+        "liquid_height": [
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "samples_2",
+        "targets": "samples_30",
+        "asp_vols": [
+          10.0
+        ],
+        "dis_vols": [
+          10.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_3",
+        "liquid_height": [
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "samples_3",
+        "targets": "samples_31",
+        "asp_vols": [
+          10.0
+        ],
+        "dis_vols": [
+          10.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_3",
+        "liquid_height": [
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "samples_4",
+        "targets": "samples_32",
+        "asp_vols": [
+          10.0
+        ],
+        "dis_vols": [
+          10.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_3",
+        "liquid_height": [
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "samples_5",
+        "targets": "samples_33",
+        "asp_vols": [
+          10.0
+        ],
+        "dis_vols": [
+          10.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_3",
+        "liquid_height": [
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "samples_6",
+        "targets": "samples_34",
+        "asp_vols": [
+          10.0
+        ],
+        "dis_vols": [
+          10.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_3",
+        "liquid_height": [
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "samples_7",
+        "targets": "samples_35",
+        "asp_vols": [
+          10.0
+        ],
+        "dis_vols": [
+          10.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_3",
+        "liquid_height": [
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "samples_8",
+        "targets": "samples_36",
+        "asp_vols": [
+          10.0
+        ],
+        "dis_vols": [
+          10.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_3",
+        "liquid_height": [
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "samples_9",
+        "targets": "samples_37",
+        "asp_vols": [
+          10.0
+        ],
+        "dis_vols": [
+          10.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_3",
+        "liquid_height": [
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "samples_10",
+        "targets": "samples_38",
+        "asp_vols": [
+          10.0
+        ],
+        "dis_vols": [
+          10.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_3",
+        "liquid_height": [
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "samples_11",
+        "targets": "samples_39",
+        "asp_vols": [
+          10.0
+        ],
+        "dis_vols": [
+          10.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_3",
+        "liquid_height": [
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "samples_12",
+        "targets": "samples_40",
+        "asp_vols": [
+          10.0
+        ],
+        "dis_vols": [
+          10.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_3",
+        "liquid_height": [
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "samples_13",
+        "targets": "samples_41",
+        "asp_vols": [
+          10.0
+        ],
+        "dis_vols": [
+          10.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_3",
+        "liquid_height": [
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "samples_14",
+        "targets": "samples_42",
+        "asp_vols": [
+          10.0
+        ],
+        "dis_vols": [
+          10.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_3",
+        "liquid_height": [
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "samples_15",
+        "targets": "samples_43",
+        "asp_vols": [
+          10.0
+        ],
+        "dis_vols": [
+          10.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_3",
+        "liquid_height": [
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "samples_16",
+        "targets": "samples_44",
+        "asp_vols": [
+          10.0
+        ],
+        "dis_vols": [
+          10.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_3",
+        "liquid_height": [
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "samples_17",
+        "targets": "samples_45",
+        "asp_vols": [
+          10.0
+        ],
+        "dis_vols": [
+          10.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_3",
+        "liquid_height": [
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "samples_18",
+        "targets": "samples_46",
+        "asp_vols": [
+          10.0
+        ],
+        "dis_vols": [
+          10.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_3",
+        "liquid_height": [
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "samples_19",
+        "targets": "samples_47",
+        "asp_vols": [
+          10.0
+        ],
+        "dis_vols": [
+          10.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_3",
+        "liquid_height": [
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "samples_20",
+        "targets": "samples_48",
+        "asp_vols": [
+          10.0
+        ],
+        "dis_vols": [
+          10.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_3",
+        "liquid_height": [
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "samples_21",
+        "targets": "samples_49",
+        "asp_vols": [
+          10.0
+        ],
+        "dis_vols": [
+          10.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_3",
+        "liquid_height": [
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "samples_22",
+        "targets": "samples_50",
+        "asp_vols": [
+          10.0
+        ],
+        "dis_vols": [
+          10.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_3",
+        "liquid_height": [
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "samples_23",
+        "targets": "samples_51",
+        "asp_vols": [
+          10.0
+        ],
+        "dis_vols": [
+          10.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_3",
+        "liquid_height": [
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "samples_24",
+        "targets": "samples_52",
+        "asp_vols": [
+          10.0
+        ],
+        "dis_vols": [
+          10.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_3",
+        "liquid_height": [
+          0
+        ]
+      }
+    }
+  ],
+  "reagent": {
+    "beads": {
+      "slot": 2,
+      "well": [
+        "A1"
+      ],
+      "labware": "opentrons_24_tuberack_eppendorf_2ml_safelock_snapcap",
+      "object": "source",
+      "liquid_name": "beads"
+    },
+    "etoh": {
+      "slot": 2,
+      "well": [
+        "B1"
+      ],
+      "labware": "opentrons_24_tuberack_eppendorf_2ml_safelock_snapcap",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "etoh_2": {
+      "slot": 2,
+      "well": [
+        "B2"
+      ],
+      "labware": "opentrons_24_tuberack_eppendorf_2ml_safelock_snapcap",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "etoh_3": {
+      "slot": 2,
+      "well": [
+        "B3"
+      ],
+      "labware": "opentrons_24_tuberack_eppendorf_2ml_safelock_snapcap",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "edta": {
+      "slot": 2,
+      "well": [
+        "C1"
+      ],
+      "labware": "opentrons_24_tuberack_eppendorf_2ml_safelock_snapcap",
+      "object": "source",
+      "liquid_name": "edta"
+    },
+    "samples": {
+      "slot": 1,
+      "well": [
+        "A1"
+      ],
+      "labware": "eppendorftwin.tec_96_wellplate_150ul",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "samples_2": {
+      "slot": 1,
+      "well": [
+        "A2"
+      ],
+      "labware": "eppendorftwin.tec_96_wellplate_150ul",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "samples_3": {
+      "slot": 1,
+      "well": [
+        "A3"
+      ],
+      "labware": "eppendorftwin.tec_96_wellplate_150ul",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "samples_4": {
+      "slot": 1,
+      "well": [
+        "A4"
+      ],
+      "labware": "eppendorftwin.tec_96_wellplate_150ul",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "samples_5": {
+      "slot": 1,
+      "well": [
+        "A5"
+      ],
+      "labware": "eppendorftwin.tec_96_wellplate_150ul",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "samples_6": {
+      "slot": 1,
+      "well": [
+        "A6"
+      ],
+      "labware": "eppendorftwin.tec_96_wellplate_150ul",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "samples_7": {
+      "slot": 1,
+      "well": [
+        "A7"
+      ],
+      "labware": "eppendorftwin.tec_96_wellplate_150ul",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "samples_8": {
+      "slot": 1,
+      "well": [
+        "A8"
+      ],
+      "labware": "eppendorftwin.tec_96_wellplate_150ul",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "samples_9": {
+      "slot": 1,
+      "well": [
+        "A9"
+      ],
+      "labware": "eppendorftwin.tec_96_wellplate_150ul",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "samples_10": {
+      "slot": 1,
+      "well": [
+        "A10"
+      ],
+      "labware": "eppendorftwin.tec_96_wellplate_150ul",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "samples_11": {
+      "slot": 1,
+      "well": [
+        "A11"
+      ],
+      "labware": "eppendorftwin.tec_96_wellplate_150ul",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "samples_12": {
+      "slot": 1,
+      "well": [
+        "A12"
+      ],
+      "labware": "eppendorftwin.tec_96_wellplate_150ul",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "samples_13": {
+      "slot": 1,
+      "well": [
+        "B1"
+      ],
+      "labware": "eppendorftwin.tec_96_wellplate_150ul",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "samples_14": {
+      "slot": 1,
+      "well": [
+        "B2"
+      ],
+      "labware": "eppendorftwin.tec_96_wellplate_150ul",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "samples_15": {
+      "slot": 1,
+      "well": [
+        "B3"
+      ],
+      "labware": "eppendorftwin.tec_96_wellplate_150ul",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "samples_16": {
+      "slot": 1,
+      "well": [
+        "B4"
+      ],
+      "labware": "eppendorftwin.tec_96_wellplate_150ul",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "samples_17": {
+      "slot": 1,
+      "well": [
+        "B5"
+      ],
+      "labware": "eppendorftwin.tec_96_wellplate_150ul",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "samples_18": {
+      "slot": 1,
+      "well": [
+        "B6"
+      ],
+      "labware": "eppendorftwin.tec_96_wellplate_150ul",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "samples_19": {
+      "slot": 1,
+      "well": [
+        "B7"
+      ],
+      "labware": "eppendorftwin.tec_96_wellplate_150ul",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "samples_20": {
+      "slot": 1,
+      "well": [
+        "B8"
+      ],
+      "labware": "eppendorftwin.tec_96_wellplate_150ul",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "samples_21": {
+      "slot": 1,
+      "well": [
+        "B9"
+      ],
+      "labware": "eppendorftwin.tec_96_wellplate_150ul",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "samples_22": {
+      "slot": 1,
+      "well": [
+        "B10"
+      ],
+      "labware": "eppendorftwin.tec_96_wellplate_150ul",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "samples_23": {
+      "slot": 1,
+      "well": [
+        "B11"
+      ],
+      "labware": "eppendorftwin.tec_96_wellplate_150ul",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "samples_24": {
+      "slot": 1,
+      "well": [
+        "B12"
+      ],
+      "labware": "eppendorftwin.tec_96_wellplate_150ul",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "samples_25": {
+      "slot": 1,
+      "well": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12"
+      ],
+      "labware": "eppendorftwin.tec_96_wellplate_150ul",
+      "object": "target",
+      "liquid_name": "sample"
+    },
+    "samples_26": {
+      "slot": 1,
+      "well": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "B1",
+        "B2",
+        "B3",
+        "B4"
+      ],
+      "labware": "eppendorftwin.tec_96_wellplate_150ul",
+      "object": "target",
+      "liquid_name": "sample"
+    },
+    "samples_27": {
+      "slot": 1,
+      "well": [
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "B5",
+        "B6",
+        "B7",
+        "B8"
+      ],
+      "labware": "eppendorftwin.tec_96_wellplate_150ul",
+      "object": "target",
+      "liquid_name": "sample"
+    },
+    "samples_28": {
+      "slot": 1,
+      "well": [
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "B9",
+        "B10",
+        "B11",
+        "B12"
+      ],
+      "labware": "eppendorftwin.tec_96_wellplate_150ul",
+      "object": "target",
+      "liquid_name": "sample"
+    },
+    "samples_29": {
+      "slot": 9,
+      "well": [
+        "A1"
+      ],
+      "labware": "eppendorftwin.tec_96_wellplate_150ul",
+      "object": "target",
+      "liquid_name": "elution_samples"
+    },
+    "samples_30": {
+      "slot": 9,
+      "well": [
+        "A2"
+      ],
+      "labware": "eppendorftwin.tec_96_wellplate_150ul",
+      "object": "target",
+      "liquid_name": "elution_samples"
+    },
+    "samples_31": {
+      "slot": 9,
+      "well": [
+        "A3"
+      ],
+      "labware": "eppendorftwin.tec_96_wellplate_150ul",
+      "object": "target",
+      "liquid_name": "elution_samples"
+    },
+    "samples_32": {
+      "slot": 9,
+      "well": [
+        "A4"
+      ],
+      "labware": "eppendorftwin.tec_96_wellplate_150ul",
+      "object": "target",
+      "liquid_name": "elution_samples"
+    },
+    "samples_33": {
+      "slot": 9,
+      "well": [
+        "A5"
+      ],
+      "labware": "eppendorftwin.tec_96_wellplate_150ul",
+      "object": "target",
+      "liquid_name": "elution_samples"
+    },
+    "samples_34": {
+      "slot": 9,
+      "well": [
+        "A6"
+      ],
+      "labware": "eppendorftwin.tec_96_wellplate_150ul",
+      "object": "target",
+      "liquid_name": "elution_samples"
+    },
+    "samples_35": {
+      "slot": 9,
+      "well": [
+        "A7"
+      ],
+      "labware": "eppendorftwin.tec_96_wellplate_150ul",
+      "object": "target",
+      "liquid_name": "elution_samples"
+    },
+    "samples_36": {
+      "slot": 9,
+      "well": [
+        "A8"
+      ],
+      "labware": "eppendorftwin.tec_96_wellplate_150ul",
+      "object": "target",
+      "liquid_name": "elution_samples"
+    },
+    "samples_37": {
+      "slot": 9,
+      "well": [
+        "A9"
+      ],
+      "labware": "eppendorftwin.tec_96_wellplate_150ul",
+      "object": "target",
+      "liquid_name": "elution_samples"
+    },
+    "samples_38": {
+      "slot": 9,
+      "well": [
+        "A10"
+      ],
+      "labware": "eppendorftwin.tec_96_wellplate_150ul",
+      "object": "target",
+      "liquid_name": "elution_samples"
+    },
+    "samples_39": {
+      "slot": 9,
+      "well": [
+        "A11"
+      ],
+      "labware": "eppendorftwin.tec_96_wellplate_150ul",
+      "object": "target",
+      "liquid_name": "elution_samples"
+    },
+    "samples_40": {
+      "slot": 9,
+      "well": [
+        "A12"
+      ],
+      "labware": "eppendorftwin.tec_96_wellplate_150ul",
+      "object": "target",
+      "liquid_name": "elution_samples"
+    },
+    "samples_41": {
+      "slot": 9,
+      "well": [
+        "B1"
+      ],
+      "labware": "eppendorftwin.tec_96_wellplate_150ul",
+      "object": "target",
+      "liquid_name": "elution_samples"
+    },
+    "samples_42": {
+      "slot": 9,
+      "well": [
+        "B2"
+      ],
+      "labware": "eppendorftwin.tec_96_wellplate_150ul",
+      "object": "target",
+      "liquid_name": "elution_samples"
+    },
+    "samples_43": {
+      "slot": 9,
+      "well": [
+        "B3"
+      ],
+      "labware": "eppendorftwin.tec_96_wellplate_150ul",
+      "object": "target",
+      "liquid_name": "elution_samples"
+    },
+    "samples_44": {
+      "slot": 9,
+      "well": [
+        "B4"
+      ],
+      "labware": "eppendorftwin.tec_96_wellplate_150ul",
+      "object": "target",
+      "liquid_name": "elution_samples"
+    },
+    "samples_45": {
+      "slot": 9,
+      "well": [
+        "B5"
+      ],
+      "labware": "eppendorftwin.tec_96_wellplate_150ul",
+      "object": "target",
+      "liquid_name": "elution_samples"
+    },
+    "samples_46": {
+      "slot": 9,
+      "well": [
+        "B6"
+      ],
+      "labware": "eppendorftwin.tec_96_wellplate_150ul",
+      "object": "target",
+      "liquid_name": "elution_samples"
+    },
+    "samples_47": {
+      "slot": 9,
+      "well": [
+        "B7"
+      ],
+      "labware": "eppendorftwin.tec_96_wellplate_150ul",
+      "object": "target",
+      "liquid_name": "elution_samples"
+    },
+    "samples_48": {
+      "slot": 9,
+      "well": [
+        "B8"
+      ],
+      "labware": "eppendorftwin.tec_96_wellplate_150ul",
+      "object": "target",
+      "liquid_name": "elution_samples"
+    },
+    "samples_49": {
+      "slot": 9,
+      "well": [
+        "B9"
+      ],
+      "labware": "eppendorftwin.tec_96_wellplate_150ul",
+      "object": "target",
+      "liquid_name": "elution_samples"
+    },
+    "samples_50": {
+      "slot": 9,
+      "well": [
+        "B10"
+      ],
+      "labware": "eppendorftwin.tec_96_wellplate_150ul",
+      "object": "target",
+      "liquid_name": "elution_samples"
+    },
+    "samples_51": {
+      "slot": 9,
+      "well": [
+        "B11"
+      ],
+      "labware": "eppendorftwin.tec_96_wellplate_150ul",
+      "object": "target",
+      "liquid_name": "elution_samples"
+    },
+    "samples_52": {
+      "slot": 9,
+      "well": [
+        "B12"
+      ],
+      "labware": "eppendorftwin.tec_96_wellplate_150ul",
+      "object": "target",
+      "liquid_name": "elution_samples"
+    },
+    "tiprack_3": {
+      "slot": 3,
+      "labware": "opentrons_96_filtertiprack_10ul",
+      "object": "tiprack"
+    },
+    "tiprack_5": {
+      "slot": 5,
+      "labware": "opentrons_96_filtertiprack_200ul",
+      "object": "tiprack"
+    },
+    "tiprack_6": {
+      "slot": 6,
+      "labware": "opentrons_96_filtertiprack_200ul",
+      "object": "tiprack"
+    },
+    "trash": {
+      "slot": 12,
+      "labware": "opentrons_1_trash_1100ml_fixed",
+      "object": "trash"
+    }
+  }
+}

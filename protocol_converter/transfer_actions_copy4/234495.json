@@ -1,0 +1,104 @@
+{
+  "metadata": {
+    "workflow_name": "LC-MS Sample Prep: Standards/Calibration Curves/ Patient Samples",
+    "tags": [
+      "Sample Prep",
+      "Mass Spec"
+    ],
+    "raw": {
+      "protocolName": "LC-MS Sample Prep: Standards/Calibration Curves/ Patient Samples",
+      "author": "Steve Plonk <protocols@opentrons.com>",
+      "apiLevel": "2.9"
+    }
+  },
+  "workflow": [
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "Liquid_1",
+        "targets": "samples",
+        "asp_vols": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "dis_vols": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_3",
+        "pre_aspirate_from_target": [
+          830.0,
+          0.0,
+          0.0
+        ],
+        "liquid_height": [
+          0,
+          0,
+          0
+        ],
+        "delays": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    }
+  ],
+  "reagent": {
+    "Liquid_1": {
+      "slot": 1,
+      "well": [
+        "A1"
+      ],
+      "labware": "filters_and_eppendorfs_24_tuberack_1500ul",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "samples": {
+      "slot": 1,
+      "well": [
+        "A1"
+      ],
+      "labware": "filters_and_eppendorfs_24_tuberack_1500ul",
+      "object": "target",
+      "liquid_name": "sample"
+    },
+    "tiprack_2": {
+      "slot": 2,
+      "labware": "opentrons_96_tiprack_20ul",
+      "object": "tiprack"
+    },
+    "tiprack_3": {
+      "slot": 3,
+      "labware": "opentrons_96_tiprack_20ul",
+      "object": "tiprack"
+    },
+    "tiprack_6": {
+      "slot": 6,
+      "labware": "opentrons_96_tiprack_300ul",
+      "object": "tiprack"
+    },
+    "tiprack_9": {
+      "slot": 9,
+      "labware": "opentrons_96_tiprack_300ul",
+      "object": "tiprack"
+    },
+    "trash": {
+      "slot": 12,
+      "labware": "opentrons_1_trash_1100ml_fixed",
+      "object": "trash"
+    }
+  }
+}

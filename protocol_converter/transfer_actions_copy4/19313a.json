@@ -1,10 +1,23 @@
 {
+  "metadata": {
+    "workflow_name": "RNA Extraction with Magnetic Life",
+    "tags": [
+      "Nucleic Acid Extraction & Purification",
+      "Nucleic Acid Purification"
+    ],
+    "raw": {
+      "protocolName": "RNA Extraction with Magnetic Life",
+      "author": "Rami Farawi <rami.farawi@opentrons.com>",
+      "source": "Custom Protocol Request",
+      "apiLevel": "2.11"
+    }
+  },
   "workflow": [
     {
       "action": "transfer_liquid",
       "action_args": {
         "sources": "samples",
-        "targets": "samples_4",
+        "targets": "samples_5",
         "asp_vols": [
           200.0,
           200.0,
@@ -61,8 +74,8 @@
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "Liquid_3",
-        "targets": "samples_5",
+        "sources": "length_from_side_of_the_well_opp",
+        "targets": "samples_6",
         "asp_vols": [
           300.0,
           300.0,
@@ -108,8 +121,8 @@
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "Liquid_1",
-        "targets": "samples_6",
+        "sources": "most_customizable_variables_belo",
+        "targets": "samples_7",
         "asp_vols": [
           100.0
         ],
@@ -136,27 +149,52 @@
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "Liquid",
+        "sources": "remove_supernatant_aspiration_he",
         "targets": "samples_7",
         "asp_vols": [
-          300.0,
-          50.0
+          300.0
         ],
         "dis_vols": [
-          300.0,
-          50.0
+          300.0
         ],
         "asp_flow_rates": [
-          7.6,
           7.6
         ],
         "dis_flow_rates": [
-          7.6,
           7.6
         ],
         "tip_racks": "tiprack_8",
         "liquid_height": [
-          0,
+          0
+        ],
+        "mix_stage": "after",
+        "mix_times": 6,
+        "mix_vol": 300.0,
+        "mix_rate": 7.6
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "Liquid_1",
+        "targets": "samples_7",
+        "asp_vols": [
+          50.0
+        ],
+        "dis_vols": [
+          50.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_8",
+        "pre_aspirate_from_target": [
+          60.0
+        ],
+        "liquid_height": [
           0
         ],
         "mix_stage": "after",
@@ -168,7 +206,7 @@
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "samples",
+        "sources": "samples_2",
         "targets": "samples_8",
         "asp_vols": [
           60.0
@@ -195,7 +233,7 @@
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "samples_2",
+        "sources": "samples_3",
         "targets": "samples_9",
         "asp_vols": [
           100.0
@@ -222,7 +260,7 @@
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "samples_3",
+        "sources": "samples_4",
         "targets": "samples_10",
         "asp_vols": [
           50.0
@@ -250,64 +288,80 @@
         "A1"
       ],
       "labware": "innovationlaboratoryproducts_96_wellplate_1000ul",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
-    "Liquid_3": {
+    "length_from_side_of_the_well_opp": {
       "slot": 4,
       "well": [
         "B3"
       ],
       "labware": "opentrons_10_tuberack_falcon_4x50ml_6x15ml_conical",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "rna"
     },
-    "Liquid_1": {
+    "most_customizable_variables_belo": {
       "slot": 4,
       "well": [
         "A3"
       ],
       "labware": "opentrons_10_tuberack_falcon_4x50ml_6x15ml_conical",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "rna"
     },
-    "Liquid": {
+    "remove_supernatant_aspiration_he": {
       "slot": 4,
       "well": [
-        "A4",
+        "A4"
+      ],
+      "labware": "opentrons_10_tuberack_falcon_4x50ml_6x15ml_conical",
+      "object": "source",
+      "liquid_name": "supernatant"
+    },
+    "Liquid_1": {
+      "slot": 4,
+      "well": [
         "C2"
       ],
       "labware": "opentrons_10_tuberack_falcon_4x50ml_6x15ml_conical",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "rna"
     },
     "samples_2": {
+      "slot": 7,
+      "well": [
+        "A1"
+      ],
+      "labware": "innovationlaboratoryproducts_96_wellplate_1000ul",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "samples_3": {
       "slot": 10,
       "well": [
         "D1"
       ],
       "labware": "opentrons_96_aluminumblock_biorad_wellplate_200ul",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
-    "samples_3": {
+    "samples_4": {
       "slot": 7,
       "well": [
         "A2"
       ],
       "labware": "innovationlaboratoryproducts_96_wellplate_1000ul",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
-    "samples_4": {
+    "samples_5": {
       "slot": 5,
       "well": [
         "A1"
       ],
       "labware": "opentrons_6_tuberack_falcon_50ml_conical",
-      "object": "target"
-    },
-    "samples_5": {
-      "slot": 7,
-      "well": [
-        "A1"
-      ],
-      "labware": "innovationlaboratoryproducts_96_wellplate_1000ul",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_6": {
       "slot": 7,
@@ -315,7 +369,8 @@
         "A1"
       ],
       "labware": "innovationlaboratoryproducts_96_wellplate_1000ul",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_7": {
       "slot": 7,
@@ -323,7 +378,8 @@
         "A1"
       ],
       "labware": "innovationlaboratoryproducts_96_wellplate_1000ul",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_8": {
       "slot": 10,
@@ -331,7 +387,8 @@
         "D1"
       ],
       "labware": "opentrons_96_aluminumblock_biorad_wellplate_200ul",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_9": {
       "slot": 7,
@@ -339,7 +396,8 @@
         "A2"
       ],
       "labware": "innovationlaboratoryproducts_96_wellplate_1000ul",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_10": {
       "slot": 7,
@@ -347,7 +405,8 @@
         "A3"
       ],
       "labware": "innovationlaboratoryproducts_96_wellplate_1000ul",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "tiprack_8": {
       "slot": 8,

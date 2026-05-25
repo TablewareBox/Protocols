@@ -1226,7 +1226,8 @@
                 "well": "A1",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 20 µL",
                 "slot": 11
-            }
+            },
+            "channels": 8
         },
         {
             "action": "mix",
@@ -1237,7 +1238,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "mix_time": 3
+            "mix_time": 3,
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1247,7 +1249,8 @@
                 "labware": "USA Strips 96 Aluminum Block 200 µL",
                 "slot": 7
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "touch_tip",
@@ -1255,11 +1258,13 @@
                 "well": "A1",
                 "labware": "USA Strips 96 Aluminum Block 200 µL",
                 "slot": 7
-            }
+            },
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 3.0
+            "vol": 3.0,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -1270,7 +1275,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -1281,7 +1287,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -1290,7 +1297,8 @@
                 "labware": "MicroAmp Strips 96 Support Base 100 uL",
                 "slot": 4
             },
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "touch_tip",
@@ -1299,7 +1307,8 @@
                 "labware": "MicroAmp Strips 96 Support Base 100 uL",
                 "slot": 4
             },
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -1307,7 +1316,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -1317,7 +1327,8 @@
                 "well": "A2",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 20 µL",
                 "slot": 11
-            }
+            },
+            "channels": 8
         },
         {
             "action": "mix",
@@ -1328,7 +1339,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "mix_time": 3
+            "mix_time": 3,
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1338,7 +1350,8 @@
                 "labware": "USA Strips 96 Support Base 200 uL",
                 "slot": 9
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "touch_tip",
@@ -1346,11 +1359,13 @@
                 "well": "A12",
                 "labware": "USA Strips 96 Support Base 200 uL",
                 "slot": 9
-            }
+            },
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 3.0
+            "vol": 3.0,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -1361,7 +1376,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -1372,7 +1388,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -1381,7 +1398,8 @@
                 "labware": "MicroAmp Strips 96 Support Base 100 uL",
                 "slot": 4
             },
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "touch_tip",
@@ -1390,7 +1408,8 @@
                 "labware": "MicroAmp Strips 96 Support Base 100 uL",
                 "slot": 4
             },
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -1398,7 +1417,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -1408,7 +1428,8 @@
                 "well": "A3",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 20 µL",
                 "slot": 11
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1419,7 +1440,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -1430,7 +1452,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1441,7 +1464,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -1452,7 +1476,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1463,7 +1488,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -1474,7 +1500,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1485,7 +1512,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -1496,7 +1524,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1507,7 +1536,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -1518,7 +1548,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1529,7 +1560,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -1540,7 +1572,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1551,7 +1584,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -1562,7 +1596,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1573,7 +1608,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -1584,7 +1620,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1595,7 +1632,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -1606,7 +1644,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1617,7 +1656,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -1628,7 +1668,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1639,7 +1680,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -1650,7 +1692,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1661,7 +1704,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -1672,7 +1716,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1683,7 +1728,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -1694,7 +1740,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1705,7 +1752,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -1716,7 +1764,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1727,7 +1776,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -1738,7 +1788,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1749,7 +1800,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -1760,7 +1812,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1771,7 +1824,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -1782,7 +1836,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1793,7 +1848,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -1804,7 +1860,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1815,7 +1872,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -1826,7 +1884,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1837,7 +1896,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -1848,7 +1908,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1862,7 +1923,8 @@
                 "labware": "MicroAmp Strips 96 Support Base 100 uL",
                 "slot": 4
             },
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1873,7 +1935,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "touch_tip",
@@ -1882,7 +1945,8 @@
                 "labware": "MicroAmp Strips 96 Support Base 100 uL",
                 "slot": 4
             },
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -1893,7 +1957,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1907,7 +1972,8 @@
                 "labware": "MicroAmp Strips 96 Support Base 100 uL",
                 "slot": 4
             },
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "touch_tip",
@@ -1916,7 +1982,8 @@
                 "labware": "MicroAmp Strips 96 Support Base 100 uL",
                 "slot": 4
             },
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1927,7 +1994,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "touch_tip",
@@ -1936,7 +2004,8 @@
                 "labware": "MicroAmp Strips 96 Support Base 100 uL",
                 "slot": 4
             },
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -1947,7 +2016,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1961,7 +2031,8 @@
                 "labware": "MicroAmp Strips 96 Support Base 100 uL",
                 "slot": 4
             },
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "touch_tip",
@@ -1970,7 +2041,8 @@
                 "labware": "MicroAmp Strips 96 Support Base 100 uL",
                 "slot": 4
             },
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -1978,7 +2050,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -1988,7 +2061,8 @@
                 "well": "A4",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 20 µL",
                 "slot": 11
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1999,7 +2073,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2010,7 +2085,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2021,7 +2097,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2032,7 +2109,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2043,7 +2121,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2054,7 +2133,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2065,7 +2145,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2076,7 +2157,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2087,7 +2169,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2098,7 +2181,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2109,7 +2193,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2120,7 +2205,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2131,7 +2217,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2142,7 +2229,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2153,7 +2241,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2164,7 +2253,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2175,7 +2265,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2186,7 +2277,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2197,7 +2289,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2208,7 +2301,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2219,7 +2313,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2230,7 +2325,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2241,7 +2337,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2252,7 +2349,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2263,7 +2361,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2274,7 +2373,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2285,7 +2385,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2296,7 +2397,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2307,7 +2409,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2318,7 +2421,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2329,7 +2433,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2340,7 +2445,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2351,7 +2457,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2362,7 +2469,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2373,7 +2481,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2384,7 +2493,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2395,7 +2505,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2406,7 +2517,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2417,7 +2529,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2428,7 +2541,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2442,7 +2556,8 @@
                 "labware": "MicroAmp Strips 96 Support Base 100 uL",
                 "slot": 4
             },
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2453,7 +2568,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "touch_tip",
@@ -2462,7 +2578,8 @@
                 "labware": "MicroAmp Strips 96 Support Base 100 uL",
                 "slot": 4
             },
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2473,7 +2590,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2487,7 +2605,8 @@
                 "labware": "MicroAmp Strips 96 Support Base 100 uL",
                 "slot": 4
             },
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "touch_tip",
@@ -2496,7 +2615,8 @@
                 "labware": "MicroAmp Strips 96 Support Base 100 uL",
                 "slot": 4
             },
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2507,7 +2627,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "touch_tip",
@@ -2516,7 +2637,8 @@
                 "labware": "MicroAmp Strips 96 Support Base 100 uL",
                 "slot": 4
             },
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2527,7 +2649,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2541,7 +2664,8 @@
                 "labware": "MicroAmp Strips 96 Support Base 100 uL",
                 "slot": 4
             },
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "touch_tip",
@@ -2550,7 +2674,8 @@
                 "labware": "MicroAmp Strips 96 Support Base 100 uL",
                 "slot": 4
             },
-            "pose_z": "bottom(8)"
+            "pose_z": "bottom(8)",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -2558,7 +2683,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ]
 ]

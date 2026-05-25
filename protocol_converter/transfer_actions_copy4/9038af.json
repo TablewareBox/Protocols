@@ -1,0 +1,407 @@
+{
+  "metadata": {
+    "workflow_name": "Oxford Nanopore Rapid Barcoding with Normalization",
+    "tags": [
+      "Library Prep",
+      "Sequencing"
+    ],
+    "raw": {
+      "apiLevel": "2.13",
+      "protocolName": "Oxford Nanopore Rapid Barcoding with Normalization ",
+      "description": "This protocol carries out rapid barcoding of genomic DNA using the Nanopore Rapid Barcoding Kit 96.",
+      "author": "parrish.payne@opentrons.com"
+    }
+  },
+  "workflow": [
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "all_templates",
+        "targets": "samples_3",
+        "asp_vols": [
+          5.0
+        ],
+        "dis_vols": [
+          9.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_3",
+        "liquid_height": [
+          0
+        ],
+        "delays": [
+          2.0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "all_templates_2",
+        "targets": "samples_4",
+        "asp_vols": [
+          6.25
+        ],
+        "dis_vols": [
+          9.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_3",
+        "liquid_height": [
+          0
+        ],
+        "delays": [
+          2.0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "all_templates_3",
+        "targets": "samples_5",
+        "asp_vols": [
+          4.545454545454546
+        ],
+        "dis_vols": [
+          9.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_3",
+        "liquid_height": [
+          0
+        ],
+        "delays": [
+          2.0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "barcodes",
+        "targets": "samples_3",
+        "asp_vols": [
+          1.0
+        ],
+        "dis_vols": [
+          1.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_3",
+        "liquid_height": [
+          1.0
+        ],
+        "delays": [
+          2.0
+        ],
+        "mix_stage": "after",
+        "mix_times": 5,
+        "mix_vol": 7.0,
+        "mix_rate": 7.6,
+        "mix_liquid_height": 2.0
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "barcodes_2",
+        "targets": "samples_4",
+        "asp_vols": [
+          1.0
+        ],
+        "dis_vols": [
+          1.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_3",
+        "liquid_height": [
+          1.0
+        ],
+        "delays": [
+          2.0
+        ],
+        "mix_stage": "after",
+        "mix_times": 5,
+        "mix_vol": 7.0,
+        "mix_rate": 7.6,
+        "mix_liquid_height": 2.0
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "barcodes_3",
+        "targets": "samples_5",
+        "asp_vols": [
+          1.0
+        ],
+        "dis_vols": [
+          1.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_3",
+        "liquid_height": [
+          1.0
+        ],
+        "delays": [
+          2.0
+        ],
+        "mix_stage": "after",
+        "mix_times": 5,
+        "mix_vol": 7.0,
+        "mix_rate": 7.6,
+        "mix_liquid_height": 2.0
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "samples",
+        "targets": "samples_6",
+        "asp_vols": [
+          10.0
+        ],
+        "dis_vols": [
+          20.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_3",
+        "liquid_height": [
+          2.0
+        ],
+        "delays": [
+          2.0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "samples_2",
+        "targets": "samples_6",
+        "asp_vols": [
+          10.0
+        ],
+        "dis_vols": [
+          10.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_3",
+        "liquid_height": [
+          2.0
+        ],
+        "delays": [
+          2.0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "beads",
+        "targets": "samples_6",
+        "asp_vols": [
+          30.0
+        ],
+        "dis_vols": [
+          30.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_6",
+        "pre_aspirate_from_target": [
+          450.0
+        ],
+        "liquid_height": [
+          2.0
+        ],
+        "delays": [
+          2.0
+        ],
+        "mix_stage": "before",
+        "mix_times": 10,
+        "mix_vol": 27.0,
+        "mix_rate": 7.6
+      }
+    }
+  ],
+  "reagent": {
+    "all_templates": {
+      "slot": 2,
+      "well": [
+        "A1"
+      ],
+      "labware": "opentrons_24_tuberack_eppendorf_1.5ml_safelock_snapcap",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "all_templates_2": {
+      "slot": 2,
+      "well": [
+        "B1"
+      ],
+      "labware": "opentrons_24_tuberack_eppendorf_1.5ml_safelock_snapcap",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "all_templates_3": {
+      "slot": 2,
+      "well": [
+        "C1"
+      ],
+      "labware": "opentrons_24_tuberack_eppendorf_1.5ml_safelock_snapcap",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "barcodes": {
+      "slot": 1,
+      "well": [
+        "A1"
+      ],
+      "labware": "biorad_96_wellplate_200ul_pcr",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "barcodes_2": {
+      "slot": 1,
+      "well": [
+        "B1"
+      ],
+      "labware": "biorad_96_wellplate_200ul_pcr",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "barcodes_3": {
+      "slot": 1,
+      "well": [
+        "C1"
+      ],
+      "labware": "biorad_96_wellplate_200ul_pcr",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "samples": {
+      "slot": 4,
+      "well": [
+        "B1"
+      ],
+      "labware": "biorad_96_wellplate_200ul_pcr",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "samples_2": {
+      "slot": 4,
+      "well": [
+        "C1"
+      ],
+      "labware": "biorad_96_wellplate_200ul_pcr",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "beads": {
+      "slot": 8,
+      "well": [
+        "B1"
+      ],
+      "labware": "opentrons_24_tuberack_eppendorf_1.5ml_safelock_snapcap",
+      "object": "source",
+      "liquid_name": "beads"
+    },
+    "samples_3": {
+      "slot": 4,
+      "well": [
+        "A1"
+      ],
+      "labware": "biorad_96_wellplate_200ul_pcr",
+      "object": "target",
+      "liquid_name": "sample"
+    },
+    "samples_4": {
+      "slot": 4,
+      "well": [
+        "B1"
+      ],
+      "labware": "biorad_96_wellplate_200ul_pcr",
+      "object": "target",
+      "liquid_name": "sample"
+    },
+    "samples_5": {
+      "slot": 4,
+      "well": [
+        "C1"
+      ],
+      "labware": "biorad_96_wellplate_200ul_pcr",
+      "object": "target",
+      "liquid_name": "sample"
+    },
+    "samples_6": {
+      "slot": 8,
+      "well": [
+        "C1"
+      ],
+      "labware": "opentrons_24_tuberack_eppendorf_1.5ml_safelock_snapcap",
+      "object": "target",
+      "liquid_name": "sample"
+    },
+    "tiprack_3": {
+      "slot": 3,
+      "labware": "opentrons_96_filtertiprack_20ul",
+      "object": "tiprack"
+    },
+    "tiprack_6": {
+      "slot": 6,
+      "labware": "opentrons_96_filtertiprack_1000ul",
+      "object": "tiprack"
+    },
+    "trash": {
+      "slot": 12,
+      "labware": "opentrons_1_trash_1100ml_fixed",
+      "object": "trash"
+    }
+  }
+}

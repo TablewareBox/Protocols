@@ -6,7 +6,8 @@
                 "well": "A1",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 20 µL",
                 "slot": 4
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -17,7 +18,8 @@
                 "slot": 3
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.85)"
+            "pose_z": "bottom(0.85)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -28,7 +30,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -40,7 +43,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 1,
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -48,7 +52,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [

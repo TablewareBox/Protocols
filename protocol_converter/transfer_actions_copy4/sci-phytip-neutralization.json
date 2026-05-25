@@ -1,4 +1,16 @@
 {
+  "metadata": {
+    "workflow_name": "Phytip Protein A, ProPlus, ProPlus LX Columns - Neutralization",
+    "tags": [
+      "Protein Purification",
+      "ProPlus PhyTip® Columns"
+    ],
+    "raw": {
+      "protocolName": "Phytip Protein A, ProPlus, ProPlus LX Columns - Neutralization",
+      "author": "Opentrons <protocols@opentrons.com>",
+      "apiLevel": "2.11"
+    }
+  },
   "workflow": [
     {
       "action": "transfer_liquid",
@@ -507,7 +519,8 @@
         "A5"
       ],
       "labware": "opentrons_15_tuberack_nest_15ml_conical",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "neutral_buffer"
     },
     "samples": {
       "slot": 11,
@@ -610,7 +623,8 @@
         "H12"
       ],
       "labware": "thermoscientific_96_wellplate_v_450",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "tiprack_6": {
       "slot": 6,

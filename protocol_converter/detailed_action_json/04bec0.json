@@ -5211,11 +5211,30 @@
     },
     "water": {
       "well": "A1",
-      "slot": "unknown"
+      "slot": 9,
+      "liquid_name": "water",
+      "source": "load_liquid"
     },
     "lds": {
       "well": "A2",
       "slot": "unknown"
+    },
+    "sample": {
+      "slot": 7,
+      "well": "F8",
+      "liquid_name": "sample",
+      "source": "load_liquid"
+    },
+    "LDS": {
+      "slot": 9,
+      "well": "A2",
+      "liquid_name": "LDS",
+      "source": "load_liquid"
     }
+  },
+  "metadata": {
+    "protocolName": "Normalization",
+    "author": "Trevor Ray <trevor.ray@opentrons.com>",
+    "apiLevel": "2.14"
   }
 }

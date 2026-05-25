@@ -1,4 +1,14 @@
 {
+  "metadata": {
+    "workflow_name": "7e4c3e-4",
+    "tags": [
+      "Sample Prep",
+      "Plate Filling"
+    ],
+    "raw": {
+      "apiLevel": "2.0"
+    }
+  },
   "workflow": [
     {
       "action": "transfer_liquid",
@@ -2000,7 +2010,8 @@
         "A1"
       ],
       "labware": "opentrons_10_tuberack_falcon_4x50ml_6x15ml_conical",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "tube_a3": {
       "slot": 4,
@@ -2008,7 +2019,8 @@
         "A3"
       ],
       "labware": "opentrons_10_tuberack_falcon_4x50ml_6x15ml_conical",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "tube_a4": {
       "slot": 4,
@@ -2016,7 +2028,8 @@
         "A4"
       ],
       "labware": "opentrons_10_tuberack_falcon_4x50ml_6x15ml_conical",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "tube": {
       "slot": 4,
@@ -2024,7 +2037,8 @@
         "B3"
       ],
       "labware": "opentrons_10_tuberack_falcon_4x50ml_6x15ml_conical",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "samples": {
       "slot": 6,
@@ -2127,7 +2141,8 @@
         "H12"
       ],
       "labware": "nest_96_wellplate_2ml_deep",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_2": {
       "slot": 2,
@@ -2230,7 +2245,8 @@
         "H12"
       ],
       "labware": "nest_96_wellplate_2ml_deep",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_3": {
       "slot": 5,
@@ -2333,7 +2349,8 @@
         "H12"
       ],
       "labware": "nest_96_wellplate_2ml_deep",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_4": {
       "slot": 3,
@@ -2436,7 +2453,8 @@
         "H12"
       ],
       "labware": "nest_96_wellplate_2ml_deep",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "tiprack_1": {
       "slot": 1,

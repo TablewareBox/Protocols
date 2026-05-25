@@ -1,0 +1,493 @@
+{
+  "metadata": {
+    "workflow_name": "Anti-CD154 Labeling of Peptide- and PMA-Stimulated Cells",
+    "tags": [
+      "Sample Prep",
+      "Staining"
+    ],
+    "raw": {
+      "title": "Anti-CD154 Labeling of Peptide- and PMA-Stimulated Cells",
+      "author": "Steve Plonk",
+      "apiLevel": "2.10"
+    }
+  },
+  "workflow": [
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "culture_medium",
+        "targets": "samples_3",
+        "asp_vols": [
+          60.0,
+          60.0,
+          60.0,
+          60.0,
+          60.0,
+          60.0,
+          60.0,
+          60.0
+        ],
+        "dis_vols": [
+          60.0,
+          60.0,
+          60.0,
+          60.0,
+          60.0,
+          60.0,
+          60.0,
+          60.0
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_5",
+        "liquid_height": [
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0
+        ],
+        "touch_tip": true
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "cd154",
+        "targets": "samples_4",
+        "asp_vols": [
+          5.0,
+          5.0
+        ],
+        "dis_vols": [
+          5.0,
+          5.0
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_2",
+        "pre_aspirate_from_target": [
+          20.0,
+          20.0
+        ],
+        "liquid_height": [
+          2.196896100959848,
+          2.196896100959848
+        ],
+        "touch_tip": true
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "samples",
+        "targets": "samples_5",
+        "asp_vols": [
+          40.0,
+          40.0,
+          40.0,
+          40.0
+        ],
+        "dis_vols": [
+          40.0,
+          40.0,
+          40.0,
+          40.0
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_5",
+        "liquid_height": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "touch_tip": true
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "samples_2",
+        "targets": "samples_6",
+        "asp_vols": [
+          40.0,
+          40.0,
+          40.0,
+          40.0
+        ],
+        "dis_vols": [
+          40.0,
+          40.0,
+          40.0,
+          40.0
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_5",
+        "liquid_height": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "touch_tip": true
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "peptide1",
+        "targets": "samples_7",
+        "asp_vols": [
+          5.0,
+          5.0
+        ],
+        "dis_vols": [
+          5.0,
+          5.0
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_2",
+        "pre_aspirate_from_target": [
+          20.0,
+          20.0
+        ],
+        "liquid_height": [
+          2.0,
+          2.0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "peptide2",
+        "targets": "samples_8",
+        "asp_vols": [
+          5.0,
+          5.0
+        ],
+        "dis_vols": [
+          5.0,
+          5.0
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_2",
+        "pre_aspirate_from_target": [
+          20.0,
+          20.0
+        ],
+        "liquid_height": [
+          2.0,
+          2.0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "peptide3",
+        "targets": "samples_9",
+        "asp_vols": [
+          10.0,
+          10.0
+        ],
+        "dis_vols": [
+          10.0,
+          10.0
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_2",
+        "pre_aspirate_from_target": [
+          20.0,
+          20.0
+        ],
+        "liquid_height": [
+          2.0,
+          2.0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "reagent",
+        "targets": "samples_10",
+        "asp_vols": [
+          12.0,
+          12.0
+        ],
+        "dis_vols": [
+          12.0,
+          12.0
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_2",
+        "pre_aspirate_from_target": [
+          20.0,
+          20.0
+        ],
+        "liquid_height": [
+          2.0,
+          2.0
+        ]
+      }
+    }
+  ],
+  "reagent": {
+    "culture_medium": {
+      "slot": 4,
+      "well": [
+        "A2"
+      ],
+      "labware": "opentrons_24_tuberack_nest_1.5ml_screwcap",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "cd154": {
+      "slot": 4,
+      "well": [
+        "A1"
+      ],
+      "labware": "opentrons_24_tuberack_nest_1.5ml_screwcap",
+      "object": "source",
+      "liquid_name": "culture medium"
+    },
+    "samples": {
+      "slot": 1,
+      "well": [
+        "A1"
+      ],
+      "labware": "nest_96_wellplate_320ul",
+      "object": "source",
+      "liquid_name": "culture medium"
+    },
+    "samples_2": {
+      "slot": 1,
+      "well": [
+        "A2"
+      ],
+      "labware": "nest_96_wellplate_320ul",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "peptide1": {
+      "slot": 3,
+      "well": [
+        "A1"
+      ],
+      "labware": "opentrons_24_tuberack_nest_1.5ml_snapcap",
+      "object": "source",
+      "liquid_name": "culture medium"
+    },
+    "peptide2": {
+      "slot": 3,
+      "well": [
+        "A2"
+      ],
+      "labware": "opentrons_24_tuberack_nest_1.5ml_snapcap",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "peptide3": {
+      "slot": 3,
+      "well": [
+        "A3"
+      ],
+      "labware": "opentrons_24_tuberack_nest_1.5ml_snapcap",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "reagent": {
+      "slot": 3,
+      "well": [
+        "A4"
+      ],
+      "labware": "opentrons_24_tuberack_nest_1.5ml_snapcap",
+      "object": "source",
+      "liquid_name": "reagent"
+    },
+    "samples_3": {
+      "slot": 1,
+      "well": [
+        "B1",
+        "C1",
+        "D1",
+        "E1",
+        "B2",
+        "C2",
+        "D2",
+        "E2"
+      ],
+      "labware": "nest_96_wellplate_320ul",
+      "object": "target",
+      "liquid_name": "culture medium"
+    },
+    "samples_4": {
+      "slot": 1,
+      "well": [
+        "A1",
+        "A2"
+      ],
+      "labware": "nest_96_wellplate_320ul",
+      "object": "target",
+      "liquid_name": "culture medium"
+    },
+    "samples_5": {
+      "slot": 1,
+      "well": [
+        "B1",
+        "C1",
+        "D1",
+        "E1"
+      ],
+      "labware": "nest_96_wellplate_320ul",
+      "object": "target",
+      "liquid_name": "culture medium"
+    },
+    "samples_6": {
+      "slot": 1,
+      "well": [
+        "B2",
+        "C2",
+        "D2",
+        "E2"
+      ],
+      "labware": "nest_96_wellplate_320ul",
+      "object": "target",
+      "liquid_name": "sample"
+    },
+    "samples_7": {
+      "slot": 1,
+      "well": [
+        "B1",
+        "B2"
+      ],
+      "labware": "nest_96_wellplate_320ul",
+      "object": "target",
+      "liquid_name": "sample"
+    },
+    "samples_8": {
+      "slot": 1,
+      "well": [
+        "C1",
+        "C2"
+      ],
+      "labware": "nest_96_wellplate_320ul",
+      "object": "target",
+      "liquid_name": "sample"
+    },
+    "samples_9": {
+      "slot": 1,
+      "well": [
+        "D1",
+        "D2"
+      ],
+      "labware": "nest_96_wellplate_320ul",
+      "object": "target",
+      "liquid_name": "sample"
+    },
+    "samples_10": {
+      "slot": 1,
+      "well": [
+        "E1",
+        "E2"
+      ],
+      "labware": "nest_96_wellplate_320ul",
+      "object": "target",
+      "liquid_name": "culture medium"
+    },
+    "tiprack_2": {
+      "slot": 2,
+      "labware": "opentrons_96_tiprack_20ul",
+      "object": "tiprack"
+    },
+    "tiprack_5": {
+      "slot": 5,
+      "labware": "opentrons_96_tiprack_300ul",
+      "object": "tiprack"
+    },
+    "trash": {
+      "slot": 12,
+      "labware": "opentrons_1_trash_1100ml_fixed",
+      "object": "trash"
+    }
+  }
+}

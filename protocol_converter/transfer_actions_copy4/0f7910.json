@@ -1,33 +1,71 @@
 {
+  "metadata": {
+    "workflow_name": "Plate Filling with CSV Import",
+    "tags": [
+      "Sample Prep",
+      "Plate Filling"
+    ],
+    "raw": {
+      "protocolName": "Plate Filling with CSV Import",
+      "author": "Rami Farawi <rami.farawi@opentrons.com>",
+      "source": "Custom Protocol Request",
+      "apiLevel": "2.11"
+    }
+  },
   "workflow": [
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "Liquid",
+        "sources": "Liquid_1",
         "targets": "samples",
         "asp_vols": [
-          12.4,
           12.4
         ],
         "dis_vols": [
-          12.4,
           12.4
         ],
         "asp_flow_rates": [
-          7.6,
           7.6
         ],
         "dis_flow_rates": [
-          7.6,
           7.6
         ],
         "tip_racks": "tiprack_11",
         "liquid_height": [
-          0,
           0
         ],
         "delays": [
-          1.0,
+          1.0
+        ],
+        "mix_stage": "before",
+        "mix_times": 1,
+        "mix_vol": 12.4,
+        "mix_rate": 7.6,
+        "mix_liquid_height": 0.2
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "source",
+        "targets": "samples_2",
+        "asp_vols": [
+          12.4
+        ],
+        "dis_vols": [
+          12.4
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_11",
+        "liquid_height": [
+          0
+        ],
+        "delays": [
           1.0
         ],
         "mix_stage": "before",
@@ -39,23 +77,41 @@
     }
   ],
   "reagent": {
-    "Liquid": {
+    "Liquid_1": {
       "slot": 3,
       "well": [
-        "C1",
+        "C1"
+      ],
+      "labware": "corning_96_wellplate_360ul_flat",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "source": {
+      "slot": 3,
+      "well": [
         "A1"
       ],
       "labware": "corning_96_wellplate_360ul_flat",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "samples": {
       "slot": 1,
       "well": [
-        "A1",
+        "A1"
+      ],
+      "labware": "corning_96_wellplate_360ul_flat",
+      "object": "target",
+      "liquid_name": "sample"
+    },
+    "samples_2": {
+      "slot": 1,
+      "well": [
         "B1"
       ],
       "labware": "corning_96_wellplate_360ul_flat",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "tiprack_11": {
       "slot": 11,

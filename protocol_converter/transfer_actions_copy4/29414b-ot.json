@@ -1,9 +1,22 @@
 {
+  "metadata": {
+    "workflow_name": "Single-/Multi-Channel Calibration",
+    "tags": [
+      "Getting Started",
+      "Calibration"
+    ],
+    "raw": {
+      "protocolName": "Single-/Multi-Channel Calibration",
+      "author": "Chaz <protocols@opentrons.com>",
+      "source": "Custom Protocol Request",
+      "apiLevel": "2.0"
+    }
+  },
   "workflow": [
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "Liquid_1",
+        "sources": "touch",
         "targets": "samples",
         "asp_vols": [
           5.0,
@@ -36,7 +49,7 @@
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "Liquid_2",
+        "sources": "type",
         "targets": "samples_2",
         "asp_vols": [
           50.0,
@@ -69,7 +82,7 @@
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "Liquid_3",
+        "sources": "mount",
         "targets": "samples_3",
         "asp_vols": [
           200.0,
@@ -101,29 +114,32 @@
     }
   ],
   "reagent": {
-    "Liquid_1": {
+    "touch": {
       "slot": 3,
       "well": [
         "A1"
       ],
       "labware": "custom_96_tubeholder_500ul",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
-    "Liquid_2": {
+    "type": {
       "slot": 3,
       "well": [
         "B1"
       ],
       "labware": "custom_96_tubeholder_500ul",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
-    "Liquid_3": {
+    "mount": {
       "slot": 3,
       "well": [
         "C1"
       ],
       "labware": "custom_96_tubeholder_500ul",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "samples": {
       "slot": 3,
@@ -133,7 +149,8 @@
         "A4"
       ],
       "labware": "custom_96_tubeholder_500ul",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_2": {
       "slot": 3,
@@ -143,7 +160,8 @@
         "B4"
       ],
       "labware": "custom_96_tubeholder_500ul",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_3": {
       "slot": 3,
@@ -153,7 +171,8 @@
         "C4"
       ],
       "labware": "custom_96_tubeholder_500ul",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "tiprack_1": {
       "slot": 1,

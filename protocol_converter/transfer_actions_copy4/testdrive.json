@@ -1,0 +1,254 @@
+{
+  "metadata": {
+    "workflow_name": "OT-2 Guided Walk-through",
+    "tags": [
+      "Getting Started",
+      "OT-2 Guided Walk-through"
+    ],
+    "raw": {
+      "protocolName": "OT-2 Guided Walk-through",
+      "author": "Opentrons <protocols@opentrons.com>",
+      "source": "Custom Protocol Request",
+      "apiLevel": "2.7"
+    }
+  },
+  "workflow": [
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "load_the_plate_with_water_or_foo",
+        "targets": "samples_3",
+        "asp_vols": [
+          13.333333333333334,
+          13.333333333333334,
+          13.333333333333334
+        ],
+        "dis_vols": [
+          13.333333333333334,
+          13.333333333333334,
+          13.333333333333334
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_2",
+        "pre_aspirate_from_target": [
+          53.333333333333336,
+          40.0,
+          0.0
+        ],
+        "liquid_height": [
+          0,
+          0,
+          0
+        ],
+        "touch_tip": true
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "samples",
+        "targets": "samples_4",
+        "asp_vols": [
+          1.6666666666666667,
+          1.6666666666666667,
+          1.6666666666666667,
+          1.6666666666666667,
+          1.6666666666666667,
+          1.6666666666666667,
+          1.6666666666666667,
+          1.6666666666666667
+        ],
+        "dis_vols": [
+          1.6666666666666667,
+          1.6666666666666667,
+          1.6666666666666667,
+          1.6666666666666667,
+          1.6666666666666667,
+          1.6666666666666667,
+          1.6666666666666667,
+          1.6666666666666667
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_2",
+        "liquid_height": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "samples_2",
+        "targets": "samples_5",
+        "asp_vols": [
+          1.6666666666666667,
+          1.6666666666666667,
+          1.6666666666666667,
+          1.6666666666666667,
+          1.6666666666666667,
+          1.6666666666666667,
+          1.6666666666666667,
+          1.6666666666666667
+        ],
+        "dis_vols": [
+          1.6666666666666667,
+          1.6666666666666667,
+          1.6666666666666667,
+          1.6666666666666667,
+          1.6666666666666667,
+          1.6666666666666667,
+          1.6666666666666667,
+          1.6666666666666667
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_2",
+        "liquid_height": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  ],
+  "reagent": {
+    "load_the_plate_with_water_or_foo": {
+      "slot": 1,
+      "well": [
+        "A1"
+      ],
+      "labware": "biorad_96_wellplate_200ul_pcr",
+      "object": "source",
+      "liquid_name": "water"
+    },
+    "samples": {
+      "slot": 1,
+      "well": [
+        "A1",
+        "B1",
+        "C1",
+        "D1",
+        "E1",
+        "F1",
+        "G1",
+        "H1"
+      ],
+      "labware": "biorad_96_wellplate_200ul_pcr",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "samples_2": {
+      "slot": 1,
+      "well": [
+        "A2"
+      ],
+      "labware": "biorad_96_wellplate_200ul_pcr",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "samples_3": {
+      "slot": 1,
+      "well": [
+        "A1",
+        "A1",
+        "A3"
+      ],
+      "labware": "biorad_96_wellplate_200ul_pcr",
+      "object": "target",
+      "liquid_name": "sample"
+    },
+    "samples_4": {
+      "slot": 1,
+      "well": [
+        "A2"
+      ],
+      "labware": "biorad_96_wellplate_200ul_pcr",
+      "object": "target",
+      "liquid_name": "sample"
+    },
+    "samples_5": {
+      "slot": 1,
+      "well": [
+        "A1",
+        "B1",
+        "C1",
+        "D1",
+        "E1",
+        "F1",
+        "G1",
+        "H1"
+      ],
+      "labware": "biorad_96_wellplate_200ul_pcr",
+      "object": "target",
+      "liquid_name": "sample"
+    },
+    "tiprack_2": {
+      "slot": 2,
+      "labware": "geb_96_tiprack_1000ul",
+      "object": "tiprack"
+    },
+    "trash": {
+      "slot": 12,
+      "labware": "opentrons_1_trash_1100ml_fixed",
+      "object": "trash"
+    }
+  }
+}

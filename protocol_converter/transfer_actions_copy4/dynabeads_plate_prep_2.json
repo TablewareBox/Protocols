@@ -1,4 +1,17 @@
 {
+  "metadata": {
+    "workflow_name": "Dynabeads for IP Reagent-In-Plate Plate Prep 2",
+    "tags": [
+      "Protein Purification",
+      "Thermo Fisher Dynabeads™ Protein A"
+    ],
+    "raw": {
+      "protocolName": "Dynabeads for IP Reagent-In-Plate Plate Prep 2",
+      "author": "",
+      "source": "",
+      "apiLevel": "2.11"
+    }
+  },
   "workflow": [
     {
       "action": "transfer_liquid",
@@ -66,7 +79,8 @@
         "A5"
       ],
       "labware": "opentrons_15_tuberack_nest_15ml_conical",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "elution_stock"
     },
     "samples": {
       "slot": 4,
@@ -81,7 +95,8 @@
         "H12"
       ],
       "labware": "nest_96_wellplate_2ml_deep",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "elution"
     },
     "tiprack_7": {
       "slot": 7,

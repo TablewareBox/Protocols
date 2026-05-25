@@ -52,7 +52,7 @@
         -5,
         2
       ],
-      "labware": "A1 of Bio-Rad 96 Well Plate 200 \u00b5L PCR on Thermocycler Module GEN2 on slot 7"
+      "labware": "A1 of Bio-Rad 96 Well Plate 200 µL PCR on Thermocycler Module GEN2 on slot 7"
     },
     {
       "event": "bottom",
@@ -1961,6 +1961,41 @@
     "rxn_mix_2": {
       "well": "A2",
       "slot": "unknown"
+    },
+    "sample": {
+      "slot": 4,
+      "well": "D1",
+      "liquid_name": "sample",
+      "source": "load_liquid"
+    },
+    "DNAse": {
+      "slot": 2,
+      "well": "A1",
+      "liquid_name": "DNAse",
+      "source": "load_liquid"
+    },
+    "PK": {
+      "slot": 2,
+      "well": "A2",
+      "liquid_name": "PK",
+      "source": "load_liquid"
+    },
+    "mastermix": {
+      "slot": 2,
+      "well": "A6",
+      "liquid_name": "mastermix",
+      "source": "load_liquid"
+    },
+    "dilution buffer": {
+      "slot": 2,
+      "well": "A4",
+      "liquid_name": "dilution buffer",
+      "source": "load_liquid"
     }
+  },
+  "metadata": {
+    "apiLevel": "2.14",
+    "protocolName": "Custom Dilution and PCR",
+    "author": "Nick Diehl <ndiehl@opentrons.com>"
   }
 }

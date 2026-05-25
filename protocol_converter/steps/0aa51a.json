@@ -1084,7 +1084,8 @@
                 "well": "A1",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 1
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1094,7 +1095,8 @@
                 "labware": "reagent plate",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -1104,7 +1106,8 @@
                 "labware": "pcr plate",
                 "slot": 7
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "mix",
@@ -1115,7 +1118,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "mix_time": 5
+            "mix_time": 5,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -1123,7 +1127,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ]
 ]

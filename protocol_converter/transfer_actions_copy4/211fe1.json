@@ -1,4 +1,17 @@
 {
+  "metadata": {
+    "workflow_name": "Mass Spec Sample Prep",
+    "tags": [
+      "Sample Prep",
+      "Mass Spec"
+    ],
+    "raw": {
+      "protocolName": "Mass Spec Sample Prep",
+      "author": "Opentrons <protocols@opentrons.com>",
+      "source": "Protocol Library",
+      "apiLevel": "2.0"
+    }
+  },
   "workflow": [
     {
       "action": "transfer_liquid",
@@ -167,7 +180,8 @@
         "A1"
       ],
       "labware": "opentrons_24_tuberack_eppendorf_1.5ml_safelock_snapcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "enzyme"
     },
     "reagents": {
       "slot": 1,
@@ -175,7 +189,8 @@
         "B1"
       ],
       "labware": "opentrons_24_tuberack_eppendorf_1.5ml_safelock_snapcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "reagent"
     },
     "reagents_2": {
       "slot": 1,
@@ -183,7 +198,8 @@
         "C1"
       ],
       "labware": "opentrons_24_tuberack_eppendorf_1.5ml_safelock_snapcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "reagent"
     },
     "samples": {
       "slot": 7,
@@ -196,7 +212,8 @@
         "G1"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "tiprack_2": {
       "slot": 2,

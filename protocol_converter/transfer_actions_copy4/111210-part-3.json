@@ -1,4 +1,17 @@
 {
+  "metadata": {
+    "workflow_name": "GeneRead QIAact Lung RNA Fusion UMI Panel Kit:\n                    Second strand synthesis",
+    "tags": [
+      "NGS Library Prep",
+      "GeneRead QIAact Lung RNA Fusion UMI Panel Kit"
+    ],
+    "raw": {
+      "protocolName": "GeneRead QIAact Lung RNA Fusion UMI Panel Kit:\n                    Second strand synthesis",
+      "author": "Sakib <sakib.hossain@opentrons.com>",
+      "description": "Custom Protocol Request",
+      "apiLevel": "2.11"
+    }
+  },
   "workflow": [
     {
       "action": "transfer_liquid",
@@ -402,7 +415,8 @@
         "A1"
       ],
       "labware": "opentrons_24_aluminumblock_nest_1.5ml_screwcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "xc_buff": {
       "slot": 5,
@@ -410,7 +424,8 @@
         "B1"
       ],
       "labware": "opentrons_24_aluminumblock_nest_1.5ml_screwcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "rh_rnase": {
       "slot": 5,
@@ -418,7 +433,8 @@
         "C1"
       ],
       "labware": "opentrons_24_aluminumblock_nest_1.5ml_screwcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "rna"
     },
     "dntp": {
       "slot": 5,
@@ -426,7 +442,8 @@
         "D1"
       ],
       "labware": "opentrons_24_aluminumblock_nest_1.5ml_screwcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "bx_enzyme": {
       "slot": 5,
@@ -434,7 +451,8 @@
         "A2"
       ],
       "labware": "opentrons_24_aluminumblock_nest_1.5ml_screwcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "bx_enzyme"
     },
     "samples": {
       "slot": 3,
@@ -453,7 +471,8 @@
         "D2"
       ],
       "labware": "opentrons_96_aluminumblock_nest_wellplate_100ul",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "tiprack_6": {
       "slot": 6,

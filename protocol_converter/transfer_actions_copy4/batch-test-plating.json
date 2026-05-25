@@ -1,9 +1,22 @@
 {
+  "metadata": {
+    "workflow_name": "Batch Test Plating",
+    "tags": [
+      "PCR",
+      "PCR Prep"
+    ],
+    "raw": {
+      "protocolName": "Batch Test Plating",
+      "author": "Facu <frodriguezgoren@gmail.com>",
+      "description": "Protocolo de plaqueo de Mix y     muestras para el Test de Lote",
+      "apiLevel": "2.12"
+    }
+  },
   "workflow": [
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "MIX",
+        "sources": "mix",
         "targets": "samples",
         "asp_vols": [
           7.5,
@@ -91,7 +104,7 @@
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "muestra_CT1",
+        "sources": "muestra_ct1",
         "targets": "samples_2",
         "asp_vols": [
           2.5,
@@ -119,7 +132,7 @@
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "muestra_CT2",
+        "sources": "muestra_ct2",
         "targets": "samples_3",
         "asp_vols": [
           2.5,
@@ -147,7 +160,7 @@
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "muestra_MH1",
+        "sources": "muestra_mh1",
         "targets": "samples_4",
         "asp_vols": [
           2.5,
@@ -175,7 +188,7 @@
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "muestra_MH2",
+        "sources": "muestra_mh2",
         "targets": "samples_5",
         "asp_vols": [
           2.5,
@@ -203,7 +216,7 @@
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "muestra_UU1",
+        "sources": "muestra_uu1",
         "targets": "samples_6",
         "asp_vols": [
           2.5,
@@ -231,7 +244,7 @@
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "muestra_UU2",
+        "sources": "muestra_uu2",
         "targets": "samples_7",
         "asp_vols": [
           2.5,
@@ -286,61 +299,68 @@
     }
   ],
   "reagent": {
-    "MIX": {
+    "mix": {
       "slot": 3,
       "well": [
         "A1"
       ],
       "labware": "opentrons_24_aluminumblock_generic_2ml_screwcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
-    "muestra_CT1": {
+    "muestra_ct1": {
       "slot": 1,
       "well": [
         "A1"
       ],
       "labware": "opentrons_24_tuberack_generic_2ml_screwcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
-    "muestra_CT2": {
+    "muestra_ct2": {
       "slot": 1,
       "well": [
         "B1"
       ],
       "labware": "opentrons_24_tuberack_generic_2ml_screwcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
-    "muestra_MH1": {
+    "muestra_mh1": {
       "slot": 1,
       "well": [
         "C1"
       ],
       "labware": "opentrons_24_tuberack_generic_2ml_screwcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
-    "muestra_MH2": {
+    "muestra_mh2": {
       "slot": 1,
       "well": [
         "D1"
       ],
       "labware": "opentrons_24_tuberack_generic_2ml_screwcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
-    "muestra_UU1": {
+    "muestra_uu1": {
       "slot": 1,
       "well": [
         "A2"
       ],
       "labware": "opentrons_24_tuberack_generic_2ml_screwcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
-    "muestra_UU2": {
+    "muestra_uu2": {
       "slot": 1,
       "well": [
         "B2"
       ],
       "labware": "opentrons_24_tuberack_generic_2ml_screwcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "agua": {
       "slot": 1,
@@ -348,7 +368,8 @@
         "D6"
       ],
       "labware": "opentrons_24_tuberack_generic_2ml_screwcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "samples": {
       "slot": 2,
@@ -369,7 +390,8 @@
         "F2"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_2": {
       "slot": 2,
@@ -378,7 +400,8 @@
         "B1"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_3": {
       "slot": 2,
@@ -387,7 +410,8 @@
         "D1"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_4": {
       "slot": 2,
@@ -396,7 +420,8 @@
         "F1"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_5": {
       "slot": 2,
@@ -405,7 +430,8 @@
         "H1"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_6": {
       "slot": 2,
@@ -414,7 +440,8 @@
         "B2"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_7": {
       "slot": 2,
@@ -423,7 +450,8 @@
         "D2"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_8": {
       "slot": 2,
@@ -432,7 +460,8 @@
         "F2"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "tiprack_5": {
       "slot": 5,

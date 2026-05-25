@@ -309,12 +309,25 @@
   ],
   "liquid_locations": {
     "source": {
-      "well": "H2",
-      "slot": "unknown"
+      "well": "H12",
+      "slot": 10,
+      "liquid_name": "source",
+      "source": "load_liquid"
     },
     "dest": {
       "well": "B6",
       "slot": "unknown"
+    },
+    "destination": {
+      "slot": 11,
+      "well": "H12",
+      "liquid_name": "destination",
+      "source": "load_liquid"
     }
+  },
+  "metadata": {
+    "protocolName": "Cherrypicking",
+    "author": "Nick Diehl <ndiehl@opentrons.com>",
+    "apiLevel": "2.14"
   }
 }

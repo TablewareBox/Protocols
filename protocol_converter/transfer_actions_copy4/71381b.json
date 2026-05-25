@@ -1,0 +1,99 @@
+{
+  "metadata": {
+    "workflow_name": "Zymo Quick DNA HMW + Labelling",
+    "tags": [
+      "Nucleic Acid Extraction & Purification",
+      "Zymo Kit"
+    ],
+    "raw": {
+      "protocolName": "Zymo Quick DNA HMW + Labelling",
+      "author": "Chaz <chaz@opentrons.com>",
+      "source": "Custom Protocol Request",
+      "apiLevel": "2.9"
+    }
+  },
+  "workflow": [
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "reagents_for_labelling",
+        "targets": "samples",
+        "asp_vols": [
+          10.0
+        ],
+        "dis_vols": [
+          10.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_3",
+        "liquid_height": [
+          0
+        ],
+        "mix_stage": "before",
+        "mix_times": 25,
+        "mix_vol": 20.0,
+        "mix_rate": 7.6
+      }
+    }
+  ],
+  "reagent": {
+    "reagents_for_labelling": {
+      "slot": 5,
+      "well": [
+        "A2"
+      ],
+      "labware": "nest_12_reservoir_15ml",
+      "object": "source",
+      "liquid_name": "reagent"
+    },
+    "samples": {
+      "slot": 5,
+      "well": [
+        "A1"
+      ],
+      "labware": "nest_12_reservoir_15ml",
+      "object": "target",
+      "liquid_name": "sample"
+    },
+    "tiprack_3": {
+      "slot": 3,
+      "labware": "opentrons_96_tiprack_20ul",
+      "object": "tiprack"
+    },
+    "tiprack_6": {
+      "slot": 6,
+      "labware": "opentrons_96_tiprack_20ul",
+      "object": "tiprack"
+    },
+    "tiprack_7": {
+      "slot": 7,
+      "labware": "opentrons_96_tiprack_300ul",
+      "object": "tiprack"
+    },
+    "tiprack_8": {
+      "slot": 8,
+      "labware": "opentrons_96_tiprack_300ul",
+      "object": "tiprack"
+    },
+    "tiprack_10": {
+      "slot": 10,
+      "labware": "opentrons_96_tiprack_300ul",
+      "object": "tiprack"
+    },
+    "tiprack_11": {
+      "slot": 11,
+      "labware": "opentrons_96_tiprack_20ul",
+      "object": "tiprack"
+    },
+    "trash": {
+      "slot": 12,
+      "labware": "opentrons_1_trash_1100ml_fixed",
+      "object": "trash"
+    }
+  }
+}

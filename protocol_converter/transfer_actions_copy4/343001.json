@@ -1,0 +1,459 @@
+{
+  "metadata": {
+    "workflow_name": "Zymo Extraction Protocol",
+    "tags": [
+      "Nucleic Acid Extraction & Purification",
+      "Zymo Extraction"
+    ],
+    "raw": {
+      "protocolName": "Zymo Extraction Protocol",
+      "author": "Chaz <chaz@opentrons.com",
+      "source": "Custom Protocol Request",
+      "apiLevel": "2.2"
+    }
+  },
+  "workflow": [
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "samples",
+        "targets": "samples_3",
+        "asp_vols": [
+          622.0,
+          500.0,
+          500.0,
+          500.0,
+          500.0
+        ],
+        "dis_vols": [
+          622.0,
+          500.0,
+          500.0,
+          500.0,
+          500.0
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_5",
+        "liquid_height": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "zymo_elution",
+        "targets": [
+          "samples_4",
+          "samples_5"
+        ],
+        "asp_vols": [
+          2.0,
+          14.0
+        ],
+        "dis_vols": [
+          2.0,
+          14.0
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_9",
+        "liquid_height": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "zymo",
+        "targets": "samples_4",
+        "asp_vols": [
+          400.0
+        ],
+        "dis_vols": [
+          400.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_5",
+        "liquid_height": [
+          0.0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "reagents",
+        "targets": "samples_4",
+        "asp_vols": [
+          20.0
+        ],
+        "dis_vols": [
+          20.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_9",
+        "liquid_height": [
+          0.0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "number_of_samples",
+        "targets": "samples_4",
+        "asp_vols": [
+          500.0
+        ],
+        "dis_vols": [
+          500.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_5",
+        "pre_aspirate_from_target": [
+          2890.0
+        ],
+        "liquid_height": [
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "magdeck_incubation_time",
+        "targets": "samples_4",
+        "asp_vols": [
+          500.0
+        ],
+        "dis_vols": [
+          500.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_5",
+        "pre_aspirate_from_target": [
+          2890.0
+        ],
+        "liquid_height": [
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "water_volume",
+        "targets": "samples_4",
+        "asp_vols": [
+          500.0
+        ],
+        "dis_vols": [
+          500.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_5",
+        "pre_aspirate_from_target": [
+          2890.0
+        ],
+        "liquid_height": [
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "Liquid_1",
+        "targets": "samples_4",
+        "asp_vols": [
+          500.0
+        ],
+        "dis_vols": [
+          500.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_5",
+        "pre_aspirate_from_target": [
+          2890.0
+        ],
+        "liquid_height": [
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "Liquid_2",
+        "targets": "samples_4",
+        "asp_vols": [
+          40.0
+        ],
+        "dis_vols": [
+          40.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_9",
+        "pre_aspirate_from_target": [
+          230.0
+        ],
+        "liquid_height": [
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "samples_2",
+        "targets": "samples_6",
+        "asp_vols": [
+          20.0,
+          20.0
+        ],
+        "dis_vols": [
+          20.0,
+          20.0
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_9",
+        "liquid_height": [
+          0,
+          0
+        ]
+      }
+    }
+  ],
+  "reagent": {
+    "samples": {
+      "slot": 4,
+      "well": [
+        "A1"
+      ],
+      "labware": "zymo_96_wellblock",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "zymo_elution": {
+      "slot": 2,
+      "well": [
+        "A1"
+      ],
+      "labware": "opentrons_24_tuberack_eppendorf_2ml_safelock_snapcap",
+      "object": "source",
+      "liquid_name": "elution"
+    },
+    "zymo": {
+      "slot": 3,
+      "well": [
+        "A1"
+      ],
+      "labware": "opentrons_6_tuberack_falcon_50ml_conical",
+      "object": "source",
+      "liquid_name": "elution"
+    },
+    "reagents": {
+      "slot": 2,
+      "well": [
+        "A2"
+      ],
+      "labware": "opentrons_24_tuberack_eppendorf_2ml_safelock_snapcap",
+      "object": "source",
+      "liquid_name": "reagent"
+    },
+    "number_of_samples": {
+      "slot": 3,
+      "well": [
+        "A2"
+      ],
+      "labware": "opentrons_6_tuberack_falcon_50ml_conical",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "magdeck_incubation_time": {
+      "slot": 3,
+      "well": [
+        "B2"
+      ],
+      "labware": "opentrons_6_tuberack_falcon_50ml_conical",
+      "object": "source",
+      "liquid_name": "elution"
+    },
+    "water_volume": {
+      "slot": 3,
+      "well": [
+        "A3"
+      ],
+      "labware": "opentrons_6_tuberack_falcon_50ml_conical",
+      "object": "source",
+      "liquid_name": "water"
+    },
+    "Liquid_1": {
+      "slot": 3,
+      "well": [
+        "B3"
+      ],
+      "labware": "opentrons_6_tuberack_falcon_50ml_conical",
+      "object": "source",
+      "liquid_name": "elution"
+    },
+    "Liquid_2": {
+      "slot": 2,
+      "well": [
+        "B1"
+      ],
+      "labware": "opentrons_24_tuberack_eppendorf_2ml_safelock_snapcap",
+      "object": "source",
+      "liquid_name": "elution"
+    },
+    "samples_2": {
+      "slot": 4,
+      "well": [
+        "A1"
+      ],
+      "labware": "zymo_96_wellblock",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "samples_3": {
+      "slot": 11,
+      "well": [
+        "A1"
+      ],
+      "labware": "nest_1_reservoir_195ml",
+      "object": "target",
+      "liquid_name": "sample"
+    },
+    "samples_4": {
+      "slot": 4,
+      "well": [
+        "A1"
+      ],
+      "labware": "zymo_96_wellblock",
+      "object": "target",
+      "liquid_name": "sample"
+    },
+    "samples_5": {
+      "slot": 2,
+      "well": [
+        "A1"
+      ],
+      "labware": "opentrons_24_tuberack_eppendorf_2ml_safelock_snapcap",
+      "object": "target",
+      "liquid_name": "sample"
+    },
+    "samples_6": {
+      "slot": 1,
+      "well": [
+        "A1",
+        "A7"
+      ],
+      "labware": "zymo_elution_plate",
+      "object": "target",
+      "liquid_name": "sample"
+    },
+    "tiprack_5": {
+      "slot": 5,
+      "labware": "opentrons_96_tiprack_1000ul",
+      "object": "tiprack"
+    },
+    "tiprack_6": {
+      "slot": 6,
+      "labware": "opentrons_96_tiprack_1000ul",
+      "object": "tiprack"
+    },
+    "tiprack_7": {
+      "slot": 7,
+      "labware": "opentrons_96_tiprack_1000ul",
+      "object": "tiprack"
+    },
+    "tiprack_8": {
+      "slot": 8,
+      "labware": "opentrons_96_tiprack_1000ul",
+      "object": "tiprack"
+    },
+    "tiprack_9": {
+      "slot": 9,
+      "labware": "opentrons_96_tiprack_300ul",
+      "object": "tiprack"
+    },
+    "tiprack_10": {
+      "slot": 10,
+      "labware": "opentrons_96_tiprack_300ul",
+      "object": "tiprack"
+    },
+    "trash": {
+      "slot": 12,
+      "labware": "opentrons_1_trash_1100ml_fixed",
+      "object": "trash"
+    }
+  }
+}

@@ -1,4 +1,17 @@
 {
+  "metadata": {
+    "workflow_name": "Guanidine and PBS Transfer with CSV",
+    "tags": [
+      "Sample Prep",
+      "Plate Filling"
+    ],
+    "raw": {
+      "protocolName": "Guanidine and PBS Transfer with CSV",
+      "author": "Chaz <protocols@opentrons.com>",
+      "source": "Custom Protocol Request",
+      "apiLevel": "2.0"
+    }
+  },
   "workflow": [
     {
       "action": "transfer_liquid",
@@ -58,7 +71,8 @@
         "A1"
       ],
       "labware": "usascientific_12_reservoir_22ml",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "pbs": {
       "slot": 2,
@@ -66,7 +80,8 @@
         "A2"
       ],
       "labware": "usascientific_12_reservoir_22ml",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "pbs"
     },
     "samples": {
       "slot": 3,
@@ -74,7 +89,8 @@
         "A1"
       ],
       "labware": "corning_384_wellplate_112ul_flat",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "tiprack_1": {
       "slot": 1,

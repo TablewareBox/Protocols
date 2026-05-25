@@ -1,4 +1,16 @@
 {
+  "metadata": {
+    "workflow_name": "NEBNext Ultra II FS DNA Library Prep Kit for Illumina\n                    E6177S/L (for 1-24 DNA samples): Step 2: Fragmentation",
+    "tags": [
+      "NGS Library Prep",
+      "NEBNext Ultra II FS DNA Library Prep Kit for Illumina E6177S/L"
+    ],
+    "raw": {
+      "protocolName": "NEBNext Ultra II FS DNA Library Prep Kit for Illumina\n                    E6177S/L (for 1-24 DNA samples): Step 2: Fragmentation",
+      "author": "Steve Plonk <protocols@opentrons.com>",
+      "apiLevel": "2.9"
+    }
+  },
   "workflow": [
     {
       "action": "transfer_liquid",
@@ -6,24 +18,42 @@
         "sources": "rxn_buffer",
         "targets": "samples_2",
         "asp_vols": [
-          175.0,
-          50.0
+          175.0
         ],
         "dis_vols": [
-          175.0,
-          50.0
+          175.0
         ],
         "asp_flow_rates": [
-          7.6,
           7.6
         ],
         "dis_flow_rates": [
-          7.6,
           7.6
         ],
         "tip_racks": "tiprack_3",
         "liquid_height": [
-          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "enz_mx",
+        "targets": "samples_2",
+        "asp_vols": [
+          50.0
+        ],
+        "dis_vols": [
+          50.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_3",
+        "liquid_height": [
           0
         ],
         "mix_stage": "after",
@@ -64,11 +94,20 @@
     "rxn_buffer": {
       "slot": 2,
       "well": [
-        "A1",
+        "A1"
+      ],
+      "labware": "opentrons_24_aluminumblock_nest_0.5ml_screwcap",
+      "object": "source",
+      "liquid_name": "rxn_buffer"
+    },
+    "enz_mx": {
+      "slot": 2,
+      "well": [
         "A2"
       ],
       "labware": "opentrons_24_aluminumblock_nest_0.5ml_screwcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "samples": {
       "slot": 2,
@@ -76,7 +115,8 @@
         "A3"
       ],
       "labware": "opentrons_24_aluminumblock_nest_0.5ml_screwcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "samples_2": {
       "slot": 2,
@@ -84,7 +124,8 @@
         "A3"
       ],
       "labware": "opentrons_24_aluminumblock_nest_0.5ml_screwcap",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_3": {
       "slot": 7,
@@ -92,7 +133,8 @@
         "A1"
       ],
       "labware": "thermofast_96_wellplate_200ul",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "initial_sample"
     },
     "tiprack_3": {
       "slot": 3,

@@ -1,4 +1,17 @@
 {
+  "metadata": {
+    "workflow_name": "Cherrypicking",
+    "tags": [
+      "Featured",
+      "Cherrypicking"
+    ],
+    "raw": {
+      "protocolName": "Cherrypicking",
+      "author": "Nick <protocols@opentrons.com>",
+      "source": "Custom Protocol Request",
+      "apiLevel": "2.3"
+    }
+  },
   "workflow": [
     {
       "action": "transfer_liquid",
@@ -77,7 +90,8 @@
         "A1"
       ],
       "labware": "agilent_1_reservoir_290ml",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "Liquid_2": {
       "slot": 2,
@@ -85,7 +99,8 @@
         "A1"
       ],
       "labware": "nest_12_reservoir_15ml",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "Liquid_3": {
       "slot": 3,
@@ -93,7 +108,8 @@
         "A1"
       ],
       "labware": "nest_1_reservoir_195ml",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "samples": {
       "slot": 4,
@@ -101,7 +117,8 @@
         "A11"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_2": {
       "slot": 5,
@@ -109,7 +126,8 @@
         "A5"
       ],
       "labware": "nest_96_wellplate_2ml_deep",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_3": {
       "slot": 5,
@@ -117,7 +135,8 @@
         "H12"
       ],
       "labware": "nest_96_wellplate_2ml_deep",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "tiprack_6": {
       "slot": 6,

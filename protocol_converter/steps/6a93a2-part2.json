@@ -552,7 +552,8 @@
                 "well": "A1",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 4
-            }
+            },
+            "channels": 8
         },
         {
             "action": "mix",
@@ -563,7 +564,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "mix_time": 15
+            "mix_time": 15,
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -571,7 +573,8 @@
                 "well": "A5",
                 "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
                 "slot": 7
-            }
+            },
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -579,7 +582,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ]
 ]

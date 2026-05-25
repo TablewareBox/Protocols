@@ -1969,7 +1969,8 @@
                 "well": "A1",
                 "type": "200µl filtertiprack",
                 "slot": 8
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1980,7 +1981,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -1991,7 +1993,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -2000,11 +2003,13 @@
                 "labware": "reagent reservoir",
                 "slot": 2
             },
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 20.0
+            "vol": 20.0,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2015,7 +2020,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2026,7 +2032,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2037,7 +2044,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -2046,11 +2054,13 @@
                 "labware": "reagent reservoir",
                 "slot": 2
             },
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 20.0
+            "vol": 20.0,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2061,7 +2071,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2072,7 +2083,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2083,7 +2095,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -2092,11 +2105,13 @@
                 "labware": "reagent reservoir",
                 "slot": 2
             },
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 20.0
+            "vol": 20.0,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2107,7 +2122,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2118,7 +2134,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2129,7 +2146,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -2138,11 +2156,13 @@
                 "labware": "reagent reservoir",
                 "slot": 2
             },
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 20.0
+            "vol": 20.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -2150,7 +2170,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -2160,7 +2181,8 @@
                 "well": "A2",
                 "type": "200µl filtertiprack",
                 "slot": 8
-            }
+            },
+            "channels": 8
         },
         {
             "action": "mix",
@@ -2171,7 +2193,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "mix_time": 3
+            "mix_time": 3,
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2181,7 +2204,8 @@
                 "labware": "reagent reservoir",
                 "slot": 2
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2192,7 +2216,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -2204,7 +2229,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 15,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -2213,11 +2239,13 @@
                 "labware": "deepwell plate",
                 "slot": 1
             },
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 20.0
+            "vol": 20.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -2225,7 +2253,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2240,7 +2269,8 @@
                 "well": "A3",
                 "type": "200µl filtertiprack",
                 "slot": 8
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2251,7 +2281,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2262,7 +2293,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -2271,11 +2303,13 @@
                 "labware": "reagent reservoir",
                 "slot": 2
             },
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 20.0
+            "vol": 20.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -2283,7 +2317,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -2293,7 +2328,8 @@
                 "well": "A4",
                 "type": "200µl filtertiprack",
                 "slot": 8
-            }
+            },
+            "channels": 8
         },
         {
             "action": "mix",
@@ -2304,7 +2340,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "mix_time": 5
+            "mix_time": 5,
+            "channels": 8
         }
     ],
     [
@@ -2314,7 +2351,8 @@
                 "well": "A5",
                 "type": "200µl filtertiprack",
                 "slot": 8
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2324,7 +2362,8 @@
                 "labware": "reagent reservoir",
                 "slot": 2
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2335,7 +2374,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -2347,7 +2387,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 10,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2358,7 +2399,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2369,7 +2411,8 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(5)"
+            "pose_z": "bottom(5)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -2378,11 +2421,13 @@
                 "labware": "elution chips",
                 "slot": 4
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 20.0
+            "vol": 20.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -2390,7 +2435,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ]
 ]

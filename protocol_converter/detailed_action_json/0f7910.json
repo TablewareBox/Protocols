@@ -30,7 +30,7 @@
     {
       "event": "move_to",
       "line": 107,
-      "labware": "A1 of Corning 96 Well Plate 360 \u00b5L Flat on 1"
+      "labware": "A1 of Corning 96 Well Plate 360 µL Flat on 1"
     },
     {
       "event": "bottom",
@@ -62,7 +62,7 @@
     {
       "event": "move_to",
       "line": 107,
-      "labware": "B1 of Corning 96 Well Plate 360 \u00b5L Flat on 1"
+      "labware": "B1 of Corning 96 Well Plate 360 µL Flat on 1"
     }
   ],
   "liquid_locations": {
@@ -74,5 +74,11 @@
       "well": "B1",
       "slot": "1"
     }
+  },
+  "metadata": {
+    "protocolName": "Plate Filling with CSV Import",
+    "author": "Rami Farawi <rami.farawi@opentrons.com>",
+    "source": "Custom Protocol Request",
+    "apiLevel": "2.11"
   }
 }

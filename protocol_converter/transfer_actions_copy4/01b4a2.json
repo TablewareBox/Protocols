@@ -1,4 +1,17 @@
 {
+  "metadata": {
+    "workflow_name": "Sample Prep with DMSO and CSV Input",
+    "tags": [
+      "Sample Prep",
+      "Plate Filling"
+    ],
+    "raw": {
+      "protocolName": "Sample Prep with DMSO and CSV Input",
+      "author": "Rami Farawi <rami.farawi@opentrons.com>",
+      "source": "Custom Protocol Request",
+      "apiLevel": "2.11"
+    }
+  },
   "workflow": [
     {
       "action": "transfer_liquid",
@@ -32,8 +45,19 @@
       "action": "transfer_liquid",
       "action_args": {
         "sources": "samples",
-        "targets": "samples_3",
+        "targets": [
+          "samples_3",
+          "samples_3",
+          "samples_3",
+          "samples_3",
+          "samples_3",
+          "samples_3",
+          "samples_3",
+          "samples_3",
+          "samples_2"
+        ],
         "asp_vols": [
+          30.0,
           30.0,
           30.0,
           30.0,
@@ -51,6 +75,7 @@
           30.0,
           30.0,
           30.0,
+          30.0,
           30.0
         ],
         "asp_flow_rates": [
@@ -61,9 +86,11 @@
           7.6,
           7.6,
           7.6,
+          7.6,
           7.6
         ],
         "dis_flow_rates": [
+          7.6,
           7.6,
           7.6,
           7.6,
@@ -82,30 +109,7 @@
           0,
           0,
           0,
-          0
-        ],
-        "touch_tip": true
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "samples",
-        "targets": "samples_2",
-        "asp_vols": [
-          30.0
-        ],
-        "dis_vols": [
-          30.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_5",
-        "liquid_height": [
+          0,
           0
         ],
         "touch_tip": true
@@ -119,7 +123,8 @@
         "A1"
       ],
       "labware": "opentrons_6_tuberack_50000ul",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "samples": {
       "slot": 9,
@@ -127,7 +132,8 @@
         "A1"
       ],
       "labware": "bricklabwaretype2rackshort_24_wellplate_2000ul",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "samples_2": {
       "slot": 9,
@@ -135,7 +141,8 @@
         "A1"
       ],
       "labware": "bricklabwaretype2rackshort_24_wellplate_2000ul",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_3": {
       "slot": 6,
@@ -150,7 +157,8 @@
         "H1"
       ],
       "labware": "micronicm9641.4_96_wellplate_1400ul",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "tiprack_5": {
       "slot": 5,

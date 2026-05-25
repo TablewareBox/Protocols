@@ -1,24 +1,82 @@
 {
+  "metadata": {
+    "workflow_name": "IDT Normalase",
+    "tags": [
+      "NGS Library Prep",
+      "IDT Normalase"
+    ],
+    "raw": {
+      "protocolName": "IDT Normalase",
+      "author": "Opentrons <protocols@opentrons.com>",
+      "source": "Protocol Library",
+      "apiLevel": "2.9"
+    }
+  },
   "workflow": [
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "NORM1",
+        "sources": "norm1",
         "targets": "samples",
         "asp_vols": [
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
           5.0
         ],
         "dis_vols": [
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
           5.0
         ],
         "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
           7.6
         ],
         "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
           7.6
         ],
         "tip_racks": "tiprack_4",
+        "use_channels": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
         "liquid_height": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
           1.0
         ],
         "mix_stage": "after",
@@ -31,7 +89,7 @@
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "Liquid_1",
+        "sources": "first",
         "targets": "samples_2",
         "asp_vols": [
           5.0
@@ -54,7 +112,7 @@
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "NORM2",
+        "sources": "norm2",
         "targets": "samples_2",
         "asp_vols": [
           1.0
@@ -81,37 +139,55 @@
     }
   ],
   "reagent": {
-    "NORM1": {
+    "norm1": {
       "slot": 3,
       "well": [
-        "A1"
+        "A1",
+        "B1",
+        "C1",
+        "D1",
+        "E1",
+        "F1",
+        "G1",
+        "H1"
       ],
       "labware": "opentrons_96_aluminumblock_biorad_wellplate_200ul",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
-    "Liquid_1": {
+    "first": {
       "slot": 1,
       "well": [
         "A1"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
-    "NORM2": {
+    "norm2": {
       "slot": 3,
       "well": [
         "A2"
       ],
       "labware": "opentrons_96_aluminumblock_biorad_wellplate_200ul",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "samples": {
       "slot": 7,
       "well": [
-        "A1"
+        "A1",
+        "B1",
+        "C1",
+        "D1",
+        "E1",
+        "F1",
+        "G1",
+        "H1"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_2": {
       "slot": 7,
@@ -119,7 +195,8 @@
         "A12"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "tiprack_4": {
       "slot": 4,

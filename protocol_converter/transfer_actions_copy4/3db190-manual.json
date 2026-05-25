@@ -1,4 +1,17 @@
 {
+  "metadata": {
+    "workflow_name": "PCR/qPCR prep - Manual",
+    "tags": [
+      "PCR",
+      "PCR Prep"
+    ],
+    "raw": {
+      "protocolName": "PCR/qPCR prep - Manual",
+      "author": "Sakib <sakib.hossain@opentrons.com>",
+      "description": "Custom Protocol Request",
+      "apiLevel": "2.7"
+    }
+  },
   "workflow": [
     {
       "action": "transfer_liquid",
@@ -31,7 +44,8 @@
         "A1"
       ],
       "labware": "eppendorf_96_deepwell_1000ul",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "samples": {
       "slot": 3,
@@ -39,7 +53,8 @@
         "A1"
       ],
       "labware": "enduraplate_96_wellplate_200ul",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "tiprack_4": {
       "slot": 4,

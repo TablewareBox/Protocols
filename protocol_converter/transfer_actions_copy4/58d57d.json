@@ -1,39 +1,109 @@
 {
+  "metadata": {
+    "workflow_name": "Promega ADP-Glo Kinase Assay",
+    "tags": [
+      "Sample Prep",
+      "Plate Filling"
+    ],
+    "raw": {
+      "protocolName": "Promega ADP-Glo Kinase Assay",
+      "author": "Sakib <sakib.hossain@opentrons.com>",
+      "description": "Custom Protocol Request",
+      "apiLevel": "2.9"
+    }
+  },
   "workflow": [
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "liquid_A",
+        "sources": "liquid_a",
         "targets": "samples",
         "asp_vols": [
-          2.0,
-          2.0,
-          5.0,
-          10.0
+          2.0
         ],
         "dis_vols": [
-          2.0,
-          2.0,
-          5.0,
-          10.0
+          2.0
         ],
         "asp_flow_rates": [
-          7.6,
-          7.6,
-          7.6,
           7.6
         ],
         "dis_flow_rates": [
-          7.6,
-          7.6,
-          7.6,
           7.6
         ],
         "tip_racks": "tiprack_2",
         "liquid_height": [
-          0,
-          0,
-          0,
+          0
+        ],
+        "touch_tip": true
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "liquid_b",
+        "targets": "samples",
+        "asp_vols": [
+          2.0
+        ],
+        "dis_vols": [
+          2.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_2",
+        "liquid_height": [
+          0
+        ],
+        "touch_tip": true
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "liquid_c",
+        "targets": "samples",
+        "asp_vols": [
+          5.0
+        ],
+        "dis_vols": [
+          5.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_2",
+        "liquid_height": [
+          0
+        ],
+        "touch_tip": true
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "liquid_d",
+        "targets": "samples",
+        "asp_vols": [
+          10.0
+        ],
+        "dis_vols": [
+          10.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_2",
+        "liquid_height": [
           0
         ],
         "touch_tip": true
@@ -41,16 +111,41 @@
     }
   ],
   "reagent": {
-    "liquid_A": {
+    "liquid_a": {
       "slot": 4,
       "well": [
-        "A1",
-        "B1",
-        "C1",
+        "A1"
+      ],
+      "labware": "opentrons_24_tuberack_eppendorf_1.5ml_safelock_snapcap",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "liquid_b": {
+      "slot": 4,
+      "well": [
+        "B1"
+      ],
+      "labware": "opentrons_24_tuberack_eppendorf_1.5ml_safelock_snapcap",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "liquid_c": {
+      "slot": 4,
+      "well": [
+        "C1"
+      ],
+      "labware": "opentrons_24_tuberack_eppendorf_1.5ml_safelock_snapcap",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "liquid_d": {
+      "slot": 4,
+      "well": [
         "D1"
       ],
       "labware": "opentrons_24_tuberack_eppendorf_1.5ml_safelock_snapcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "samples": {
       "slot": 1,
@@ -58,7 +153,8 @@
         "A1"
       ],
       "labware": "greiner_384_wellplate_130ul",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample_wells"
     },
     "tiprack_2": {
       "slot": 2,

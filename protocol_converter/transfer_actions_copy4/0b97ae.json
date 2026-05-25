@@ -1,4 +1,17 @@
 {
+  "metadata": {
+    "workflow_name": "QIAseq FastSelect Normalization",
+    "tags": [
+      "SAMPLE PREP",
+      "Normalization"
+    ],
+    "raw": {
+      "protocolName": "QIAseq FastSelect Normalization",
+      "author": "Trevor <protocols@opentrons.com>",
+      "source": "Custom Protocol Request",
+      "apiLevel": "2.13"
+    }
+  },
   "workflow": [
     {
       "action": "transfer_liquid",
@@ -35,7 +48,8 @@
         "A1"
       ],
       "labware": "opentrons_96_aluminumblock_biorad_wellplate_200ul",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "samples": {
       "slot": 7,
@@ -43,7 +57,8 @@
         "A1"
       ],
       "labware": "appliedbiosystemsenduraplate_96_aluminumblock_220ul",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "tiprack_3": {
       "slot": 3,

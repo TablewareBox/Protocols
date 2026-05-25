@@ -1,9 +1,21 @@
 {
+  "metadata": {
+    "workflow_name": "Cell Viability and Cytotoxicity Assay",
+    "tags": [
+      "Cell and Tissue Culture"
+    ],
+    "raw": {
+      "protocolName": "Cell Viability and Cytotoxicity Assay",
+      "author": "Opentrons",
+      "description": "To measure viability and cytotoxicity of K562 cells treated with Bortezomib using the OT-2",
+      "apiLevel": "2.13"
+    }
+  },
   "workflow": [
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "Liquid_1",
+        "sources": "then_the_bortezomib",
         "targets": "samples",
         "asp_vols": [
           13.4,
@@ -221,7 +233,7 @@
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "Liquid_2",
+        "sources": "reagent",
         "targets": "samples",
         "asp_vols": [
           80.0,
@@ -438,21 +450,23 @@
     }
   ],
   "reagent": {
-    "Liquid_1": {
+    "then_the_bortezomib": {
       "slot": 11,
       "well": [
         "B2"
       ],
       "labware": "opentrons_10_tuberack_falcon_4x50ml_6x15ml_conical",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "reagent"
     },
-    "Liquid_2": {
+    "reagent": {
       "slot": 11,
       "well": [
         "B1"
       ],
       "labware": "opentrons_10_tuberack_falcon_4x50ml_6x15ml_conical",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "reagent"
     },
     "samples": {
       "slot": 1,
@@ -492,7 +506,8 @@
         "C5"
       ],
       "labware": "corning_96_wellplate_360ul_flat",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "tiprack_4": {
       "slot": 4,

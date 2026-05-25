@@ -1,4 +1,17 @@
 {
+  "metadata": {
+    "workflow_name": "VIB UGENT - Part 2",
+    "tags": [
+      "Sample Prep",
+      "Plate Filling"
+    ],
+    "raw": {
+      "protocolName": "VIB UGENT - Part 2",
+      "author": "Rami Farawi <rami.farawi@opentrons.com>",
+      "source": "Custom Protocol Request",
+      "apiLevel": "2.13"
+    }
+  },
   "workflow": [
     {
       "action": "transfer_liquid",
@@ -35,7 +48,8 @@
         "A1"
       ],
       "labware": "agilent_96_wellplate_500ul",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "samples": {
       "slot": 3,
@@ -43,7 +57,8 @@
         "A1"
       ],
       "labware": "agilent_96_wellplate_1400ul",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "tiprack_6": {
       "slot": 6,

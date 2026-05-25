@@ -1,9 +1,22 @@
 {
+  "metadata": {
+    "workflow_name": "Tube Filling",
+    "tags": [
+      "Sample Prep",
+      "Tube Filling"
+    ],
+    "raw": {
+      "protocolName": "Tube Filling",
+      "author": "Opentrons <protocols@opentrons.com>",
+      "source": "Custom Protocol Request",
+      "apiLevel": "2.13"
+    }
+  },
   "workflow": [
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "Liquid_1",
+        "sources": "transfer_volume",
         "targets": "samples",
         "asp_vols": [
           1.0
@@ -25,13 +38,14 @@
     }
   ],
   "reagent": {
-    "Liquid_1": {
+    "transfer_volume": {
       "slot": 11,
       "well": [
         "A1"
       ],
       "labware": "opentrons_96_tiprack_300ul",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "samples": {
       "slot": 1,
@@ -39,7 +53,8 @@
         "A1"
       ],
       "labware": "opentrons_15_tuberack_falcon_15ml_conical",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "tiprack_11": {
       "slot": 11,

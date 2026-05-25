@@ -6,7 +6,8 @@
                 "well": "A1",
                 "type": "300ul resin tiprack",
                 "slot": 3
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -17,39 +18,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
-        },
-        {
-            "action": "delay",
-            "minutes": 0,
-            "seconds": 20.0
-        },
-        {
-            "action": "dispense",
-            "vol": 180.0,
-            "target": {
-                "well": "A1",
-                "labware": "equilibration plate",
-                "slot": 9
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
-        },
-        {
-            "action": "delay",
-            "minutes": 0,
-            "seconds": 5.0
-        },
-        {
-            "action": "aspirate",
-            "vol": 180.0,
-            "source": {
-                "well": "A1",
-                "labware": "equilibration plate",
-                "slot": 9
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -65,7 +35,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -81,7 +52,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -97,7 +69,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -113,7 +86,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -129,7 +103,42 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
+        },
+        {
+            "action": "delay",
+            "minutes": 0,
+            "seconds": 5.0
+        },
+        {
+            "action": "aspirate",
+            "vol": 180.0,
+            "source": {
+                "well": "A1",
+                "labware": "equilibration plate",
+                "slot": 9
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1.5)",
+            "channels": 8
+        },
+        {
+            "action": "delay",
+            "minutes": 0,
+            "seconds": 20.0
+        },
+        {
+            "action": "dispense",
+            "vol": 180.0,
+            "target": {
+                "well": "A1",
+                "labware": "equilibration plate",
+                "slot": 9
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -145,7 +154,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -161,7 +171,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -177,7 +188,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -193,7 +205,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -209,7 +222,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -225,7 +239,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -241,7 +256,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -257,7 +273,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -273,7 +290,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -289,7 +307,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -305,7 +324,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -321,7 +341,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -337,7 +358,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -353,7 +375,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -369,7 +392,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -385,7 +409,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -401,7 +426,8 @@
                 "slot": 5
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -417,7 +443,8 @@
                 "slot": 5
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -433,7 +460,8 @@
                 "slot": 5
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -449,7 +477,8 @@
                 "slot": 5
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -465,7 +494,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -481,7 +511,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -497,7 +528,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -513,7 +545,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -529,7 +562,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -545,7 +579,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -561,7 +596,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -577,7 +613,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -593,7 +630,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -609,7 +647,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -625,7 +664,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -641,7 +681,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -654,7 +695,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -664,7 +706,8 @@
                 "well": "A2",
                 "type": "300ul resin tiprack",
                 "slot": 3
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -675,39 +718,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
-        },
-        {
-            "action": "delay",
-            "minutes": 0,
-            "seconds": 20.0
-        },
-        {
-            "action": "dispense",
-            "vol": 180.0,
-            "target": {
-                "well": "A2",
-                "labware": "equilibration plate",
-                "slot": 9
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
-        },
-        {
-            "action": "delay",
-            "minutes": 0,
-            "seconds": 5.0
-        },
-        {
-            "action": "aspirate",
-            "vol": 180.0,
-            "source": {
-                "well": "A2",
-                "labware": "equilibration plate",
-                "slot": 9
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -723,7 +735,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -739,7 +752,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -755,7 +769,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -771,7 +786,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -787,7 +803,42 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
+        },
+        {
+            "action": "delay",
+            "minutes": 0,
+            "seconds": 5.0
+        },
+        {
+            "action": "aspirate",
+            "vol": 180.0,
+            "source": {
+                "well": "A2",
+                "labware": "equilibration plate",
+                "slot": 9
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1.5)",
+            "channels": 8
+        },
+        {
+            "action": "delay",
+            "minutes": 0,
+            "seconds": 20.0
+        },
+        {
+            "action": "dispense",
+            "vol": 180.0,
+            "target": {
+                "well": "A2",
+                "labware": "equilibration plate",
+                "slot": 9
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -803,7 +854,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -819,7 +871,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -835,7 +888,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -851,7 +905,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -867,7 +922,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -883,7 +939,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -899,7 +956,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -915,7 +973,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -931,7 +990,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -947,7 +1007,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -963,7 +1024,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -979,7 +1041,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -995,7 +1058,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1011,7 +1075,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1027,7 +1092,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1043,7 +1109,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1059,7 +1126,8 @@
                 "slot": 5
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1075,7 +1143,8 @@
                 "slot": 5
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1091,7 +1160,8 @@
                 "slot": 5
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1107,7 +1177,8 @@
                 "slot": 5
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1123,7 +1194,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1139,7 +1211,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1155,7 +1228,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1171,7 +1245,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1187,7 +1262,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1203,7 +1279,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1219,7 +1296,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1235,7 +1313,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1251,7 +1330,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1267,7 +1347,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1283,7 +1364,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1299,7 +1381,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1312,7 +1395,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -1322,7 +1406,8 @@
                 "well": "A3",
                 "type": "300ul resin tiprack",
                 "slot": 3
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1333,39 +1418,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
-        },
-        {
-            "action": "delay",
-            "minutes": 0,
-            "seconds": 20.0
-        },
-        {
-            "action": "dispense",
-            "vol": 180.0,
-            "target": {
-                "well": "A3",
-                "labware": "equilibration plate",
-                "slot": 9
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
-        },
-        {
-            "action": "delay",
-            "minutes": 0,
-            "seconds": 5.0
-        },
-        {
-            "action": "aspirate",
-            "vol": 180.0,
-            "source": {
-                "well": "A3",
-                "labware": "equilibration plate",
-                "slot": 9
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1381,7 +1435,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1397,7 +1452,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1413,7 +1469,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1429,7 +1486,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1445,7 +1503,42 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
+        },
+        {
+            "action": "delay",
+            "minutes": 0,
+            "seconds": 5.0
+        },
+        {
+            "action": "aspirate",
+            "vol": 180.0,
+            "source": {
+                "well": "A3",
+                "labware": "equilibration plate",
+                "slot": 9
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1.5)",
+            "channels": 8
+        },
+        {
+            "action": "delay",
+            "minutes": 0,
+            "seconds": 20.0
+        },
+        {
+            "action": "dispense",
+            "vol": 180.0,
+            "target": {
+                "well": "A3",
+                "labware": "equilibration plate",
+                "slot": 9
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1461,7 +1554,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1477,7 +1571,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1493,7 +1588,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1509,7 +1605,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1525,7 +1622,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1541,7 +1639,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1557,7 +1656,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1573,7 +1673,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1589,7 +1690,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1605,7 +1707,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1621,7 +1724,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1637,7 +1741,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1653,7 +1758,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1669,7 +1775,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1685,7 +1792,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1701,7 +1809,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1717,7 +1826,8 @@
                 "slot": 5
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1733,7 +1843,8 @@
                 "slot": 5
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1749,7 +1860,8 @@
                 "slot": 5
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1765,7 +1877,8 @@
                 "slot": 5
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1781,7 +1894,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1797,7 +1911,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1813,7 +1928,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1829,7 +1945,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1845,7 +1962,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1861,7 +1979,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1877,7 +1996,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1893,7 +2013,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1909,7 +2030,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1925,7 +2047,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1941,7 +2064,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1957,7 +2081,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -1970,7 +2095,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -1980,7 +2106,8 @@
                 "well": "A4",
                 "type": "300ul resin tiprack",
                 "slot": 3
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1991,39 +2118,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
-        },
-        {
-            "action": "delay",
-            "minutes": 0,
-            "seconds": 20.0
-        },
-        {
-            "action": "dispense",
-            "vol": 180.0,
-            "target": {
-                "well": "A4",
-                "labware": "equilibration plate",
-                "slot": 9
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
-        },
-        {
-            "action": "delay",
-            "minutes": 0,
-            "seconds": 5.0
-        },
-        {
-            "action": "aspirate",
-            "vol": 180.0,
-            "source": {
-                "well": "A4",
-                "labware": "equilibration plate",
-                "slot": 9
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2039,7 +2135,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2055,7 +2152,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2071,7 +2169,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2087,7 +2186,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2103,7 +2203,42 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
+        },
+        {
+            "action": "delay",
+            "minutes": 0,
+            "seconds": 5.0
+        },
+        {
+            "action": "aspirate",
+            "vol": 180.0,
+            "source": {
+                "well": "A4",
+                "labware": "equilibration plate",
+                "slot": 9
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1.5)",
+            "channels": 8
+        },
+        {
+            "action": "delay",
+            "minutes": 0,
+            "seconds": 20.0
+        },
+        {
+            "action": "dispense",
+            "vol": 180.0,
+            "target": {
+                "well": "A4",
+                "labware": "equilibration plate",
+                "slot": 9
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2119,7 +2254,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2135,7 +2271,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2151,7 +2288,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2167,7 +2305,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2183,7 +2322,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2199,7 +2339,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2215,7 +2356,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2231,7 +2373,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2247,7 +2390,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2263,7 +2407,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2279,7 +2424,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2295,7 +2441,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2311,7 +2458,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2327,7 +2475,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2343,7 +2492,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2359,7 +2509,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2375,7 +2526,8 @@
                 "slot": 5
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2391,7 +2543,8 @@
                 "slot": 5
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2407,7 +2560,8 @@
                 "slot": 5
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2423,7 +2577,8 @@
                 "slot": 5
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2439,7 +2594,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2455,7 +2611,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2471,7 +2628,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2487,7 +2645,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2503,7 +2662,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2519,7 +2679,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2535,7 +2696,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2551,7 +2713,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2567,7 +2730,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2583,7 +2747,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2599,7 +2764,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2615,7 +2781,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2628,7 +2795,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -2638,7 +2806,8 @@
                 "well": "A5",
                 "type": "300ul resin tiprack",
                 "slot": 3
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2649,39 +2818,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
-        },
-        {
-            "action": "delay",
-            "minutes": 0,
-            "seconds": 20.0
-        },
-        {
-            "action": "dispense",
-            "vol": 180.0,
-            "target": {
-                "well": "A5",
-                "labware": "equilibration plate",
-                "slot": 9
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
-        },
-        {
-            "action": "delay",
-            "minutes": 0,
-            "seconds": 5.0
-        },
-        {
-            "action": "aspirate",
-            "vol": 180.0,
-            "source": {
-                "well": "A5",
-                "labware": "equilibration plate",
-                "slot": 9
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2697,7 +2835,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2713,7 +2852,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2729,7 +2869,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2745,7 +2886,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2761,7 +2903,42 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
+        },
+        {
+            "action": "delay",
+            "minutes": 0,
+            "seconds": 5.0
+        },
+        {
+            "action": "aspirate",
+            "vol": 180.0,
+            "source": {
+                "well": "A5",
+                "labware": "equilibration plate",
+                "slot": 9
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1.5)",
+            "channels": 8
+        },
+        {
+            "action": "delay",
+            "minutes": 0,
+            "seconds": 20.0
+        },
+        {
+            "action": "dispense",
+            "vol": 180.0,
+            "target": {
+                "well": "A5",
+                "labware": "equilibration plate",
+                "slot": 9
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2777,7 +2954,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2793,7 +2971,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2809,7 +2988,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2825,7 +3005,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2841,7 +3022,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2857,7 +3039,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2873,7 +3056,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2889,7 +3073,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2905,7 +3090,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2921,7 +3107,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2937,7 +3124,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2953,7 +3141,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2969,7 +3158,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2985,7 +3175,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3001,7 +3192,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3017,7 +3209,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3033,7 +3226,8 @@
                 "slot": 5
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3049,7 +3243,8 @@
                 "slot": 5
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3065,7 +3260,8 @@
                 "slot": 5
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3081,7 +3277,8 @@
                 "slot": 5
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3097,7 +3294,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3113,7 +3311,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3129,7 +3328,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3145,7 +3345,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3161,7 +3362,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3177,7 +3379,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3193,7 +3396,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3209,7 +3413,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3225,7 +3430,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3241,7 +3447,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3257,7 +3464,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3273,7 +3481,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3286,7 +3495,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -3296,7 +3506,8 @@
                 "well": "A6",
                 "type": "300ul resin tiprack",
                 "slot": 3
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3307,39 +3518,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
-        },
-        {
-            "action": "delay",
-            "minutes": 0,
-            "seconds": 20.0
-        },
-        {
-            "action": "dispense",
-            "vol": 180.0,
-            "target": {
-                "well": "A6",
-                "labware": "equilibration plate",
-                "slot": 9
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
-        },
-        {
-            "action": "delay",
-            "minutes": 0,
-            "seconds": 5.0
-        },
-        {
-            "action": "aspirate",
-            "vol": 180.0,
-            "source": {
-                "well": "A6",
-                "labware": "equilibration plate",
-                "slot": 9
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3355,7 +3535,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3371,7 +3552,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3387,7 +3569,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3403,7 +3586,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3419,7 +3603,42 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
+        },
+        {
+            "action": "delay",
+            "minutes": 0,
+            "seconds": 5.0
+        },
+        {
+            "action": "aspirate",
+            "vol": 180.0,
+            "source": {
+                "well": "A6",
+                "labware": "equilibration plate",
+                "slot": 9
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1.5)",
+            "channels": 8
+        },
+        {
+            "action": "delay",
+            "minutes": 0,
+            "seconds": 20.0
+        },
+        {
+            "action": "dispense",
+            "vol": 180.0,
+            "target": {
+                "well": "A6",
+                "labware": "equilibration plate",
+                "slot": 9
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3435,7 +3654,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3451,7 +3671,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3467,7 +3688,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3483,7 +3705,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3499,7 +3722,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3515,7 +3739,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3531,7 +3756,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3547,7 +3773,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3563,7 +3790,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3579,7 +3807,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3595,7 +3824,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3611,7 +3841,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3627,7 +3858,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3643,7 +3875,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3659,7 +3892,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3675,7 +3909,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3691,7 +3926,8 @@
                 "slot": 5
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3707,7 +3943,8 @@
                 "slot": 5
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3723,7 +3960,8 @@
                 "slot": 5
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3739,7 +3977,8 @@
                 "slot": 5
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3755,7 +3994,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3771,7 +4011,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3787,7 +4028,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3803,7 +4045,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3819,7 +4062,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3835,7 +4079,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3851,7 +4096,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3867,7 +4113,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3883,7 +4130,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3899,7 +4147,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3915,7 +4164,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3931,7 +4181,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3944,7 +4195,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -3954,7 +4206,8 @@
                 "well": "A7",
                 "type": "300ul resin tiprack",
                 "slot": 3
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3965,39 +4218,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
-        },
-        {
-            "action": "delay",
-            "minutes": 0,
-            "seconds": 20.0
-        },
-        {
-            "action": "dispense",
-            "vol": 180.0,
-            "target": {
-                "well": "A7",
-                "labware": "equilibration plate",
-                "slot": 9
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
-        },
-        {
-            "action": "delay",
-            "minutes": 0,
-            "seconds": 5.0
-        },
-        {
-            "action": "aspirate",
-            "vol": 180.0,
-            "source": {
-                "well": "A7",
-                "labware": "equilibration plate",
-                "slot": 9
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4013,7 +4235,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4029,7 +4252,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4045,7 +4269,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4061,7 +4286,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4077,7 +4303,42 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
+        },
+        {
+            "action": "delay",
+            "minutes": 0,
+            "seconds": 5.0
+        },
+        {
+            "action": "aspirate",
+            "vol": 180.0,
+            "source": {
+                "well": "A7",
+                "labware": "equilibration plate",
+                "slot": 9
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1.5)",
+            "channels": 8
+        },
+        {
+            "action": "delay",
+            "minutes": 0,
+            "seconds": 20.0
+        },
+        {
+            "action": "dispense",
+            "vol": 180.0,
+            "target": {
+                "well": "A7",
+                "labware": "equilibration plate",
+                "slot": 9
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4093,7 +4354,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4109,7 +4371,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4125,7 +4388,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4141,7 +4405,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4157,7 +4422,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4173,7 +4439,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4189,7 +4456,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4205,7 +4473,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4221,7 +4490,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4237,7 +4507,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4253,7 +4524,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4269,7 +4541,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4285,7 +4558,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4301,7 +4575,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4317,7 +4592,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4333,7 +4609,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4349,7 +4626,8 @@
                 "slot": 5
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4365,7 +4643,8 @@
                 "slot": 5
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4381,7 +4660,8 @@
                 "slot": 5
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4397,7 +4677,8 @@
                 "slot": 5
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4413,7 +4694,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4429,7 +4711,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4445,7 +4728,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4461,7 +4745,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4477,7 +4762,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4493,7 +4779,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4509,7 +4796,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4525,7 +4813,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4541,7 +4830,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4557,7 +4847,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4573,7 +4864,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4589,7 +4881,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4602,7 +4895,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -4612,7 +4906,8 @@
                 "well": "A8",
                 "type": "300ul resin tiprack",
                 "slot": 3
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4623,39 +4918,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
-        },
-        {
-            "action": "delay",
-            "minutes": 0,
-            "seconds": 20.0
-        },
-        {
-            "action": "dispense",
-            "vol": 180.0,
-            "target": {
-                "well": "A8",
-                "labware": "equilibration plate",
-                "slot": 9
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
-        },
-        {
-            "action": "delay",
-            "minutes": 0,
-            "seconds": 5.0
-        },
-        {
-            "action": "aspirate",
-            "vol": 180.0,
-            "source": {
-                "well": "A8",
-                "labware": "equilibration plate",
-                "slot": 9
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4671,7 +4935,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4687,7 +4952,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4703,7 +4969,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4719,7 +4986,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4735,7 +5003,42 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
+        },
+        {
+            "action": "delay",
+            "minutes": 0,
+            "seconds": 5.0
+        },
+        {
+            "action": "aspirate",
+            "vol": 180.0,
+            "source": {
+                "well": "A8",
+                "labware": "equilibration plate",
+                "slot": 9
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1.5)",
+            "channels": 8
+        },
+        {
+            "action": "delay",
+            "minutes": 0,
+            "seconds": 20.0
+        },
+        {
+            "action": "dispense",
+            "vol": 180.0,
+            "target": {
+                "well": "A8",
+                "labware": "equilibration plate",
+                "slot": 9
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4751,7 +5054,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4767,7 +5071,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4783,7 +5088,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4799,7 +5105,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4815,7 +5122,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4831,7 +5139,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4847,7 +5156,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4863,7 +5173,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4879,7 +5190,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4895,7 +5207,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4911,7 +5224,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4927,7 +5241,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4943,7 +5258,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4959,7 +5275,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4975,7 +5292,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -4991,7 +5309,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5007,7 +5326,8 @@
                 "slot": 5
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5023,7 +5343,8 @@
                 "slot": 5
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5039,7 +5360,8 @@
                 "slot": 5
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5055,7 +5377,8 @@
                 "slot": 5
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5071,7 +5394,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5087,7 +5411,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5103,7 +5428,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5119,7 +5445,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5135,7 +5462,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5151,7 +5479,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5167,7 +5496,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5183,7 +5513,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5199,7 +5530,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5215,7 +5547,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5231,7 +5564,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5247,7 +5581,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5260,7 +5595,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -5270,7 +5606,8 @@
                 "well": "A9",
                 "type": "300ul resin tiprack",
                 "slot": 3
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5281,39 +5618,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
-        },
-        {
-            "action": "delay",
-            "minutes": 0,
-            "seconds": 20.0
-        },
-        {
-            "action": "dispense",
-            "vol": 180.0,
-            "target": {
-                "well": "A9",
-                "labware": "equilibration plate",
-                "slot": 9
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
-        },
-        {
-            "action": "delay",
-            "minutes": 0,
-            "seconds": 5.0
-        },
-        {
-            "action": "aspirate",
-            "vol": 180.0,
-            "source": {
-                "well": "A9",
-                "labware": "equilibration plate",
-                "slot": 9
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5329,7 +5635,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5345,7 +5652,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5361,7 +5669,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5377,7 +5686,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5393,7 +5703,42 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
+        },
+        {
+            "action": "delay",
+            "minutes": 0,
+            "seconds": 5.0
+        },
+        {
+            "action": "aspirate",
+            "vol": 180.0,
+            "source": {
+                "well": "A9",
+                "labware": "equilibration plate",
+                "slot": 9
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1.5)",
+            "channels": 8
+        },
+        {
+            "action": "delay",
+            "minutes": 0,
+            "seconds": 20.0
+        },
+        {
+            "action": "dispense",
+            "vol": 180.0,
+            "target": {
+                "well": "A9",
+                "labware": "equilibration plate",
+                "slot": 9
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5409,7 +5754,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5425,7 +5771,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5441,7 +5788,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5457,7 +5805,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5473,7 +5822,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5489,7 +5839,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5505,7 +5856,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5521,7 +5873,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5537,7 +5890,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5553,7 +5907,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5569,7 +5924,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5585,7 +5941,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5601,7 +5958,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5617,7 +5975,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5633,7 +5992,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5649,7 +6009,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5665,7 +6026,8 @@
                 "slot": 5
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5681,7 +6043,8 @@
                 "slot": 5
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5697,7 +6060,8 @@
                 "slot": 5
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5713,7 +6077,8 @@
                 "slot": 5
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5729,7 +6094,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5745,7 +6111,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5761,7 +6128,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5777,7 +6145,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5793,7 +6162,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5809,7 +6179,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5825,7 +6196,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5841,7 +6213,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5857,7 +6230,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5873,7 +6247,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5889,7 +6264,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5905,7 +6281,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5918,7 +6295,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -5928,7 +6306,8 @@
                 "well": "A10",
                 "type": "300ul resin tiprack",
                 "slot": 3
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5939,39 +6318,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
-        },
-        {
-            "action": "delay",
-            "minutes": 0,
-            "seconds": 20.0
-        },
-        {
-            "action": "dispense",
-            "vol": 180.0,
-            "target": {
-                "well": "A10",
-                "labware": "equilibration plate",
-                "slot": 9
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
-        },
-        {
-            "action": "delay",
-            "minutes": 0,
-            "seconds": 5.0
-        },
-        {
-            "action": "aspirate",
-            "vol": 180.0,
-            "source": {
-                "well": "A10",
-                "labware": "equilibration plate",
-                "slot": 9
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -5987,7 +6335,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6003,7 +6352,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6019,7 +6369,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6035,7 +6386,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6051,7 +6403,42 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
+        },
+        {
+            "action": "delay",
+            "minutes": 0,
+            "seconds": 5.0
+        },
+        {
+            "action": "aspirate",
+            "vol": 180.0,
+            "source": {
+                "well": "A10",
+                "labware": "equilibration plate",
+                "slot": 9
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1.5)",
+            "channels": 8
+        },
+        {
+            "action": "delay",
+            "minutes": 0,
+            "seconds": 20.0
+        },
+        {
+            "action": "dispense",
+            "vol": 180.0,
+            "target": {
+                "well": "A10",
+                "labware": "equilibration plate",
+                "slot": 9
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6067,7 +6454,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6083,7 +6471,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6099,7 +6488,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6115,7 +6505,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6131,7 +6522,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6147,7 +6539,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6163,7 +6556,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6179,7 +6573,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6195,7 +6590,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6211,7 +6607,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6227,7 +6624,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6243,7 +6641,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6259,7 +6658,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6275,7 +6675,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6291,7 +6692,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6307,7 +6709,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6323,7 +6726,8 @@
                 "slot": 5
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6339,7 +6743,8 @@
                 "slot": 5
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6355,7 +6760,8 @@
                 "slot": 5
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6371,7 +6777,8 @@
                 "slot": 5
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6387,7 +6794,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6403,7 +6811,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6419,7 +6828,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6435,7 +6845,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6451,7 +6862,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6467,7 +6879,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6483,7 +6896,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6499,7 +6913,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6515,7 +6930,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6531,7 +6947,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6547,7 +6964,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6563,7 +6981,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6576,7 +6995,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -6586,7 +7006,8 @@
                 "well": "A11",
                 "type": "300ul resin tiprack",
                 "slot": 3
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -6597,39 +7018,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
-        },
-        {
-            "action": "delay",
-            "minutes": 0,
-            "seconds": 20.0
-        },
-        {
-            "action": "dispense",
-            "vol": 180.0,
-            "target": {
-                "well": "A11",
-                "labware": "equilibration plate",
-                "slot": 9
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
-        },
-        {
-            "action": "delay",
-            "minutes": 0,
-            "seconds": 5.0
-        },
-        {
-            "action": "aspirate",
-            "vol": 180.0,
-            "source": {
-                "well": "A11",
-                "labware": "equilibration plate",
-                "slot": 9
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6645,7 +7035,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6661,7 +7052,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6677,7 +7069,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6693,7 +7086,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6709,7 +7103,42 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
+        },
+        {
+            "action": "delay",
+            "minutes": 0,
+            "seconds": 5.0
+        },
+        {
+            "action": "aspirate",
+            "vol": 180.0,
+            "source": {
+                "well": "A11",
+                "labware": "equilibration plate",
+                "slot": 9
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1.5)",
+            "channels": 8
+        },
+        {
+            "action": "delay",
+            "minutes": 0,
+            "seconds": 20.0
+        },
+        {
+            "action": "dispense",
+            "vol": 180.0,
+            "target": {
+                "well": "A11",
+                "labware": "equilibration plate",
+                "slot": 9
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6725,7 +7154,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6741,7 +7171,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6757,7 +7188,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6773,7 +7205,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6789,7 +7222,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6805,7 +7239,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6821,7 +7256,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6837,7 +7273,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6853,7 +7290,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6869,7 +7307,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6885,7 +7324,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6901,7 +7341,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6917,7 +7358,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6933,7 +7375,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6949,7 +7392,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6965,7 +7409,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6981,7 +7426,8 @@
                 "slot": 5
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -6997,7 +7443,8 @@
                 "slot": 5
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7013,7 +7460,8 @@
                 "slot": 5
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7029,7 +7477,8 @@
                 "slot": 5
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7045,7 +7494,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7061,7 +7511,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7077,7 +7528,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7093,7 +7545,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7109,7 +7562,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7125,7 +7579,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7141,7 +7596,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7157,7 +7613,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7173,7 +7630,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7189,7 +7647,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7205,7 +7664,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7221,7 +7681,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7234,7 +7695,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -7244,7 +7706,8 @@
                 "well": "A12",
                 "type": "300ul resin tiprack",
                 "slot": 3
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -7255,39 +7718,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
-        },
-        {
-            "action": "delay",
-            "minutes": 0,
-            "seconds": 20.0
-        },
-        {
-            "action": "dispense",
-            "vol": 180.0,
-            "target": {
-                "well": "A12",
-                "labware": "equilibration plate",
-                "slot": 9
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
-        },
-        {
-            "action": "delay",
-            "minutes": 0,
-            "seconds": 5.0
-        },
-        {
-            "action": "aspirate",
-            "vol": 180.0,
-            "source": {
-                "well": "A12",
-                "labware": "equilibration plate",
-                "slot": 9
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7303,7 +7735,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7319,7 +7752,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7335,7 +7769,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7351,7 +7786,8 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7367,7 +7803,42 @@
                 "slot": 9
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
+        },
+        {
+            "action": "delay",
+            "minutes": 0,
+            "seconds": 5.0
+        },
+        {
+            "action": "aspirate",
+            "vol": 180.0,
+            "source": {
+                "well": "A12",
+                "labware": "equilibration plate",
+                "slot": 9
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1.5)",
+            "channels": 8
+        },
+        {
+            "action": "delay",
+            "minutes": 0,
+            "seconds": 20.0
+        },
+        {
+            "action": "dispense",
+            "vol": 180.0,
+            "target": {
+                "well": "A12",
+                "labware": "equilibration plate",
+                "slot": 9
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7383,7 +7854,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7399,7 +7871,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7415,7 +7888,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7431,7 +7905,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7447,7 +7922,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7463,7 +7939,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7479,7 +7956,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7495,7 +7973,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7511,7 +7990,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7527,7 +8007,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7543,7 +8024,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7559,7 +8041,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7575,7 +8058,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7591,7 +8075,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7607,7 +8092,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7623,7 +8109,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7639,7 +8126,8 @@
                 "slot": 5
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7655,7 +8143,8 @@
                 "slot": 5
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7671,7 +8160,8 @@
                 "slot": 5
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7687,7 +8177,8 @@
                 "slot": 5
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7703,7 +8194,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7719,7 +8211,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7735,7 +8228,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7751,7 +8245,8 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7767,7 +8262,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7783,7 +8279,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7799,7 +8296,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7815,7 +8313,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7831,7 +8330,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7847,7 +8347,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7863,7 +8364,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7879,7 +8381,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -7892,7 +8395,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ]
 ]

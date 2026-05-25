@@ -1132,7 +1132,9 @@
     },
     "water": {
       "well": "A1",
-      "slot": "unknown"
+      "slot": 6,
+      "liquid_name": "water",
+      "source": "load_liquid"
     },
     "licl_h2o": {
       "well": "A2",
@@ -1145,6 +1147,125 @@
     "reagent": {
       "well": "B2",
       "slot": "unknown"
+    },
+    "A": {
+      "slot": 4,
+      "well": "A1",
+      "liquid_name": "A",
+      "source": "load_liquid"
+    },
+    "B": {
+      "slot": 4,
+      "well": "B1",
+      "liquid_name": "B",
+      "source": "load_liquid"
+    },
+    "C": {
+      "slot": 4,
+      "well": "C1",
+      "liquid_name": "C",
+      "source": "load_liquid"
+    },
+    "D": {
+      "slot": 4,
+      "well": "D1",
+      "liquid_name": "D",
+      "source": "load_liquid"
+    },
+    "E": {
+      "slot": 4,
+      "well": "A2",
+      "liquid_name": "E",
+      "source": "load_liquid"
+    },
+    "F": {
+      "slot": 4,
+      "well": "B2",
+      "liquid_name": "F",
+      "source": "load_liquid"
+    },
+    "G": {
+      "slot": 4,
+      "well": "C2",
+      "liquid_name": "G",
+      "source": "load_liquid"
+    },
+    "H": {
+      "slot": 4,
+      "well": "D2",
+      "liquid_name": "H",
+      "source": "load_liquid"
+    },
+    "I": {
+      "slot": 4,
+      "well": "A3",
+      "liquid_name": "I",
+      "source": "load_liquid"
+    },
+    "J": {
+      "slot": 4,
+      "well": "B3",
+      "liquid_name": "J",
+      "source": "load_liquid"
+    },
+    "DNA template 1": {
+      "slot": 7,
+      "well": "A1",
+      "liquid_name": "DNA template 1",
+      "source": "load_liquid"
+    },
+    "DNA template 2": {
+      "slot": 7,
+      "well": "B1",
+      "liquid_name": "DNA template 2",
+      "source": "load_liquid"
+    },
+    "P (1:100 dilution)": {
+      "slot": 7,
+      "well": "C1",
+      "liquid_name": "P (1:100 dilution)",
+      "source": "load_liquid"
+    },
+    "TP": {
+      "slot": 7,
+      "well": "D1",
+      "liquid_name": "TP",
+      "source": "load_liquid"
+    },
+    "mix tube": {
+      "slot": 8,
+      "well": "A1",
+      "liquid_name": "mix tube",
+      "source": "load_liquid"
+    },
+    "enzyme mix tube": {
+      "slot": 7,
+      "well": "A6",
+      "liquid_name": "enzyme mix tube",
+      "source": "load_liquid"
+    },
+    "DN": {
+      "slot": 7,
+      "well": "A2",
+      "liquid_name": "DN",
+      "source": "load_liquid"
+    },
+    "CaC": {
+      "slot": 7,
+      "well": "B2",
+      "liquid_name": "CaC",
+      "source": "load_liquid"
+    },
+    "LiCl + H2O": {
+      "slot": 6,
+      "well": "A2",
+      "liquid_name": "LiCl + H2O",
+      "source": "load_liquid"
     }
+  },
+  "metadata": {
+    "protocolName": "IVT Aliquots",
+    "author": "Nick Diehl <ndiehl@opentrons.com>",
+    "apiLevel": "2.14"
   }
 }

@@ -1,9 +1,22 @@
 {
+  "metadata": {
+    "workflow_name": "Transfer Small Molecules - CSV Input [4/7]",
+    "tags": [
+      "Proteins & Proteomics",
+      "Assay"
+    ],
+    "raw": {
+      "protocolName": "Transfer Small Molecules - CSV Input [4/7]",
+      "author": "Chaz <chaz@opentrons.com>",
+      "source": "Custom Protocol Request",
+      "apiLevel": "2.9"
+    }
+  },
   "workflow": [
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "Liquid_1",
+        "sources": "transfer_csv",
         "targets": "samples",
         "asp_vols": [
           4.0
@@ -29,13 +42,14 @@
     }
   ],
   "reagent": {
-    "Liquid_1": {
+    "transfer_csv": {
       "slot": 1,
       "well": [
         "A1"
       ],
       "labware": "thermofast_96_wellplate_200ul",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "samples": {
       "slot": 2,
@@ -43,7 +57,8 @@
         "A2"
       ],
       "labware": "spl_96_wellplate_200ul_flat",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "tiprack_3": {
       "slot": 3,

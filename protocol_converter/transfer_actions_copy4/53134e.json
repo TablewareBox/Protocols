@@ -1,4 +1,17 @@
 {
+  "metadata": {
+    "workflow_name": "Media Aliquotting",
+    "tags": [
+      "Sample Prep",
+      "Aliquoting"
+    ],
+    "raw": {
+      "protocolName": "Media Aliquotting",
+      "author": "Nick <ndiehl@opentrons.com",
+      "source": "Custom Protocol Request",
+      "apiLevel": "2.3"
+    }
+  },
   "workflow": [
     {
       "action": "transfer_liquid",
@@ -266,7 +279,8 @@
         "A1"
       ],
       "labware": "nest_1_reservoir_195ml",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "samples": {
       "slot": 2,
@@ -321,7 +335,8 @@
         "D6"
       ],
       "labware": "custom_24_tuberack_2000ul",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "tiprack_4": {
       "slot": 4,

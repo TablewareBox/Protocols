@@ -1,51 +1,133 @@
 {
+  "metadata": {
+    "workflow_name": "Consolidation from .csv",
+    "tags": [
+      "Sample Prep",
+      "Consolidation"
+    ],
+    "raw": {
+      "protocolName": "Consolidation from .csv",
+      "author": "Nick <protocols@opentrons.com>",
+      "source": "Custom Protocol Request",
+      "apiLevel": "2.0"
+    }
+  },
   "workflow": [
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "Liquid",
+        "sources": "Liquid_1",
         "targets": "samples",
         "asp_vols": [
-          3.0,
-          4.0,
-          5.0,
           3.0
         ],
         "dis_vols": [
-          3.0,
-          4.0,
-          5.0,
           3.0
         ],
         "asp_flow_rates": [
-          7.6,
-          7.6,
-          7.6,
           7.6
         ],
         "dis_flow_rates": [
-          7.6,
-          7.6,
-          7.6,
           7.6
         ],
         "tip_racks": "tiprack_1",
         "blow_out_air_volume_before": [
-          8.5,
-          8.0,
-          7.5,
           8.5
         ],
         "blow_out_air_volume": [
-          8.5,
-          8.0,
-          7.5,
           8.5
         ],
         "liquid_height": [
-          0,
-          0,
-          0,
+          0
+        ],
+        "touch_tip": true
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "Liquid_2",
+        "targets": "samples",
+        "asp_vols": [
+          4.0
+        ],
+        "dis_vols": [
+          4.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_1",
+        "blow_out_air_volume_before": [
+          8.0
+        ],
+        "blow_out_air_volume": [
+          8.0
+        ],
+        "liquid_height": [
+          0
+        ],
+        "touch_tip": true
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "Liquid_3",
+        "targets": "samples_2",
+        "asp_vols": [
+          5.0
+        ],
+        "dis_vols": [
+          5.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_1",
+        "blow_out_air_volume_before": [
+          7.5
+        ],
+        "blow_out_air_volume": [
+          7.5
+        ],
+        "liquid_height": [
+          0
+        ],
+        "touch_tip": true
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "source",
+        "targets": "samples",
+        "asp_vols": [
+          3.0
+        ],
+        "dis_vols": [
+          3.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_1",
+        "blow_out_air_volume_before": [
+          8.5
+        ],
+        "blow_out_air_volume": [
+          8.5
+        ],
+        "liquid_height": [
           0
         ],
         "touch_tip": true
@@ -53,27 +135,59 @@
     }
   ],
   "reagent": {
-    "Liquid": {
+    "Liquid_1": {
       "slot": 2,
       "well": [
-        "A1",
-        "B1",
-        "C1",
+        "A1"
+      ],
+      "labware": "abgene_96_wellplate_330ul_round",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "Liquid_2": {
+      "slot": 2,
+      "well": [
+        "B1"
+      ],
+      "labware": "abgene_96_wellplate_330ul_round",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "Liquid_3": {
+      "slot": 2,
+      "well": [
+        "C1"
+      ],
+      "labware": "abgene_96_wellplate_330ul_round",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "source": {
+      "slot": 2,
+      "well": [
         "D1"
       ],
       "labware": "abgene_96_wellplate_330ul_round",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "samples": {
       "slot": 9,
       "well": [
-        "A1",
-        "A1",
-        "B1",
         "A1"
       ],
       "labware": "vwr_15_tuberack_5000ul",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
+    },
+    "samples_2": {
+      "slot": 9,
+      "well": [
+        "B1"
+      ],
+      "labware": "vwr_15_tuberack_5000ul",
+      "object": "target",
+      "liquid_name": "sample"
     },
     "tiprack_1": {
       "slot": 1,

@@ -1,4 +1,17 @@
 {
+  "metadata": {
+    "workflow_name": "Cherrypicking PCR/qPCR prep",
+    "tags": [
+      "PCR",
+      "PCR Prep"
+    ],
+    "raw": {
+      "protocolName": "Cherrypicking PCR/qPCR prep",
+      "author": "Sakib <sakib.hossain@opentrons.com>",
+      "description": "Custom Protocol Request",
+      "apiLevel": "2.7"
+    }
+  },
   "workflow": [
     {
       "action": "transfer_liquid",
@@ -31,7 +44,8 @@
         "A6"
       ],
       "labware": "opentrons_24_tuberack_generic_2ml_screwcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "mastermix"
     },
     "samples": {
       "slot": 3,
@@ -39,7 +53,8 @@
         "A1"
       ],
       "labware": "appliedbiosystems_96_wellplate_100ul",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "mastermix_wells"
     },
     "tiprack_1": {
       "slot": 1,

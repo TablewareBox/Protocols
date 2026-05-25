@@ -1,9 +1,22 @@
 {
+  "metadata": {
+    "workflow_name": "Cherrypicking",
+    "tags": [
+      "Sample Prep",
+      "Cherrypicking"
+    ],
+    "raw": {
+      "protocolName": "Cherrypicking",
+      "author": "Nick <protocols@opentrons.com>",
+      "source": "Custom Protocol Request",
+      "apiLevel": "2.8"
+    }
+  },
   "workflow": [
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "Liquid_3",
+        "sources": "mount",
         "targets": "samples",
         "asp_vols": [
           7.0,
@@ -31,7 +44,7 @@
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "Liquid_1",
+        "sources": "transfer_csv_file",
         "targets": "samples_2",
         "asp_vols": [
           1.0
@@ -54,7 +67,7 @@
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "Liquid_2",
+        "sources": "model",
         "targets": "samples_3",
         "asp_vols": [
           3.0
@@ -76,29 +89,32 @@
     }
   ],
   "reagent": {
-    "Liquid_3": {
+    "mount": {
       "slot": 10,
       "well": [
         "A1"
       ],
       "labware": "nest_1_reservoir_195ml",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
-    "Liquid_1": {
+    "transfer_csv_file": {
       "slot": 3,
       "well": [
         "A1"
       ],
       "labware": "agilent_1_reservoir_290ml",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
-    "Liquid_2": {
+    "model": {
       "slot": 4,
       "well": [
         "A1"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "samples": {
       "slot": 5,
@@ -106,7 +122,8 @@
         "H12"
       ],
       "labware": "nest_96_wellplate_2ml_deep",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_2": {
       "slot": 4,
@@ -114,7 +131,8 @@
         "A11"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_3": {
       "slot": 5,
@@ -122,7 +140,8 @@
         "A5"
       ],
       "labware": "nest_96_wellplate_2ml_deep",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "tiprack_1": {
       "slot": 1,

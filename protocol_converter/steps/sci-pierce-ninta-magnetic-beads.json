@@ -1864,7 +1864,8 @@
                 "well": "A2",
                 "type": "Opentrons OT-2 96 Tip Rack 300 µL",
                 "slot": 9
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1873,29 +1874,9 @@
                 "well": "A1",
                 "labware": "equilibration buffer",
                 "slot": 4
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "dispense",
-            "vol": 225.0,
-            "target": {
-                "well": "A1",
-                "labware": "NEST 96 Deep Well Plate 2 mL",
-                "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(7.5)"
-        },
-        {
-            "action": "aspirate",
-            "vol": 225.0,
-            "source": {
-                "well": "A1",
-                "labware": "equilibration buffer",
-                "slot": 4
-            },
-            "flow_rate": 7.6
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -1906,7 +1887,31 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(7.5)"
+            "pose_z": "bottom(7.5)",
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 225.0,
+            "source": {
+                "well": "A1",
+                "labware": "equilibration buffer",
+                "slot": 4
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 225.0,
+            "target": {
+                "well": "A1",
+                "labware": "NEST 96 Deep Well Plate 2 mL",
+                "slot": 1
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(7.5)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1916,7 +1921,8 @@
                 "labware": "equilibration buffer",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -1927,7 +1933,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(7.5)"
+            "pose_z": "bottom(7.5)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1937,7 +1944,8 @@
                 "labware": "equilibration buffer",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -1948,7 +1956,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(7.5)"
+            "pose_z": "bottom(7.5)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1957,29 +1966,9 @@
                 "well": "A3",
                 "labware": "equilibration buffer",
                 "slot": 4
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "dispense",
-            "vol": 225.0,
-            "target": {
-                "well": "A3",
-                "labware": "NEST 96 Deep Well Plate 2 mL",
-                "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(7.5)"
-        },
-        {
-            "action": "aspirate",
-            "vol": 225.0,
-            "source": {
-                "well": "A3",
-                "labware": "equilibration buffer",
-                "slot": 4
-            },
-            "flow_rate": 7.6
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -1990,7 +1979,31 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(7.5)"
+            "pose_z": "bottom(7.5)",
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 225.0,
+            "source": {
+                "well": "A3",
+                "labware": "equilibration buffer",
+                "slot": 4
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 225.0,
+            "target": {
+                "well": "A3",
+                "labware": "NEST 96 Deep Well Plate 2 mL",
+                "slot": 1
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(7.5)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2000,7 +2013,8 @@
                 "labware": "equilibration buffer",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2011,7 +2025,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(7.5)"
+            "pose_z": "bottom(7.5)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2021,7 +2036,8 @@
                 "labware": "equilibration buffer",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2032,7 +2048,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(7.5)"
+            "pose_z": "bottom(7.5)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2041,29 +2058,9 @@
                 "well": "A5",
                 "labware": "equilibration buffer",
                 "slot": 4
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "dispense",
-            "vol": 225.0,
-            "target": {
-                "well": "A5",
-                "labware": "NEST 96 Deep Well Plate 2 mL",
-                "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(7.5)"
-        },
-        {
-            "action": "aspirate",
-            "vol": 225.0,
-            "source": {
-                "well": "A5",
-                "labware": "equilibration buffer",
-                "slot": 4
-            },
-            "flow_rate": 7.6
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2074,7 +2071,31 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(7.5)"
+            "pose_z": "bottom(7.5)",
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 225.0,
+            "source": {
+                "well": "A5",
+                "labware": "equilibration buffer",
+                "slot": 4
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 225.0,
+            "target": {
+                "well": "A5",
+                "labware": "NEST 96 Deep Well Plate 2 mL",
+                "slot": 1
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(7.5)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2084,7 +2105,8 @@
                 "labware": "equilibration buffer",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2095,7 +2117,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(7.5)"
+            "pose_z": "bottom(7.5)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2105,7 +2128,8 @@
                 "labware": "equilibration buffer",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2116,7 +2140,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(7.5)"
+            "pose_z": "bottom(7.5)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2125,29 +2150,9 @@
                 "well": "A7",
                 "labware": "equilibration buffer",
                 "slot": 4
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "dispense",
-            "vol": 225.0,
-            "target": {
-                "well": "A7",
-                "labware": "NEST 96 Deep Well Plate 2 mL",
-                "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(7.5)"
-        },
-        {
-            "action": "aspirate",
-            "vol": 225.0,
-            "source": {
-                "well": "A7",
-                "labware": "equilibration buffer",
-                "slot": 4
-            },
-            "flow_rate": 7.6
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2158,7 +2163,31 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(7.5)"
+            "pose_z": "bottom(7.5)",
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 225.0,
+            "source": {
+                "well": "A7",
+                "labware": "equilibration buffer",
+                "slot": 4
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 225.0,
+            "target": {
+                "well": "A7",
+                "labware": "NEST 96 Deep Well Plate 2 mL",
+                "slot": 1
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(7.5)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2168,7 +2197,8 @@
                 "labware": "equilibration buffer",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2179,7 +2209,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(7.5)"
+            "pose_z": "bottom(7.5)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2189,7 +2220,8 @@
                 "labware": "equilibration buffer",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2200,7 +2232,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(7.5)"
+            "pose_z": "bottom(7.5)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2209,29 +2242,9 @@
                 "well": "A9",
                 "labware": "equilibration buffer",
                 "slot": 4
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "dispense",
-            "vol": 225.0,
-            "target": {
-                "well": "A9",
-                "labware": "NEST 96 Deep Well Plate 2 mL",
-                "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(7.5)"
-        },
-        {
-            "action": "aspirate",
-            "vol": 225.0,
-            "source": {
-                "well": "A9",
-                "labware": "equilibration buffer",
-                "slot": 4
-            },
-            "flow_rate": 7.6
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2242,7 +2255,31 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(7.5)"
+            "pose_z": "bottom(7.5)",
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 225.0,
+            "source": {
+                "well": "A9",
+                "labware": "equilibration buffer",
+                "slot": 4
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 225.0,
+            "target": {
+                "well": "A9",
+                "labware": "NEST 96 Deep Well Plate 2 mL",
+                "slot": 1
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(7.5)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2252,7 +2289,8 @@
                 "labware": "equilibration buffer",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2263,7 +2301,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(7.5)"
+            "pose_z": "bottom(7.5)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2273,7 +2312,8 @@
                 "labware": "equilibration buffer",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2284,7 +2324,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(7.5)"
+            "pose_z": "bottom(7.5)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2294,7 +2335,8 @@
                 "labware": "equilibration buffer",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2305,7 +2347,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(7.5)"
+            "pose_z": "bottom(7.5)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2315,7 +2358,8 @@
                 "labware": "equilibration buffer",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2326,7 +2370,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(7.5)"
+            "pose_z": "bottom(7.5)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2336,7 +2381,8 @@
                 "labware": "equilibration buffer",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2347,7 +2393,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(7.5)"
+            "pose_z": "bottom(7.5)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2357,7 +2404,8 @@
                 "labware": "equilibration buffer",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2368,7 +2416,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(7.5)"
+            "pose_z": "bottom(7.5)",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -2376,7 +2425,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         },
         {
             "action": "delay",
@@ -2391,7 +2441,8 @@
                 "well": "A3",
                 "type": "Opentrons OT-2 96 Tip Rack 300 µL",
                 "slot": 9
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2402,7 +2453,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2413,7 +2465,8 @@
                 "slot": 8
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -2422,7 +2475,8 @@
                 "labware": "waste",
                 "slot": 8
             },
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2433,7 +2487,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2444,7 +2499,8 @@
                 "slot": 8
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -2453,38 +2509,8 @@
                 "labware": "waste",
                 "slot": 8
             },
-            "pose_z": "bottom(25)"
-        },
-        {
-            "action": "aspirate",
-            "vol": 260.0,
-            "source": {
-                "well": "A2",
-                "labware": "NEST 96 Deep Well Plate 2 mL",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
-        },
-        {
-            "action": "dispense",
-            "vol": 260.0,
-            "target": {
-                "well": "A1",
-                "labware": "waste",
-                "slot": 8
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(25)"
-        },
-        {
-            "action": "blow_out",
-            "at": {
-                "well": "A1",
-                "labware": "waste",
-                "slot": 8
-            },
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2495,7 +2521,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2506,7 +2533,8 @@
                 "slot": 8
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -2515,7 +2543,42 @@
                 "labware": "waste",
                 "slot": 8
             },
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 260.0,
+            "source": {
+                "well": "A2",
+                "labware": "NEST 96 Deep Well Plate 2 mL",
+                "slot": 1
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(0.5)",
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 260.0,
+            "target": {
+                "well": "A1",
+                "labware": "waste",
+                "slot": 8
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(25)",
+            "channels": 8
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A1",
+                "labware": "waste",
+                "slot": 8
+            },
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2526,7 +2589,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2537,7 +2601,8 @@
                 "slot": 8
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -2546,7 +2611,8 @@
                 "labware": "waste",
                 "slot": 8
             },
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2557,7 +2623,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2568,7 +2635,8 @@
                 "slot": 8
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -2577,7 +2645,8 @@
                 "labware": "waste",
                 "slot": 8
             },
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2588,7 +2657,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2599,7 +2669,8 @@
                 "slot": 8
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -2608,7 +2679,8 @@
                 "labware": "waste",
                 "slot": 8
             },
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2619,7 +2691,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2630,7 +2703,8 @@
                 "slot": 8
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -2639,7 +2713,8 @@
                 "labware": "waste",
                 "slot": 8
             },
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2650,7 +2725,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2661,7 +2737,8 @@
                 "slot": 8
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -2670,7 +2747,8 @@
                 "labware": "waste",
                 "slot": 8
             },
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2681,7 +2759,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2692,7 +2771,8 @@
                 "slot": 8
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -2701,7 +2781,8 @@
                 "labware": "waste",
                 "slot": 8
             },
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2712,7 +2793,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2723,7 +2805,8 @@
                 "slot": 8
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -2732,7 +2815,8 @@
                 "labware": "waste",
                 "slot": 8
             },
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2743,7 +2827,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2754,7 +2839,8 @@
                 "slot": 8
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -2763,7 +2849,8 @@
                 "labware": "waste",
                 "slot": 8
             },
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2774,7 +2861,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2785,7 +2873,8 @@
                 "slot": 8
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -2794,7 +2883,8 @@
                 "labware": "waste",
                 "slot": 8
             },
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2805,7 +2895,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2816,7 +2907,8 @@
                 "slot": 8
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -2825,7 +2917,8 @@
                 "labware": "waste",
                 "slot": 8
             },
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2836,7 +2929,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2847,7 +2941,8 @@
                 "slot": 8
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -2856,7 +2951,8 @@
                 "labware": "waste",
                 "slot": 8
             },
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2867,7 +2963,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2878,7 +2975,8 @@
                 "slot": 8
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -2887,7 +2985,8 @@
                 "labware": "waste",
                 "slot": 8
             },
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2898,7 +2997,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2909,7 +3009,8 @@
                 "slot": 8
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -2918,7 +3019,8 @@
                 "labware": "waste",
                 "slot": 8
             },
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2929,7 +3031,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2940,7 +3043,8 @@
                 "slot": 8
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -2949,7 +3053,8 @@
                 "labware": "waste",
                 "slot": 8
             },
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2960,7 +3065,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -2971,7 +3077,8 @@
                 "slot": 8
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -2980,7 +3087,8 @@
                 "labware": "waste",
                 "slot": 8
             },
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -2991,7 +3099,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3002,7 +3111,8 @@
                 "slot": 8
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -3011,7 +3121,8 @@
                 "labware": "waste",
                 "slot": 8
             },
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3022,7 +3133,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3033,7 +3145,8 @@
                 "slot": 8
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -3042,7 +3155,8 @@
                 "labware": "waste",
                 "slot": 8
             },
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3053,7 +3167,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3064,7 +3179,8 @@
                 "slot": 8
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -3073,7 +3189,8 @@
                 "labware": "waste",
                 "slot": 8
             },
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3084,7 +3201,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3095,7 +3213,8 @@
                 "slot": 8
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -3104,7 +3223,8 @@
                 "labware": "waste",
                 "slot": 8
             },
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3115,7 +3235,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3126,7 +3247,8 @@
                 "slot": 8
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -3135,7 +3257,8 @@
                 "labware": "waste",
                 "slot": 8
             },
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -3143,7 +3266,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -3153,7 +3277,8 @@
                 "well": "A4",
                 "type": "Opentrons OT-2 96 Tip Rack 300 µL",
                 "slot": 9
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3162,29 +3287,9 @@
                 "well": "A1",
                 "labware": "equilibration buffer",
                 "slot": 4
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "dispense",
-            "vol": 250.0,
-            "target": {
-                "well": "A1",
-                "labware": "NEST 96 Deep Well Plate 2 mL",
-                "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(7.5)"
-        },
-        {
-            "action": "aspirate",
-            "vol": 250.0,
-            "source": {
-                "well": "A1",
-                "labware": "equilibration buffer",
-                "slot": 4
-            },
-            "flow_rate": 7.6
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3195,7 +3300,31 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(7.5)"
+            "pose_z": "bottom(7.5)",
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 250.0,
+            "source": {
+                "well": "A1",
+                "labware": "equilibration buffer",
+                "slot": 4
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 250.0,
+            "target": {
+                "well": "A1",
+                "labware": "NEST 96 Deep Well Plate 2 mL",
+                "slot": 1
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(7.5)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3205,7 +3334,8 @@
                 "labware": "equilibration buffer",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3216,7 +3346,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(7.5)"
+            "pose_z": "bottom(7.5)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3226,7 +3357,8 @@
                 "labware": "equilibration buffer",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3237,7 +3369,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(7.5)"
+            "pose_z": "bottom(7.5)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3246,29 +3379,9 @@
                 "well": "A3",
                 "labware": "equilibration buffer",
                 "slot": 4
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "dispense",
-            "vol": 250.0,
-            "target": {
-                "well": "A3",
-                "labware": "NEST 96 Deep Well Plate 2 mL",
-                "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(7.5)"
-        },
-        {
-            "action": "aspirate",
-            "vol": 250.0,
-            "source": {
-                "well": "A3",
-                "labware": "equilibration buffer",
-                "slot": 4
-            },
-            "flow_rate": 7.6
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3279,7 +3392,31 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(7.5)"
+            "pose_z": "bottom(7.5)",
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 250.0,
+            "source": {
+                "well": "A3",
+                "labware": "equilibration buffer",
+                "slot": 4
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 250.0,
+            "target": {
+                "well": "A3",
+                "labware": "NEST 96 Deep Well Plate 2 mL",
+                "slot": 1
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(7.5)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3289,7 +3426,8 @@
                 "labware": "equilibration buffer",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3300,7 +3438,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(7.5)"
+            "pose_z": "bottom(7.5)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3310,7 +3449,8 @@
                 "labware": "equilibration buffer",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3321,7 +3461,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(7.5)"
+            "pose_z": "bottom(7.5)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3330,29 +3471,9 @@
                 "well": "A5",
                 "labware": "equilibration buffer",
                 "slot": 4
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "dispense",
-            "vol": 250.0,
-            "target": {
-                "well": "A5",
-                "labware": "NEST 96 Deep Well Plate 2 mL",
-                "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(7.5)"
-        },
-        {
-            "action": "aspirate",
-            "vol": 250.0,
-            "source": {
-                "well": "A5",
-                "labware": "equilibration buffer",
-                "slot": 4
-            },
-            "flow_rate": 7.6
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3363,7 +3484,31 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(7.5)"
+            "pose_z": "bottom(7.5)",
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 250.0,
+            "source": {
+                "well": "A5",
+                "labware": "equilibration buffer",
+                "slot": 4
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 250.0,
+            "target": {
+                "well": "A5",
+                "labware": "NEST 96 Deep Well Plate 2 mL",
+                "slot": 1
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(7.5)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3373,7 +3518,8 @@
                 "labware": "equilibration buffer",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3384,7 +3530,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(7.5)"
+            "pose_z": "bottom(7.5)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3394,7 +3541,8 @@
                 "labware": "equilibration buffer",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3405,7 +3553,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(7.5)"
+            "pose_z": "bottom(7.5)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3414,29 +3563,9 @@
                 "well": "A7",
                 "labware": "equilibration buffer",
                 "slot": 4
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "dispense",
-            "vol": 250.0,
-            "target": {
-                "well": "A7",
-                "labware": "NEST 96 Deep Well Plate 2 mL",
-                "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(7.5)"
-        },
-        {
-            "action": "aspirate",
-            "vol": 250.0,
-            "source": {
-                "well": "A7",
-                "labware": "equilibration buffer",
-                "slot": 4
-            },
-            "flow_rate": 7.6
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3447,7 +3576,31 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(7.5)"
+            "pose_z": "bottom(7.5)",
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 250.0,
+            "source": {
+                "well": "A7",
+                "labware": "equilibration buffer",
+                "slot": 4
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 250.0,
+            "target": {
+                "well": "A7",
+                "labware": "NEST 96 Deep Well Plate 2 mL",
+                "slot": 1
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(7.5)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3457,7 +3610,8 @@
                 "labware": "equilibration buffer",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3468,7 +3622,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(7.5)"
+            "pose_z": "bottom(7.5)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3478,7 +3633,8 @@
                 "labware": "equilibration buffer",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3489,7 +3645,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(7.5)"
+            "pose_z": "bottom(7.5)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3498,29 +3655,9 @@
                 "well": "A9",
                 "labware": "equilibration buffer",
                 "slot": 4
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "dispense",
-            "vol": 250.0,
-            "target": {
-                "well": "A9",
-                "labware": "NEST 96 Deep Well Plate 2 mL",
-                "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(7.5)"
-        },
-        {
-            "action": "aspirate",
-            "vol": 250.0,
-            "source": {
-                "well": "A9",
-                "labware": "equilibration buffer",
-                "slot": 4
-            },
-            "flow_rate": 7.6
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3531,7 +3668,31 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(7.5)"
+            "pose_z": "bottom(7.5)",
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 250.0,
+            "source": {
+                "well": "A9",
+                "labware": "equilibration buffer",
+                "slot": 4
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 250.0,
+            "target": {
+                "well": "A9",
+                "labware": "NEST 96 Deep Well Plate 2 mL",
+                "slot": 1
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(7.5)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3541,7 +3702,8 @@
                 "labware": "equilibration buffer",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3552,7 +3714,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(7.5)"
+            "pose_z": "bottom(7.5)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3562,7 +3725,8 @@
                 "labware": "equilibration buffer",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3573,7 +3737,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(7.5)"
+            "pose_z": "bottom(7.5)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3583,7 +3748,8 @@
                 "labware": "equilibration buffer",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3594,7 +3760,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(7.5)"
+            "pose_z": "bottom(7.5)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3604,7 +3771,8 @@
                 "labware": "equilibration buffer",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3615,7 +3783,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(7.5)"
+            "pose_z": "bottom(7.5)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3625,7 +3794,8 @@
                 "labware": "equilibration buffer",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3636,7 +3806,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(7.5)"
+            "pose_z": "bottom(7.5)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3646,7 +3817,8 @@
                 "labware": "equilibration buffer",
                 "slot": 4
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3657,7 +3829,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(7.5)"
+            "pose_z": "bottom(7.5)",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -3665,7 +3838,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -3675,7 +3849,8 @@
                 "well": "A5",
                 "type": "Opentrons OT-2 96 Tip Rack 300 µL",
                 "slot": 9
-            }
+            },
+            "channels": 8
         },
         {
             "action": "mix",
@@ -3687,7 +3862,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 10,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -3699,7 +3875,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 10,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -3711,7 +3888,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 10,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -3723,7 +3901,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 10,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -3735,7 +3914,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 10,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -3747,7 +3927,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 10,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -3759,7 +3940,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 10,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -3771,7 +3953,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 10,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -3783,7 +3966,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 10,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -3795,7 +3979,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 10,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -3807,7 +3992,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 10,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -3819,7 +4005,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 10,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -3827,7 +4014,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         },
         {
             "action": "delay",
@@ -3842,7 +4030,8 @@
                 "well": "A6",
                 "type": "Opentrons OT-2 96 Tip Rack 300 µL",
                 "slot": 9
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3853,7 +4042,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3864,7 +4054,8 @@
                 "slot": 8
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -3873,7 +4064,8 @@
                 "labware": "waste",
                 "slot": 8
             },
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3884,7 +4076,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3895,7 +4088,8 @@
                 "slot": 8
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -3904,38 +4098,8 @@
                 "labware": "waste",
                 "slot": 8
             },
-            "pose_z": "bottom(25)"
-        },
-        {
-            "action": "aspirate",
-            "vol": 260.0,
-            "source": {
-                "well": "A2",
-                "labware": "NEST 96 Deep Well Plate 2 mL",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
-        },
-        {
-            "action": "dispense",
-            "vol": 260.0,
-            "target": {
-                "well": "A1",
-                "labware": "waste",
-                "slot": 8
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(25)"
-        },
-        {
-            "action": "blow_out",
-            "at": {
-                "well": "A1",
-                "labware": "waste",
-                "slot": 8
-            },
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3946,7 +4110,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3957,7 +4122,8 @@
                 "slot": 8
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -3966,7 +4132,42 @@
                 "labware": "waste",
                 "slot": 8
             },
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 260.0,
+            "source": {
+                "well": "A2",
+                "labware": "NEST 96 Deep Well Plate 2 mL",
+                "slot": 1
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(0.5)",
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 260.0,
+            "target": {
+                "well": "A1",
+                "labware": "waste",
+                "slot": 8
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(25)",
+            "channels": 8
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A1",
+                "labware": "waste",
+                "slot": 8
+            },
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -3977,7 +4178,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -3988,7 +4190,8 @@
                 "slot": 8
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -3997,7 +4200,8 @@
                 "labware": "waste",
                 "slot": 8
             },
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4008,7 +4212,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4019,7 +4224,8 @@
                 "slot": 8
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -4028,7 +4234,8 @@
                 "labware": "waste",
                 "slot": 8
             },
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4039,7 +4246,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4050,7 +4258,8 @@
                 "slot": 8
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -4059,7 +4268,8 @@
                 "labware": "waste",
                 "slot": 8
             },
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4070,7 +4280,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4081,7 +4292,8 @@
                 "slot": 8
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -4090,7 +4302,8 @@
                 "labware": "waste",
                 "slot": 8
             },
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4101,7 +4314,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4112,7 +4326,8 @@
                 "slot": 8
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -4121,7 +4336,8 @@
                 "labware": "waste",
                 "slot": 8
             },
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4132,7 +4348,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4143,7 +4360,8 @@
                 "slot": 8
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -4152,7 +4370,8 @@
                 "labware": "waste",
                 "slot": 8
             },
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4163,7 +4382,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4174,7 +4394,8 @@
                 "slot": 8
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -4183,7 +4404,8 @@
                 "labware": "waste",
                 "slot": 8
             },
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4194,7 +4416,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4205,7 +4428,8 @@
                 "slot": 8
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -4214,7 +4438,8 @@
                 "labware": "waste",
                 "slot": 8
             },
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4225,7 +4450,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4236,7 +4462,8 @@
                 "slot": 8
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -4245,7 +4472,8 @@
                 "labware": "waste",
                 "slot": 8
             },
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4256,7 +4484,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4267,7 +4496,8 @@
                 "slot": 8
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -4276,7 +4506,8 @@
                 "labware": "waste",
                 "slot": 8
             },
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4287,7 +4518,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4298,7 +4530,8 @@
                 "slot": 8
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -4307,7 +4540,8 @@
                 "labware": "waste",
                 "slot": 8
             },
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4318,7 +4552,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4329,7 +4564,8 @@
                 "slot": 8
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -4338,7 +4574,8 @@
                 "labware": "waste",
                 "slot": 8
             },
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4349,7 +4586,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4360,7 +4598,8 @@
                 "slot": 8
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -4369,7 +4608,8 @@
                 "labware": "waste",
                 "slot": 8
             },
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4380,7 +4620,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4391,7 +4632,8 @@
                 "slot": 8
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -4400,7 +4642,8 @@
                 "labware": "waste",
                 "slot": 8
             },
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4411,7 +4654,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4422,7 +4666,8 @@
                 "slot": 8
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -4431,7 +4676,8 @@
                 "labware": "waste",
                 "slot": 8
             },
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4442,7 +4688,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4453,7 +4700,8 @@
                 "slot": 8
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -4462,7 +4710,8 @@
                 "labware": "waste",
                 "slot": 8
             },
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4473,7 +4722,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4484,7 +4734,8 @@
                 "slot": 8
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -4493,7 +4744,8 @@
                 "labware": "waste",
                 "slot": 8
             },
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4504,7 +4756,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4515,7 +4768,8 @@
                 "slot": 8
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -4524,7 +4778,8 @@
                 "labware": "waste",
                 "slot": 8
             },
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4535,7 +4790,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4546,7 +4802,8 @@
                 "slot": 8
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -4555,7 +4812,8 @@
                 "labware": "waste",
                 "slot": 8
             },
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4566,7 +4824,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4577,7 +4836,8 @@
                 "slot": 8
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -4586,7 +4846,8 @@
                 "labware": "waste",
                 "slot": 8
             },
-            "pose_z": "bottom(25)"
+            "pose_z": "bottom(25)",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -4594,7 +4855,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -4604,7 +4866,8 @@
                 "well": "A7",
                 "type": "Opentrons OT-2 96 Tip Rack 300 µL",
                 "slot": 9
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4614,7 +4877,8 @@
                 "labware": "samples",
                 "slot": 7
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4625,7 +4889,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(15)"
+            "pose_z": "bottom(15)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -4634,7 +4899,8 @@
                 "labware": "NEST 96 Deep Well Plate 2 mL",
                 "slot": 1
             },
-            "pose_z": "bottom(15)"
+            "pose_z": "bottom(15)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4644,7 +4910,8 @@
                 "labware": "samples",
                 "slot": 7
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4655,7 +4922,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(15)"
+            "pose_z": "bottom(15)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -4664,7 +4932,8 @@
                 "labware": "NEST 96 Deep Well Plate 2 mL",
                 "slot": 1
             },
-            "pose_z": "bottom(15)"
+            "pose_z": "bottom(15)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -4676,7 +4945,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 10,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -4684,7 +4954,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -4694,7 +4965,8 @@
                 "well": "A8",
                 "type": "Opentrons OT-2 96 Tip Rack 300 µL",
                 "slot": 9
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4704,7 +4976,8 @@
                 "labware": "samples",
                 "slot": 7
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4715,7 +4988,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(15)"
+            "pose_z": "bottom(15)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -4724,7 +4998,8 @@
                 "labware": "NEST 96 Deep Well Plate 2 mL",
                 "slot": 1
             },
-            "pose_z": "bottom(15)"
+            "pose_z": "bottom(15)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4734,7 +5009,8 @@
                 "labware": "samples",
                 "slot": 7
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4745,7 +5021,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(15)"
+            "pose_z": "bottom(15)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -4754,7 +5031,8 @@
                 "labware": "NEST 96 Deep Well Plate 2 mL",
                 "slot": 1
             },
-            "pose_z": "bottom(15)"
+            "pose_z": "bottom(15)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -4766,7 +5044,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 10,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -4774,7 +5053,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -4784,7 +5064,8 @@
                 "well": "A9",
                 "type": "Opentrons OT-2 96 Tip Rack 300 µL",
                 "slot": 9
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4794,7 +5075,8 @@
                 "labware": "samples",
                 "slot": 7
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4805,7 +5087,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(15)"
+            "pose_z": "bottom(15)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -4814,7 +5097,8 @@
                 "labware": "NEST 96 Deep Well Plate 2 mL",
                 "slot": 1
             },
-            "pose_z": "bottom(15)"
+            "pose_z": "bottom(15)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4824,7 +5108,8 @@
                 "labware": "samples",
                 "slot": 7
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4835,7 +5120,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(15)"
+            "pose_z": "bottom(15)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -4844,7 +5130,8 @@
                 "labware": "NEST 96 Deep Well Plate 2 mL",
                 "slot": 1
             },
-            "pose_z": "bottom(15)"
+            "pose_z": "bottom(15)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -4856,7 +5143,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 10,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -4864,7 +5152,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -4874,7 +5163,8 @@
                 "well": "A10",
                 "type": "Opentrons OT-2 96 Tip Rack 300 µL",
                 "slot": 9
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4884,7 +5174,8 @@
                 "labware": "samples",
                 "slot": 7
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4895,7 +5186,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(15)"
+            "pose_z": "bottom(15)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -4904,7 +5196,8 @@
                 "labware": "NEST 96 Deep Well Plate 2 mL",
                 "slot": 1
             },
-            "pose_z": "bottom(15)"
+            "pose_z": "bottom(15)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4914,7 +5207,8 @@
                 "labware": "samples",
                 "slot": 7
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4925,7 +5219,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(15)"
+            "pose_z": "bottom(15)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -4934,7 +5229,8 @@
                 "labware": "NEST 96 Deep Well Plate 2 mL",
                 "slot": 1
             },
-            "pose_z": "bottom(15)"
+            "pose_z": "bottom(15)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -4946,7 +5242,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 10,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -4954,7 +5251,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -4964,7 +5262,8 @@
                 "well": "A11",
                 "type": "Opentrons OT-2 96 Tip Rack 300 µL",
                 "slot": 9
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4974,7 +5273,8 @@
                 "labware": "samples",
                 "slot": 7
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4985,7 +5285,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(15)"
+            "pose_z": "bottom(15)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -4994,7 +5295,8 @@
                 "labware": "NEST 96 Deep Well Plate 2 mL",
                 "slot": 1
             },
-            "pose_z": "bottom(15)"
+            "pose_z": "bottom(15)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5004,7 +5306,8 @@
                 "labware": "samples",
                 "slot": 7
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5015,7 +5318,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(15)"
+            "pose_z": "bottom(15)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -5024,7 +5328,8 @@
                 "labware": "NEST 96 Deep Well Plate 2 mL",
                 "slot": 1
             },
-            "pose_z": "bottom(15)"
+            "pose_z": "bottom(15)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -5036,7 +5341,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 10,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -5044,7 +5350,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -5054,7 +5361,8 @@
                 "well": "A12",
                 "type": "Opentrons OT-2 96 Tip Rack 300 µL",
                 "slot": 9
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5064,7 +5372,8 @@
                 "labware": "samples",
                 "slot": 7
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5075,7 +5384,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(15)"
+            "pose_z": "bottom(15)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -5084,7 +5394,8 @@
                 "labware": "NEST 96 Deep Well Plate 2 mL",
                 "slot": 1
             },
-            "pose_z": "bottom(15)"
+            "pose_z": "bottom(15)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5094,7 +5405,8 @@
                 "labware": "samples",
                 "slot": 7
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5105,7 +5417,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(15)"
+            "pose_z": "bottom(15)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -5114,7 +5427,8 @@
                 "labware": "NEST 96 Deep Well Plate 2 mL",
                 "slot": 1
             },
-            "pose_z": "bottom(15)"
+            "pose_z": "bottom(15)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -5126,7 +5440,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 10,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -5134,7 +5449,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -5144,7 +5460,8 @@
                 "well": "A1",
                 "type": "Opentrons OT-2 96 Tip Rack 300 µL",
                 "slot": 10
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5154,7 +5471,8 @@
                 "labware": "samples",
                 "slot": 7
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5165,7 +5483,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(15)"
+            "pose_z": "bottom(15)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -5174,7 +5493,8 @@
                 "labware": "NEST 96 Deep Well Plate 2 mL",
                 "slot": 1
             },
-            "pose_z": "bottom(15)"
+            "pose_z": "bottom(15)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5184,7 +5504,8 @@
                 "labware": "samples",
                 "slot": 7
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5195,7 +5516,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(15)"
+            "pose_z": "bottom(15)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -5204,7 +5526,8 @@
                 "labware": "NEST 96 Deep Well Plate 2 mL",
                 "slot": 1
             },
-            "pose_z": "bottom(15)"
+            "pose_z": "bottom(15)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -5216,7 +5539,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 10,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -5224,7 +5548,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -5234,7 +5559,8 @@
                 "well": "A2",
                 "type": "Opentrons OT-2 96 Tip Rack 300 µL",
                 "slot": 10
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5244,7 +5570,8 @@
                 "labware": "samples",
                 "slot": 7
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5255,7 +5582,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(15)"
+            "pose_z": "bottom(15)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -5264,7 +5592,8 @@
                 "labware": "NEST 96 Deep Well Plate 2 mL",
                 "slot": 1
             },
-            "pose_z": "bottom(15)"
+            "pose_z": "bottom(15)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5274,7 +5603,8 @@
                 "labware": "samples",
                 "slot": 7
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5285,7 +5615,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(15)"
+            "pose_z": "bottom(15)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -5294,7 +5625,8 @@
                 "labware": "NEST 96 Deep Well Plate 2 mL",
                 "slot": 1
             },
-            "pose_z": "bottom(15)"
+            "pose_z": "bottom(15)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -5306,7 +5638,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 10,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -5314,7 +5647,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -5324,7 +5658,8 @@
                 "well": "A3",
                 "type": "Opentrons OT-2 96 Tip Rack 300 µL",
                 "slot": 10
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5334,7 +5669,8 @@
                 "labware": "samples",
                 "slot": 7
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5345,7 +5681,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(15)"
+            "pose_z": "bottom(15)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -5354,7 +5691,8 @@
                 "labware": "NEST 96 Deep Well Plate 2 mL",
                 "slot": 1
             },
-            "pose_z": "bottom(15)"
+            "pose_z": "bottom(15)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5364,7 +5702,8 @@
                 "labware": "samples",
                 "slot": 7
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5375,7 +5714,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(15)"
+            "pose_z": "bottom(15)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -5384,7 +5724,8 @@
                 "labware": "NEST 96 Deep Well Plate 2 mL",
                 "slot": 1
             },
-            "pose_z": "bottom(15)"
+            "pose_z": "bottom(15)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -5396,7 +5737,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 10,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -5404,7 +5746,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -5414,7 +5757,8 @@
                 "well": "A4",
                 "type": "Opentrons OT-2 96 Tip Rack 300 µL",
                 "slot": 10
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5424,7 +5768,8 @@
                 "labware": "samples",
                 "slot": 7
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5435,7 +5780,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(15)"
+            "pose_z": "bottom(15)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -5444,7 +5790,8 @@
                 "labware": "NEST 96 Deep Well Plate 2 mL",
                 "slot": 1
             },
-            "pose_z": "bottom(15)"
+            "pose_z": "bottom(15)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5454,7 +5801,8 @@
                 "labware": "samples",
                 "slot": 7
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5465,7 +5813,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(15)"
+            "pose_z": "bottom(15)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -5474,7 +5823,8 @@
                 "labware": "NEST 96 Deep Well Plate 2 mL",
                 "slot": 1
             },
-            "pose_z": "bottom(15)"
+            "pose_z": "bottom(15)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -5486,7 +5836,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 10,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -5494,7 +5845,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -5504,7 +5856,8 @@
                 "well": "A5",
                 "type": "Opentrons OT-2 96 Tip Rack 300 µL",
                 "slot": 10
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5514,7 +5867,8 @@
                 "labware": "samples",
                 "slot": 7
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5525,7 +5879,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(15)"
+            "pose_z": "bottom(15)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -5534,7 +5889,8 @@
                 "labware": "NEST 96 Deep Well Plate 2 mL",
                 "slot": 1
             },
-            "pose_z": "bottom(15)"
+            "pose_z": "bottom(15)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5544,7 +5900,8 @@
                 "labware": "samples",
                 "slot": 7
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5555,7 +5912,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(15)"
+            "pose_z": "bottom(15)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -5564,7 +5922,8 @@
                 "labware": "NEST 96 Deep Well Plate 2 mL",
                 "slot": 1
             },
-            "pose_z": "bottom(15)"
+            "pose_z": "bottom(15)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -5576,7 +5935,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 10,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -5584,7 +5944,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -5594,7 +5955,8 @@
                 "well": "A6",
                 "type": "Opentrons OT-2 96 Tip Rack 300 µL",
                 "slot": 10
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5604,7 +5966,8 @@
                 "labware": "samples",
                 "slot": 7
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5615,7 +5978,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(15)"
+            "pose_z": "bottom(15)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -5624,7 +5988,8 @@
                 "labware": "NEST 96 Deep Well Plate 2 mL",
                 "slot": 1
             },
-            "pose_z": "bottom(15)"
+            "pose_z": "bottom(15)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5634,7 +5999,8 @@
                 "labware": "samples",
                 "slot": 7
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5645,7 +6011,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(15)"
+            "pose_z": "bottom(15)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -5654,7 +6021,8 @@
                 "labware": "NEST 96 Deep Well Plate 2 mL",
                 "slot": 1
             },
-            "pose_z": "bottom(15)"
+            "pose_z": "bottom(15)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -5666,7 +6034,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 10,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -5674,7 +6043,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ]
 ]

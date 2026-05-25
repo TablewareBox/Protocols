@@ -55,7 +55,8 @@
                 "well": "A1",
                 "type": "Opentrons OT-2 96 Tip Rack 300 µL",
                 "slot": 3
-            }
+            },
+            "channels": 8
         },
         {
             "action": "mix",
@@ -66,7 +67,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "mix_time": 4
+            "mix_time": 4,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -74,7 +76,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ]
 ]

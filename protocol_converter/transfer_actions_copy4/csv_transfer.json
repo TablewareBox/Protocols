@@ -1,9 +1,22 @@
 {
+  "metadata": {
+    "workflow_name": "Custom CSV Transfer Protocol",
+    "tags": [
+      "Sample Prep",
+      "CSV Transfer"
+    ],
+    "raw": {
+      "protocolName": "Custom CSV Transfer Protocol",
+      "author": "Nick <protocols@opentrons.com>",
+      "source": "Custom Protocol Request",
+      "apiLevel": "2.3"
+    }
+  },
   "workflow": [
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "Liquid_1",
+        "sources": "input_csv_file",
         "targets": "samples",
         "asp_vols": [
           1.0
@@ -26,7 +39,7 @@
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "Liquid_2",
+        "sources": "pipette_model",
         "targets": "samples_2",
         "asp_vols": [
           3.0
@@ -49,7 +62,7 @@
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "Liquid_3",
+        "sources": "pipette_mount",
         "targets": "samples_3",
         "asp_vols": [
           7.0
@@ -71,29 +84,32 @@
     }
   ],
   "reagent": {
-    "Liquid_1": {
+    "input_csv_file": {
       "slot": 1,
       "well": [
         "A1"
       ],
       "labware": "agilent_1_reservoir_290ml",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
-    "Liquid_2": {
+    "pipette_model": {
       "slot": 2,
       "well": [
         "A1"
       ],
       "labware": "nest_12_reservoir_15ml",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
-    "Liquid_3": {
+    "pipette_mount": {
       "slot": 3,
       "well": [
         "A1"
       ],
       "labware": "nest_1_reservoir_195ml",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "samples": {
       "slot": 4,
@@ -101,7 +117,8 @@
         "A11"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_2": {
       "slot": 5,
@@ -109,7 +126,8 @@
         "A5"
       ],
       "labware": "nest_96_wellplate_2ml_deep",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_3": {
       "slot": 5,
@@ -117,7 +135,8 @@
         "H12"
       ],
       "labware": "nest_96_wellplate_2ml_deep",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "tiprack_6": {
       "slot": 6,

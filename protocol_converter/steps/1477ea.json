@@ -6,7 +6,8 @@
                 "well": "A1",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 10
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -17,7 +18,8 @@
                 "slot": 5
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(3)"
+            "pose_z": "bottom(3)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -28,7 +30,8 @@
                 "slot": 6
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -36,7 +39,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -46,7 +50,8 @@
                 "well": "A2",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 10
-            }
+            },
+            "channels": 8
         },
         {
             "action": "mix",
@@ -58,11 +63,13 @@
             },
             "flow_rate": 7.6,
             "mix_time": 5,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 15.0
+            "vol": 15.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -70,7 +77,8 @@
                 "well": "A1",
                 "labware": "DROP USED 200ul TIPS HERE",
                 "slot": 9
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -80,7 +88,8 @@
                 "well": "A3",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 10
-            }
+            },
+            "channels": 8
         },
         {
             "action": "mix",
@@ -92,11 +101,13 @@
             },
             "flow_rate": 7.6,
             "mix_time": 5,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 15.0
+            "vol": 15.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -104,7 +115,8 @@
                 "well": "A2",
                 "labware": "DROP USED 200ul TIPS HERE",
                 "slot": 9
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -114,7 +126,8 @@
                 "well": "A4",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 10
-            }
+            },
+            "channels": 8
         },
         {
             "action": "mix",
@@ -126,11 +139,13 @@
             },
             "flow_rate": 7.6,
             "mix_time": 5,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 15.0
+            "vol": 15.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -138,7 +153,8 @@
                 "well": "A3",
                 "labware": "DROP USED 200ul TIPS HERE",
                 "slot": 9
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -148,7 +164,8 @@
                 "well": "A5",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 10
-            }
+            },
+            "channels": 8
         },
         {
             "action": "mix",
@@ -160,11 +177,13 @@
             },
             "flow_rate": 7.6,
             "mix_time": 5,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 15.0
+            "vol": 15.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -172,7 +191,8 @@
                 "well": "A4",
                 "labware": "DROP USED 200ul TIPS HERE",
                 "slot": 9
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -182,7 +202,8 @@
                 "well": "A6",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 10
-            }
+            },
+            "channels": 8
         },
         {
             "action": "mix",
@@ -194,11 +215,13 @@
             },
             "flow_rate": 7.6,
             "mix_time": 5,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 15.0
+            "vol": 15.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -206,7 +229,8 @@
                 "well": "A5",
                 "labware": "DROP USED 200ul TIPS HERE",
                 "slot": 9
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -216,7 +240,8 @@
                 "well": "A7",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 10
-            }
+            },
+            "channels": 8
         },
         {
             "action": "mix",
@@ -228,11 +253,13 @@
             },
             "flow_rate": 7.6,
             "mix_time": 5,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 15.0
+            "vol": 15.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -240,7 +267,8 @@
                 "well": "A6",
                 "labware": "DROP USED 200ul TIPS HERE",
                 "slot": 9
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -250,7 +278,8 @@
                 "well": "A8",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 10
-            }
+            },
+            "channels": 8
         },
         {
             "action": "mix",
@@ -262,11 +291,13 @@
             },
             "flow_rate": 7.6,
             "mix_time": 5,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 15.0
+            "vol": 15.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -274,7 +305,8 @@
                 "well": "A7",
                 "labware": "DROP USED 200ul TIPS HERE",
                 "slot": 9
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -284,7 +316,8 @@
                 "well": "A9",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 10
-            }
+            },
+            "channels": 8
         },
         {
             "action": "mix",
@@ -296,11 +329,13 @@
             },
             "flow_rate": 7.6,
             "mix_time": 5,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 15.0
+            "vol": 15.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -308,7 +343,8 @@
                 "well": "A8",
                 "labware": "DROP USED 200ul TIPS HERE",
                 "slot": 9
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -318,7 +354,8 @@
                 "well": "A10",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 10
-            }
+            },
+            "channels": 8
         },
         {
             "action": "mix",
@@ -330,11 +367,13 @@
             },
             "flow_rate": 7.6,
             "mix_time": 5,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 15.0
+            "vol": 15.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -342,7 +381,8 @@
                 "well": "A9",
                 "labware": "DROP USED 200ul TIPS HERE",
                 "slot": 9
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -352,7 +392,8 @@
                 "well": "A11",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 10
-            }
+            },
+            "channels": 8
         },
         {
             "action": "mix",
@@ -364,11 +405,13 @@
             },
             "flow_rate": 7.6,
             "mix_time": 5,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 15.0
+            "vol": 15.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -376,7 +419,8 @@
                 "well": "A10",
                 "labware": "DROP USED 200ul TIPS HERE",
                 "slot": 9
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -4930,7 +4974,8 @@
                 "well": "A12",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 10
-            }
+            },
+            "channels": 8
         },
         {
             "action": "mix",
@@ -4942,11 +4987,13 @@
             },
             "flow_rate": 7.6,
             "mix_time": 5,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 15.0
+            "vol": 15.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -4954,7 +5001,8 @@
                 "well": "A1",
                 "labware": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 10
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -4964,7 +5012,8 @@
                 "well": "A1",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 11
-            }
+            },
+            "channels": 8
         },
         {
             "action": "mix",
@@ -4976,11 +5025,13 @@
             },
             "flow_rate": 7.6,
             "mix_time": 5,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 15.0
+            "vol": 15.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -4988,7 +5039,8 @@
                 "well": "A2",
                 "labware": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 10
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -4998,7 +5050,8 @@
                 "well": "A2",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 11
-            }
+            },
+            "channels": 8
         },
         {
             "action": "mix",
@@ -5010,11 +5063,13 @@
             },
             "flow_rate": 7.6,
             "mix_time": 5,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 15.0
+            "vol": 15.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -5022,7 +5077,8 @@
                 "well": "A3",
                 "labware": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 10
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -5032,7 +5088,8 @@
                 "well": "A3",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 11
-            }
+            },
+            "channels": 8
         },
         {
             "action": "mix",
@@ -5044,11 +5101,13 @@
             },
             "flow_rate": 7.6,
             "mix_time": 5,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 15.0
+            "vol": 15.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -5056,7 +5115,8 @@
                 "well": "A4",
                 "labware": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 10
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -5066,7 +5126,8 @@
                 "well": "A4",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 11
-            }
+            },
+            "channels": 8
         },
         {
             "action": "mix",
@@ -5078,11 +5139,13 @@
             },
             "flow_rate": 7.6,
             "mix_time": 5,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 15.0
+            "vol": 15.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -5090,7 +5153,8 @@
                 "well": "A5",
                 "labware": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 10
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -5100,7 +5164,8 @@
                 "well": "A5",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 11
-            }
+            },
+            "channels": 8
         },
         {
             "action": "mix",
@@ -5112,11 +5177,13 @@
             },
             "flow_rate": 7.6,
             "mix_time": 5,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 15.0
+            "vol": 15.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -5124,7 +5191,8 @@
                 "well": "A6",
                 "labware": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 10
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -5134,7 +5202,8 @@
                 "well": "A6",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 11
-            }
+            },
+            "channels": 8
         },
         {
             "action": "mix",
@@ -5146,11 +5215,13 @@
             },
             "flow_rate": 7.6,
             "mix_time": 5,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 15.0
+            "vol": 15.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -5158,7 +5229,8 @@
                 "well": "A7",
                 "labware": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 10
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -5168,7 +5240,8 @@
                 "well": "A7",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 11
-            }
+            },
+            "channels": 8
         },
         {
             "action": "mix",
@@ -5180,11 +5253,13 @@
             },
             "flow_rate": 7.6,
             "mix_time": 5,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 15.0
+            "vol": 15.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -5192,7 +5267,8 @@
                 "well": "A8",
                 "labware": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 10
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -5202,7 +5278,8 @@
                 "well": "A8",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 11
-            }
+            },
+            "channels": 8
         },
         {
             "action": "mix",
@@ -5214,11 +5291,13 @@
             },
             "flow_rate": 7.6,
             "mix_time": 5,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 15.0
+            "vol": 15.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -5226,7 +5305,8 @@
                 "well": "A9",
                 "labware": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 10
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -5236,7 +5316,8 @@
                 "well": "A9",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 11
-            }
+            },
+            "channels": 8
         },
         {
             "action": "mix",
@@ -5248,11 +5329,13 @@
             },
             "flow_rate": 7.6,
             "mix_time": 5,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 15.0
+            "vol": 15.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -5260,7 +5343,8 @@
                 "well": "A10",
                 "labware": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 10
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -5270,7 +5354,8 @@
                 "well": "A10",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 11
-            }
+            },
+            "channels": 8
         },
         {
             "action": "mix",
@@ -5282,11 +5367,13 @@
             },
             "flow_rate": 7.6,
             "mix_time": 5,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 15.0
+            "vol": 15.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -5294,7 +5381,8 @@
                 "well": "A11",
                 "labware": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 10
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -5304,7 +5392,8 @@
                 "well": "A11",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 11
-            }
+            },
+            "channels": 8
         },
         {
             "action": "mix",
@@ -5316,11 +5405,13 @@
             },
             "flow_rate": 7.6,
             "mix_time": 5,
-            "pose_z": "bottom(1.5)"
+            "pose_z": "bottom(1.5)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 15.0
+            "vol": 15.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -5328,7 +5419,8 @@
                 "well": "A12",
                 "labware": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 10
-            }
+            },
+            "channels": 8
         }
     ]
 ]

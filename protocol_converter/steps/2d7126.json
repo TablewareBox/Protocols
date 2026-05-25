@@ -6,7 +6,8 @@
                 "well": "A1",
                 "type": "custom pin adapter",
                 "slot": 5
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -17,7 +18,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "top(1)"
+            "pose_z": "top(1)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -28,7 +30,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "top(1)"
+            "pose_z": "top(1)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -39,7 +42,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "top(1)"
+            "pose_z": "top(1)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -50,7 +54,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "top(1)"
+            "pose_z": "top(1)",
+            "channels": 8
         },
         {
             "action": "delay",
@@ -118,7 +123,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ]
 ]

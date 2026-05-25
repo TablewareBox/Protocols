@@ -1,4 +1,17 @@
 {
+  "metadata": {
+    "workflow_name": "Dinosaur",
+    "tags": [
+      "Getting Started",
+      "Dinosaur"
+    ],
+    "raw": {
+      "protocolName": "Dinosaur",
+      "author": "Opentrons <protocols@opentrons.com>",
+      "description": "Draw a picture of a dinosaur",
+      "apiLevel": "2.9"
+    }
+  },
   "workflow": [
     {
       "action": "transfer_liquid",
@@ -319,7 +332,8 @@
         "A1"
       ],
       "labware": "nest_12_reservoir_15ml",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "blue": {
       "slot": 8,
@@ -327,7 +341,8 @@
         "A2"
       ],
       "labware": "nest_12_reservoir_15ml",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "samples": {
       "slot": 3,
@@ -375,7 +390,8 @@
         "H12"
       ],
       "labware": "biorad_96_wellplate_200ul_pcr",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_2": {
       "slot": 3,
@@ -396,7 +412,8 @@
         "G12"
       ],
       "labware": "biorad_96_wellplate_200ul_pcr",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "tiprack_6": {
       "slot": 6,

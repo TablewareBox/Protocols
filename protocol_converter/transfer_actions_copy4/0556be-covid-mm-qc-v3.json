@@ -1,4 +1,17 @@
 {
+  "metadata": {
+    "workflow_name": "COVID MM-QC-v3 Protocol",
+    "tags": [
+      "Sample Prep",
+      "Plate Filling"
+    ],
+    "raw": {
+      "protocolName": "COVID MM-QC-v3 Protocol",
+      "author": "Sakib <sakib.hossain@opentrons.com>",
+      "description": "Custom Protocol Request",
+      "apiLevel": "2.8"
+    }
+  },
   "workflow": [
     {
       "action": "transfer_liquid",
@@ -146,7 +159,8 @@
         "A1"
       ],
       "labware": "opentrons_10_tuberack_falcon_4x50ml_6x15ml_conical",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "samples": {
       "slot": 10,
@@ -177,7 +191,8 @@
         "D6"
       ],
       "labware": "opentrons_24_aluminumblock_generic_2ml_screwcap",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "tiprack_1": {
       "slot": 1,

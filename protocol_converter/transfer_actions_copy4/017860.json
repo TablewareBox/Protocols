@@ -1,4 +1,17 @@
 {
+  "metadata": {
+    "workflow_name": "CSV Plate Filling - Upgrade for OT2",
+    "tags": [
+      "Sample Prep",
+      "CSV Transfer"
+    ],
+    "raw": {
+      "protocolName": "CSV Plate Filling - Upgrade for OT2",
+      "author": "Nick & Eskil (update) <protocols@opentrons.com>",
+      "source": "Custom Protocol Request",
+      "apiLevel": "2.11"
+    }
+  },
   "workflow": [
     {
       "action": "transfer_liquid",
@@ -79,25 +92,20 @@
         "sources": "drugs",
         "targets": "samples_3",
         "asp_vols": [
-          20.0,
           20.0
         ],
         "dis_vols": [
-          10.0,
-          2.5
+          10.0
         ],
         "asp_flow_rates": [
-          7.6,
           7.6
         ],
         "dis_flow_rates": [
-          7.6,
           7.6
         ],
         "tip_racks": "tiprack_10",
         "liquid_height": [
-          2.30558939033728,
-          2.3055893903372806
+          2.30558939033728
         ],
         "touch_tip": true
       }
@@ -108,29 +116,91 @@
         "sources": "drugs_2",
         "targets": "samples_4",
         "asp_vols": [
-          20.0,
-          20.0,
           20.0
         ],
         "dis_vols": [
-          2.5,
-          10.0,
-          10.0
+          2.5
         ],
         "asp_flow_rates": [
-          7.6,
-          7.6,
           7.6
         ],
         "dis_flow_rates": [
-          7.6,
-          7.6,
           7.6
         ],
         "tip_racks": "tiprack_10",
         "liquid_height": [
-          2.3055893903372806,
-          2.30558939033728,
+          2.3055893903372806
+        ],
+        "touch_tip": true
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "drugs_3",
+        "targets": "samples_5",
+        "asp_vols": [
+          20.0
+        ],
+        "dis_vols": [
+          2.5
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_10",
+        "liquid_height": [
+          2.3055893903372806
+        ],
+        "touch_tip": true
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "drugs_4",
+        "targets": "samples_6",
+        "asp_vols": [
+          20.0
+        ],
+        "dis_vols": [
+          10.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_10",
+        "liquid_height": [
+          2.30558939033728
+        ],
+        "touch_tip": true
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "drugs_5",
+        "targets": "samples_7",
+        "asp_vols": [
+          20.0
+        ],
+        "dis_vols": [
+          10.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_10",
+        "liquid_height": [
           2.30558939033728
         ],
         "touch_tip": true
@@ -144,7 +214,8 @@
         "A1"
       ],
       "labware": "opentrons_10_tuberack_nest_4x50ml_6x15ml_conical",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "medias": {
       "slot": 8,
@@ -152,26 +223,53 @@
         "A3"
       ],
       "labware": "opentrons_10_tuberack_nest_4x50ml_6x15ml_conical",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "media"
     },
     "drugs": {
       "slot": 9,
       "well": [
-        "C2",
-        "B5"
-      ],
-      "labware": "opentrons_15_tuberack_nest_15ml_conical",
-      "object": "source"
-    },
-    "drugs_2": {
-      "slot": 7,
-      "well": [
-        "A1",
-        "B1",
         "C2"
       ],
       "labware": "opentrons_15_tuberack_nest_15ml_conical",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "drugs_2": {
+      "slot": 9,
+      "well": [
+        "B5"
+      ],
+      "labware": "opentrons_15_tuberack_nest_15ml_conical",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "drugs_3": {
+      "slot": 7,
+      "well": [
+        "A1"
+      ],
+      "labware": "opentrons_15_tuberack_nest_15ml_conical",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "drugs_4": {
+      "slot": 7,
+      "well": [
+        "B1"
+      ],
+      "labware": "opentrons_15_tuberack_nest_15ml_conical",
+      "object": "source",
+      "liquid_name": "sample"
+    },
+    "drugs_5": {
+      "slot": 7,
+      "well": [
+        "C2"
+      ],
+      "labware": "opentrons_15_tuberack_nest_15ml_conical",
+      "object": "source",
+      "liquid_name": "sample"
     },
     "samples": {
       "slot": 1,
@@ -179,7 +277,8 @@
         "A1"
       ],
       "labware": "nunc_96_wellplate_400ul",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_2": {
       "slot": 1,
@@ -190,26 +289,53 @@
         "F1"
       ],
       "labware": "nunc_96_wellplate_400ul",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_3": {
       "slot": 1,
       "well": [
-        "B1",
-        "C1"
+        "B1"
       ],
       "labware": "nunc_96_wellplate_400ul",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_4": {
       "slot": 1,
       "well": [
-        "D1",
-        "E1",
+        "C1"
+      ],
+      "labware": "nunc_96_wellplate_400ul",
+      "object": "target",
+      "liquid_name": "sample"
+    },
+    "samples_5": {
+      "slot": 1,
+      "well": [
+        "D1"
+      ],
+      "labware": "nunc_96_wellplate_400ul",
+      "object": "target",
+      "liquid_name": "sample"
+    },
+    "samples_6": {
+      "slot": 1,
+      "well": [
+        "E1"
+      ],
+      "labware": "nunc_96_wellplate_400ul",
+      "object": "target",
+      "liquid_name": "sample"
+    },
+    "samples_7": {
+      "slot": 1,
+      "well": [
         "F1"
       ],
       "labware": "nunc_96_wellplate_400ul",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "tiprack_10": {
       "slot": 10,

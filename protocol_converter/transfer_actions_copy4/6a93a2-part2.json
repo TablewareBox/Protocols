@@ -1,4 +1,17 @@
 {
+  "metadata": {
+    "workflow_name": "Swift Rapid NGS Part 2 - Adaptase",
+    "tags": [
+      "NGS Library Prep",
+      "Swift Rapid RNA Library Kit"
+    ],
+    "raw": {
+      "protocolName": "Swift Rapid NGS Part 2 - Adaptase",
+      "author": "Rami Farawi <rami.farawi@opentrons.com>",
+      "source": "Custom Protocol Request",
+      "apiLevel": "2.11"
+    }
+  },
   "workflow": [
     {
       "action": "transfer_liquid",
@@ -64,44 +77,134 @@
         "sources": "reagents",
         "targets": "samples_3",
         "asp_vols": [
-          18.0,
-          18.0,
-          11.0,
-          5.0,
-          5.0,
-          37.0
+          18.0
         ],
         "dis_vols": [
-          18.0,
-          18.0,
-          11.0,
-          5.0,
-          5.0,
-          37.0
+          18.0
         ],
         "asp_flow_rates": [
-          7.6,
-          7.6,
-          7.6,
-          7.6,
-          7.6,
           7.6
         ],
         "dis_flow_rates": [
-          7.6,
-          7.6,
-          7.6,
-          7.6,
-          7.6,
           7.6
         ],
         "tip_racks": "tiprack_6",
         "liquid_height": [
-          0,
-          0,
-          0,
-          0,
-          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "reagents_2",
+        "targets": "samples_3",
+        "asp_vols": [
+          18.0
+        ],
+        "dis_vols": [
+          18.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_6",
+        "liquid_height": [
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "reagents_3",
+        "targets": "samples_3",
+        "asp_vols": [
+          11.0
+        ],
+        "dis_vols": [
+          11.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_6",
+        "liquid_height": [
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "reagents_4",
+        "targets": "samples_3",
+        "asp_vols": [
+          5.0
+        ],
+        "dis_vols": [
+          5.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_6",
+        "liquid_height": [
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "reagents_5",
+        "targets": "samples_3",
+        "asp_vols": [
+          5.0
+        ],
+        "dis_vols": [
+          5.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_6",
+        "liquid_height": [
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "reagents_6",
+        "targets": "samples_3",
+        "asp_vols": [
+          37.0
+        ],
+        "dis_vols": [
+          37.0
+        ],
+        "asp_flow_rates": [
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6
+        ],
+        "tip_racks": "tiprack_6",
+        "liquid_height": [
           0
         ]
       }
@@ -114,20 +217,62 @@
         "B1"
       ],
       "labware": "opentrons_24_aluminumblock_generic_2ml_screwcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "mastermix"
     },
     "reagents": {
       "slot": 3,
       "well": [
-        "A1",
-        "A2",
-        "A3",
-        "A4",
-        "A5",
+        "A1"
+      ],
+      "labware": "opentrons_24_aluminumblock_generic_2ml_screwcap",
+      "object": "source",
+      "liquid_name": "reagent"
+    },
+    "reagents_2": {
+      "slot": 3,
+      "well": [
+        "A2"
+      ],
+      "labware": "opentrons_24_aluminumblock_generic_2ml_screwcap",
+      "object": "source",
+      "liquid_name": "reagent"
+    },
+    "reagents_3": {
+      "slot": 3,
+      "well": [
+        "A3"
+      ],
+      "labware": "opentrons_24_aluminumblock_generic_2ml_screwcap",
+      "object": "source",
+      "liquid_name": "reagent"
+    },
+    "reagents_4": {
+      "slot": 3,
+      "well": [
+        "A4"
+      ],
+      "labware": "opentrons_24_aluminumblock_generic_2ml_screwcap",
+      "object": "source",
+      "liquid_name": "reagent"
+    },
+    "reagents_5": {
+      "slot": 3,
+      "well": [
+        "A5"
+      ],
+      "labware": "opentrons_24_aluminumblock_generic_2ml_screwcap",
+      "object": "source",
+      "liquid_name": "reagent"
+    },
+    "reagents_6": {
+      "slot": 3,
+      "well": [
         "A6"
       ],
       "labware": "opentrons_24_aluminumblock_generic_2ml_screwcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "reagent"
     },
     "samples_2": {
       "slot": 7,
@@ -142,7 +287,8 @@
         "H5"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample_cols"
     },
     "samples_3": {
       "slot": 3,
@@ -150,7 +296,8 @@
         "B1"
       ],
       "labware": "opentrons_24_aluminumblock_generic_2ml_screwcap",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "mastermix"
     },
     "tiprack_4": {
       "slot": 4,

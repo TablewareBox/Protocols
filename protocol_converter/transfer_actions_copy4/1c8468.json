@@ -1,9 +1,22 @@
 {
+  "metadata": {
+    "workflow_name": "Cherry Picking PCR Prep with CSV File",
+    "tags": [
+      "PCR",
+      "PCR Prep"
+    ],
+    "raw": {
+      "protocolName": "Cherry Picking PCR Prep with CSV File",
+      "author": "Rami Farawi <rami.farawi@opentrons.com>",
+      "source": "Custom Protocol Request",
+      "apiLevel": "2.7"
+    }
+  },
   "workflow": [
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "Liquid_1",
+        "sources": "source_plate_csv",
         "targets": "samples",
         "asp_vols": [
           2.5
@@ -28,13 +41,14 @@
     }
   ],
   "reagent": {
-    "Liquid_1": {
+    "source_plate_csv": {
       "slot": 1,
       "well": [
         "B1"
       ],
       "labware": "life_96_aluminumblock_240ul",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "samples": {
       "slot": 4,
@@ -42,7 +56,8 @@
         "A1"
       ],
       "labware": "thermoscientific_96_wellplate_200ul",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "tiprack_5": {
       "slot": 5,

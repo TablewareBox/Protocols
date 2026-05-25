@@ -1,4 +1,17 @@
 {
+  "metadata": {
+    "workflow_name": "Illumina Nextera XT NGS Prep 4: Pool Libraries",
+    "tags": [
+      "Featured",
+      "NGS Library Prep: Illumina Nextera XT"
+    ],
+    "raw": {
+      "protocolName": "Illumina Nextera XT NGS Prep 4: Pool Libraries",
+      "author": "Opentrons <protocols@opentrons.com>",
+      "source": "Protocol Library",
+      "apiLevel": "2.2"
+    }
+  },
   "workflow": [
     {
       "action": "transfer_liquid",
@@ -31,7 +44,8 @@
         "A1"
       ],
       "labware": "biorad_96_wellplate_200ul_pcr",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "samples": {
       "slot": 2,
@@ -39,7 +53,8 @@
         "A1"
       ],
       "labware": "opentrons_24_tuberack_eppendorf_2ml_safelock_snapcap",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "tiprack_3": {
       "slot": 3,

@@ -1,4 +1,17 @@
 {
+  "metadata": {
+    "workflow_name": "GeneRead QIAact Lung DNA UMI Panel Kit: Fragmentation,\n    End-repair and A-addition",
+    "tags": [
+      "NGS Library Prep",
+      "GeneRead QIAact Lung DNA UMI Panel Kit"
+    ],
+    "raw": {
+      "protocolName": "GeneRead QIAact Lung DNA UMI Panel Kit: Fragmentation,\n    End-repair and A-addition",
+      "author": "Sakib <sakib.hossain@opentrons.com>",
+      "description": "Custom Protocol Request",
+      "apiLevel": "2.11"
+    }
+  },
   "workflow": [
     {
       "action": "transfer_liquid",
@@ -218,7 +231,8 @@
         "A1"
       ],
       "labware": "opentrons_24_aluminumblock_nest_2ml_snapcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "frag_enzyme_mix": {
       "slot": 3,
@@ -226,7 +240,8 @@
         "B1"
       ],
       "labware": "opentrons_24_aluminumblock_nest_2ml_snapcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "frag_enzyme_mix"
     },
     "frag_buff": {
       "slot": 3,
@@ -234,7 +249,8 @@
         "A2"
       ],
       "labware": "opentrons_24_aluminumblock_nest_2ml_snapcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "fera": {
       "slot": 3,
@@ -242,7 +258,8 @@
         "B2"
       ],
       "labware": "opentrons_24_aluminumblock_nest_2ml_snapcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "samples_2": {
       "slot": 7,
@@ -261,7 +278,8 @@
         "D2"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_3": {
       "slot": 3,
@@ -269,7 +287,8 @@
         "A1"
       ],
       "labware": "opentrons_24_aluminumblock_nest_2ml_snapcap",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "tiprack_6": {
       "slot": 6,

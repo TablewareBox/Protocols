@@ -1,9 +1,31 @@
 {
+  "metadata": {
+    "workflow_name": "Diluting Samples with DMSO",
+    "tags": [
+      "Sample Prep",
+      "Plate Filling",
+      "`csv`: Here, you should upload a .csv file formatted in the following way, being sure to include the header line, with volume in the 6th column:",
+      "`Tubes on Slot 4`: Specify which tube rack to use on slot 4.",
+      "`P1000 Mount`: Specify which mount (left or right) to host the P1000 single channel pipette",
+      "Custom Opentrons 4-in-1 tube rack",
+      "Altemis lab 48 plate",
+      "Micronic 96 well plate",
+      "Nest 1-well Reservoir",
+      "P1000 Single-Channel pipette",
+      "DMSO"
+    ],
+    "raw": {
+      "protocolName": "Diluting Samples with DMSO",
+      "author": "Rami Farawi <rami.farawi@opentrons.com>",
+      "source": "Custom Protocol Request",
+      "apiLevel": "2.11"
+    }
+  },
   "workflow": [
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "Liquid_1",
+        "sources": "dmso",
         "targets": "samples_3",
         "asp_vols": [
           886.35
@@ -41,9 +63,13 @@
           7.6
         ],
         "tip_racks": "tiprack_6",
+        "pre_aspirate_from_target": [
+          200.0
+        ],
         "liquid_height": [
           3.0
-        ]
+        ],
+        "touch_tip": true
       }
     },
     {
@@ -75,13 +101,14 @@
     }
   ],
   "reagent": {
-    "Liquid_1": {
+    "dmso": {
       "slot": 1,
       "well": [
         "A1"
       ],
       "labware": "nest_1_reservoir_195ml",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "dmso"
     },
     "samples": {
       "slot": 4,
@@ -89,7 +116,8 @@
         "A1"
       ],
       "labware": "bricklabwaretype1racklong_24_wellplate_4000ul",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample_tubes"
     },
     "samples_2": {
       "slot": 2,
@@ -97,7 +125,8 @@
         "A1"
       ],
       "labware": "altemislab_48_wellplate_2000ul",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "samples_3": {
       "slot": 4,
@@ -105,7 +134,8 @@
         "A1"
       ],
       "labware": "bricklabwaretype1racklong_24_wellplate_4000ul",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample_tubes"
     },
     "samples_4": {
       "slot": 2,
@@ -113,7 +143,8 @@
         "A1"
       ],
       "labware": "altemislab_48_wellplate_2000ul",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_5": {
       "slot": 5,
@@ -121,7 +152,8 @@
         "A1"
       ],
       "labware": "micronic_96_wellplate_1000ul",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "tiprack_6": {
       "slot": 6,

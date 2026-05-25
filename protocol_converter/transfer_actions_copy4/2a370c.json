@@ -1,4 +1,17 @@
 {
+  "metadata": {
+    "workflow_name": "Omega Mag-Bind Bacterial DNA 96 Kit",
+    "tags": [
+      "Nucleic Acid Extraction & Purification",
+      "Omega Mag-Bind Bacterial DNA 96 Kit"
+    ],
+    "raw": {
+      "protocolName": "Omega Mag-Bind Bacterial DNA 96 Kit",
+      "author": "Sakib <sakib.hossain@opentrons.com>",
+      "description": "Custom Protocol Request",
+      "apiLevel": "2.11"
+    }
+  },
   "workflow": [
     {
       "action": "transfer_liquid",
@@ -2994,7 +3007,8 @@
         "A1"
       ],
       "labware": "opentrons_24_tuberack_eppendorf_2ml_safelock_snapcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "rna"
     },
     "Liquid_1": {
       "slot": 2,
@@ -3002,7 +3016,8 @@
         "A1"
       ],
       "labware": "usascientific_12_reservoir_22ml",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "beads": {
       "slot": 6,
@@ -3010,7 +3025,8 @@
         "B1"
       ],
       "labware": "opentrons_24_tuberack_eppendorf_2ml_safelock_snapcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "beads"
     },
     "ethanol": {
       "slot": 3,
@@ -3018,7 +3034,8 @@
         "A1"
       ],
       "labware": "axygen_1_reservoir_90ml",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "ethanol"
     },
     "Liquid_2": {
       "slot": 2,
@@ -3026,7 +3043,8 @@
         "A7"
       ],
       "labware": "usascientific_12_reservoir_22ml",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "samples": {
       "slot": 1,
@@ -3129,7 +3147,8 @@
         "H12"
       ],
       "labware": "nest_96_wellplate_2ml_deep",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_2": {
       "slot": 1,
@@ -3328,7 +3347,8 @@
         "H12"
       ],
       "labware": "nest_96_wellplate_2ml_deep",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "tiprack_4": {
       "slot": 4,

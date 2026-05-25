@@ -6,7 +6,8 @@
                 "well": "A1",
                 "type": "Opentrons OT-2 96 Tip Rack 300 µL",
                 "slot": 10
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -16,7 +17,8 @@
                 "labware": "reagent plate",
                 "slot": 11
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -27,7 +29,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -38,7 +41,8 @@
                 "slot": 3
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(3.5)"
+            "pose_z": "bottom(3.5)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -47,7 +51,8 @@
                 "labware": "reagent plate",
                 "slot": 11
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -55,7 +60,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -65,7 +71,8 @@
                 "well": "A1",
                 "type": "Opentrons OT-2 96 Tip Rack 20 µL",
                 "slot": 1
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -76,7 +83,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -87,7 +95,8 @@
                 "slot": 3
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -95,7 +104,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -105,7 +115,8 @@
                 "well": "A2",
                 "type": "Opentrons OT-2 96 Tip Rack 20 µL",
                 "slot": 1
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -115,7 +126,8 @@
                 "labware": "PCR plate 1",
                 "slot": 2
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -126,11 +138,13 @@
                 "slot": 3
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 5.0
+            "vol": 5.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -138,7 +152,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -148,7 +163,8 @@
                 "well": "A3",
                 "type": "Opentrons OT-2 96 Tip Rack 20 µL",
                 "slot": 1
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -159,7 +175,8 @@
                 "slot": 11
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -170,11 +187,13 @@
                 "slot": 3
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 5.0
+            "vol": 5.0,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -182,7 +201,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ]
 ]

@@ -6,7 +6,8 @@
                 "well": "A1",
                 "type": "Opentrons OT-2 96 Tip Rack 300 µL",
                 "slot": 4
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -16,7 +17,8 @@
                 "labware": "Source Plate #1",
                 "slot": 1
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -26,27 +28,8 @@
                 "labware": "Template Plate #1",
                 "slot": 8
             },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 40.0,
-            "source": {
-                "well": "A1",
-                "labware": "Source Plate #1",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "dispense",
-            "vol": 40.0,
-            "target": {
-                "well": "A1",
-                "labware": "Template Plate #2",
-                "slot": 5
-            },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -56,7 +39,30 @@
                 "labware": "Source Plate #1",
                 "slot": 1
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 40.0,
+            "target": {
+                "well": "A1",
+                "labware": "Template Plate #2",
+                "slot": 5
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
+                "well": "A1",
+                "labware": "Source Plate #1",
+                "slot": 1
+            },
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -66,7 +72,8 @@
                 "labware": "Template Plate #3",
                 "slot": 2
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -74,7 +81,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -84,7 +92,8 @@
                 "well": "A1",
                 "type": "Opentrons OT-2 96 Tip Rack 20 µL",
                 "slot": 7
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -94,7 +103,8 @@
                 "labware": "Template Plate #1",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -104,7 +114,8 @@
                 "labware": "Destination Plate #1",
                 "slot": 9
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -112,7 +123,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -122,7 +134,8 @@
                 "well": "A2",
                 "type": "Opentrons OT-2 96 Tip Rack 20 µL",
                 "slot": 7
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -132,7 +145,8 @@
                 "labware": "Template Plate #1",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -142,7 +156,8 @@
                 "labware": "Destination Plate #1",
                 "slot": 9
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -150,7 +165,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -160,7 +176,8 @@
                 "well": "A3",
                 "type": "Opentrons OT-2 96 Tip Rack 20 µL",
                 "slot": 7
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -170,7 +187,8 @@
                 "labware": "Template Plate #1",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -180,7 +198,8 @@
                 "labware": "Destination Plate #1",
                 "slot": 9
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -188,7 +207,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -198,7 +218,8 @@
                 "well": "A4",
                 "type": "Opentrons OT-2 96 Tip Rack 20 µL",
                 "slot": 7
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -208,7 +229,8 @@
                 "labware": "Template Plate #1",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -218,7 +240,8 @@
                 "labware": "Destination Plate #1",
                 "slot": 9
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -226,7 +249,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -236,7 +260,8 @@
                 "well": "A5",
                 "type": "Opentrons OT-2 96 Tip Rack 20 µL",
                 "slot": 7
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -246,7 +271,8 @@
                 "labware": "Template Plate #1",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -256,7 +282,8 @@
                 "labware": "Destination Plate #1",
                 "slot": 9
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -264,7 +291,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -274,7 +302,8 @@
                 "well": "A6",
                 "type": "Opentrons OT-2 96 Tip Rack 20 µL",
                 "slot": 7
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -284,7 +313,8 @@
                 "labware": "Template Plate #1",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -294,7 +324,8 @@
                 "labware": "Destination Plate #1",
                 "slot": 9
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -302,7 +333,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -312,7 +344,8 @@
                 "well": "A7",
                 "type": "Opentrons OT-2 96 Tip Rack 20 µL",
                 "slot": 7
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -322,7 +355,8 @@
                 "labware": "Template Plate #1",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -332,7 +366,8 @@
                 "labware": "Destination Plate #1",
                 "slot": 9
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -340,7 +375,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -350,7 +386,8 @@
                 "well": "A8",
                 "type": "Opentrons OT-2 96 Tip Rack 20 µL",
                 "slot": 7
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -360,7 +397,8 @@
                 "labware": "Template Plate #1",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -370,7 +408,8 @@
                 "labware": "Destination Plate #1",
                 "slot": 9
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -378,7 +417,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -388,7 +428,8 @@
                 "well": "A9",
                 "type": "Opentrons OT-2 96 Tip Rack 20 µL",
                 "slot": 7
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -398,7 +439,8 @@
                 "labware": "Template Plate #1",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -408,7 +450,8 @@
                 "labware": "Destination Plate #1",
                 "slot": 9
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -416,7 +459,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -426,7 +470,8 @@
                 "well": "A10",
                 "type": "Opentrons OT-2 96 Tip Rack 20 µL",
                 "slot": 7
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -436,7 +481,8 @@
                 "labware": "Template Plate #1",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -446,7 +492,8 @@
                 "labware": "Destination Plate #1",
                 "slot": 9
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -454,7 +501,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -464,7 +512,8 @@
                 "well": "A11",
                 "type": "Opentrons OT-2 96 Tip Rack 20 µL",
                 "slot": 7
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -474,7 +523,8 @@
                 "labware": "Template Plate #1",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -484,7 +534,8 @@
                 "labware": "Destination Plate #1",
                 "slot": 9
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -492,7 +543,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -502,7 +554,8 @@
                 "well": "A12",
                 "type": "Opentrons OT-2 96 Tip Rack 20 µL",
                 "slot": 7
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -512,7 +565,8 @@
                 "labware": "Template Plate #1",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -522,7 +576,8 @@
                 "labware": "Destination Plate #1",
                 "slot": 9
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -530,7 +585,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -540,7 +596,8 @@
                 "well": "A1",
                 "type": "Opentrons OT-2 96 Tip Rack 20 µL",
                 "slot": 10
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -550,7 +607,8 @@
                 "labware": "Template Plate #2",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -560,7 +618,8 @@
                 "labware": "Destination Plate #2",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -568,7 +627,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -578,7 +638,8 @@
                 "well": "A2",
                 "type": "Opentrons OT-2 96 Tip Rack 20 µL",
                 "slot": 10
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -588,7 +649,8 @@
                 "labware": "Template Plate #2",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -598,7 +660,8 @@
                 "labware": "Destination Plate #2",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -606,7 +669,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -616,7 +680,8 @@
                 "well": "A3",
                 "type": "Opentrons OT-2 96 Tip Rack 20 µL",
                 "slot": 10
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -626,7 +691,8 @@
                 "labware": "Template Plate #2",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -636,7 +702,8 @@
                 "labware": "Destination Plate #2",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -644,7 +711,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -654,7 +722,8 @@
                 "well": "A4",
                 "type": "Opentrons OT-2 96 Tip Rack 20 µL",
                 "slot": 10
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -664,7 +733,8 @@
                 "labware": "Template Plate #2",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -674,7 +744,8 @@
                 "labware": "Destination Plate #2",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -682,7 +753,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -692,7 +764,8 @@
                 "well": "A5",
                 "type": "Opentrons OT-2 96 Tip Rack 20 µL",
                 "slot": 10
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -702,7 +775,8 @@
                 "labware": "Template Plate #2",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -712,7 +786,8 @@
                 "labware": "Destination Plate #2",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -720,7 +795,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -730,7 +806,8 @@
                 "well": "A6",
                 "type": "Opentrons OT-2 96 Tip Rack 20 µL",
                 "slot": 10
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -740,7 +817,8 @@
                 "labware": "Template Plate #2",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -750,7 +828,8 @@
                 "labware": "Destination Plate #2",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -758,7 +837,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -768,7 +848,8 @@
                 "well": "A7",
                 "type": "Opentrons OT-2 96 Tip Rack 20 µL",
                 "slot": 10
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -778,7 +859,8 @@
                 "labware": "Template Plate #2",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -788,7 +870,8 @@
                 "labware": "Destination Plate #2",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -796,7 +879,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -806,7 +890,8 @@
                 "well": "A8",
                 "type": "Opentrons OT-2 96 Tip Rack 20 µL",
                 "slot": 10
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -816,7 +901,8 @@
                 "labware": "Template Plate #2",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -826,7 +912,8 @@
                 "labware": "Destination Plate #2",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -834,7 +921,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -844,7 +932,8 @@
                 "well": "A9",
                 "type": "Opentrons OT-2 96 Tip Rack 20 µL",
                 "slot": 10
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -854,7 +943,8 @@
                 "labware": "Template Plate #2",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -864,7 +954,8 @@
                 "labware": "Destination Plate #2",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -872,7 +963,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -882,7 +974,8 @@
                 "well": "A10",
                 "type": "Opentrons OT-2 96 Tip Rack 20 µL",
                 "slot": 10
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -892,7 +985,8 @@
                 "labware": "Template Plate #2",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -902,7 +996,8 @@
                 "labware": "Destination Plate #2",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -910,7 +1005,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -920,7 +1016,8 @@
                 "well": "A11",
                 "type": "Opentrons OT-2 96 Tip Rack 20 µL",
                 "slot": 10
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -930,7 +1027,8 @@
                 "labware": "Template Plate #2",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -940,7 +1038,8 @@
                 "labware": "Destination Plate #2",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -948,7 +1047,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -958,7 +1058,8 @@
                 "well": "A12",
                 "type": "Opentrons OT-2 96 Tip Rack 20 µL",
                 "slot": 10
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -968,7 +1069,8 @@
                 "labware": "Template Plate #2",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -978,7 +1080,8 @@
                 "labware": "Destination Plate #2",
                 "slot": 6
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -986,7 +1089,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -996,7 +1100,8 @@
                 "well": "A1",
                 "type": "Opentrons OT-2 96 Tip Rack 20 µL",
                 "slot": 11
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1006,7 +1111,8 @@
                 "labware": "Template Plate #3",
                 "slot": 2
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -1016,7 +1122,8 @@
                 "labware": "Destination Plate #3",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -1024,7 +1131,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -1034,7 +1142,8 @@
                 "well": "A2",
                 "type": "Opentrons OT-2 96 Tip Rack 20 µL",
                 "slot": 11
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1044,7 +1153,8 @@
                 "labware": "Template Plate #3",
                 "slot": 2
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -1054,7 +1164,8 @@
                 "labware": "Destination Plate #3",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -1062,7 +1173,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -1072,7 +1184,8 @@
                 "well": "A3",
                 "type": "Opentrons OT-2 96 Tip Rack 20 µL",
                 "slot": 11
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1082,7 +1195,8 @@
                 "labware": "Template Plate #3",
                 "slot": 2
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -1092,7 +1206,8 @@
                 "labware": "Destination Plate #3",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -1100,7 +1215,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -1110,7 +1226,8 @@
                 "well": "A4",
                 "type": "Opentrons OT-2 96 Tip Rack 20 µL",
                 "slot": 11
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1120,7 +1237,8 @@
                 "labware": "Template Plate #3",
                 "slot": 2
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -1130,7 +1248,8 @@
                 "labware": "Destination Plate #3",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -1138,7 +1257,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -1148,7 +1268,8 @@
                 "well": "A5",
                 "type": "Opentrons OT-2 96 Tip Rack 20 µL",
                 "slot": 11
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1158,7 +1279,8 @@
                 "labware": "Template Plate #3",
                 "slot": 2
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -1168,7 +1290,8 @@
                 "labware": "Destination Plate #3",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -1176,7 +1299,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -1186,7 +1310,8 @@
                 "well": "A6",
                 "type": "Opentrons OT-2 96 Tip Rack 20 µL",
                 "slot": 11
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1196,7 +1321,8 @@
                 "labware": "Template Plate #3",
                 "slot": 2
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -1206,7 +1332,8 @@
                 "labware": "Destination Plate #3",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -1214,7 +1341,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -1224,7 +1352,8 @@
                 "well": "A7",
                 "type": "Opentrons OT-2 96 Tip Rack 20 µL",
                 "slot": 11
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1234,7 +1363,8 @@
                 "labware": "Template Plate #3",
                 "slot": 2
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -1244,7 +1374,8 @@
                 "labware": "Destination Plate #3",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -1252,7 +1383,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -1262,7 +1394,8 @@
                 "well": "A8",
                 "type": "Opentrons OT-2 96 Tip Rack 20 µL",
                 "slot": 11
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1272,7 +1405,8 @@
                 "labware": "Template Plate #3",
                 "slot": 2
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -1282,7 +1416,8 @@
                 "labware": "Destination Plate #3",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -1290,7 +1425,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -1300,7 +1436,8 @@
                 "well": "A9",
                 "type": "Opentrons OT-2 96 Tip Rack 20 µL",
                 "slot": 11
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1310,7 +1447,8 @@
                 "labware": "Template Plate #3",
                 "slot": 2
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -1320,7 +1458,8 @@
                 "labware": "Destination Plate #3",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -1328,7 +1467,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -1338,7 +1478,8 @@
                 "well": "A10",
                 "type": "Opentrons OT-2 96 Tip Rack 20 µL",
                 "slot": 11
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1348,7 +1489,8 @@
                 "labware": "Template Plate #3",
                 "slot": 2
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -1358,7 +1500,8 @@
                 "labware": "Destination Plate #3",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -1366,7 +1509,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -1376,7 +1520,8 @@
                 "well": "A11",
                 "type": "Opentrons OT-2 96 Tip Rack 20 µL",
                 "slot": 11
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1386,7 +1531,8 @@
                 "labware": "Template Plate #3",
                 "slot": 2
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -1396,7 +1542,8 @@
                 "labware": "Destination Plate #3",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -1404,7 +1551,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -1414,7 +1562,8 @@
                 "well": "A12",
                 "type": "Opentrons OT-2 96 Tip Rack 20 µL",
                 "slot": 11
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1424,7 +1573,8 @@
                 "labware": "Template Plate #3",
                 "slot": 2
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -1434,7 +1584,8 @@
                 "labware": "Destination Plate #3",
                 "slot": 3
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -1442,7 +1593,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ]
 ]

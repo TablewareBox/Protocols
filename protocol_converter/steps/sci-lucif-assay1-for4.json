@@ -6,7 +6,8 @@
                 "well": "A1",
                 "type": "Opentrons OT-2 96 Tip Rack 300 µL",
                 "slot": 3
-            }
+            },
+            "channels": 8
         },
         {
             "action": "mix",
@@ -18,7 +19,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 5,
-            "pose_z": "bottom(5)"
+            "pose_z": "bottom(5)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -30,7 +32,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 5,
-            "pose_z": "bottom(2)"
+            "pose_z": "bottom(2)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -42,7 +45,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 2,
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -53,11 +57,13 @@
                 "slot": 6
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 20.0
+            "vol": 20.0,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -68,7 +74,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -77,7 +84,8 @@
                 "labware": "Corning 96 Well Plate 360 µL Flat",
                 "slot": 2
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "touch_tip",
@@ -86,7 +94,8 @@
                 "labware": "Corning 96 Well Plate 360 µL Flat",
                 "slot": 2
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -98,7 +107,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 2,
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -109,11 +119,13 @@
                 "slot": 6
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 20.0
+            "vol": 20.0,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -124,7 +136,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -133,7 +146,8 @@
                 "labware": "Corning 96 Well Plate 360 µL Flat",
                 "slot": 2
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "touch_tip",
@@ -142,7 +156,8 @@
                 "labware": "Corning 96 Well Plate 360 µL Flat",
                 "slot": 2
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -154,7 +169,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 2,
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -165,11 +181,13 @@
                 "slot": 6
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 20.0
+            "vol": 20.0,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -180,7 +198,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -189,7 +208,8 @@
                 "labware": "Corning 96 Well Plate 360 µL Flat",
                 "slot": 2
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "touch_tip",
@@ -198,7 +218,8 @@
                 "labware": "Corning 96 Well Plate 360 µL Flat",
                 "slot": 2
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -210,7 +231,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 2,
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -221,11 +243,13 @@
                 "slot": 6
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 20.0
+            "vol": 20.0,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -236,7 +260,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -245,7 +270,8 @@
                 "labware": "Corning 96 Well Plate 360 µL Flat",
                 "slot": 2
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "touch_tip",
@@ -254,7 +280,8 @@
                 "labware": "Corning 96 Well Plate 360 µL Flat",
                 "slot": 2
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -266,7 +293,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 2,
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -277,11 +305,13 @@
                 "slot": 6
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 20.0
+            "vol": 20.0,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -292,7 +322,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -301,7 +332,8 @@
                 "labware": "Corning 96 Well Plate 360 µL Flat",
                 "slot": 2
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "touch_tip",
@@ -310,7 +342,8 @@
                 "labware": "Corning 96 Well Plate 360 µL Flat",
                 "slot": 2
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -322,7 +355,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 2,
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -333,11 +367,13 @@
                 "slot": 6
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 20.0
+            "vol": 20.0,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -348,7 +384,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -357,7 +394,8 @@
                 "labware": "Corning 96 Well Plate 360 µL Flat",
                 "slot": 2
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "touch_tip",
@@ -366,7 +404,8 @@
                 "labware": "Corning 96 Well Plate 360 µL Flat",
                 "slot": 2
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -378,7 +417,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 2,
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -389,11 +429,13 @@
                 "slot": 6
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 20.0
+            "vol": 20.0,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -404,7 +446,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -413,7 +456,8 @@
                 "labware": "Corning 96 Well Plate 360 µL Flat",
                 "slot": 2
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "touch_tip",
@@ -422,7 +466,8 @@
                 "labware": "Corning 96 Well Plate 360 µL Flat",
                 "slot": 2
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -434,7 +479,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 2,
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -445,11 +491,13 @@
                 "slot": 6
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 20.0
+            "vol": 20.0,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -460,7 +508,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -469,7 +518,8 @@
                 "labware": "Corning 96 Well Plate 360 µL Flat",
                 "slot": 2
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "touch_tip",
@@ -478,7 +528,8 @@
                 "labware": "Corning 96 Well Plate 360 µL Flat",
                 "slot": 2
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -490,7 +541,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 2,
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -501,11 +553,13 @@
                 "slot": 6
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 20.0
+            "vol": 20.0,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -516,7 +570,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -525,7 +580,8 @@
                 "labware": "Corning 96 Well Plate 360 µL Flat",
                 "slot": 2
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "touch_tip",
@@ -534,7 +590,8 @@
                 "labware": "Corning 96 Well Plate 360 µL Flat",
                 "slot": 2
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -546,7 +603,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 2,
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -557,11 +615,13 @@
                 "slot": 6
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 20.0
+            "vol": 20.0,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -572,7 +632,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -581,7 +642,8 @@
                 "labware": "Corning 96 Well Plate 360 µL Flat",
                 "slot": 2
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "touch_tip",
@@ -590,7 +652,8 @@
                 "labware": "Corning 96 Well Plate 360 µL Flat",
                 "slot": 2
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -602,7 +665,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 2,
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -613,11 +677,13 @@
                 "slot": 6
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 20.0
+            "vol": 20.0,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -628,7 +694,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -637,7 +704,8 @@
                 "labware": "Corning 96 Well Plate 360 µL Flat",
                 "slot": 2
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "touch_tip",
@@ -646,7 +714,8 @@
                 "labware": "Corning 96 Well Plate 360 µL Flat",
                 "slot": 2
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -658,7 +727,8 @@
             },
             "flow_rate": 7.6,
             "mix_time": 2,
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -669,11 +739,13 @@
                 "slot": 6
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)"
+            "pose_z": "bottom(0.5)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 20.0
+            "vol": 20.0,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -684,7 +756,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -693,7 +766,8 @@
                 "labware": "Corning 96 Well Plate 360 µL Flat",
                 "slot": 2
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "touch_tip",
@@ -702,7 +776,8 @@
                 "labware": "Corning 96 Well Plate 360 µL Flat",
                 "slot": 2
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -710,7 +785,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ]
 ]

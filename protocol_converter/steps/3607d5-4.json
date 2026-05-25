@@ -6,7 +6,8 @@
                 "well": "H12",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 4
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -16,7 +17,8 @@
                 "labware": "reagent reservoir",
                 "slot": 7
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -26,7 +28,8 @@
                 "labware": "normalization plate",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -34,7 +37,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -44,7 +48,8 @@
                 "well": "H12",
                 "type": "Opentrons OT-2 96 Tip Rack 20 µL",
                 "slot": 6
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -54,7 +59,8 @@
                 "labware": "reagent reservoir",
                 "slot": 7
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -64,7 +70,8 @@
                 "labware": "normalization plate",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -72,7 +79,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -82,7 +90,8 @@
                 "well": "C1",
                 "type": "Opentrons OT-2 96 Tip Rack 20 µL",
                 "slot": 6
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -92,7 +101,8 @@
                 "labware": "sample plate",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -102,7 +112,8 @@
                 "labware": "normalization plate",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "mix",
@@ -113,7 +124,8 @@
                 "slot": 8
             },
             "flow_rate": 7.6,
-            "mix_time": 5
+            "mix_time": 5,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -121,17 +133,19 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
         {
             "action": "pick_tip",
             "tip_rack": {
-                "well": "G12",
+                "well": "H11",
                 "type": "Opentrons OT-2 96 Tip Rack 20 µL",
                 "slot": 6
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -141,7 +155,8 @@
                 "labware": "normalization plate",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -151,7 +166,8 @@
                 "labware": "pool tube (A1)",
                 "slot": 11
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -159,17 +175,19 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
         {
             "action": "pick_tip",
             "tip_rack": {
-                "well": "F12",
+                "well": "H10",
                 "type": "Opentrons OT-2 96 Tip Rack 20 µL",
                 "slot": 6
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -179,7 +197,8 @@
                 "labware": "normalization plate",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -189,7 +208,8 @@
                 "labware": "pool tube (A1)",
                 "slot": 11
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -197,17 +217,19 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
         {
             "action": "pick_tip",
             "tip_rack": {
-                "well": "E12",
+                "well": "H9",
                 "type": "Opentrons OT-2 96 Tip Rack 20 µL",
                 "slot": 6
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -217,7 +239,8 @@
                 "labware": "normalization plate",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -227,7 +250,8 @@
                 "labware": "pool tube (A1)",
                 "slot": 11
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -235,17 +259,19 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
         {
             "action": "pick_tip",
             "tip_rack": {
-                "well": "D12",
+                "well": "H8",
                 "type": "Opentrons OT-2 96 Tip Rack 20 µL",
                 "slot": 6
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -255,7 +281,8 @@
                 "labware": "normalization plate",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -265,7 +292,8 @@
                 "labware": "pool tube (A1)",
                 "slot": 11
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -273,17 +301,19 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
         {
             "action": "pick_tip",
             "tip_rack": {
-                "well": "C12",
+                "well": "H7",
                 "type": "Opentrons OT-2 96 Tip Rack 20 µL",
                 "slot": 6
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -293,7 +323,8 @@
                 "labware": "normalization plate",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -303,7 +334,8 @@
                 "labware": "pool tube (A1)",
                 "slot": 11
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -311,17 +343,19 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
         {
             "action": "pick_tip",
             "tip_rack": {
-                "well": "B12",
+                "well": "H6",
                 "type": "Opentrons OT-2 96 Tip Rack 20 µL",
                 "slot": 6
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -331,7 +365,8 @@
                 "labware": "normalization plate",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -341,7 +376,8 @@
                 "labware": "pool tube (A1)",
                 "slot": 11
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -349,7 +385,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ]
 ]

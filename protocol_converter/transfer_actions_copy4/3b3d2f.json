@@ -1,4 +1,17 @@
 {
+  "metadata": {
+    "workflow_name": "Plate Loading for ddPCR",
+    "tags": [
+      "PCR",
+      "PCR Prep"
+    ],
+    "raw": {
+      "protocolName": "Plate Loading for ddPCR",
+      "author": "Steve <protocols@opentrons.com>",
+      "source": "Custom Protocol Request",
+      "apiLevel": "2.9"
+    }
+  },
   "workflow": [
     {
       "action": "transfer_liquid",
@@ -745,7 +758,8 @@
         "A1"
       ],
       "labware": "opentrons_24_aluminumblock_nest_2ml_snapcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "water": {
       "slot": 3,
@@ -753,7 +767,8 @@
         "B1"
       ],
       "labware": "opentrons_24_aluminumblock_nest_2ml_snapcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "water"
     },
     "Liquid_1": {
       "slot": 3,
@@ -761,7 +776,8 @@
         "C1"
       ],
       "labware": "opentrons_24_aluminumblock_nest_2ml_snapcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "Liquid_2": {
       "slot": 3,
@@ -769,7 +785,8 @@
         "D1"
       ],
       "labware": "opentrons_24_aluminumblock_nest_2ml_snapcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "Liquid_3": {
       "slot": 3,
@@ -777,7 +794,8 @@
         "A2"
       ],
       "labware": "opentrons_24_aluminumblock_nest_2ml_snapcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "Liquid_4": {
       "slot": 3,
@@ -785,7 +803,8 @@
         "B2"
       ],
       "labware": "opentrons_24_aluminumblock_nest_2ml_snapcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "Liquid_5": {
       "slot": 3,
@@ -793,7 +812,8 @@
         "C2"
       ],
       "labware": "opentrons_24_aluminumblock_nest_2ml_snapcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "Liquid_6": {
       "slot": 3,
@@ -801,7 +821,8 @@
         "D2"
       ],
       "labware": "opentrons_24_aluminumblock_nest_2ml_snapcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "Liquid_7": {
       "slot": 3,
@@ -809,7 +830,8 @@
         "A3"
       ],
       "labware": "opentrons_24_aluminumblock_nest_2ml_snapcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "Liquid_8": {
       "slot": 3,
@@ -817,7 +839,8 @@
         "B3"
       ],
       "labware": "opentrons_24_aluminumblock_nest_2ml_snapcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "Liquid_9": {
       "slot": 3,
@@ -825,7 +848,8 @@
         "C3"
       ],
       "labware": "opentrons_24_aluminumblock_nest_2ml_snapcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "Liquid_10": {
       "slot": 3,
@@ -833,7 +857,8 @@
         "D3"
       ],
       "labware": "opentrons_24_aluminumblock_nest_2ml_snapcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "source": {
       "slot": 3,
@@ -841,7 +866,8 @@
         "A4"
       ],
       "labware": "opentrons_24_aluminumblock_nest_2ml_snapcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "pos_ctrl": {
       "slot": 3,
@@ -849,7 +875,8 @@
         "B4"
       ],
       "labware": "opentrons_24_aluminumblock_nest_2ml_snapcap",
-      "object": "source"
+      "object": "source",
+      "liquid_name": "sample"
     },
     "samples": {
       "slot": 5,
@@ -904,7 +931,8 @@
         "H6"
       ],
       "labware": "biorad_96_wellplate_200ul_pcr",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_2": {
       "slot": 5,
@@ -914,7 +942,8 @@
         "E6"
       ],
       "labware": "biorad_96_wellplate_200ul_pcr",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_3": {
       "slot": 5,
@@ -924,7 +953,8 @@
         "C1"
       ],
       "labware": "biorad_96_wellplate_200ul_pcr",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_4": {
       "slot": 5,
@@ -934,7 +964,8 @@
         "F1"
       ],
       "labware": "biorad_96_wellplate_200ul_pcr",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_5": {
       "slot": 5,
@@ -944,7 +975,8 @@
         "A2"
       ],
       "labware": "biorad_96_wellplate_200ul_pcr",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_6": {
       "slot": 5,
@@ -954,7 +986,8 @@
         "D2"
       ],
       "labware": "biorad_96_wellplate_200ul_pcr",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_7": {
       "slot": 5,
@@ -964,7 +997,8 @@
         "G2"
       ],
       "labware": "biorad_96_wellplate_200ul_pcr",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_8": {
       "slot": 5,
@@ -974,7 +1008,8 @@
         "B3"
       ],
       "labware": "biorad_96_wellplate_200ul_pcr",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_9": {
       "slot": 5,
@@ -984,7 +1019,8 @@
         "E3"
       ],
       "labware": "biorad_96_wellplate_200ul_pcr",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_10": {
       "slot": 5,
@@ -994,7 +1030,8 @@
         "H3"
       ],
       "labware": "biorad_96_wellplate_200ul_pcr",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_11": {
       "slot": 5,
@@ -1004,7 +1041,8 @@
         "C4"
       ],
       "labware": "biorad_96_wellplate_200ul_pcr",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_12": {
       "slot": 5,
@@ -1014,7 +1052,8 @@
         "F4"
       ],
       "labware": "biorad_96_wellplate_200ul_pcr",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_13": {
       "slot": 5,
@@ -1024,7 +1063,8 @@
         "A5"
       ],
       "labware": "biorad_96_wellplate_200ul_pcr",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "samples_14": {
       "slot": 5,
@@ -1034,7 +1074,8 @@
         "H6"
       ],
       "labware": "biorad_96_wellplate_200ul_pcr",
-      "object": "target"
+      "object": "target",
+      "liquid_name": "sample"
     },
     "tiprack_10": {
       "slot": 10,

@@ -148,7 +148,8 @@
                 "well": "A1",
                 "type": "20ul tiprack",
                 "slot": 3
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -159,7 +160,8 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(3)"
+            "pose_z": "bottom(3)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -169,7 +171,8 @@
                 "labware": "destination plate",
                 "slot": 2
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -178,7 +181,8 @@
                 "labware": "destination plate",
                 "slot": 2
             },
-            "pose_z": "top(-2)"
+            "pose_z": "top(-2)",
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -186,7 +190,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ]
 ]

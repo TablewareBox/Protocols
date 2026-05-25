@@ -1617,6 +1617,29 @@
     "beads": {
       "well": "A1",
       "slot": "unknown"
+    },
+    "Beads": {
+      "slot": 2,
+      "well": "A1",
+      "liquid_name": "Beads",
+      "source": "load_liquid"
+    },
+    "EtOH": {
+      "slot": 2,
+      "well": "A2",
+      "liquid_name": "EtOH",
+      "source": "load_liquid"
+    },
+    "TE Buffer": {
+      "slot": 2,
+      "well": "A4",
+      "liquid_name": "TE Buffer",
+      "source": "load_liquid"
     }
+  },
+  "metadata": {
+    "protocolName": "Paragon Cleanup",
+    "author": "Opentrons <protocols@opentrons.com>",
+    "apiLevel": "2.14"
   }
 }

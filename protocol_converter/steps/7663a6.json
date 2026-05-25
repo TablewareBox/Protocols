@@ -4542,7 +4542,8 @@
                 "well": "A1",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 20 µL",
                 "slot": 5
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4553,11 +4554,13 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 3.0
+            "vol": 3.0,
+            "channels": 8
         },
         {
             "action": "touch_tip",
@@ -4566,7 +4569,8 @@
                 "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
                 "slot": 1
             },
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4577,7 +4581,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -4588,7 +4593,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "mix_time": 10
+            "mix_time": 10,
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -4596,7 +4602,8 @@
                 "well": "A1",
                 "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
                 "slot": 2
-            }
+            },
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -4604,7 +4611,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -4614,7 +4622,8 @@
                 "well": "A2",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 20 µL",
                 "slot": 5
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4625,11 +4634,13 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 3.0
+            "vol": 3.0,
+            "channels": 8
         },
         {
             "action": "touch_tip",
@@ -4638,7 +4649,8 @@
                 "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
                 "slot": 1
             },
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4649,7 +4661,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -4660,7 +4673,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "mix_time": 10
+            "mix_time": 10,
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -4668,7 +4682,8 @@
                 "well": "A2",
                 "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
                 "slot": 2
-            }
+            },
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -4676,7 +4691,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -4686,7 +4702,8 @@
                 "well": "A3",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 20 µL",
                 "slot": 5
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4697,11 +4714,13 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 3.0
+            "vol": 3.0,
+            "channels": 8
         },
         {
             "action": "touch_tip",
@@ -4710,7 +4729,8 @@
                 "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
                 "slot": 1
             },
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4721,7 +4741,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -4732,7 +4753,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "mix_time": 10
+            "mix_time": 10,
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -4740,7 +4762,8 @@
                 "well": "A3",
                 "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
                 "slot": 2
-            }
+            },
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -4748,7 +4771,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -4758,7 +4782,8 @@
                 "well": "A4",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 20 µL",
                 "slot": 5
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4769,11 +4794,13 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 3.0
+            "vol": 3.0,
+            "channels": 8
         },
         {
             "action": "touch_tip",
@@ -4782,7 +4809,8 @@
                 "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
                 "slot": 1
             },
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4793,7 +4821,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -4804,7 +4833,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "mix_time": 10
+            "mix_time": 10,
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -4812,7 +4842,8 @@
                 "well": "A4",
                 "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
                 "slot": 2
-            }
+            },
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -4820,7 +4851,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -4830,7 +4862,8 @@
                 "well": "A5",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 20 µL",
                 "slot": 5
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4841,11 +4874,13 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 3.0
+            "vol": 3.0,
+            "channels": 8
         },
         {
             "action": "touch_tip",
@@ -4854,7 +4889,8 @@
                 "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
                 "slot": 1
             },
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4865,7 +4901,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -4876,7 +4913,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "mix_time": 10
+            "mix_time": 10,
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -4884,7 +4922,8 @@
                 "well": "A5",
                 "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
                 "slot": 2
-            }
+            },
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -4892,7 +4931,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -4902,7 +4942,8 @@
                 "well": "A6",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 20 µL",
                 "slot": 5
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4913,11 +4954,13 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 3.0
+            "vol": 3.0,
+            "channels": 8
         },
         {
             "action": "touch_tip",
@@ -4926,7 +4969,8 @@
                 "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
                 "slot": 1
             },
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -4937,7 +4981,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -4948,7 +4993,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "mix_time": 10
+            "mix_time": 10,
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -4956,7 +5002,8 @@
                 "well": "A6",
                 "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
                 "slot": 2
-            }
+            },
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -4964,7 +5011,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -4974,7 +5022,8 @@
                 "well": "A7",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 20 µL",
                 "slot": 5
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -4985,11 +5034,13 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 3.0
+            "vol": 3.0,
+            "channels": 8
         },
         {
             "action": "touch_tip",
@@ -4998,7 +5049,8 @@
                 "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
                 "slot": 1
             },
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5009,7 +5061,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -5020,7 +5073,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "mix_time": 10
+            "mix_time": 10,
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -5028,7 +5082,8 @@
                 "well": "A7",
                 "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
                 "slot": 2
-            }
+            },
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -5036,7 +5091,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -5046,7 +5102,8 @@
                 "well": "A8",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 20 µL",
                 "slot": 5
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5057,11 +5114,13 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 3.0
+            "vol": 3.0,
+            "channels": 8
         },
         {
             "action": "touch_tip",
@@ -5070,7 +5129,8 @@
                 "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
                 "slot": 1
             },
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5081,7 +5141,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -5092,7 +5153,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "mix_time": 10
+            "mix_time": 10,
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -5100,7 +5162,8 @@
                 "well": "A8",
                 "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
                 "slot": 2
-            }
+            },
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -5108,7 +5171,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -5118,7 +5182,8 @@
                 "well": "A9",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 20 µL",
                 "slot": 5
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5129,11 +5194,13 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 3.0
+            "vol": 3.0,
+            "channels": 8
         },
         {
             "action": "touch_tip",
@@ -5142,7 +5209,8 @@
                 "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
                 "slot": 1
             },
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5153,7 +5221,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -5164,7 +5233,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "mix_time": 10
+            "mix_time": 10,
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -5172,7 +5242,8 @@
                 "well": "A9",
                 "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
                 "slot": 2
-            }
+            },
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -5180,7 +5251,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -5190,7 +5262,8 @@
                 "well": "A10",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 20 µL",
                 "slot": 5
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5201,11 +5274,13 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 3.0
+            "vol": 3.0,
+            "channels": 8
         },
         {
             "action": "touch_tip",
@@ -5214,7 +5289,8 @@
                 "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
                 "slot": 1
             },
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5225,7 +5301,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -5236,7 +5313,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "mix_time": 10
+            "mix_time": 10,
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -5244,7 +5322,8 @@
                 "well": "A10",
                 "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
                 "slot": 2
-            }
+            },
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -5252,7 +5331,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -5262,7 +5342,8 @@
                 "well": "A11",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 20 µL",
                 "slot": 5
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5273,11 +5354,13 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 3.0
+            "vol": 3.0,
+            "channels": 8
         },
         {
             "action": "touch_tip",
@@ -5286,7 +5369,8 @@
                 "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
                 "slot": 1
             },
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5297,7 +5381,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -5308,7 +5393,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "mix_time": 10
+            "mix_time": 10,
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -5316,7 +5402,8 @@
                 "well": "A11",
                 "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
                 "slot": 2
-            }
+            },
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -5324,7 +5411,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -5334,7 +5422,8 @@
                 "well": "A12",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 20 µL",
                 "slot": 5
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -5345,11 +5434,13 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "air_gap",
-            "vol": 3.0
+            "vol": 3.0,
+            "channels": 8
         },
         {
             "action": "touch_tip",
@@ -5358,7 +5449,8 @@
                 "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
                 "slot": 1
             },
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -5369,7 +5461,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom(1)"
+            "pose_z": "bottom(1)",
+            "channels": 8
         },
         {
             "action": "mix",
@@ -5380,7 +5473,8 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
-            "mix_time": 10
+            "mix_time": 10,
+            "channels": 8
         },
         {
             "action": "blow_out",
@@ -5388,7 +5482,8 @@
                 "well": "A12",
                 "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
                 "slot": 2
-            }
+            },
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -5396,7 +5491,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ]
 ]

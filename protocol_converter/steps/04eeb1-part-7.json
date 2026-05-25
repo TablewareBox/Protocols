@@ -13,7 +13,8 @@
                 "well": "A1",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 20 µL",
                 "slot": 7
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -24,7 +25,8 @@
                 "slot": 3
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -35,7 +37,8 @@
                 "slot": 3
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom"
+            "pose_z": "bottom",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -45,7 +48,8 @@
                 "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -55,7 +59,8 @@
                 "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -63,7 +68,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -73,18 +79,8 @@
                 "well": "A2",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 20 µL",
                 "slot": 7
-            }
-        },
-        {
-            "action": "aspirate",
-            "vol": 5.0,
-            "source": {
-                "well": "A2",
-                "labware": "Bio-Rad 96 Well Plate 200 µL PCR",
-                "slot": 3
             },
-            "flow_rate": 7.6,
-            "pose_z": "top"
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -95,7 +91,20 @@
                 "slot": 3
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom"
+            "pose_z": "top",
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 5.0,
+            "source": {
+                "well": "A2",
+                "labware": "Bio-Rad 96 Well Plate 200 µL PCR",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -105,7 +114,8 @@
                 "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -115,7 +125,8 @@
                 "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -123,7 +134,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -133,7 +145,8 @@
                 "well": "A3",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 20 µL",
                 "slot": 7
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -144,7 +157,8 @@
                 "slot": 3
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -155,7 +169,8 @@
                 "slot": 3
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom"
+            "pose_z": "bottom",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -165,7 +180,8 @@
                 "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -175,7 +191,8 @@
                 "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -183,7 +200,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -193,18 +211,8 @@
                 "well": "A4",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 20 µL",
                 "slot": 7
-            }
-        },
-        {
-            "action": "aspirate",
-            "vol": 5.0,
-            "source": {
-                "well": "A4",
-                "labware": "Bio-Rad 96 Well Plate 200 µL PCR",
-                "slot": 3
             },
-            "flow_rate": 7.6,
-            "pose_z": "top"
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -215,7 +223,20 @@
                 "slot": 3
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom"
+            "pose_z": "top",
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 5.0,
+            "source": {
+                "well": "A4",
+                "labware": "Bio-Rad 96 Well Plate 200 µL PCR",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -225,7 +246,8 @@
                 "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -235,7 +257,8 @@
                 "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -243,7 +266,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -253,7 +277,8 @@
                 "well": "A5",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 20 µL",
                 "slot": 7
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -264,7 +289,8 @@
                 "slot": 3
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -275,7 +301,8 @@
                 "slot": 3
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom"
+            "pose_z": "bottom",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -285,7 +312,8 @@
                 "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -295,7 +323,8 @@
                 "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -303,7 +332,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -313,18 +343,8 @@
                 "well": "A6",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 20 µL",
                 "slot": 7
-            }
-        },
-        {
-            "action": "aspirate",
-            "vol": 5.0,
-            "source": {
-                "well": "A6",
-                "labware": "Bio-Rad 96 Well Plate 200 µL PCR",
-                "slot": 3
             },
-            "flow_rate": 7.6,
-            "pose_z": "top"
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -335,7 +355,20 @@
                 "slot": 3
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom"
+            "pose_z": "top",
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 5.0,
+            "source": {
+                "well": "A6",
+                "labware": "Bio-Rad 96 Well Plate 200 µL PCR",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -345,7 +378,8 @@
                 "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -355,7 +389,8 @@
                 "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -363,7 +398,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -373,7 +409,8 @@
                 "well": "A7",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 20 µL",
                 "slot": 7
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -384,7 +421,8 @@
                 "slot": 3
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -395,7 +433,8 @@
                 "slot": 3
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom"
+            "pose_z": "bottom",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -405,7 +444,8 @@
                 "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -415,7 +455,8 @@
                 "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -423,7 +464,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -433,18 +475,8 @@
                 "well": "A8",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 20 µL",
                 "slot": 7
-            }
-        },
-        {
-            "action": "aspirate",
-            "vol": 5.0,
-            "source": {
-                "well": "A8",
-                "labware": "Bio-Rad 96 Well Plate 200 µL PCR",
-                "slot": 3
             },
-            "flow_rate": 7.6,
-            "pose_z": "top"
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -455,7 +487,20 @@
                 "slot": 3
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom"
+            "pose_z": "top",
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 5.0,
+            "source": {
+                "well": "A8",
+                "labware": "Bio-Rad 96 Well Plate 200 µL PCR",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -465,7 +510,8 @@
                 "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -475,7 +521,8 @@
                 "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -483,7 +530,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -493,7 +541,8 @@
                 "well": "A9",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 20 µL",
                 "slot": 7
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -504,7 +553,8 @@
                 "slot": 3
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -515,7 +565,8 @@
                 "slot": 3
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom"
+            "pose_z": "bottom",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -525,7 +576,8 @@
                 "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -535,7 +587,8 @@
                 "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -543,7 +596,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -553,18 +607,8 @@
                 "well": "A10",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 20 µL",
                 "slot": 7
-            }
-        },
-        {
-            "action": "aspirate",
-            "vol": 5.0,
-            "source": {
-                "well": "A10",
-                "labware": "Bio-Rad 96 Well Plate 200 µL PCR",
-                "slot": 3
             },
-            "flow_rate": 7.6,
-            "pose_z": "top"
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -575,7 +619,20 @@
                 "slot": 3
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom"
+            "pose_z": "top",
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 5.0,
+            "source": {
+                "well": "A10",
+                "labware": "Bio-Rad 96 Well Plate 200 µL PCR",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -585,7 +642,8 @@
                 "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -595,7 +653,8 @@
                 "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -603,7 +662,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -613,7 +673,8 @@
                 "well": "A11",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 20 µL",
                 "slot": 7
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -624,7 +685,8 @@
                 "slot": 3
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -635,7 +697,8 @@
                 "slot": 3
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom"
+            "pose_z": "bottom",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -645,7 +708,8 @@
                 "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -655,7 +719,8 @@
                 "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -663,7 +728,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -673,7 +739,8 @@
                 "well": "A12",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 20 µL",
                 "slot": 7
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -684,7 +751,8 @@
                 "slot": 3
             },
             "flow_rate": 7.6,
-            "pose_z": "top"
+            "pose_z": "top",
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -695,7 +763,8 @@
                 "slot": 3
             },
             "flow_rate": 7.6,
-            "pose_z": "bottom"
+            "pose_z": "bottom",
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -705,7 +774,8 @@
                 "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -715,7 +785,8 @@
                 "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -723,7 +794,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -733,7 +805,8 @@
                 "well": "H1",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 4
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -743,7 +816,8 @@
                 "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -753,7 +827,8 @@
                 "labware": "Opentrons 24 Well Aluminum Block with NEST 1.5 mL Snapcap",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -761,7 +836,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -771,7 +847,8 @@
                 "well": "H2",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 4
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -781,7 +858,8 @@
                 "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -791,7 +869,8 @@
                 "labware": "Opentrons 24 Well Aluminum Block with NEST 1.5 mL Snapcap",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -799,7 +878,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -809,7 +889,8 @@
                 "well": "H3",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 4
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -819,7 +900,8 @@
                 "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -829,7 +911,8 @@
                 "labware": "Opentrons 24 Well Aluminum Block with NEST 1.5 mL Snapcap",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -837,7 +920,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -847,7 +931,8 @@
                 "well": "H4",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 4
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -857,7 +942,8 @@
                 "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -867,7 +953,8 @@
                 "labware": "Opentrons 24 Well Aluminum Block with NEST 1.5 mL Snapcap",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -875,7 +962,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -885,7 +973,8 @@
                 "well": "H5",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 4
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -895,7 +984,8 @@
                 "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -905,7 +995,8 @@
                 "labware": "Opentrons 24 Well Aluminum Block with NEST 1.5 mL Snapcap",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -913,7 +1004,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -923,7 +1015,8 @@
                 "well": "H6",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 4
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -933,7 +1026,8 @@
                 "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -943,7 +1037,8 @@
                 "labware": "Opentrons 24 Well Aluminum Block with NEST 1.5 mL Snapcap",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -951,7 +1046,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -961,7 +1057,8 @@
                 "well": "H7",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 4
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -971,7 +1068,8 @@
                 "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -981,7 +1079,8 @@
                 "labware": "Opentrons 24 Well Aluminum Block with NEST 1.5 mL Snapcap",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -989,7 +1088,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ],
     [
@@ -999,7 +1099,8 @@
                 "well": "H8",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 4
-            }
+            },
+            "channels": 8
         },
         {
             "action": "aspirate",
@@ -1009,7 +1110,8 @@
                 "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
                 "slot": 8
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "dispense",
@@ -1019,7 +1121,8 @@
                 "labware": "Opentrons 24 Well Aluminum Block with NEST 1.5 mL Snapcap",
                 "slot": 5
             },
-            "flow_rate": 7.6
+            "flow_rate": 7.6,
+            "channels": 8
         },
         {
             "action": "drop_tip",
@@ -1027,7 +1130,8 @@
                 "well": "A1",
                 "labware": "Opentrons Fixed Trash",
                 "slot": 12
-            }
+            },
+            "channels": 8
         }
     ]
 ]
