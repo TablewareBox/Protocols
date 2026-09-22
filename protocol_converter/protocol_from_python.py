@@ -10,14 +10,118 @@
 支持: 基础液体操作 (aspirate/dispense/mix/delay/pick_tip/drop_tip)。
 部分协议因使用 load_module/transfer/flow_rate 等 API 可能失败。
 """
+import ast
 import json
 import os
+import re
 import sys
 from pathlib import Path
 from typing import List, Dict, Any, Optional
 
 # 默认 flow_rate (p20/p300 常用)
 _DEFAULT_FLOW_RATE = 7.6
+
+
+# ============================================================================
+# P1.x — 多通道 pipette 启发式检测（when load_name 撒谎）
+# ----------------------------------------------------------------------------
+# 背景：部分 Opentrons 协议（如 75cfa6/pcr_prep）作者把 multi pipette 误写成
+# ``ctx.load_instrument('p10_single', m10_mount, ...)``，但 README + fields.json
+# 都明确该 mount 上是 multi-channel。仅按 load_name 判断会漏掉这些 multi 协议，
+# 导致 stage-2 transfer_actions 丢失 ``use_channels=[0..7]`` 信号、丢失 7/8 物料。
+#
+# 启发式：从 .py source 的 ``<var> = ctx.load_instrument(<load_name>, <mount>, ...)``
+# 收集 (var_name, load_name, mount_src)，若 ``load_name`` 不含 "multi" 但 var_name
+# 或 mount_src 命中下面的强模式，则把 load_name 升级为 ``_multi`` 变体。
+#
+# 详细设计见 product_designs/protocol_convert/01-multi-channel-flatten.md §12。
+# ============================================================================
+
+# 强模式：m + 数字前缀（m10 / m20 / m300 / m1000 / m20_pipette / m10_mount）
+# 或包含 "multi" 子串（multi_pipette / p300_multi_gen2 / multi_mount）。
+# 故意不匹配单 `m` 前缀（避免 `m_plate` 这类缩写误判）。
+_MULTI_NAME_HINT = re.compile(r"^m\d+(?:_|$)|multi", re.IGNORECASE)
+
+
+def _looks_multi(token: str) -> bool:
+    """检测变量名或参数源码片段是否暗示 multi-channel pipette。"""
+    if not token:
+        return False
+    return bool(_MULTI_NAME_HINT.search(token))
+
+
+def _maybe_upgrade_to_multi(load_name: str) -> str:
+    """``p10_single`` → ``p10_multi``；``p20`` → ``p20_multi``；已含 multi 时原样返回。"""
+    s = (load_name or "").strip()
+    if not s:
+        return s
+    if "multi" in s.lower():
+        return s
+    # 优先替换 _single → _multi（保持 GEN 后缀位置：p300_single_gen2 → p300_multi_gen2）
+    if re.search(r"_single(?=$|_)", s, flags=re.IGNORECASE):
+        return re.sub(r"_single(?=$|_)", "_multi", s, flags=re.IGNORECASE)
+    # 否则追加 _multi（p20 → p20_multi）
+    return s + "_multi"
+
+
+def _scan_pipette_intents(py_source: str) -> List[Dict[str, str]]:
+    """AST 预扫描所有 ``<Name> = <obj>.load_instrument(<load_name>, <mount>, ...)``。
+
+    返回值按源码出现顺序，每项 ``{"var_name", "load_name", "mount_src"}``。
+    形态不匹配（subscript LHS / 非常量 load_name / 调用参数少于 2 个）的跳过，
+    运行时 ``MockContext.load_instrument`` 按「list 已耗尽」兜底为不升级。
+    """
+    intents: List[Dict[str, str]] = []
+    try:
+        tree = ast.parse(py_source)
+    except SyntaxError:
+        return intents
+    for node in ast.walk(tree):
+        if not isinstance(node, ast.Assign):
+            continue
+        if len(node.targets) != 1 or not isinstance(node.targets[0], ast.Name):
+            continue
+        call = node.value
+        if not isinstance(call, ast.Call):
+            continue
+        if not (isinstance(call.func, ast.Attribute) and call.func.attr == "load_instrument"):
+            continue
+        if len(call.args) < 2:
+            continue
+        var_name = node.targets[0].id
+        load_name_arg = call.args[0]
+        mount_arg = call.args[1]
+        if isinstance(load_name_arg, ast.Constant) and isinstance(load_name_arg.value, str):
+            load_name = load_name_arg.value
+        else:
+            load_name = ""
+        try:
+            mount_src = ast.unparse(mount_arg) if hasattr(ast, "unparse") else ""
+        except Exception:
+            mount_src = ""
+        intents.append({
+            "var_name": var_name,
+            "load_name": load_name,
+            "mount_src": mount_src,
+        })
+    return intents
+
+
+def _resolve_effective_pipette_name(load_name: str, intents: List[Dict[str, str]]) -> str:
+    """运行时根据 intents 头条目把 load_name 升级为 multi 变体（必要时）。
+
+    side-effect：消耗 intents 头一项以保持与后续 load_instrument 调用对齐。
+    若 intents 为空（AST scan 失败或调用形态不匹配），原样返回 load_name —— 等价旧行为，零回归。
+    """
+    if not intents:
+        return load_name
+    intent = intents.pop(0)
+    # 已经是 multi → 不升级（保持现有 MockPipette.channels 逻辑）
+    if isinstance(load_name, str) and "multi" in load_name.lower():
+        return load_name
+    if _looks_multi(intent.get("var_name", "")) or _looks_multi(intent.get("mount_src", "")):
+        return _maybe_upgrade_to_multi(load_name)
+    return load_name
 
 
 def _stringify_for_json(value: Any) -> Any:
@@ -223,6 +327,26 @@ def _flatten_ordering(ordering: Any) -> List[str]:
     return []
 
 
+class _LocationLabware:
+    """模拟 opentrons ``Location.labware``（一个 well/labware 联合体）。
+
+    协议常写 ``loc.labware.as_well().max_volume``（如 5689f5 的 waste = res.rows()[0][-1].top()）。
+    well 位置时 ``.as_well()`` 返回该 well；其余属性委托给 labware，避免缺属性报错。"""
+
+    def __init__(self, well, labware):
+        self._well = well
+        self._lw = labware
+
+    def as_well(self):
+        return self._well
+
+    def is_well(self):
+        return True
+
+    def __getattr__(self, name):
+        return getattr(self._lw, name)
+
+
 class MockWell:
     """模拟 Well，携带 parent labware 信息"""
 
@@ -263,6 +387,8 @@ class MockWell:
             "move": lambda s, p=None: s,
             "top": lambda s, dz=0: self.top(dz),
             "bottom": lambda s, dz=0: self.bottom(dz),
+            # opentrons Location.labware：支持 loc.labware.as_well().max_volume 等
+            "labware": _LocationLabware(self, self._labware),
         })()
         return loc
 
@@ -277,6 +403,7 @@ class MockWell:
             "move": lambda s, p=None: s,
             "top": lambda s, dz=0: self.top(dz),
             "bottom": lambda s, dz=0: self.bottom(dz),
+            "labware": _LocationLabware(self, self._labware),
         })()
         return loc
 
@@ -507,6 +634,33 @@ class MockLabware:
     def reset(self):
         for well in self._wells:
             well.has_tip = True
+
+
+def _flatten_wells(x):
+    """把 source/dest 规整为「扁平的 well 列表」，复刻 opentrons transfer/distribute/consolidate
+    对**嵌套 well 列表**的展平语义。
+
+    opentrons 允许 ``transfer(v, src, [plateA.wells(), plateB.wells()])`` —— dest 是「列表的
+    列表」，会被展平成单层 well 列表后与 source 逐一配对/广播。旧实现 ``list(dest)`` 不展平，
+    把 ``[listA, listB]`` 当成 2 个元素 → zip 截断、严重漏记（如 5654c0：steps 44 vs log 426）。
+
+    单个 well（有 ``_name``）→ ``[well]``；可迭代 → 逐元素递归展平；不可迭代则原样保留。
+    """
+    if hasattr(x, "_name"):
+        return [x]
+    try:
+        it = list(x)
+    except TypeError:
+        return [x]
+    out = []
+    for e in it:
+        if hasattr(e, "_name"):
+            out.append(e)
+        elif isinstance(e, (list, tuple)) or hasattr(e, "__iter__"):
+            out.extend(_flatten_wells(e))
+        else:
+            out.append(e)
+    return out
 
 
 class MockPipette:
@@ -742,20 +896,28 @@ class MockPipette:
 
     def transfer(self, volume, source, dest, **kwargs):
         """transfer(vol, src, dst) 或 transfer(vol, [s1,s2], [d1,d2])，vol 可为列表"""
-        src_list = [source] if hasattr(source, "_name") else list(source)
-        dst_list = [dest] if hasattr(dest, "_name") else list(dest)
+        src_list = _flatten_wells(source)
+        dst_list = _flatten_wells(dest)
         mix_before = kwargs.get("mix_before")
         mix_after = kwargs.get("mix_after")
         new_tip = kwargs.get("new_tip", "always")
         touch_tip = kwargs.get("touch_tip", False)
         blow_out = kwargs.get("blow_out", False)
         blowout_location = kwargs.get("blowout_location")
+        air_gap = float(kwargs.get("air_gap") or 0)  # opentrons transfer(air_gap=ag)：每笔 aspirate 后吸 ag 空气，dispense(v+ag) 一并吐出
 
         auto_pick_once = new_tip == "once"
         auto_pick_always = new_tip == "always"
 
         # volume 可以是单值或与 src/dst 等长的列表
         n = max(len(src_list), len(dst_list))
+        # opentrons transfer 广播：source/dest 一方为单元素时复制到等长（如 6fe477 的
+        # transfer(40, [5个样本井], 单个目标井) = 把 5 个样本都打到该目标井=池化 pool_size）。
+        # 旧实现用 zip(src,dst) 在较短处截断 → 只做 1 笔、漏掉其余样本（log-check 抓到 11 vs 44）。
+        if len(src_list) == 1 and n > 1:
+            src_list = src_list * n
+        if len(dst_list) == 1 and n > 1:
+            dst_list = dst_list * n
         if isinstance(volume, (list, tuple)):
             vol_list = list(volume)
         else:
@@ -764,13 +926,41 @@ class MockPipette:
         if auto_pick_once and not self.has_tip:
             self.pick_up_tip()
 
+        emax = self._distribute_max_volume()
         for s, d, v in zip(src_list, dst_list, vol_list):
             if auto_pick_always and not self.has_tip:
                 self.pick_up_tip()
             if mix_before:
                 self.mix(mix_before[0], mix_before[1], s)
-            self.aspirate(v, s)
-            self.dispense(v, d)
+            # opentrons transfer 体积分块：单笔体积超过 pipette 有效容量(min(名义max, tip容量))时，
+            # 按 max 贪心切成多段 aspirate/dispense（与 opentrons_simulate 日志一致，如 701319 的
+            # m300(300) 转移 950 → 300+300+300+50）。<=容量时按原样单笔（含 0 体积）。
+            try:
+                vf = float(v)
+            except (TypeError, ValueError):
+                vf = None
+            # 每段：aspirate(chunk) → [air_gap(ag)] → dispense(chunk+ag)。air_gap kwarg 时复刻
+            # opentrons「吸液+吸 ag 空气，dispense 含空气一并吐出」（log 里 air gap 是第二条 Aspirating，
+            # dispense=v+ag，如 8nhsa0/customizable_serial_dilution/4a5f32/7aa3fd-size-selection）。
+            # 下游转换器的 air_gap_after 逻辑会把 ag 从 dispense 剥离，保持 asp=dis 守恒。
+            if vf is None or vf <= emax + 1e-6:
+                self.aspirate(v, s)
+                if air_gap > 0:
+                    self.air_gap(air_gap)
+                    self.dispense((vf if vf is not None else 0) + air_gap, d)
+                else:
+                    self.dispense(v, d)
+            else:
+                remaining = vf
+                while remaining > 1e-6:
+                    chunk = min(emax, remaining)
+                    self.aspirate(chunk, s)
+                    if air_gap > 0:
+                        self.air_gap(air_gap)
+                        self.dispense(chunk + air_gap, d)
+                    else:
+                        self.dispense(chunk, d)
+                    remaining -= chunk
             if mix_after:
                 self.mix(mix_after[0], mix_after[1], d)
             if touch_tip:
@@ -788,21 +978,78 @@ class MockPipette:
         if auto_pick_once and self.has_tip:
             self.drop_tip()
 
+    def _distribute_max_volume(self) -> float:
+        """distribute 分批用的有效最大容量 = min(pipette 名义最大, tip rack 容量)。
+        self._max_volume 对非 p1000 不可靠（恒 20），故按名字 + tip rack 名重推。"""
+        n = (self._name or "").lower()
+        if "1000" in n:
+            pmax = 1000.0
+        elif "300" in n:
+            pmax = 300.0
+        elif "50" in n:
+            pmax = 50.0
+        elif "20" in n or "10" in n:
+            pmax = 20.0
+        else:
+            pmax = 300.0
+        tipmax = None
+        for r in (self._tip_racks or []):
+            ln = ""
+            for attr in ("load_name", "_load_name", "display_name", "_display_name"):
+                ln = (getattr(r, attr, "") or "")
+                if ln:
+                    break
+            m = re.search(r"(\d+)\s*ul", str(ln).lower())
+            if m:
+                cc = float(m.group(1))
+                tipmax = cc if tipmax is None else min(tipmax, cc)
+        return min(pmax, tipmax) if tipmax else pmax
+
     def distribute(self, volume, source, dest, **kwargs):
+        """复刻 opentrons distribute 操作序列：每批一次主吸取 aspirate(Σbatch) → 逐目标(可选 air_gap
+        后 dispense(v)) → 末尾 blow_out。**按有效容量分批**以对齐 opentrons 的主吸取次数（log-check 的
+        顺序+个数要求，如 62679a 的 33.3uL 列超 200uL tip 需分 2 批）。
+
+        - disposal_volume 只参与分批容量计算（对齐 opentrons 批次数），**不并入 aspirate 体积**：
+          机器人不建模该弃液；并入会让单目标批(只 1 次 dispense、拆 1:1 不触发)出现 asp>dis 不守恒。
+        - dispense 只记液体量 v（air gap 是防滴空气，随末尾 blow_out 清出）。
+        """
         new_tip = kwargs.get("new_tip", "always")
+        disposal = float(kwargs.get("disposal_volume") or 0)
+        air_gap = float(kwargs.get("air_gap") or 0)
         src = (list(source)[0] if list(source) else None) if not hasattr(source, "_name") else source
         dest_list = list(dest) if not (hasattr(dest, "_name") or hasattr(dest, "_labware")) else [dest]
         n = len(dest_list)
+        if not dest_list:
+            return
         if isinstance(volume, (list, tuple)):
             vol_list = [float(v) for v in volume]
         else:
             vol_list = [float(volume)] * n
+
         if new_tip == "always" and not self.has_tip:
             self.pick_up_tip()
-        for d, v in zip(dest_list, vol_list):
-            if src:
-                self.aspirate(v, src)
-            self.dispense(v, d)
+
+        eff_max = self._distribute_max_volume()
+        i = 0
+        while i < len(dest_list):
+            batch = []
+            batch_sum = 0.0
+            while i < len(dest_list):
+                v = vol_list[i]
+                if batch and (batch_sum + v + disposal) > eff_max + 1e-6:
+                    break
+                batch.append((dest_list[i], v))
+                batch_sum += v
+                i += 1
+            if src is not None:
+                self.aspirate(batch_sum, src)
+            for d, v in batch:
+                if air_gap > 0:
+                    self.air_gap(air_gap)
+                self.dispense(v, d)
+            self.blow_out()
+
         if new_tip == "always" and self.has_tip:
             self.drop_tip()
 
@@ -1086,8 +1333,20 @@ class ProtocolRecorder:
         self.actions.append(act)
 
 
-def build_mock_ctx(protocol_dir: Path, fields: List[Dict], recorder: ProtocolRecorder):
-    """构建 mock 的 ctx 和依赖，供协议 run(ctx) 使用"""
+def build_mock_ctx(
+    protocol_dir: Path,
+    fields: List[Dict],
+    recorder: ProtocolRecorder,
+    pipette_intents: Optional[List[Dict[str, str]]] = None,
+):
+    """构建 mock 的 ctx 和依赖，供协议 run(ctx) 使用。
+
+    ``pipette_intents``: 由 ``_scan_pipette_intents(py_source)`` 预扫描所得的
+    pipette 赋值意图列表（var_name / load_name / mount_src），按源码顺序消费。
+    用于 P1.x 启发式升级 ``_single`` → ``_multi``（见模块 docstring §12）。
+    """
+    # 拷贝一份，运行时按调用顺序消费；None 视为空（关闭启发式）。
+    intents_queue: List[Dict[str, str]] = list(pipette_intents or [])
     # 解析 fields 默认值，按 name 索引
     field_by_name = {}
     for f in fields:
@@ -1183,7 +1442,10 @@ def build_mock_ctx(protocol_dir: Path, fields: List[Dict], recorder: ProtocolRec
 
         def load_instrument(self, name, mount, tip_racks=None):
             m = mount or "left"
-            pip = MockPipette(name, recorder, tip_racks, mount=m)
+            # P1.x: 若 load_name 没说自己是 multi，但赋值变量名 / mount 实参源码暗示 multi，
+            # 升级为 _multi 变体；intents_queue 由 build_mock_ctx 从 .py AST 预扫描注入。
+            effective_name = _resolve_effective_pipette_name(name, intents_queue)
+            pip = MockPipette(effective_name, recorder, tip_racks, mount=m)
             _loaded_instruments[m] = pip
             return pip
 
@@ -1414,12 +1676,20 @@ def run_protocol_with_mock(protocol_path: Path, protocol_dir: Path) -> List[Dict
         with open(fields_path, "r", encoding="utf-8") as f:
             fields = json.load(f)
 
-    recorder = ProtocolRecorder()
-    ctx, get_values = build_mock_ctx(protocol_dir, fields, recorder)
-
     # 读取并执行协议
     with open(protocol_path, "r", encoding="utf-8") as f:
         code = f.read()
+
+    # P1.x — AST 预扫描 `<var> = ctx.load_instrument(...)`，
+    # 为 build_mock_ctx 提供 (var_name, load_name, mount_src) 列表，
+    # 让 MockContext.load_instrument 能把 `_single` → `_multi` 升级
+    # （详见 product_designs/protocol_convert/01-multi-channel-flatten.md §12）
+    pipette_intents = _scan_pipette_intents(code)
+
+    recorder = ProtocolRecorder()
+    ctx, get_values = build_mock_ctx(
+        protocol_dir, fields, recorder, pipette_intents=pipette_intents
+    )
 
     # Mock opentrons 模块，避免 import 真实包
     class _Point:

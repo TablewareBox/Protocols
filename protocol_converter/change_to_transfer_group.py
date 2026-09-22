@@ -702,6 +702,15 @@ def get_action_list(steps_file, slot_to_labware_type: Dict[int, str] = None):
                 pending_air_gap_before = float(step.get('vol', 0))
                 i += 1
                 continue
+            if step['action'] == "dispense":
+                # 正常 dispense 由下方 aspirate 块内的收集逻辑消费；只有「上一笔 transfer 已消费的
+                # dispense 被主循环重新走查」（处理完 aspirate 块后 i=j 回退）时才到这里。
+                # 此时必须清掉悬挂的 pending_air_gap_before：air_gap 后跟的是 dispense（如 distribute
+                # 的逐目标 air gap），并非「air_gap 紧接下一个 aspirate」，否则会被误计入下一个
+                # aspirate 的 air_gap_before，导致后续 block 体积被错误扣减（62679a distribute）。
+                pending_air_gap_before = 0.0
+                i += 1
+                continue
             if step['action'] == "aspirate":
                 air_gap_before_vol = pending_air_gap_before
                 pending_air_gap_before = 0.0
@@ -742,12 +751,30 @@ def get_action_list(steps_file, slot_to_labware_type: Dict[int, str] = None):
                     j += 1
 
                 # ---- consolidate 模式检测 ----
-                # j 仍指向不同 source 的 aspirate → 可能是多源合并到单目标
-                if j < len(phase) and phase[j].get('action') == 'aspirate' and src_key is not None:
+                # j 仍指向（可能跨 delay 的）aspirate → 可能是多次吸取合并到单次 dispense。
+                # 跳过夹在 aspirate 之间的 delay：处理「aspirate, delay, aspirate, dispense」这类
+                # 同源/多源多次吸取（典型 e54ada：120(bottom)+20(top)→dispense 140）。是否真为
+                # consolidate 由下方体积守恒判据（Σasp≈dispense）裁决，故不会误吞 3b3d2f 那种
+                # 「前一吸取是死体积/预润、Σ≠dispense」的情形。
+                j_peek = j
+                while j_peek < len(phase) and phase[j_peek].get('action') == 'delay':
+                    j_peek += 1
+                if j_peek < len(phase) and phase[j_peek].get('action') == 'aspirate' and src_key is not None:
                     # 收集从 i 开始的全部连续 aspirate（不限 source），但跳过 back-aspirate
                     all_cons = []
                     k_c = i
-                    while k_c < len(phase) and phase[k_c]['action'] == 'aspirate':
+                    while k_c < len(phase):
+                        # 同上：consolidate 多源收集时，夹在 aspirate 之间的 delay 透明跳过
+                        if phase[k_c].get('action') == 'delay':
+                            look3 = k_c
+                            while look3 < len(phase) and phase[look3].get('action') == "delay":
+                                look3 += 1
+                            if look3 < len(phase) and phase[look3].get('action') == "aspirate":
+                                k_c = look3
+                                continue
+                            break
+                        if phase[k_c]['action'] != 'aspirate':
+                            break
                         s_c = phase[k_c]
                         sk_c = (s_c['source']['slot'], s_c['source']['well'])
                         if backasp_tgt_key is not None and sk_c == backasp_tgt_key:
@@ -804,11 +831,18 @@ def get_action_list(steps_file, slot_to_labware_type: Dict[int, str] = None):
                             i = k_d + 1
                             continue
 
-                # aspirate 块之后紧跟 air_gap → blow_out_air_volume
+                # aspirate 块之后（可跨 delay）紧跟 air_gap → blow_out_air_volume。
+                # 跳过中间的 delay：很多协议写成 aspirate → delay/慢提 → air_gap → dispense(v+ag)
+                # （如 543bf9），若不跨 delay 就抓不到 air_gap，导致 dispense 含的 air 没被剥离 →
+                # asp=v / dis=v+ag 假不守恒。下游 ot_style_air_gap 判据（dispense 是否含 air）
+                # 会据 dispense 体积自动决定是否扣减，故跨 delay 抓取是安全的。
                 air_gap_after_vol = 0.0
-                if j < len(phase) and phase[j].get('action') == "air_gap":
-                    air_gap_after_vol = float(phase[j].get('vol', 0))
-                    j += 1
+                _ja = j
+                while _ja < len(phase) and phase[_ja].get('action') == "delay":
+                    _ja += 1
+                if _ja < len(phase) and phase[_ja].get('action') == "air_gap":
+                    air_gap_after_vol = float(phase[_ja].get('vol', 0))
+                    j = _ja + 1
 
                 # 收集该 aspirate 之后的所有连续 dispense（直到遇到下一个 aspirate/pick_tip）
                 dispenses: List[Tuple[Tuple, float, float, Optional[float], float]] = []
@@ -849,7 +883,16 @@ def get_action_list(steps_file, slot_to_labware_type: Dict[int, str] = None):
                         #   aspirate(7, slot=7, A12, bottom)   ← back-asp from target
                         #   dispense(10, slot=7, A12, bottom)
                         bs = (st.get('source', {}).get('slot'), st.get('source', {}).get('well'))
-                        if seen_valid_dispense and bs in {d[0] for d in dispenses}:
+                        _dtargets = {d[0] for d in dispenses}
+                        # 该 aspirate 的 source 是某个已收集 dispense 的 target → 可能是回吸（mix-after /
+                        # 排液后回吸再排）。但若 source==本块吸液源、且本块已有 dispense 排到了**别的孔**
+                        # （非源孔），则它其实是下一批/下一次 distribute 的主吸取（distribute 把余量吐回
+                        # source 后又从 source 吸下一批），不能当回吸吞掉，否则 dispense 收集跨批致
+                        # asp<Σdis、拆分失败错并成畸形 transfer（回归 37ffa5）。
+                        # 反之，若全部 dispense 都排回源孔（就地 priming / 混匀，如 234495 / 5dcd88），
+                        # 则仍按回吸处理，保持原有平衡。
+                        if (seen_valid_dispense and bs in _dtargets
+                                and (bs != src_key or _dtargets == {src_key})):
                             pre_asp_from_target_vol += float(st.get('vol', 0))
                             k += 1
                             continue
@@ -860,6 +903,15 @@ def get_action_list(steps_file, slot_to_labware_type: Dict[int, str] = None):
                         lab = (tgt.get('labware') or "").lower()
                         if vol_d != -1 and "trash" not in lab and tgt.get('slot') != 12:
                             tgt_key = (tgt['slot'], tgt['well'])
+                            # dispense 吐回吸液源井、且紧邻其前是 air_gap：判为把 air gap 的空气吐回源
+                            # （distribute blowout_location='source well' 的尾随排空），并非真实井间转移；
+                            # 若计入会使 Σdispense>asp 导致「1 吸多吐 → 拆 1:1」失败而错并成畸形 transfer
+                            # （典型 70567f）。仅用「前一步是 air_gap」这一最明确的排空信号，避免误删
+                            # 「吸 X 吐回 X」的就地混匀/自转移（如 5dcd88 的 aspirate→dispense 同井）。
+                            if (src_key is not None and tgt_key == src_key
+                                    and k > 0 and phase[k - 1].get('action') == 'air_gap'):
+                                k += 1
+                                continue
                             # 第一笔 dispense 扣除回吸量（回吸液体随 dispense 一并吐出）
                             if not seen_valid_dispense and pre_asp_from_target_vol > 0:
                                 vol_d = max(0, vol_d - pre_asp_from_target_vol)
@@ -2356,6 +2408,35 @@ def generate_transfer_actions(protocol_name):
         transfer_actions = _normalize_pairing_wells_for_merge(transfer_actions)
         # 2. 合并：仅当slot相同、source相同、target相同时才合并
         transfer_actions = _merge_transfer_actions(transfer_actions)
+        # 2b. many-to-one 压缩：
+        #     将连续的「多 source -> 同一 target」1:1 transfer 压成 N:1，降低 transfer_liquid 条数。
+        #     - 01a6b9 使用已验证过的组大小 8（保持既有行为）；
+        #     - 其余协议仅在条数 >30 时启用，按组大小逐步放大，尽量压缩但不强行改变语义边界。
+        if protocol_name == "01a6b9":
+            transfer_actions = _simplify_many_to_one_transfer_actions(
+                transfer_actions, max_group_size=8
+            )
+        elif len(transfer_actions) > 30:
+            for chunk_size in (8, 12, 16, 24, 32, 48, 64):
+                compressed = _simplify_many_to_one_transfer_actions(
+                    transfer_actions, max_group_size=chunk_size
+                )
+                if len(compressed) < len(transfer_actions):
+                    transfer_actions = compressed
+                if len(transfer_actions) <= 30:
+                    break
+            if len(transfer_actions) > 30:
+                for chunk_size in (8, 12, 16, 24, 32, 48, 64, 96, 128):
+                    compressed = _simplify_pair_to_pair_transfer_actions(
+                        transfer_actions, max_group_size=chunk_size
+                    )
+                    if len(compressed) < len(transfer_actions):
+                        transfer_actions = compressed
+                    if len(transfer_actions) <= 30:
+                        break
+            # many-to-one 后再跑一遍 pairing+merge，收敛新形成的相邻可合并段。
+            transfer_actions = _normalize_pairing_wells_for_merge(transfer_actions)
+            transfer_actions = _merge_transfer_actions(transfer_actions)
         # 3. P1 多通道展开：对带 use_channels 的 transfer_liquid，把 asp_vols / dis_vols 等
         #    逐项数组按 use_channels 长度 ×N 复制（每个列锚条目展开为 N 个等值条目）。
         transfer_actions = _replicate_per_channel_for_multi(transfer_actions)
@@ -2741,6 +2822,386 @@ def _merge_transfer_actions(transfer_actions):
         merged.append(cur)
         i = j
     return merged
+
+
+def _to_single_reagent_key(value: Any) -> Optional[str]:
+    """把 sources/targets 规范成单个 reagent key（仅接受标量或单元素 list）。"""
+    if isinstance(value, str) and value:
+        return value
+    if isinstance(value, list) and len(value) == 1 and isinstance(value[0], str) and value[0]:
+        return value[0]
+    return None
+
+
+def _many_to_one_mergeable(a: Dict[str, Any], b: Dict[str, Any]) -> bool:
+    """判定两条连续 1:1 是否可压缩为 N:1（多 source -> 同一 target）。"""
+    aa = a.get("action_args", {})
+    bb = b.get("action_args", {})
+    aw = a.get("_source_wells", [])
+    bw = b.get("_source_wells", [])
+    tw = a.get("_target_wells", [])
+    uw = b.get("_target_wells", [])
+    if len(aw) != 1 or len(bw) != 1 or len(tw) != 1 or len(uw) != 1:
+        return False
+    if a.get("_source_slot") is None or b.get("_source_slot") is None:
+        return False
+    if a.get("_target_slot") is None or b.get("_target_slot") is None:
+        return False
+    if a.get("_source_slot") != b.get("_source_slot"):
+        return False
+    if tw[0] != uw[0]:
+        return False
+    if a.get("_tip_labware_type", "") != b.get("_tip_labware_type", ""):
+        return False
+    if aa.get("use_channels") != bb.get("use_channels"):
+        return False
+    if aa.get("touch_tip") != bb.get("touch_tip"):
+        return False
+
+    for key in ("mix_stage", "mix_times", "mix_vol", "mix_rate", "mix_liquid_height"):
+        if aa.get(key) != bb.get(key):
+            return False
+
+    for key in ("asp_vols", "dis_vols"):
+        va = aa.get(key)
+        vb = bb.get(key)
+        if not (isinstance(va, list) and len(va) == 1 and isinstance(vb, list) and len(vb) == 1):
+            return False
+
+    # 可选数组字段必须同形态（都没有或都为单元素 list）。
+    for key in (
+        "asp_flow_rates",
+        "dis_flow_rates",
+        "blow_out_air_volume",
+        "blow_out_air_volume_before",
+        "pre_aspirate_from_target",
+        "liquid_height",
+        "delays",
+    ):
+        va = aa.get(key)
+        vb = bb.get(key)
+        has_a = isinstance(va, list) and len(va) > 0
+        has_b = isinstance(vb, list) and len(vb) > 0
+        if has_a != has_b:
+            return False
+        if has_a and (len(va) != 1 or len(vb) != 1):
+            return False
+
+    tgt_a = _to_single_reagent_key(aa.get("targets"))
+    tgt_b = _to_single_reagent_key(bb.get("targets"))
+    if tgt_a is None or tgt_b is None or tgt_a != tgt_b:
+        return False
+    src_a = _to_single_reagent_key(aa.get("sources"))
+    src_b = _to_single_reagent_key(bb.get("sources"))
+    if src_a is None or src_b is None:
+        return False
+    return True
+
+
+def _merge_many_to_one_chunk(chunk: List[Dict[str, Any]]) -> Dict[str, Any]:
+    """把一段可 merge 的 1:1 action 压缩成一条 N:1 action（保持原顺序）。"""
+    first = chunk[0]
+    base_args = first["action_args"]
+    out_args: Dict[str, Any] = dict(base_args)
+    out_args["sources"] = []
+    out_args["targets"] = []
+    out_args["asp_vols"] = []
+    out_args["dis_vols"] = []
+    out_args["asp_flow_rates"] = []
+    out_args["dis_flow_rates"] = []
+    out_args["delays"] = []
+
+    has_blow_after = any(
+        isinstance((a.get("action_args") or {}).get("blow_out_air_volume"), list)
+        and (a.get("action_args") or {}).get("blow_out_air_volume")
+        for a in chunk
+    )
+    has_blow_before = any(
+        isinstance((a.get("action_args") or {}).get("blow_out_air_volume_before"), list)
+        and (a.get("action_args") or {}).get("blow_out_air_volume_before")
+        for a in chunk
+    )
+    has_pre_asp = any(
+        isinstance((a.get("action_args") or {}).get("pre_aspirate_from_target"), list)
+        and (a.get("action_args") or {}).get("pre_aspirate_from_target")
+        for a in chunk
+    )
+    has_liquid_h = any(
+        isinstance((a.get("action_args") or {}).get("liquid_height"), list)
+        and (a.get("action_args") or {}).get("liquid_height")
+        for a in chunk
+    )
+    if has_blow_after:
+        out_args["blow_out_air_volume"] = []
+    if has_blow_before:
+        out_args["blow_out_air_volume_before"] = []
+    if has_pre_asp:
+        out_args["pre_aspirate_from_target"] = []
+    if has_liquid_h:
+        out_args["liquid_height"] = []
+
+    source_wells: List[Any] = []
+    target_wells: List[Any] = []
+    target_slots: List[Any] = []
+    has_nonzero_delay = False
+
+    for action in chunk:
+        args = action.get("action_args") or {}
+        src_key = _to_single_reagent_key(args.get("sources"))
+        tgt_key = _to_single_reagent_key(args.get("targets"))
+        if src_key is None or tgt_key is None:
+            continue
+        out_args["sources"].append(src_key)
+        out_args["targets"].append(tgt_key)
+        out_args["asp_vols"].append((args.get("asp_vols") or [0])[0])
+        out_args["dis_vols"].append((args.get("dis_vols") or [0])[0])
+        out_args["asp_flow_rates"].append((args.get("asp_flow_rates") or [None])[0])
+        out_args["dis_flow_rates"].append((args.get("dis_flow_rates") or [None])[0])
+        delay_val = float((args.get("delays") or [0.0])[0] or 0.0)
+        out_args["delays"].append(delay_val)
+        if delay_val > 0:
+            has_nonzero_delay = True
+        if has_blow_after:
+            out_args["blow_out_air_volume"].append((args.get("blow_out_air_volume") or [0.0])[0])
+        if has_blow_before:
+            out_args["blow_out_air_volume_before"].append((args.get("blow_out_air_volume_before") or [0.0])[0])
+        if has_pre_asp:
+            out_args["pre_aspirate_from_target"].append((args.get("pre_aspirate_from_target") or [0.0])[0])
+        if has_liquid_h:
+            out_args["liquid_height"].append((args.get("liquid_height") or [None])[0])
+
+        source_wells.extend(action.get("_source_wells", []))
+        target_wells.extend(action.get("_target_wells", []))
+        target_slots.extend([action.get("_target_slot")] * len(action.get("_target_wells", [])))
+
+    # 全相同时回落为标量，减少 payload。
+    if isinstance(out_args.get("targets"), list) and len(set(out_args["targets"])) == 1:
+        out_args["targets"] = out_args["targets"][0]
+    if isinstance(out_args.get("sources"), list) and len(set(out_args["sources"])) == 1:
+        out_args["sources"] = out_args["sources"][0]
+    if not has_nonzero_delay:
+        out_args.pop("delays", None)
+
+    return {
+        "action": "transfer_liquid",
+        "action_args": out_args,
+        "_source_slot": first.get("_source_slot"),
+        "_source_wells": source_wells,
+        "_target_slot": first.get("_target_slot"),
+        "_target_slots": target_slots,
+        "_target_wells": target_wells,
+        "_tip_labware_type": first.get("_tip_labware_type", ""),
+    }
+
+
+def _simplify_many_to_one_transfer_actions(
+    transfer_actions: List[Dict[str, Any]], max_group_size: int = 8
+) -> List[Dict[str, Any]]:
+    """压缩连续 N:1 场景（多 source -> 同一 target），保持动作顺序不变。"""
+    if len(transfer_actions) <= 1:
+        return transfer_actions
+    max_group_size = max(int(max_group_size or 1), 1)
+
+    out: List[Dict[str, Any]] = []
+    i = 0
+    n = len(transfer_actions)
+    while i < n:
+        cur = transfer_actions[i]
+        bucket = [cur]
+        j = i + 1
+        while j < n and _many_to_one_mergeable(bucket[-1], transfer_actions[j]):
+            bucket.append(transfer_actions[j])
+            j += 1
+        if len(bucket) == 1:
+            out.append(cur)
+        else:
+            for k in range(0, len(bucket), max_group_size):
+                out.append(_merge_many_to_one_chunk(bucket[k:k + max_group_size]))
+        i = j
+    return out
+
+
+def _pair_to_pair_mergeable(a: Dict[str, Any], b: Dict[str, Any]) -> bool:
+    """判定两条连续 1:1 transfer 是否可压成同一条 N:N（保序拼接）。"""
+    aa = a.get("action_args", {})
+    bb = b.get("action_args", {})
+    aw = a.get("_source_wells", [])
+    bw = b.get("_source_wells", [])
+    tw = a.get("_target_wells", [])
+    uw = b.get("_target_wells", [])
+    # 每条须 source/target 孔位等长（1:1 配对，单通道=1、整列=8 等），且两条配对度一致；
+    # 不再强制 len==1 —— 允许「整列/多孔 1:1」逐条拼成 N:N，保序、保 source↔target 锚定。
+    if len(aw) == 0 or len(aw) != len(tw) or len(bw) != len(uw) or len(aw) != len(bw):
+        return False
+    if a.get("_source_slot") is None or b.get("_source_slot") is None:
+        return False
+    if a.get("_target_slot") is None or b.get("_target_slot") is None:
+        return False
+    # P-cnt：放宽「同 target slot」约束 —— chunk 合并器已维护 _target_slots 列表支持跨 slot
+    # 拼接（与 P2 v2 跨板合并一致），故跨任意 target slot 的连续 1:1 也可拼成一条 N:N。
+    if a.get("_tip_labware_type", "") != b.get("_tip_labware_type", ""):
+        return False
+    if aa.get("use_channels") != bb.get("use_channels"):
+        return False
+    if aa.get("touch_tip") != bb.get("touch_tip"):
+        return False
+
+    for key in ("mix_stage", "mix_times", "mix_vol", "mix_rate", "mix_liquid_height"):
+        if aa.get(key) != bb.get(key):
+            return False
+
+    for key in ("asp_vols", "dis_vols"):
+        va = aa.get(key)
+        vb = bb.get(key)
+        if not (isinstance(va, list) and len(va) == 1 and isinstance(vb, list) and len(vb) == 1):
+            return False
+
+    for key in (
+        "asp_flow_rates",
+        "dis_flow_rates",
+        "blow_out_air_volume",
+        "blow_out_air_volume_before",
+        "pre_aspirate_from_target",
+        "liquid_height",
+        "delays",
+    ):
+        va = aa.get(key)
+        vb = bb.get(key)
+        has_a = isinstance(va, list) and len(va) > 0
+        has_b = isinstance(vb, list) and len(vb) > 0
+        if has_a != has_b:
+            return False
+        if has_a and (len(va) != 1 or len(vb) != 1):
+            return False
+
+    src_a = _to_single_reagent_key(aa.get("sources"))
+    src_b = _to_single_reagent_key(bb.get("sources"))
+    tgt_a = _to_single_reagent_key(aa.get("targets"))
+    tgt_b = _to_single_reagent_key(bb.get("targets"))
+    if src_a is None or src_b is None or tgt_a is None or tgt_b is None:
+        return False
+    return True
+
+
+def _merge_pair_to_pair_chunk(chunk: List[Dict[str, Any]]) -> Dict[str, Any]:
+    """把一段可 merge 的 1:1 action 压缩为一条 N:N action（保序）。"""
+    first = chunk[0]
+    out_args: Dict[str, Any] = dict(first.get("action_args") or {})
+    out_args["sources"] = []
+    out_args["targets"] = []
+    out_args["asp_vols"] = []
+    out_args["dis_vols"] = []
+    out_args["asp_flow_rates"] = []
+    out_args["dis_flow_rates"] = []
+    out_args["delays"] = []
+
+    has_blow_after = any(
+        isinstance((a.get("action_args") or {}).get("blow_out_air_volume"), list)
+        and (a.get("action_args") or {}).get("blow_out_air_volume")
+        for a in chunk
+    )
+    has_blow_before = any(
+        isinstance((a.get("action_args") or {}).get("blow_out_air_volume_before"), list)
+        and (a.get("action_args") or {}).get("blow_out_air_volume_before")
+        for a in chunk
+    )
+    has_pre_asp = any(
+        isinstance((a.get("action_args") or {}).get("pre_aspirate_from_target"), list)
+        and (a.get("action_args") or {}).get("pre_aspirate_from_target")
+        for a in chunk
+    )
+    has_liquid_h = any(
+        isinstance((a.get("action_args") or {}).get("liquid_height"), list)
+        and (a.get("action_args") or {}).get("liquid_height")
+        for a in chunk
+    )
+    if has_blow_after:
+        out_args["blow_out_air_volume"] = []
+    if has_blow_before:
+        out_args["blow_out_air_volume_before"] = []
+    if has_pre_asp:
+        out_args["pre_aspirate_from_target"] = []
+    if has_liquid_h:
+        out_args["liquid_height"] = []
+
+    source_wells: List[Any] = []
+    target_wells: List[Any] = []
+    target_slots: List[Any] = []
+    has_nonzero_delay = False
+
+    for action in chunk:
+        args = action.get("action_args") or {}
+        src_key = _to_single_reagent_key(args.get("sources"))
+        tgt_key = _to_single_reagent_key(args.get("targets"))
+        if src_key is None or tgt_key is None:
+            continue
+        out_args["sources"].append(src_key)
+        out_args["targets"].append(tgt_key)
+        out_args["asp_vols"].append((args.get("asp_vols") or [0])[0])
+        out_args["dis_vols"].append((args.get("dis_vols") or [0])[0])
+        out_args["asp_flow_rates"].append((args.get("asp_flow_rates") or [None])[0])
+        out_args["dis_flow_rates"].append((args.get("dis_flow_rates") or [None])[0])
+        delay_val = float((args.get("delays") or [0.0])[0] or 0.0)
+        out_args["delays"].append(delay_val)
+        if delay_val > 0:
+            has_nonzero_delay = True
+        if has_blow_after:
+            out_args["blow_out_air_volume"].append((args.get("blow_out_air_volume") or [0.0])[0])
+        if has_blow_before:
+            out_args["blow_out_air_volume_before"].append((args.get("blow_out_air_volume_before") or [0.0])[0])
+        if has_pre_asp:
+            out_args["pre_aspirate_from_target"].append((args.get("pre_aspirate_from_target") or [0.0])[0])
+        if has_liquid_h:
+            out_args["liquid_height"].append((args.get("liquid_height") or [None])[0])
+
+        source_wells.extend(action.get("_source_wells", []))
+        target_wells.extend(action.get("_target_wells", []))
+        target_slots.extend([action.get("_target_slot")] * len(action.get("_target_wells", [])))
+
+    if isinstance(out_args.get("targets"), list) and len(set(out_args["targets"])) == 1:
+        out_args["targets"] = out_args["targets"][0]
+    if isinstance(out_args.get("sources"), list) and len(set(out_args["sources"])) == 1:
+        out_args["sources"] = out_args["sources"][0]
+    if not has_nonzero_delay:
+        out_args.pop("delays", None)
+
+    return {
+        "action": "transfer_liquid",
+        "action_args": out_args,
+        "_source_slot": first.get("_source_slot"),
+        "_source_wells": source_wells,
+        "_target_slot": first.get("_target_slot"),
+        "_target_slots": target_slots,
+        "_target_wells": target_wells,
+        "_tip_labware_type": first.get("_tip_labware_type", ""),
+    }
+
+
+def _simplify_pair_to_pair_transfer_actions(
+    transfer_actions: List[Dict[str, Any]], max_group_size: int = 8
+) -> List[Dict[str, Any]]:
+    """压缩连续 1:1 场景（N 条相邻 pair -> 1 条 N:N），保持顺序。"""
+    if len(transfer_actions) <= 1:
+        return transfer_actions
+    max_group_size = max(int(max_group_size or 1), 1)
+
+    out: List[Dict[str, Any]] = []
+    i = 0
+    n = len(transfer_actions)
+    while i < n:
+        cur = transfer_actions[i]
+        bucket = [cur]
+        j = i + 1
+        while j < n and _pair_to_pair_mergeable(bucket[-1], transfer_actions[j]):
+            bucket.append(transfer_actions[j])
+            j += 1
+        if len(bucket) == 1:
+            out.append(cur)
+        else:
+            for k in range(0, len(bucket), max_group_size):
+                out.append(_merge_pair_to_pair_chunk(bucket[k:k + max_group_size]))
+        i = j
+    return out
 
 
 # P1 多通道展开：multi 协议 transfer_liquid 的逐项数组需要按 use_channels 长度 ×N 复制
