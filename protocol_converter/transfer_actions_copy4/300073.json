@@ -1456,77 +1456,41 @@
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "tuberack_quad_1_map_22",
+        "sources": [
+          "tuberack_quad_1_map_22",
+          "tuberack_quad_1_map_23",
+          "tuberack_quad_1_map_24"
+        ],
         "targets": "samples_46",
         "asp_vols": [
+          50.0,
+          50.0,
           50.0
         ],
         "dis_vols": [
+          50.0,
+          50.0,
           50.0
         ],
         "asp_flow_rates": [
+          7.6,
+          7.6,
           7.6
         ],
         "dis_flow_rates": [
+          7.6,
+          7.6,
           7.6
         ],
         "tip_racks": "tiprack_9",
         "liquid_height": [
+          1.0,
+          1.0,
           1.0
         ],
         "delays": [
-          5.0
-        ]
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "tuberack_quad_1_map_23",
-        "targets": "samples_47",
-        "asp_vols": [
-          50.0
-        ],
-        "dis_vols": [
-          50.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_9",
-        "liquid_height": [
-          1.0
-        ],
-        "delays": [
-          5.0
-        ]
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "tuberack_quad_1_map_24",
-        "targets": "samples_48",
-        "asp_vols": [
-          50.0
-        ],
-        "dis_vols": [
-          50.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_9",
-        "liquid_height": [
-          1.0
-        ],
-        "delays": [
+          5.0,
+          5.0,
           5.0
         ]
       }
@@ -1941,7 +1905,9 @@
     "tuberack_quad_1_map_22": {
       "slot": 10,
       "well": [
-        "A1"
+        "A1",
+        "A2",
+        "A3"
       ],
       "labware": "opentrons_6_tuberack_stellarsci_25ml_conical",
       "object": "source",
@@ -1950,7 +1916,9 @@
     "tuberack_quad_1_map_23": {
       "slot": 10,
       "well": [
-        "A2"
+        "A1",
+        "A2",
+        "A3"
       ],
       "labware": "opentrons_6_tuberack_stellarsci_25ml_conical",
       "object": "source",
@@ -1959,6 +1927,8 @@
     "tuberack_quad_1_map_24": {
       "slot": 10,
       "well": [
+        "A1",
+        "A2",
         "A3"
       ],
       "labware": "opentrons_6_tuberack_stellarsci_25ml_conical",
@@ -2418,24 +2388,8 @@
     "samples_46": {
       "slot": 3,
       "well": [
-        "E1"
-      ],
-      "labware": "stellarscientific_96_wellplate_100ul",
-      "object": "target",
-      "liquid_name": "sample"
-    },
-    "samples_47": {
-      "slot": 3,
-      "well": [
-        "E2"
-      ],
-      "labware": "stellarscientific_96_wellplate_100ul",
-      "object": "target",
-      "liquid_name": "sample"
-    },
-    "samples_48": {
-      "slot": 3,
-      "well": [
+        "E1",
+        "E2",
         "E3"
       ],
       "labware": "stellarscientific_96_wellplate_100ul",

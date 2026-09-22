@@ -10,7 +10,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 42.5,
+            "vol": 20.0,
             "source": {
                 "well": "A1",
                 "labware": "NEST 12 Well Reservoir 15 mL",
@@ -20,7 +20,7 @@
         },
         {
             "action": "dispense",
-            "vol": 42.5,
+            "vol": 20.0,
             "target": {
                 "well": "A1",
                 "labware": "Corning 96 Well Plate 360 µL Flat",
@@ -30,7 +30,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 42.5,
+            "vol": 20.0,
             "source": {
                 "well": "A1",
                 "labware": "NEST 12 Well Reservoir 15 mL",
@@ -40,7 +40,87 @@
         },
         {
             "action": "dispense",
-            "vol": 42.5,
+            "vol": 20.0,
+            "target": {
+                "well": "A1",
+                "labware": "Corning 96 Well Plate 360 µL Flat",
+                "slot": 4
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "aspirate",
+            "vol": 2.5,
+            "source": {
+                "well": "A1",
+                "labware": "NEST 12 Well Reservoir 15 mL",
+                "slot": 5
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 2.5,
+            "target": {
+                "well": "A1",
+                "labware": "Corning 96 Well Plate 360 µL Flat",
+                "slot": 4
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "aspirate",
+            "vol": 20.0,
+            "source": {
+                "well": "A1",
+                "labware": "NEST 12 Well Reservoir 15 mL",
+                "slot": 5
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 20.0,
+            "target": {
+                "well": "B1",
+                "labware": "Corning 96 Well Plate 360 µL Flat",
+                "slot": 4
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "aspirate",
+            "vol": 20.0,
+            "source": {
+                "well": "A1",
+                "labware": "NEST 12 Well Reservoir 15 mL",
+                "slot": 5
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 20.0,
+            "target": {
+                "well": "B1",
+                "labware": "Corning 96 Well Plate 360 µL Flat",
+                "slot": 4
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "aspirate",
+            "vol": 2.5,
+            "source": {
+                "well": "A1",
+                "labware": "NEST 12 Well Reservoir 15 mL",
+                "slot": 5
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 2.5,
             "target": {
                 "well": "B1",
                 "labware": "Corning 96 Well Plate 360 µL Flat",

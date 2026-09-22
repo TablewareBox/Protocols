@@ -618,13 +618,7 @@
           90.0,
           90.0,
           90.0,
-          90.0,
-          100.0,
-          100.0,
-          100.0,
-          100.0,
-          100.0,
-          100.0
+          90.0
         ],
         "dis_vols": [
           90.0,
@@ -650,21 +644,9 @@
           90.0,
           90.0,
           90.0,
-          90.0,
-          100.0,
-          100.0,
-          100.0,
-          100.0,
-          100.0,
-          100.0
+          90.0
         ],
         "asp_flow_rates": [
-          7.6,
-          7.6,
-          7.6,
-          7.6,
-          7.6,
-          7.6,
           7.6,
           7.6,
           7.6,
@@ -691,12 +673,6 @@
           7.6
         ],
         "dis_flow_rates": [
-          7.6,
-          7.6,
-          7.6,
-          7.6,
-          7.6,
-          7.6,
           7.6,
           7.6,
           7.6,
@@ -747,51 +723,13 @@
           13.0,
           13.0,
           13.0,
-          13.0,
-          1.5,
-          1.5,
-          1.5,
-          1.5,
-          1.5,
-          1.5
+          13.0
         ],
-        "delays": [
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          2.0,
-          2.0,
-          2.0,
-          2.0,
-          2.0,
-          2.0
-        ],
-        "mix_stage": "both",
+        "mix_stage": "after",
         "mix_times": 10,
         "mix_vol": 50.0,
         "mix_rate": 7.6,
-        "mix_liquid_height": 1.0
+        "mix_liquid_height": 1.5
       }
     },
     {
@@ -1768,6 +1706,67 @@
     {
       "action": "transfer_liquid",
       "action_args": {
+        "sources": "vhh_lib_cultures_2",
+        "targets": "samples_43",
+        "asp_vols": [
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0
+        ],
+        "dis_vols": [
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_5",
+        "liquid_height": [
+          1.5,
+          1.5,
+          1.5,
+          1.5,
+          1.5,
+          1.5
+        ],
+        "delays": [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0
+        ],
+        "mix_stage": "both",
+        "mix_times": 10,
+        "mix_vol": 100.0,
+        "mix_rate": 7.6,
+        "mix_liquid_height": 1.0
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
         "sources": "terrific_broth",
         "targets": "samples_46",
         "asp_vols": [
@@ -2489,6 +2488,15 @@
       "object": "source",
       "liquid_name": "buffer_w"
     },
+    "vhh_lib_cultures_2": {
+      "slot": 1,
+      "well": [
+        "A1"
+      ],
+      "labware": "opentrons_96_deep_well_adapter_nest_wellplate_2ml_deep",
+      "object": "source",
+      "liquid_name": "sample"
+    },
     "terrific_broth": {
       "slot": 3,
       "well": [
@@ -2661,35 +2669,29 @@
       "slot": 10,
       "well": [
         "A1",
-        "B1",
-        "C1",
-        "A2",
-        "B2",
-        "C2",
-        "A3",
-        "B3",
-        "C3",
-        "A4",
-        "B4",
-        "C4",
         "A1",
         "B1",
-        "C1",
-        "A2",
-        "B2",
-        "C2",
-        "A3",
-        "B3",
-        "C3",
-        "A4",
-        "B4",
-        "C4",
-        "A1",
         "B1",
         "C1",
+        "C1",
+        "A2",
+        "A2",
+        "B2",
+        "B2",
+        "C2",
+        "C2",
+        "A3",
         "A3",
         "B3",
-        "C3"
+        "B3",
+        "C3",
+        "C3",
+        "A4",
+        "A4",
+        "B4",
+        "B4",
+        "C4",
+        "C4"
       ],
       "labware": "opentrons_96_aluminumblock_nest_wellplate_100ul",
       "object": "target",

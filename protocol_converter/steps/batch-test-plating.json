@@ -10,7 +10,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 7.5,
+            "vol": 15.0,
             "source": {
                 "well": "A1",
                 "labware": "Temperature-Controlled Tubes",
@@ -28,17 +28,6 @@
                 "slot": 2
             },
             "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 7.5,
-            "source": {
-                "well": "A1",
-                "labware": "Temperature-Controlled Tubes",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(-0.8)"
         },
         {
             "action": "dispense",
@@ -51,8 +40,16 @@
             "flow_rate": 7.6
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "B1",
+                "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
+                "slot": 2
+            }
+        },
+        {
             "action": "aspirate",
-            "vol": 7.5,
+            "vol": 15.0,
             "source": {
                 "well": "A1",
                 "labware": "Temperature-Controlled Tubes",
@@ -72,17 +69,6 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 7.5,
-            "source": {
-                "well": "A1",
-                "labware": "Temperature-Controlled Tubes",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(-0.8)"
-        },
-        {
             "action": "dispense",
             "vol": 7.5,
             "target": {
@@ -93,8 +79,16 @@
             "flow_rate": 7.6
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "D1",
+                "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
+                "slot": 2
+            }
+        },
+        {
             "action": "aspirate",
-            "vol": 7.5,
+            "vol": 15.0,
             "source": {
                 "well": "A1",
                 "labware": "Temperature-Controlled Tubes",
@@ -114,17 +108,6 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 7.5,
-            "source": {
-                "well": "A1",
-                "labware": "Temperature-Controlled Tubes",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(-0.8)"
-        },
-        {
             "action": "dispense",
             "vol": 7.5,
             "target": {
@@ -135,8 +118,16 @@
             "flow_rate": 7.6
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "F1",
+                "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
+                "slot": 2
+            }
+        },
+        {
             "action": "aspirate",
-            "vol": 7.5,
+            "vol": 15.0,
             "source": {
                 "well": "A1",
                 "labware": "Temperature-Controlled Tubes",
@@ -156,17 +147,6 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 7.5,
-            "source": {
-                "well": "A1",
-                "labware": "Temperature-Controlled Tubes",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(-0.8)"
-        },
-        {
             "action": "dispense",
             "vol": 7.5,
             "target": {
@@ -177,8 +157,16 @@
             "flow_rate": 7.6
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "H1",
+                "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
+                "slot": 2
+            }
+        },
+        {
             "action": "aspirate",
-            "vol": 7.5,
+            "vol": 15.0,
             "source": {
                 "well": "A1",
                 "labware": "Temperature-Controlled Tubes",
@@ -198,17 +186,6 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 7.5,
-            "source": {
-                "well": "A1",
-                "labware": "Temperature-Controlled Tubes",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(-0.8)"
-        },
-        {
             "action": "dispense",
             "vol": 7.5,
             "target": {
@@ -219,8 +196,16 @@
             "flow_rate": 7.6
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "B2",
+                "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
+                "slot": 2
+            }
+        },
+        {
             "action": "aspirate",
-            "vol": 7.5,
+            "vol": 15.0,
             "source": {
                 "well": "A1",
                 "labware": "Temperature-Controlled Tubes",
@@ -240,17 +225,6 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 7.5,
-            "source": {
-                "well": "A1",
-                "labware": "Temperature-Controlled Tubes",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(-0.8)"
-        },
-        {
             "action": "dispense",
             "vol": 7.5,
             "target": {
@@ -261,8 +235,16 @@
             "flow_rate": 7.6
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "D2",
+                "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
+                "slot": 2
+            }
+        },
+        {
             "action": "aspirate",
-            "vol": 7.5,
+            "vol": 15.0,
             "source": {
                 "well": "A1",
                 "labware": "Temperature-Controlled Tubes",
@@ -282,17 +264,6 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 7.5,
-            "source": {
-                "well": "A1",
-                "labware": "Temperature-Controlled Tubes",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(-0.8)"
-        },
-        {
             "action": "dispense",
             "vol": 7.5,
             "target": {
@@ -303,6 +274,14 @@
             "flow_rate": 7.6
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "F2",
+                "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
+                "slot": 2
+            }
+        },
+        {
             "action": "drop_tip",
             "location": {
                 "well": "A1",
@@ -322,7 +301,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 2.5,
+            "vol": 5.0,
             "source": {
                 "well": "A1",
                 "labware": "Opentrons 24 Tube Rack with Generic 2 mL Screwcap",
@@ -340,17 +319,6 @@
                 "slot": 2
             },
             "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 2.5,
-            "source": {
-                "well": "A1",
-                "labware": "Opentrons 24 Tube Rack with Generic 2 mL Screwcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(-0.8)"
         },
         {
             "action": "dispense",
@@ -361,6 +329,14 @@
                 "slot": 2
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "B1",
+                "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
+                "slot": 2
+            }
         },
         {
             "action": "drop_tip",
@@ -382,7 +358,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 2.5,
+            "vol": 5.0,
             "source": {
                 "well": "B1",
                 "labware": "Opentrons 24 Tube Rack with Generic 2 mL Screwcap",
@@ -402,17 +378,6 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 2.5,
-            "source": {
-                "well": "B1",
-                "labware": "Opentrons 24 Tube Rack with Generic 2 mL Screwcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(-0.8)"
-        },
-        {
             "action": "dispense",
             "vol": 2.5,
             "target": {
@@ -421,6 +386,14 @@
                 "slot": 2
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "D1",
+                "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
+                "slot": 2
+            }
         },
         {
             "action": "drop_tip",
@@ -442,7 +415,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 2.5,
+            "vol": 5.0,
             "source": {
                 "well": "C1",
                 "labware": "Opentrons 24 Tube Rack with Generic 2 mL Screwcap",
@@ -460,17 +433,6 @@
                 "slot": 2
             },
             "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 2.5,
-            "source": {
-                "well": "C1",
-                "labware": "Opentrons 24 Tube Rack with Generic 2 mL Screwcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(-0.8)"
         },
         {
             "action": "dispense",
@@ -483,6 +445,14 @@
             "flow_rate": 7.6
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "F1",
+                "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
+                "slot": 2
+            }
+        },
+        {
             "action": "drop_tip",
             "location": {
                 "well": "A1",
@@ -502,7 +472,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 2.5,
+            "vol": 5.0,
             "source": {
                 "well": "D1",
                 "labware": "Opentrons 24 Tube Rack with Generic 2 mL Screwcap",
@@ -520,17 +490,6 @@
                 "slot": 2
             },
             "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 2.5,
-            "source": {
-                "well": "D1",
-                "labware": "Opentrons 24 Tube Rack with Generic 2 mL Screwcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(-0.8)"
         },
         {
             "action": "dispense",
@@ -543,6 +502,14 @@
             "flow_rate": 7.6
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "H1",
+                "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
+                "slot": 2
+            }
+        },
+        {
             "action": "drop_tip",
             "location": {
                 "well": "A1",
@@ -562,7 +529,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 2.5,
+            "vol": 5.0,
             "source": {
                 "well": "A2",
                 "labware": "Opentrons 24 Tube Rack with Generic 2 mL Screwcap",
@@ -580,17 +547,6 @@
                 "slot": 2
             },
             "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 2.5,
-            "source": {
-                "well": "A2",
-                "labware": "Opentrons 24 Tube Rack with Generic 2 mL Screwcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(-0.8)"
         },
         {
             "action": "dispense",
@@ -601,6 +557,14 @@
                 "slot": 2
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "B2",
+                "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
+                "slot": 2
+            }
         },
         {
             "action": "drop_tip",
@@ -622,7 +586,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 2.5,
+            "vol": 5.0,
             "source": {
                 "well": "B2",
                 "labware": "Opentrons 24 Tube Rack with Generic 2 mL Screwcap",
@@ -642,17 +606,6 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 2.5,
-            "source": {
-                "well": "B2",
-                "labware": "Opentrons 24 Tube Rack with Generic 2 mL Screwcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(-0.8)"
-        },
-        {
             "action": "dispense",
             "vol": 2.5,
             "target": {
@@ -661,6 +614,14 @@
                 "slot": 2
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "D2",
+                "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
+                "slot": 2
+            }
         },
         {
             "action": "drop_tip",
@@ -682,7 +643,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 2.5,
+            "vol": 5.0,
             "source": {
                 "well": "D6",
                 "labware": "Opentrons 24 Tube Rack with Generic 2 mL Screwcap",
@@ -702,17 +663,6 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 2.5,
-            "source": {
-                "well": "D6",
-                "labware": "Opentrons 24 Tube Rack with Generic 2 mL Screwcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(-0.8)"
-        },
-        {
             "action": "dispense",
             "vol": 2.5,
             "target": {
@@ -721,6 +671,14 @@
                 "slot": 2
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "F2",
+                "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
+                "slot": 2
+            }
         },
         {
             "action": "drop_tip",

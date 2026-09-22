@@ -11,7 +11,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 30.0,
+            "vol": 300.0,
             "source": {
                 "well": "A1",
                 "labware": "reagent reservoir",
@@ -30,17 +30,6 @@
             },
             "flow_rate": 7.6,
             "pose_z": "top",
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 30.0,
-            "source": {
-                "well": "A1",
-                "labware": "reagent reservoir",
-                "slot": 5
-            },
-            "flow_rate": 7.6,
             "channels": 8
         },
         {
@@ -56,17 +45,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 30.0,
-            "source": {
-                "well": "A1",
-                "labware": "reagent reservoir",
-                "slot": 5
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 30.0,
             "target": {
@@ -76,17 +54,6 @@
             },
             "flow_rate": 7.6,
             "pose_z": "top",
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 30.0,
-            "source": {
-                "well": "A1",
-                "labware": "reagent reservoir",
-                "slot": 5
-            },
-            "flow_rate": 7.6,
             "channels": 8
         },
         {
@@ -102,17 +69,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 30.0,
-            "source": {
-                "well": "A1",
-                "labware": "reagent reservoir",
-                "slot": 5
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 30.0,
             "target": {
@@ -122,17 +78,6 @@
             },
             "flow_rate": 7.6,
             "pose_z": "top",
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 30.0,
-            "source": {
-                "well": "A1",
-                "labware": "reagent reservoir",
-                "slot": 5
-            },
-            "flow_rate": 7.6,
             "channels": 8
         },
         {
@@ -148,17 +93,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 30.0,
-            "source": {
-                "well": "A1",
-                "labware": "reagent reservoir",
-                "slot": 5
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 30.0,
             "target": {
@@ -168,17 +102,6 @@
             },
             "flow_rate": 7.6,
             "pose_z": "top",
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 30.0,
-            "source": {
-                "well": "A1",
-                "labware": "reagent reservoir",
-                "slot": 5
-            },
-            "flow_rate": 7.6,
             "channels": 8
         },
         {
@@ -194,17 +117,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 30.0,
-            "source": {
-                "well": "A1",
-                "labware": "reagent reservoir",
-                "slot": 5
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 30.0,
             "target": {
@@ -214,17 +126,6 @@
             },
             "flow_rate": 7.6,
             "pose_z": "top",
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 30.0,
-            "source": {
-                "well": "A1",
-                "labware": "reagent reservoir",
-                "slot": 5
-            },
-            "flow_rate": 7.6,
             "channels": 8
         },
         {
@@ -240,8 +141,18 @@
             "channels": 8
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A10",
+                "labware": "deepwell block",
+                "slot": 4
+            },
+            "pose_z": "top",
+            "channels": 8
+        },
+        {
             "action": "aspirate",
-            "vol": 30.0,
+            "vol": 60.0,
             "source": {
                 "well": "A1",
                 "labware": "reagent reservoir",
@@ -263,17 +174,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 30.0,
-            "source": {
-                "well": "A1",
-                "labware": "reagent reservoir",
-                "slot": 5
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 30.0,
             "target": {
@@ -282,6 +182,16 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
+            "pose_z": "top",
+            "channels": 8
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A12",
+                "labware": "deepwell block",
+                "slot": 4
+            },
             "pose_z": "top",
             "channels": 8
         },
@@ -15971,8 +15881,18 @@
             "channels": 8
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A6",
+                "labware": "deepwell block",
+                "slot": 4
+            },
+            "pose_z": "top",
+            "channels": 8
+        },
+        {
             "action": "dispense",
-            "vol": 0.0,
+            "vol": 0,
             "target": {
                 "well": "A7",
                 "labware": "deepwell block",
@@ -15984,7 +15904,7 @@
         },
         {
             "action": "dispense",
-            "vol": 0.0,
+            "vol": 0,
             "target": {
                 "well": "A8",
                 "labware": "deepwell block",
@@ -15996,7 +15916,7 @@
         },
         {
             "action": "dispense",
-            "vol": 0.0,
+            "vol": 0,
             "target": {
                 "well": "A9",
                 "labware": "deepwell block",
@@ -16008,7 +15928,7 @@
         },
         {
             "action": "dispense",
-            "vol": 0.0,
+            "vol": 0,
             "target": {
                 "well": "A10",
                 "labware": "deepwell block",
@@ -16020,7 +15940,7 @@
         },
         {
             "action": "dispense",
-            "vol": 0.0,
+            "vol": 0,
             "target": {
                 "well": "A11",
                 "labware": "deepwell block",
@@ -16032,13 +15952,23 @@
         },
         {
             "action": "dispense",
-            "vol": 0.0,
+            "vol": 0,
             "target": {
                 "well": "A12",
                 "labware": "deepwell block",
                 "slot": 4
             },
             "flow_rate": 7.6,
+            "pose_z": "top",
+            "channels": 8
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A12",
+                "labware": "deepwell block",
+                "slot": 4
+            },
             "pose_z": "top",
             "channels": 8
         }

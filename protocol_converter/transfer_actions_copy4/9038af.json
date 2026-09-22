@@ -16,77 +16,111 @@
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "all_templates",
+        "sources": "water",
         "targets": "samples_3",
         "asp_vols": [
+          4.0,
           5.0
         ],
         "dis_vols": [
-          9.0
+          4.0,
+          5.0
         ],
         "asp_flow_rates": [
+          7.6,
           7.6
         ],
         "dis_flow_rates": [
+          7.6,
           7.6
         ],
         "tip_racks": "tiprack_3",
         "liquid_height": [
+          0,
           0
-        ],
-        "delays": [
-          2.0
         ]
       }
     },
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "all_templates_2",
+        "sources": "water_2",
         "targets": "samples_4",
         "asp_vols": [
+          2.75,
           6.25
         ],
         "dis_vols": [
-          9.0
+          2.75,
+          6.25
         ],
         "asp_flow_rates": [
+          7.6,
           7.6
         ],
         "dis_flow_rates": [
+          7.6,
           7.6
         ],
         "tip_racks": "tiprack_3",
         "liquid_height": [
+          0,
           0
-        ],
-        "delays": [
-          2.0
         ]
       }
     },
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "all_templates_3",
+        "sources": "water_3",
         "targets": "samples_5",
         "asp_vols": [
+          4.454545454545454,
           4.545454545454546
         ],
         "dis_vols": [
-          9.0
+          4.454545454545454,
+          4.545454545454546
         ],
         "asp_flow_rates": [
+          7.6,
           7.6
         ],
         "dis_flow_rates": [
+          7.6,
           7.6
         ],
         "tip_racks": "tiprack_3",
         "liquid_height": [
+          0,
           0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "samples",
+        "targets": "samples_6",
+        "asp_vols": [
+          10.0,
+          10.0
         ],
-        "delays": [
+        "dis_vols": [
+          10.0,
+          10.0
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_3",
+        "liquid_height": [
+          2.0,
           2.0
         ]
       }
@@ -187,32 +221,6 @@
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "samples",
-        "targets": "samples_6",
-        "asp_vols": [
-          10.0
-        ],
-        "dis_vols": [
-          20.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          2.0
-        ],
-        "delays": [
-          2.0
-        ]
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
         "sources": "samples_2",
         "targets": "samples_6",
         "asp_vols": [
@@ -271,30 +279,42 @@
     }
   ],
   "reagent": {
-    "all_templates": {
-      "slot": 2,
+    "water": {
+      "slot": 8,
       "well": [
         "A1"
       ],
       "labware": "opentrons_24_tuberack_eppendorf_1.5ml_safelock_snapcap",
       "object": "source",
-      "liquid_name": "sample"
+      "liquid_name": "water"
     },
-    "all_templates_2": {
-      "slot": 2,
+    "water_2": {
+      "slot": 8,
       "well": [
+        "A1",
         "B1"
       ],
       "labware": "opentrons_24_tuberack_eppendorf_1.5ml_safelock_snapcap",
       "object": "source",
-      "liquid_name": "sample"
+      "liquid_name": "water"
     },
-    "all_templates_3": {
-      "slot": 2,
+    "water_3": {
+      "slot": 8,
       "well": [
+        "A1",
         "C1"
       ],
       "labware": "opentrons_24_tuberack_eppendorf_1.5ml_safelock_snapcap",
+      "object": "source",
+      "liquid_name": "water"
+    },
+    "samples": {
+      "slot": 4,
+      "well": [
+        "A1",
+        "B1"
+      ],
+      "labware": "biorad_96_wellplate_200ul_pcr",
       "object": "source",
       "liquid_name": "sample"
     },
@@ -320,15 +340,6 @@
       "slot": 1,
       "well": [
         "C1"
-      ],
-      "labware": "biorad_96_wellplate_200ul_pcr",
-      "object": "source",
-      "liquid_name": "sample"
-    },
-    "samples": {
-      "slot": 4,
-      "well": [
-        "B1"
       ],
       "labware": "biorad_96_wellplate_200ul_pcr",
       "object": "source",

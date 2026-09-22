@@ -11,7 +11,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 40.0,
+            "vol": 240.0,
             "source": {
                 "well": "A1",
                 "labware": "Agilent 1 Well Reservoir 290 mL",
@@ -32,34 +32,12 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 40.0,
-            "source": {
-                "well": "A1",
-                "labware": "Agilent 1 Well Reservoir 290 mL",
-                "slot": 7
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 40.0,
             "target": {
                 "well": "A3",
                 "labware": "Corning 96 Well Plate 360 µL Flat",
                 "slot": 1
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 40.0,
-            "source": {
-                "well": "A1",
-                "labware": "Agilent 1 Well Reservoir 290 mL",
-                "slot": 7
             },
             "flow_rate": 7.6,
             "channels": 8
@@ -76,34 +54,12 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 40.0,
-            "source": {
-                "well": "A1",
-                "labware": "Agilent 1 Well Reservoir 290 mL",
-                "slot": 7
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 40.0,
             "target": {
                 "well": "A5",
                 "labware": "Corning 96 Well Plate 360 µL Flat",
                 "slot": 1
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 40.0,
-            "source": {
-                "well": "A1",
-                "labware": "Agilent 1 Well Reservoir 290 mL",
-                "slot": 7
             },
             "flow_rate": 7.6,
             "channels": 8
@@ -120,17 +76,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 40.0,
-            "source": {
-                "well": "A1",
-                "labware": "Agilent 1 Well Reservoir 290 mL",
-                "slot": 7
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 40.0,
             "target": {
@@ -139,6 +84,15 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A7",
+                "labware": "Corning 96 Well Plate 360 µL Flat",
+                "slot": 1
+            },
             "channels": 8
         },
         {

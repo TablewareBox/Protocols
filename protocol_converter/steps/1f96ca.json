@@ -18,7 +18,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 3.0,
+            "vol": 18.0,
             "source": {
                 "well": "A1",
                 "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
@@ -35,18 +35,6 @@
                 "well": "A1",
                 "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
                 "slot": 7
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(2)",
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 3.0,
-            "source": {
-                "well": "A1",
-                "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
-                "slot": 5
             },
             "flow_rate": 7.6,
             "pose_z": "bottom(2)",
@@ -65,36 +53,12 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 3.0,
-            "source": {
-                "well": "A1",
-                "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
-                "slot": 5
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(2)",
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 3.0,
             "target": {
                 "well": "A3",
                 "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
                 "slot": 7
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(2)",
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 3.0,
-            "source": {
-                "well": "A1",
-                "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
-                "slot": 5
             },
             "flow_rate": 7.6,
             "pose_z": "bottom(2)",
@@ -113,36 +77,12 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 3.0,
-            "source": {
-                "well": "A1",
-                "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
-                "slot": 5
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(2)",
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 3.0,
             "target": {
                 "well": "A5",
                 "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
                 "slot": 7
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(2)",
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 3.0,
-            "source": {
-                "well": "A1",
-                "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
-                "slot": 5
             },
             "flow_rate": 7.6,
             "pose_z": "bottom(2)",
@@ -161,8 +101,18 @@
             "channels": 8
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A6",
+                "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
+                "slot": 7
+            },
+            "pose_z": "bottom(2)",
+            "channels": 8
+        },
+        {
             "action": "aspirate",
-            "vol": 3.0,
+            "vol": 18.0,
             "source": {
                 "well": "A1",
                 "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
@@ -185,36 +135,12 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 3.0,
-            "source": {
-                "well": "A1",
-                "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
-                "slot": 5
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(2)",
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 3.0,
             "target": {
                 "well": "A8",
                 "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
                 "slot": 7
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(2)",
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 3.0,
-            "source": {
-                "well": "A1",
-                "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
-                "slot": 5
             },
             "flow_rate": 7.6,
             "pose_z": "bottom(2)",
@@ -233,36 +159,12 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 3.0,
-            "source": {
-                "well": "A1",
-                "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
-                "slot": 5
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(2)",
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 3.0,
             "target": {
                 "well": "A10",
                 "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
                 "slot": 7
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(2)",
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 3.0,
-            "source": {
-                "well": "A1",
-                "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
-                "slot": 5
             },
             "flow_rate": 7.6,
             "pose_z": "bottom(2)",
@@ -281,18 +183,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 3.0,
-            "source": {
-                "well": "A1",
-                "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
-                "slot": 5
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(2)",
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 3.0,
             "target": {
@@ -301,6 +191,16 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
+            "pose_z": "bottom(2)",
+            "channels": 8
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A12",
+                "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
+                "slot": 7
+            },
             "pose_z": "bottom(2)",
             "channels": 8
         },
@@ -8145,7 +8045,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 6.0,
+            "vol": 18.0,
             "source": {
                 "well": "A6",
                 "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
@@ -8168,36 +8068,12 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 6.0,
-            "source": {
-                "well": "A6",
-                "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
-                "slot": 5
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(2)",
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 6.0,
             "target": {
                 "well": "A2",
                 "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
                 "slot": 7
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(2)",
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 6.0,
-            "source": {
-                "well": "A6",
-                "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
-                "slot": 5
             },
             "flow_rate": 7.6,
             "pose_z": "bottom(2)",
@@ -8216,8 +8092,18 @@
             "channels": 8
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A3",
+                "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
+                "slot": 7
+            },
+            "pose_z": "bottom(2)",
+            "channels": 8
+        },
+        {
             "action": "aspirate",
-            "vol": 6.0,
+            "vol": 18.0,
             "source": {
                 "well": "A6",
                 "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
@@ -8240,18 +8126,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 6.0,
-            "source": {
-                "well": "A6",
-                "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
-                "slot": 5
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(2)",
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 6.0,
             "target": {
@@ -8264,18 +8138,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 6.0,
-            "source": {
-                "well": "A6",
-                "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
-                "slot": 5
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(2)",
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 6.0,
             "target": {
@@ -8288,8 +8150,18 @@
             "channels": 8
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A6",
+                "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
+                "slot": 7
+            },
+            "pose_z": "bottom(2)",
+            "channels": 8
+        },
+        {
             "action": "aspirate",
-            "vol": 6.0,
+            "vol": 18.0,
             "source": {
                 "well": "A6",
                 "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
@@ -8312,36 +8184,12 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 6.0,
-            "source": {
-                "well": "A6",
-                "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
-                "slot": 5
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(2)",
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 6.0,
             "target": {
                 "well": "A8",
                 "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
                 "slot": 7
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(2)",
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 6.0,
-            "source": {
-                "well": "A6",
-                "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
-                "slot": 5
             },
             "flow_rate": 7.6,
             "pose_z": "bottom(2)",
@@ -8360,8 +8208,18 @@
             "channels": 8
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A9",
+                "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
+                "slot": 7
+            },
+            "pose_z": "bottom(2)",
+            "channels": 8
+        },
+        {
             "action": "aspirate",
-            "vol": 6.0,
+            "vol": 18.0,
             "source": {
                 "well": "A6",
                 "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
@@ -8384,36 +8242,12 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 6.0,
-            "source": {
-                "well": "A6",
-                "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
-                "slot": 5
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(2)",
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 6.0,
             "target": {
                 "well": "A11",
                 "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
                 "slot": 7
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(2)",
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 6.0,
-            "source": {
-                "well": "A6",
-                "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
-                "slot": 5
             },
             "flow_rate": 7.6,
             "pose_z": "bottom(2)",
@@ -8428,6 +8262,16 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
+            "pose_z": "bottom(2)",
+            "channels": 8
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A12",
+                "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
+                "slot": 7
+            },
             "pose_z": "bottom(2)",
             "channels": 8
         },

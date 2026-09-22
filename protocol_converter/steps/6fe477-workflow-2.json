@@ -50,6 +50,158 @@
             "action": "aspirate",
             "vol": 40.0,
             "source": {
+                "well": "B1",
+                "labware": "Caplugs 6 Tube Rack 30 mL",
+                "slot": 1
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 40.0,
+            "target": {
+                "well": "A1",
+                "labware": "VWR 24 Tube Rack 1.5mL",
+                "slot": 2
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            }
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "C1",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 5
+            }
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
+                "well": "A2",
+                "labware": "Caplugs 6 Tube Rack 30 mL",
+                "slot": 1
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 40.0,
+            "target": {
+                "well": "A1",
+                "labware": "VWR 24 Tube Rack 1.5mL",
+                "slot": 2
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            }
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "D1",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 5
+            }
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
+                "well": "B2",
+                "labware": "Caplugs 6 Tube Rack 30 mL",
+                "slot": 1
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 40.0,
+            "target": {
+                "well": "A1",
+                "labware": "VWR 24 Tube Rack 1.5mL",
+                "slot": 2
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            }
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "E1",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 5
+            }
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
+                "well": "A3",
+                "labware": "Caplugs 6 Tube Rack 30 mL",
+                "slot": 1
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 40.0,
+            "target": {
+                "well": "A1",
+                "labware": "VWR 24 Tube Rack 1.5mL",
+                "slot": 2
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            }
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "F1",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 5
+            }
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
                 "well": "B3",
                 "labware": "Caplugs 6 Tube Rack 30 mL",
                 "slot": 1
@@ -79,7 +231,159 @@
         {
             "action": "pick_tip",
             "tip_rack": {
-                "well": "C1",
+                "well": "G1",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 5
+            }
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
+                "well": "A1",
+                "labware": "Caplugs 6 Tube Rack 30 mL",
+                "slot": 4
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 40.0,
+            "target": {
+                "well": "B1",
+                "labware": "VWR 24 Tube Rack 1.5mL",
+                "slot": 2
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            }
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "H1",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 5
+            }
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
+                "well": "B1",
+                "labware": "Caplugs 6 Tube Rack 30 mL",
+                "slot": 4
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 40.0,
+            "target": {
+                "well": "B1",
+                "labware": "VWR 24 Tube Rack 1.5mL",
+                "slot": 2
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            }
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "A2",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 5
+            }
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
+                "well": "A2",
+                "labware": "Caplugs 6 Tube Rack 30 mL",
+                "slot": 4
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 40.0,
+            "target": {
+                "well": "B1",
+                "labware": "VWR 24 Tube Rack 1.5mL",
+                "slot": 2
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            }
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "B2",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 5
+            }
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
+                "well": "B2",
+                "labware": "Caplugs 6 Tube Rack 30 mL",
+                "slot": 4
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 40.0,
+            "target": {
+                "well": "B1",
+                "labware": "VWR 24 Tube Rack 1.5mL",
+                "slot": 2
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            }
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "C2",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 5
             }
@@ -117,7 +421,159 @@
         {
             "action": "pick_tip",
             "tip_rack": {
-                "well": "D1",
+                "well": "D2",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 5
+            }
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
+                "well": "B3",
+                "labware": "Caplugs 6 Tube Rack 30 mL",
+                "slot": 4
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 40.0,
+            "target": {
+                "well": "C1",
+                "labware": "VWR 24 Tube Rack 1.5mL",
+                "slot": 2
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            }
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "E2",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 5
+            }
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
+                "well": "A1",
+                "labware": "Caplugs 6 Tube Rack 30 mL",
+                "slot": 7
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 40.0,
+            "target": {
+                "well": "C1",
+                "labware": "VWR 24 Tube Rack 1.5mL",
+                "slot": 2
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            }
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "F2",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 5
+            }
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
+                "well": "B1",
+                "labware": "Caplugs 6 Tube Rack 30 mL",
+                "slot": 7
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 40.0,
+            "target": {
+                "well": "C1",
+                "labware": "VWR 24 Tube Rack 1.5mL",
+                "slot": 2
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            }
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "G2",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 5
+            }
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
+                "well": "A2",
+                "labware": "Caplugs 6 Tube Rack 30 mL",
+                "slot": 7
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 40.0,
+            "target": {
+                "well": "C1",
+                "labware": "VWR 24 Tube Rack 1.5mL",
+                "slot": 2
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            }
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "H2",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 5
             }
@@ -155,7 +611,159 @@
         {
             "action": "pick_tip",
             "tip_rack": {
-                "well": "E1",
+                "well": "A3",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 5
+            }
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
+                "well": "A3",
+                "labware": "Caplugs 6 Tube Rack 30 mL",
+                "slot": 7
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 40.0,
+            "target": {
+                "well": "D1",
+                "labware": "VWR 24 Tube Rack 1.5mL",
+                "slot": 2
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            }
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "B3",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 5
+            }
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
+                "well": "B3",
+                "labware": "Caplugs 6 Tube Rack 30 mL",
+                "slot": 7
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 40.0,
+            "target": {
+                "well": "D1",
+                "labware": "VWR 24 Tube Rack 1.5mL",
+                "slot": 2
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            }
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "C3",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 5
+            }
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
+                "well": "A1",
+                "labware": "Caplugs 6 Tube Rack 30 mL",
+                "slot": 8
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 40.0,
+            "target": {
+                "well": "D1",
+                "labware": "VWR 24 Tube Rack 1.5mL",
+                "slot": 2
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            }
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "D3",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 5
+            }
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
+                "well": "B1",
+                "labware": "Caplugs 6 Tube Rack 30 mL",
+                "slot": 8
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 40.0,
+            "target": {
+                "well": "D1",
+                "labware": "VWR 24 Tube Rack 1.5mL",
+                "slot": 2
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            }
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "E3",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 5
             }
@@ -193,7 +801,159 @@
         {
             "action": "pick_tip",
             "tip_rack": {
-                "well": "F1",
+                "well": "F3",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 5
+            }
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
+                "well": "B2",
+                "labware": "Caplugs 6 Tube Rack 30 mL",
+                "slot": 8
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 40.0,
+            "target": {
+                "well": "A2",
+                "labware": "VWR 24 Tube Rack 1.5mL",
+                "slot": 2
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            }
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "G3",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 5
+            }
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
+                "well": "A3",
+                "labware": "Caplugs 6 Tube Rack 30 mL",
+                "slot": 8
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 40.0,
+            "target": {
+                "well": "A2",
+                "labware": "VWR 24 Tube Rack 1.5mL",
+                "slot": 2
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            }
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "H3",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 5
+            }
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
+                "well": "B3",
+                "labware": "Caplugs 6 Tube Rack 30 mL",
+                "slot": 8
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 40.0,
+            "target": {
+                "well": "A2",
+                "labware": "VWR 24 Tube Rack 1.5mL",
+                "slot": 2
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            }
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "A4",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 5
+            }
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
+                "well": "A1",
+                "labware": "Caplugs 6 Tube Rack 30 mL",
+                "slot": 9
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 40.0,
+            "target": {
+                "well": "A2",
+                "labware": "VWR 24 Tube Rack 1.5mL",
+                "slot": 2
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            }
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "B4",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 5
             }
@@ -231,7 +991,159 @@
         {
             "action": "pick_tip",
             "tip_rack": {
-                "well": "G1",
+                "well": "C4",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 5
+            }
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
+                "well": "A2",
+                "labware": "Caplugs 6 Tube Rack 30 mL",
+                "slot": 9
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 40.0,
+            "target": {
+                "well": "B2",
+                "labware": "VWR 24 Tube Rack 1.5mL",
+                "slot": 2
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            }
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "D4",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 5
+            }
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
+                "well": "B2",
+                "labware": "Caplugs 6 Tube Rack 30 mL",
+                "slot": 9
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 40.0,
+            "target": {
+                "well": "B2",
+                "labware": "VWR 24 Tube Rack 1.5mL",
+                "slot": 2
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            }
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "E4",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 5
+            }
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
+                "well": "A3",
+                "labware": "Caplugs 6 Tube Rack 30 mL",
+                "slot": 9
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 40.0,
+            "target": {
+                "well": "B2",
+                "labware": "VWR 24 Tube Rack 1.5mL",
+                "slot": 2
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            }
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "F4",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 5
+            }
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
+                "well": "B3",
+                "labware": "Caplugs 6 Tube Rack 30 mL",
+                "slot": 9
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 40.0,
+            "target": {
+                "well": "B2",
+                "labware": "VWR 24 Tube Rack 1.5mL",
+                "slot": 2
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            }
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "G4",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 5
             }
@@ -269,7 +1181,159 @@
         {
             "action": "pick_tip",
             "tip_rack": {
-                "well": "H1",
+                "well": "H4",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 5
+            }
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
+                "well": "B1",
+                "labware": "Caplugs 6 Tube Rack 30 mL",
+                "slot": 10
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 40.0,
+            "target": {
+                "well": "C2",
+                "labware": "VWR 24 Tube Rack 1.5mL",
+                "slot": 2
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            }
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "A5",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 5
+            }
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
+                "well": "A2",
+                "labware": "Caplugs 6 Tube Rack 30 mL",
+                "slot": 10
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 40.0,
+            "target": {
+                "well": "C2",
+                "labware": "VWR 24 Tube Rack 1.5mL",
+                "slot": 2
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            }
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "B5",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 5
+            }
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
+                "well": "B2",
+                "labware": "Caplugs 6 Tube Rack 30 mL",
+                "slot": 10
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 40.0,
+            "target": {
+                "well": "C2",
+                "labware": "VWR 24 Tube Rack 1.5mL",
+                "slot": 2
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            }
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "C5",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 5
+            }
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
+                "well": "A3",
+                "labware": "Caplugs 6 Tube Rack 30 mL",
+                "slot": 10
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 40.0,
+            "target": {
+                "well": "C2",
+                "labware": "VWR 24 Tube Rack 1.5mL",
+                "slot": 2
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            }
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "D5",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 5
             }
@@ -307,7 +1371,159 @@
         {
             "action": "pick_tip",
             "tip_rack": {
+                "well": "E5",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 5
+            }
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
+                "well": "A1",
+                "labware": "Caplugs 6 Tube Rack 30 mL",
+                "slot": 11
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 40.0,
+            "target": {
+                "well": "D2",
+                "labware": "VWR 24 Tube Rack 1.5mL",
+                "slot": 2
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            }
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "F5",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 5
+            }
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
+                "well": "B1",
+                "labware": "Caplugs 6 Tube Rack 30 mL",
+                "slot": 11
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 40.0,
+            "target": {
+                "well": "D2",
+                "labware": "VWR 24 Tube Rack 1.5mL",
+                "slot": 2
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            }
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "G5",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 5
+            }
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
                 "well": "A2",
+                "labware": "Caplugs 6 Tube Rack 30 mL",
+                "slot": 11
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 40.0,
+            "target": {
+                "well": "D2",
+                "labware": "VWR 24 Tube Rack 1.5mL",
+                "slot": 2
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            }
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "H5",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 5
+            }
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
+                "well": "B2",
+                "labware": "Caplugs 6 Tube Rack 30 mL",
+                "slot": 11
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 40.0,
+            "target": {
+                "well": "D2",
+                "labware": "VWR 24 Tube Rack 1.5mL",
+                "slot": 2
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            }
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "A6",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 5
             }
@@ -317,6 +1533,44 @@
             "vol": 40.0,
             "source": {
                 "well": "A3",
+                "labware": "Caplugs 6 Tube Rack 30 mL",
+                "slot": 11
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 40.0,
+            "target": {
+                "well": "A3",
+                "labware": "VWR 24 Tube Rack 1.5mL",
+                "slot": 2
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            }
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "B6",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 5
+            }
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
+                "well": "B3",
                 "labware": "Caplugs 6 Tube Rack 30 mL",
                 "slot": 11
             },
@@ -365,6 +1619,310 @@
             "vol": 560.0,
             "target": {
                 "well": "A1",
+                "labware": "VWR 24 Tube Rack 1.5mL",
+                "slot": 2
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            }
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "B1",
+                "type": "Opentrons OT-2 96 Tip Rack 1000 µL",
+                "slot": 6
+            }
+        },
+        {
+            "action": "aspirate",
+            "vol": 560.0,
+            "source": {
+                "well": "A1",
+                "labware": "NEST 1 Well Reservoir 195 mL",
+                "slot": 3
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 560.0,
+            "target": {
+                "well": "B1",
+                "labware": "VWR 24 Tube Rack 1.5mL",
+                "slot": 2
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            }
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "C1",
+                "type": "Opentrons OT-2 96 Tip Rack 1000 µL",
+                "slot": 6
+            }
+        },
+        {
+            "action": "aspirate",
+            "vol": 560.0,
+            "source": {
+                "well": "A1",
+                "labware": "NEST 1 Well Reservoir 195 mL",
+                "slot": 3
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 560.0,
+            "target": {
+                "well": "C1",
+                "labware": "VWR 24 Tube Rack 1.5mL",
+                "slot": 2
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            }
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "D1",
+                "type": "Opentrons OT-2 96 Tip Rack 1000 µL",
+                "slot": 6
+            }
+        },
+        {
+            "action": "aspirate",
+            "vol": 560.0,
+            "source": {
+                "well": "A1",
+                "labware": "NEST 1 Well Reservoir 195 mL",
+                "slot": 3
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 560.0,
+            "target": {
+                "well": "D1",
+                "labware": "VWR 24 Tube Rack 1.5mL",
+                "slot": 2
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            }
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "E1",
+                "type": "Opentrons OT-2 96 Tip Rack 1000 µL",
+                "slot": 6
+            }
+        },
+        {
+            "action": "aspirate",
+            "vol": 560.0,
+            "source": {
+                "well": "A1",
+                "labware": "NEST 1 Well Reservoir 195 mL",
+                "slot": 3
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 560.0,
+            "target": {
+                "well": "A2",
+                "labware": "VWR 24 Tube Rack 1.5mL",
+                "slot": 2
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            }
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "F1",
+                "type": "Opentrons OT-2 96 Tip Rack 1000 µL",
+                "slot": 6
+            }
+        },
+        {
+            "action": "aspirate",
+            "vol": 560.0,
+            "source": {
+                "well": "A1",
+                "labware": "NEST 1 Well Reservoir 195 mL",
+                "slot": 3
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 560.0,
+            "target": {
+                "well": "B2",
+                "labware": "VWR 24 Tube Rack 1.5mL",
+                "slot": 2
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            }
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "G1",
+                "type": "Opentrons OT-2 96 Tip Rack 1000 µL",
+                "slot": 6
+            }
+        },
+        {
+            "action": "aspirate",
+            "vol": 560.0,
+            "source": {
+                "well": "A1",
+                "labware": "NEST 1 Well Reservoir 195 mL",
+                "slot": 3
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 560.0,
+            "target": {
+                "well": "C2",
+                "labware": "VWR 24 Tube Rack 1.5mL",
+                "slot": 2
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            }
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "H1",
+                "type": "Opentrons OT-2 96 Tip Rack 1000 µL",
+                "slot": 6
+            }
+        },
+        {
+            "action": "aspirate",
+            "vol": 560.0,
+            "source": {
+                "well": "A1",
+                "labware": "NEST 1 Well Reservoir 195 mL",
+                "slot": 3
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 560.0,
+            "target": {
+                "well": "D2",
+                "labware": "VWR 24 Tube Rack 1.5mL",
+                "slot": 2
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            }
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "A2",
+                "type": "Opentrons OT-2 96 Tip Rack 1000 µL",
+                "slot": 6
+            }
+        },
+        {
+            "action": "aspirate",
+            "vol": 560.0,
+            "source": {
+                "well": "A1",
+                "labware": "NEST 1 Well Reservoir 195 mL",
+                "slot": 3
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 560.0,
+            "target": {
+                "well": "A3",
                 "labware": "VWR 24 Tube Rack 1.5mL",
                 "slot": 2
             },

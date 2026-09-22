@@ -4445,7 +4445,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 27.0,
+            "vol": 189.0,
             "source": {
                 "well": "A4",
                 "labware": "NEST 96 Deep Well Plate 2 mL",
@@ -4467,17 +4467,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 27.0,
-            "source": {
-                "well": "A4",
-                "labware": "NEST 96 Deep Well Plate 2 mL",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 27.0,
             "target": {
@@ -4487,17 +4476,6 @@
             },
             "flow_rate": 7.6,
             "pose_z": "top",
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 27.0,
-            "source": {
-                "well": "A4",
-                "labware": "NEST 96 Deep Well Plate 2 mL",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
             "channels": 8
         },
         {
@@ -4513,17 +4491,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 27.0,
-            "source": {
-                "well": "A4",
-                "labware": "NEST 96 Deep Well Plate 2 mL",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 27.0,
             "target": {
@@ -4533,17 +4500,6 @@
             },
             "flow_rate": 7.6,
             "pose_z": "top",
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 27.0,
-            "source": {
-                "well": "A4",
-                "labware": "NEST 96 Deep Well Plate 2 mL",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
             "channels": 8
         },
         {
@@ -4559,17 +4515,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 27.0,
-            "source": {
-                "well": "A4",
-                "labware": "NEST 96 Deep Well Plate 2 mL",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 27.0,
             "target": {
@@ -4579,17 +4524,6 @@
             },
             "flow_rate": 7.6,
             "pose_z": "top",
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 27.0,
-            "source": {
-                "well": "A4",
-                "labware": "NEST 96 Deep Well Plate 2 mL",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
             "channels": 8
         },
         {
@@ -4605,8 +4539,18 @@
             "channels": 8
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A7",
+                "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
+                "slot": 3
+            },
+            "pose_z": "top",
+            "channels": 8
+        },
+        {
             "action": "aspirate",
-            "vol": 27.0,
+            "vol": 135.0,
             "source": {
                 "well": "A4",
                 "labware": "NEST 96 Deep Well Plate 2 mL",
@@ -4628,17 +4572,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 27.0,
-            "source": {
-                "well": "A4",
-                "labware": "NEST 96 Deep Well Plate 2 mL",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 27.0,
             "target": {
@@ -4648,17 +4581,6 @@
             },
             "flow_rate": 7.6,
             "pose_z": "top",
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 27.0,
-            "source": {
-                "well": "A4",
-                "labware": "NEST 96 Deep Well Plate 2 mL",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
             "channels": 8
         },
         {
@@ -4674,17 +4596,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 27.0,
-            "source": {
-                "well": "A4",
-                "labware": "NEST 96 Deep Well Plate 2 mL",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 27.0,
             "target": {
@@ -4697,17 +4608,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 27.0,
-            "source": {
-                "well": "A4",
-                "labware": "NEST 96 Deep Well Plate 2 mL",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 27.0,
             "target": {
@@ -4716,6 +4616,16 @@
                 "slot": 3
             },
             "flow_rate": 7.6,
+            "pose_z": "top",
+            "channels": 8
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A12",
+                "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
+                "slot": 3
+            },
             "pose_z": "top",
             "channels": 8
         },

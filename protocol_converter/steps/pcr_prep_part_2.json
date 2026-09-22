@@ -32,13 +32,25 @@
             "channels": 8
         },
         {
-            "action": "blow_out",
-            "at": {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
                 "well": "A1",
                 "labware": "reservoir",
                 "slot": 3
             },
-            "pose_z": "top",
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A2",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
             "channels": 8
         },
         {
@@ -56,7 +68,205 @@
             "action": "dispense",
             "vol": 18.0,
             "target": {
+                "well": "A3",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
                 "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A4",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A5",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A6",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A7",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A8",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A9",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A10",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A11",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A12",
                 "labware": "Output plate",
                 "slot": 2
             },
@@ -96,13 +306,25 @@
             "channels": 8
         },
         {
-            "action": "blow_out",
-            "at": {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
                 "well": "A1",
                 "labware": "reservoir",
                 "slot": 3
             },
-            "pose_z": "top",
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A2",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
             "channels": 8
         },
         {
@@ -120,7 +342,205 @@
             "action": "dispense",
             "vol": 18.0,
             "target": {
+                "well": "A3",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
                 "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A4",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A5",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A6",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A7",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A8",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A9",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A10",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A11",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A12",
                 "labware": "Output plate",
                 "slot": 2
             },
@@ -160,13 +580,25 @@
             "channels": 8
         },
         {
-            "action": "blow_out",
-            "at": {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
                 "well": "A1",
                 "labware": "reservoir",
                 "slot": 3
             },
-            "pose_z": "top",
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A2",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
             "channels": 8
         },
         {
@@ -184,7 +616,205 @@
             "action": "dispense",
             "vol": 18.0,
             "target": {
+                "well": "A3",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
                 "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A4",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A5",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A6",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A7",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A8",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A9",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A10",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A11",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A12",
                 "labware": "Output plate",
                 "slot": 2
             },
@@ -224,13 +854,25 @@
             "channels": 8
         },
         {
-            "action": "blow_out",
-            "at": {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
                 "well": "A1",
                 "labware": "reservoir",
                 "slot": 3
             },
-            "pose_z": "top",
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A2",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
             "channels": 8
         },
         {
@@ -248,7 +890,205 @@
             "action": "dispense",
             "vol": 18.0,
             "target": {
+                "well": "A3",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
                 "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A4",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A5",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A6",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A7",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A8",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A9",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A10",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A11",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A12",
                 "labware": "Output plate",
                 "slot": 2
             },
@@ -288,13 +1128,25 @@
             "channels": 8
         },
         {
-            "action": "blow_out",
-            "at": {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
                 "well": "A1",
                 "labware": "reservoir",
                 "slot": 3
             },
-            "pose_z": "top",
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A2",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
             "channels": 8
         },
         {
@@ -312,7 +1164,205 @@
             "action": "dispense",
             "vol": 18.0,
             "target": {
+                "well": "A3",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
                 "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A4",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A5",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A6",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A7",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A8",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A9",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A10",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A11",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A12",
                 "labware": "Output plate",
                 "slot": 2
             },
@@ -352,6 +1402,248 @@
             "channels": 8
         },
         {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A2",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A3",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A4",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A5",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A6",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A7",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A8",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A9",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A10",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A11",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A12",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
             "action": "blow_out",
             "at": {
                 "well": "A1",
@@ -377,6 +1669,1618 @@
             "vol": 18.0,
             "target": {
                 "well": "A1",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A2",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A3",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A4",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A5",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A6",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A7",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A8",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A9",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A10",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A11",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A12",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "pose_z": "top",
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A1",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A2",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A3",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A4",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A5",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A6",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A7",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A8",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A9",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A10",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A11",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A12",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "pose_z": "top",
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A1",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A2",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A3",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A4",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A5",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A6",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A7",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A8",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A9",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A10",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A11",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A12",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "pose_z": "top",
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A1",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A2",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A3",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A4",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A5",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A6",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A7",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A8",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A9",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A10",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A11",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A12",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "pose_z": "top",
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A1",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A2",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A3",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A4",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A5",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A6",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A7",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A8",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A9",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A10",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A11",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A12",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "pose_z": "top",
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A1",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A2",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A3",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A4",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A5",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A6",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A7",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A8",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A9",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A10",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A11",
+                "labware": "Output plate",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 18.0,
+            "source": {
+                "well": "A1",
+                "labware": "reservoir",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 18.0,
+            "target": {
+                "well": "A12",
                 "labware": "Output plate",
                 "slot": 2
             },

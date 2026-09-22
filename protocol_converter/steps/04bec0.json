@@ -2410,7 +2410,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 48.14814814814814,
+            "vol": 397.66666666666663,
             "source": {
                 "well": "A1",
                 "labware": "reagent tuberack",
@@ -2431,17 +2431,6 @@
             "pose_z": "bottom(5.5)"
         },
         {
-            "action": "aspirate",
-            "vol": 12.444444444444436,
-            "source": {
-                "well": "A1",
-                "labware": "reagent tuberack",
-                "slot": 9
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(40)"
-        },
-        {
             "action": "dispense",
             "vol": 12.444444444444436,
             "target": {
@@ -2451,17 +2440,6 @@
             },
             "flow_rate": 7.6,
             "pose_z": "bottom(5.5)"
-        },
-        {
-            "action": "aspirate",
-            "vol": 53.31481481481484,
-            "source": {
-                "well": "A1",
-                "labware": "reagent tuberack",
-                "slot": 9
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(40)"
         },
         {
             "action": "dispense",
@@ -2475,25 +2453,23 @@
             "pose_z": "bottom(5.5)"
         },
         {
-            "action": "aspirate",
-            "vol": 283.75925925925924,
-            "source": {
-                "well": "A1",
-                "labware": "reagent tuberack",
-                "slot": 9
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(40)"
-        },
-        {
             "action": "dispense",
-            "vol": 283.75925925925924,
+            "vol": 283.7592592592592,
             "target": {
                 "well": "D2",
                 "labware": "normalization rack 1",
                 "slot": 5
             },
             "flow_rate": 7.6,
+            "pose_z": "bottom(5.5)"
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "D2",
+                "labware": "normalization rack 1",
+                "slot": 5
+            },
             "pose_z": "bottom(5.5)"
         },
         {
@@ -2519,8 +2495,17 @@
             "pose_z": "bottom(5.5)"
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "D3",
+                "labware": "normalization rack 1",
+                "slot": 5
+            },
+            "pose_z": "bottom(5.5)"
+        },
+        {
             "action": "aspirate",
-            "vol": 392.18518518518516,
+            "vol": 792.8148148148148,
             "source": {
                 "well": "A1",
                 "labware": "reagent tuberack",
@@ -2541,17 +2526,6 @@
             "pose_z": "bottom(5.5)"
         },
         {
-            "action": "aspirate",
-            "vol": 400.62962962962956,
-            "source": {
-                "well": "A1",
-                "labware": "reagent tuberack",
-                "slot": 9
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(40)"
-        },
-        {
             "action": "dispense",
             "vol": 400.62962962962956,
             "target": {
@@ -2563,8 +2537,17 @@
             "pose_z": "bottom(5.5)"
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "D5",
+                "labware": "normalization rack 1",
+                "slot": 5
+            },
+            "pose_z": "bottom(5.5)"
+        },
+        {
             "action": "aspirate",
-            "vol": 534.9629629629629,
+            "vol": 654.2037037037037,
             "source": {
                 "well": "A1",
                 "labware": "reagent tuberack",
@@ -2585,17 +2568,6 @@
             "pose_z": "bottom(5.5)"
         },
         {
-            "action": "aspirate",
-            "vol": 29.629629629629626,
-            "source": {
-                "well": "A1",
-                "labware": "reagent tuberack",
-                "slot": 9
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(40)"
-        },
-        {
             "action": "dispense",
             "vol": 29.629629629629626,
             "target": {
@@ -2605,17 +2577,6 @@
             },
             "flow_rate": 7.6,
             "pose_z": "bottom(5.5)"
-        },
-        {
-            "action": "aspirate",
-            "vol": 4.907407407407405,
-            "source": {
-                "well": "A1",
-                "labware": "reagent tuberack",
-                "slot": 9
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(40)"
         },
         {
             "action": "dispense",
@@ -2629,17 +2590,6 @@
             "pose_z": "bottom(5.5)"
         },
         {
-            "action": "aspirate",
-            "vol": 84.70370370370371,
-            "source": {
-                "well": "A1",
-                "labware": "reagent tuberack",
-                "slot": 9
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(40)"
-        },
-        {
             "action": "dispense",
             "vol": 84.70370370370371,
             "target": {
@@ -2651,8 +2601,17 @@
             "pose_z": "bottom(5.5)"
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A3",
+                "labware": "normalization rack 2",
+                "slot": 2
+            },
+            "pose_z": "bottom(5.5)"
+        },
+        {
             "action": "aspirate",
-            "vol": 362.2962962962963,
+            "vol": 892.9629629629629,
             "source": {
                 "well": "A1",
                 "labware": "reagent tuberack",
@@ -2673,17 +2632,6 @@
             "pose_z": "bottom(5.5)"
         },
         {
-            "action": "aspirate",
-            "vol": 530.6666666666666,
-            "source": {
-                "well": "A1",
-                "labware": "reagent tuberack",
-                "slot": 9
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(40)"
-        },
-        {
             "action": "dispense",
             "vol": 530.6666666666666,
             "target": {
@@ -2695,8 +2643,17 @@
             "pose_z": "bottom(5.5)"
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A5",
+                "labware": "normalization rack 2",
+                "slot": 2
+            },
+            "pose_z": "bottom(5.5)"
+        },
+        {
             "action": "aspirate",
-            "vol": 427.9259259259259,
+            "vol": 872.3703703703704,
             "source": {
                 "well": "A1",
                 "labware": "reagent tuberack",
@@ -2717,17 +2674,6 @@
             "pose_z": "bottom(5.5)"
         },
         {
-            "action": "aspirate",
-            "vol": 444.44444444444446,
-            "source": {
-                "well": "A1",
-                "labware": "reagent tuberack",
-                "slot": 9
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(40)"
-        },
-        {
             "action": "dispense",
             "vol": 444.44444444444446,
             "target": {
@@ -2739,8 +2685,17 @@
             "pose_z": "bottom(5.5)"
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "B1",
+                "labware": "normalization rack 2",
+                "slot": 2
+            },
+            "pose_z": "bottom(5.5)"
+        },
+        {
             "action": "aspirate",
-            "vol": 577.9444444444443,
+            "vol": 895.4444444444443,
             "source": {
                 "well": "A1",
                 "labware": "reagent tuberack",
@@ -2761,17 +2716,6 @@
             "pose_z": "bottom(5.5)"
         },
         {
-            "action": "aspirate",
-            "vol": 116.98148148148148,
-            "source": {
-                "well": "A1",
-                "labware": "reagent tuberack",
-                "slot": 9
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(40)"
-        },
-        {
             "action": "dispense",
             "vol": 116.98148148148148,
             "target": {
@@ -2781,17 +2725,6 @@
             },
             "flow_rate": 7.6,
             "pose_z": "bottom(5.5)"
-        },
-        {
-            "action": "aspirate",
-            "vol": 200.51851851851853,
-            "source": {
-                "well": "A1",
-                "labware": "reagent tuberack",
-                "slot": 9
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(40)"
         },
         {
             "action": "dispense",
@@ -2805,8 +2738,17 @@
             "pose_z": "bottom(5.5)"
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "B4",
+                "labware": "normalization rack 2",
+                "slot": 2
+            },
+            "pose_z": "bottom(5.5)"
+        },
+        {
             "action": "aspirate",
-            "vol": 64.25925925925927,
+            "vol": 712.6851851851851,
             "source": {
                 "well": "A1",
                 "labware": "reagent tuberack",
@@ -2827,17 +2769,6 @@
             "pose_z": "bottom(5.5)"
         },
         {
-            "action": "aspirate",
-            "vol": 151.27777777777774,
-            "source": {
-                "well": "A1",
-                "labware": "reagent tuberack",
-                "slot": 9
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(40)"
-        },
-        {
             "action": "dispense",
             "vol": 151.27777777777774,
             "target": {
@@ -2849,17 +2780,6 @@
             "pose_z": "bottom(5.5)"
         },
         {
-            "action": "aspirate",
-            "vol": 497.1481481481481,
-            "source": {
-                "well": "A1",
-                "labware": "reagent tuberack",
-                "slot": 9
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(40)"
-        },
-        {
             "action": "dispense",
             "vol": 497.1481481481481,
             "target": {
@@ -2868,6 +2788,15 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
+            "pose_z": "bottom(5.5)"
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "C1",
+                "labware": "normalization rack 2",
+                "slot": 2
+            },
             "pose_z": "bottom(5.5)"
         },
         {
@@ -2893,6 +2822,15 @@
             "pose_z": "bottom(5.5)"
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "C2",
+                "labware": "normalization rack 2",
+                "slot": 2
+            },
+            "pose_z": "bottom(5.5)"
+        },
+        {
             "action": "aspirate",
             "vol": 429.1296296296297,
             "source": {
@@ -2915,8 +2853,17 @@
             "pose_z": "bottom(5.5)"
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "C3",
+                "labware": "normalization rack 2",
+                "slot": 2
+            },
+            "pose_z": "bottom(5.5)"
+        },
+        {
             "action": "aspirate",
-            "vol": 595.3888888888889,
+            "vol": 736.1481481481482,
             "source": {
                 "well": "A1",
                 "labware": "reagent tuberack",
@@ -2937,17 +2884,6 @@
             "pose_z": "bottom(5.5)"
         },
         {
-            "action": "aspirate",
-            "vol": 140.75925925925924,
-            "source": {
-                "well": "A1",
-                "labware": "reagent tuberack",
-                "slot": 9
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(40)"
-        },
-        {
             "action": "dispense",
             "vol": 140.75925925925924,
             "target": {
@@ -2959,8 +2895,17 @@
             "pose_z": "bottom(5.5)"
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "C5",
+                "labware": "normalization rack 2",
+                "slot": 2
+            },
+            "pose_z": "bottom(5.5)"
+        },
+        {
             "action": "aspirate",
-            "vol": 219.16666666666663,
+            "vol": 444.7962962962963,
             "source": {
                 "well": "A1",
                 "labware": "reagent tuberack",
@@ -2981,17 +2926,6 @@
             "pose_z": "bottom(5.5)"
         },
         {
-            "action": "aspirate",
-            "vol": 73.11111111111113,
-            "source": {
-                "well": "A1",
-                "labware": "reagent tuberack",
-                "slot": 9
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(40)"
-        },
-        {
             "action": "dispense",
             "vol": 73.11111111111113,
             "target": {
@@ -3003,17 +2937,6 @@
             "pose_z": "bottom(5.5)"
         },
         {
-            "action": "aspirate",
-            "vol": 152.51851851851853,
-            "source": {
-                "well": "A1",
-                "labware": "reagent tuberack",
-                "slot": 9
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(40)"
-        },
-        {
             "action": "dispense",
             "vol": 152.51851851851853,
             "target": {
@@ -3022,6 +2945,15 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
+            "pose_z": "bottom(5.5)"
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "D2",
+                "labware": "normalization rack 2",
+                "slot": 2
+            },
             "pose_z": "bottom(5.5)"
         },
         {
@@ -3047,6 +2979,15 @@
             "pose_z": "bottom(5.5)"
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "D3",
+                "labware": "normalization rack 2",
+                "slot": 2
+            },
+            "pose_z": "bottom(5.5)"
+        },
+        {
             "action": "aspirate",
             "vol": 429.2407407407408,
             "source": {
@@ -3066,6 +3007,15 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
+            "pose_z": "bottom(5.5)"
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "D4",
+                "labware": "normalization rack 2",
+                "slot": 2
+            },
             "pose_z": "bottom(5.5)"
         },
         {
@@ -3091,6 +3041,15 @@
             "pose_z": "bottom(5.5)"
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "D5",
+                "labware": "normalization rack 2",
+                "slot": 2
+            },
+            "pose_z": "bottom(5.5)"
+        },
+        {
             "action": "aspirate",
             "vol": 537.7222222222223,
             "source": {
@@ -3110,6 +3069,15 @@
                 "slot": 2
             },
             "flow_rate": 7.6,
+            "pose_z": "bottom(5.5)"
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "D6",
+                "labware": "normalization rack 2",
+                "slot": 2
+            },
             "pose_z": "bottom(5.5)"
         },
         {

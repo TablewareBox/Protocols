@@ -16,22 +16,27 @@
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "concentration_normalization",
+        "sources": "Liquid_1",
         "targets": "samples",
         "asp_vols": [
-          40.0
+          50.0,
+          17.0
         ],
         "dis_vols": [
-          40.0
+          50.0,
+          17.0
         ],
         "asp_flow_rates": [
+          7.6,
           7.6
         ],
         "dis_flow_rates": [
+          7.6,
           7.6
         ],
         "tip_racks": "tiprack_2",
         "liquid_height": [
+          0,
           0
         ],
         "touch_tip": true,
@@ -44,13 +49,13 @@
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "Liquid_1",
+        "sources": "concentration_normalization",
         "targets": "samples_2",
         "asp_vols": [
-          67.0
+          40.0
         ],
         "dis_vols": [
-          67.0
+          40.0
         ],
         "asp_flow_rates": [
           7.6
@@ -127,19 +132,19 @@
     }
   ],
   "reagent": {
-    "concentration_normalization": {
+    "Liquid_1": {
       "slot": 5,
       "well": [
-        "A1"
+        "C1"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
       "liquid_name": "sample"
     },
-    "Liquid_1": {
+    "concentration_normalization": {
       "slot": 5,
       "well": [
-        "C1"
+        "A1"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -166,7 +171,7 @@
     "samples": {
       "slot": 6,
       "well": [
-        "A1"
+        "B1"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "target",
@@ -175,7 +180,7 @@
     "samples_2": {
       "slot": 6,
       "well": [
-        "B1"
+        "A1"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "target",

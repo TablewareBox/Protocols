@@ -90,7 +90,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 20.0,
+            "vol": 200.0,
             "source": {
                 "well": "C1",
                 "labware": "Opentrons 24 Well Aluminum Block with NEST 2 mL Snapcap",
@@ -109,32 +109,12 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 20.0,
-            "source": {
-                "well": "C1",
-                "labware": "Opentrons 24 Well Aluminum Block with NEST 2 mL Snapcap",
-                "slot": 3
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 20.0,
             "target": {
                 "well": "C2",
                 "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
                 "slot": 7
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 20.0,
-            "source": {
-                "well": "C1",
-                "labware": "Opentrons 24 Well Aluminum Block with NEST 2 mL Snapcap",
-                "slot": 3
             },
             "flow_rate": 7.6
         },
@@ -149,32 +129,12 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 20.0,
-            "source": {
-                "well": "C1",
-                "labware": "Opentrons 24 Well Aluminum Block with NEST 2 mL Snapcap",
-                "slot": 3
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 20.0,
             "target": {
                 "well": "E2",
                 "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
                 "slot": 7
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 20.0,
-            "source": {
-                "well": "C1",
-                "labware": "Opentrons 24 Well Aluminum Block with NEST 2 mL Snapcap",
-                "slot": 3
             },
             "flow_rate": 7.6
         },
@@ -189,32 +149,12 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 20.0,
-            "source": {
-                "well": "C1",
-                "labware": "Opentrons 24 Well Aluminum Block with NEST 2 mL Snapcap",
-                "slot": 3
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 20.0,
             "target": {
                 "well": "G2",
                 "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
                 "slot": 7
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 20.0,
-            "source": {
-                "well": "C1",
-                "labware": "Opentrons 24 Well Aluminum Block with NEST 2 mL Snapcap",
-                "slot": 3
             },
             "flow_rate": 7.6
         },
@@ -229,32 +169,12 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 20.0,
-            "source": {
-                "well": "C1",
-                "labware": "Opentrons 24 Well Aluminum Block with NEST 2 mL Snapcap",
-                "slot": 3
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 20.0,
             "target": {
                 "well": "C3",
                 "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
                 "slot": 7
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 20.0,
-            "source": {
-                "well": "C1",
-                "labware": "Opentrons 24 Well Aluminum Block with NEST 2 mL Snapcap",
-                "slot": 3
             },
             "flow_rate": 7.6
         },
@@ -269,16 +189,6 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 20.0,
-            "source": {
-                "well": "C1",
-                "labware": "Opentrons 24 Well Aluminum Block with NEST 2 mL Snapcap",
-                "slot": 3
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 20.0,
             "target": {
@@ -289,8 +199,16 @@
             "flow_rate": 7.6
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "E3",
+                "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
+                "slot": 7
+            }
+        },
+        {
             "action": "aspirate",
-            "vol": 20.0,
+            "vol": 40.0,
             "source": {
                 "well": "C1",
                 "labware": "Opentrons 24 Well Aluminum Block with NEST 2 mL Snapcap",
@@ -309,16 +227,6 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 20.0,
-            "source": {
-                "well": "C1",
-                "labware": "Opentrons 24 Well Aluminum Block with NEST 2 mL Snapcap",
-                "slot": 3
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 20.0,
             "target": {
@@ -327,6 +235,14 @@
                 "slot": 7
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "G3",
+                "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
+                "slot": 7
+            }
         },
         {
             "action": "drop_tip",

@@ -19,6 +19,14 @@
         "sources": "samples",
         "targets": "samples_5",
         "asp_vols": [
+          9.75,
+          9.75,
+          9.75,
+          9.75,
+          9.75,
+          9.75,
+          9.75,
+          9.75,
           1.5,
           1.5,
           1.5,
@@ -26,7 +34,99 @@
           1.5,
           1.5,
           1.5,
+          1.5
+        ],
+        "dis_vols": [
+          9.75,
+          9.75,
+          9.75,
+          9.75,
+          9.75,
+          9.75,
+          9.75,
+          9.75,
           1.5,
+          1.5,
+          1.5,
+          1.5,
+          1.5,
+          1.5,
+          1.5,
+          1.5
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_3",
+        "use_channels": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "liquid_height": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "samples",
+        "targets": "samples_6",
+        "asp_vols": [
           1.5,
           1.5,
           1.5,
@@ -45,14 +145,6 @@
           10.0
         ],
         "dis_vols": [
-          11.25,
-          11.25,
-          11.25,
-          11.25,
-          11.25,
-          11.25,
-          11.25,
-          11.25,
           13.25,
           13.25,
           13.25,
@@ -86,25 +178,9 @@
           7.6,
           7.6,
           7.6,
-          7.6,
-          7.6,
-          7.6,
-          7.6,
-          7.6,
-          7.6,
-          7.6,
-          7.6,
           7.6
         ],
         "dis_flow_rates": [
-          7.6,
-          7.6,
-          7.6,
-          7.6,
-          7.6,
-          7.6,
-          7.6,
-          7.6,
           7.6,
           7.6,
           7.6,
@@ -142,14 +218,6 @@
           0,
           0,
           0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
           2.0,
           2.0,
           2.0,
@@ -160,14 +228,6 @@
           2.0
         ],
         "pre_aspirate_from_target": [
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
           0.0,
           0.0,
           0.0,
@@ -201,14 +261,6 @@
           0,
           0,
           0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
           0
         ]
       }
@@ -217,7 +269,7 @@
       "action": "transfer_liquid",
       "action_args": {
         "sources": "water_1",
-        "targets": "samples_6",
+        "targets": "samples_7",
         "asp_vols": [
           15.0,
           15.0,
@@ -343,7 +395,7 @@
       "action": "transfer_liquid",
       "action_args": {
         "sources": "samples_2",
-        "targets": "samples_7",
+        "targets": "samples_8",
         "asp_vols": [
           20.0,
           20.0,
@@ -565,7 +617,7 @@
       "action": "transfer_liquid",
       "action_args": {
         "sources": "samples_start",
-        "targets": "samples_8",
+        "targets": "samples_9",
         "asp_vols": [
           10.0,
           10.0,
@@ -633,7 +685,7 @@
       "action": "transfer_liquid",
       "action_args": {
         "sources": "beads",
-        "targets": "samples_8",
+        "targets": "samples_9",
         "asp_vols": [
           19.5,
           19.5,
@@ -721,7 +773,7 @@
       "action": "transfer_liquid",
       "action_args": {
         "sources": "bb",
-        "targets": "samples_8",
+        "targets": "samples_9",
         "asp_vols": [
           19.5,
           19.5,
@@ -793,7 +845,7 @@
       "action": "transfer_liquid",
       "action_args": {
         "sources": "etoh",
-        "targets": "samples_8",
+        "targets": "samples_9",
         "asp_vols": [
           210.0,
           210.0,
@@ -875,7 +927,7 @@
       "action": "transfer_liquid",
       "action_args": {
         "sources": "samples_3",
-        "targets": "samples_8",
+        "targets": "samples_9",
         "asp_vols": [
           210.0,
           210.0,
@@ -957,7 +1009,7 @@
       "action": "transfer_liquid",
       "action_args": {
         "sources": "samples_4",
-        "targets": "samples_9",
+        "targets": "samples_10",
         "asp_vols": [
           14.0,
           14.0,
@@ -1142,7 +1194,15 @@
     "samples_5": {
       "slot": 2,
       "well": [
-        "A10",
+        "A10"
+      ],
+      "labware": "perkinelmer_12_reservoir_21000ul",
+      "object": "target",
+      "liquid_name": "sample"
+    },
+    "samples_6": {
+      "slot": 2,
+      "well": [
         "A10",
         "A11"
       ],
@@ -1150,7 +1210,7 @@
       "object": "target",
       "liquid_name": "sample"
     },
-    "samples_6": {
+    "samples_7": {
       "slot": 4,
       "well": [
         "A1",
@@ -1166,7 +1226,7 @@
       "object": "target",
       "liquid_name": "sample"
     },
-    "samples_7": {
+    "samples_8": {
       "slot": 2,
       "well": [
         "A3",
@@ -1178,7 +1238,7 @@
       "object": "target",
       "liquid_name": "sample"
     },
-    "samples_8": {
+    "samples_9": {
       "slot": 4,
       "well": [
         "A1",
@@ -1194,7 +1254,7 @@
       "object": "target",
       "liquid_name": "sample"
     },
-    "samples_9": {
+    "samples_10": {
       "slot": 10,
       "well": [
         "A1",

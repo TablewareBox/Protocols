@@ -2240,7 +2240,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 35.0,
+            "vol": 280.0,
             "source": {
                 "well": "A1",
                 "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
@@ -2255,16 +2255,6 @@
                 "well": "A1",
                 "labware": "3DPrint 96 Tube Rack with Nippon 0.2 mL",
                 "slot": 7
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A1",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
             },
             "flow_rate": 7.6
         },
@@ -2279,32 +2269,12 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A1",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 35.0,
             "target": {
                 "well": "A3",
                 "labware": "3DPrint 96 Tube Rack with Nippon 0.2 mL",
                 "slot": 7
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A1",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
             },
             "flow_rate": 7.6
         },
@@ -2319,32 +2289,12 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A1",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 35.0,
             "target": {
                 "well": "A5",
                 "labware": "3DPrint 96 Tube Rack with Nippon 0.2 mL",
                 "slot": 7
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A1",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
             },
             "flow_rate": 7.6
         },
@@ -2359,32 +2309,12 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A1",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 35.0,
             "target": {
                 "well": "A7",
                 "labware": "3DPrint 96 Tube Rack with Nippon 0.2 mL",
                 "slot": 7
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A1",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
             },
             "flow_rate": 7.6
         },
@@ -2399,8 +2329,16 @@
             "flow_rate": 7.6
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A8",
+                "labware": "3DPrint 96 Tube Rack with Nippon 0.2 mL",
+                "slot": 7
+            }
+        },
+        {
             "action": "aspirate",
-            "vol": 35.0,
+            "vol": 140.0,
             "source": {
                 "well": "A1",
                 "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
@@ -2419,32 +2357,12 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A1",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 35.0,
             "target": {
                 "well": "A10",
                 "labware": "3DPrint 96 Tube Rack with Nippon 0.2 mL",
                 "slot": 7
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A1",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
             },
             "flow_rate": 7.6
         },
@@ -2459,16 +2377,6 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A1",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 35.0,
             "target": {
@@ -2477,6 +2385,14 @@
                 "slot": 7
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A12",
+                "labware": "3DPrint 96 Tube Rack with Nippon 0.2 mL",
+                "slot": 7
+            }
         },
         {
             "action": "drop_tip",
@@ -2498,7 +2414,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 35.0,
+            "vol": 280.0,
             "source": {
                 "well": "A2",
                 "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
@@ -2517,32 +2433,12 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A2",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 35.0,
             "target": {
                 "well": "B2",
                 "labware": "3DPrint 96 Tube Rack with Nippon 0.2 mL",
                 "slot": 7
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A2",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
             },
             "flow_rate": 7.6
         },
@@ -2557,32 +2453,12 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A2",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 35.0,
             "target": {
                 "well": "B4",
                 "labware": "3DPrint 96 Tube Rack with Nippon 0.2 mL",
                 "slot": 7
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A2",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
             },
             "flow_rate": 7.6
         },
@@ -2597,32 +2473,12 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A2",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 35.0,
             "target": {
                 "well": "B6",
                 "labware": "3DPrint 96 Tube Rack with Nippon 0.2 mL",
                 "slot": 7
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A2",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
             },
             "flow_rate": 7.6
         },
@@ -2637,16 +2493,6 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A2",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 35.0,
             "target": {
@@ -2657,8 +2503,16 @@
             "flow_rate": 7.6
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "B8",
+                "labware": "3DPrint 96 Tube Rack with Nippon 0.2 mL",
+                "slot": 7
+            }
+        },
+        {
             "action": "aspirate",
-            "vol": 35.0,
+            "vol": 140.0,
             "source": {
                 "well": "A2",
                 "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
@@ -2677,32 +2531,12 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A2",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 35.0,
             "target": {
                 "well": "B10",
                 "labware": "3DPrint 96 Tube Rack with Nippon 0.2 mL",
                 "slot": 7
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A2",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
             },
             "flow_rate": 7.6
         },
@@ -2717,16 +2551,6 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A2",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 35.0,
             "target": {
@@ -2735,6 +2559,14 @@
                 "slot": 7
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "B12",
+                "labware": "3DPrint 96 Tube Rack with Nippon 0.2 mL",
+                "slot": 7
+            }
         },
         {
             "action": "drop_tip",
@@ -2756,7 +2588,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 35.0,
+            "vol": 280.0,
             "source": {
                 "well": "A3",
                 "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
@@ -2775,32 +2607,12 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A3",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 35.0,
             "target": {
                 "well": "C2",
                 "labware": "3DPrint 96 Tube Rack with Nippon 0.2 mL",
                 "slot": 7
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A3",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
             },
             "flow_rate": 7.6
         },
@@ -2815,32 +2627,12 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A3",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 35.0,
             "target": {
                 "well": "C4",
                 "labware": "3DPrint 96 Tube Rack with Nippon 0.2 mL",
                 "slot": 7
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A3",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
             },
             "flow_rate": 7.6
         },
@@ -2855,32 +2647,12 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A3",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 35.0,
             "target": {
                 "well": "C6",
                 "labware": "3DPrint 96 Tube Rack with Nippon 0.2 mL",
                 "slot": 7
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A3",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
             },
             "flow_rate": 7.6
         },
@@ -2895,16 +2667,6 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A3",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 35.0,
             "target": {
@@ -2915,8 +2677,16 @@
             "flow_rate": 7.6
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "C8",
+                "labware": "3DPrint 96 Tube Rack with Nippon 0.2 mL",
+                "slot": 7
+            }
+        },
+        {
             "action": "aspirate",
-            "vol": 35.0,
+            "vol": 140.0,
             "source": {
                 "well": "A3",
                 "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
@@ -2935,32 +2705,12 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A3",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 35.0,
             "target": {
                 "well": "C10",
                 "labware": "3DPrint 96 Tube Rack with Nippon 0.2 mL",
                 "slot": 7
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A3",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
             },
             "flow_rate": 7.6
         },
@@ -2975,16 +2725,6 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A3",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 35.0,
             "target": {
@@ -2993,6 +2733,14 @@
                 "slot": 7
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "C12",
+                "labware": "3DPrint 96 Tube Rack with Nippon 0.2 mL",
+                "slot": 7
+            }
         },
         {
             "action": "drop_tip",
@@ -3014,7 +2762,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 35.0,
+            "vol": 280.0,
             "source": {
                 "well": "A4",
                 "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
@@ -3033,32 +2781,12 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A4",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 35.0,
             "target": {
                 "well": "D2",
                 "labware": "3DPrint 96 Tube Rack with Nippon 0.2 mL",
                 "slot": 7
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A4",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
             },
             "flow_rate": 7.6
         },
@@ -3073,32 +2801,12 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A4",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 35.0,
             "target": {
                 "well": "D4",
                 "labware": "3DPrint 96 Tube Rack with Nippon 0.2 mL",
                 "slot": 7
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A4",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
             },
             "flow_rate": 7.6
         },
@@ -3113,32 +2821,12 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A4",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 35.0,
             "target": {
                 "well": "D6",
                 "labware": "3DPrint 96 Tube Rack with Nippon 0.2 mL",
                 "slot": 7
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A4",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
             },
             "flow_rate": 7.6
         },
@@ -3153,16 +2841,6 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A4",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 35.0,
             "target": {
@@ -3173,8 +2851,16 @@
             "flow_rate": 7.6
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "D8",
+                "labware": "3DPrint 96 Tube Rack with Nippon 0.2 mL",
+                "slot": 7
+            }
+        },
+        {
             "action": "aspirate",
-            "vol": 35.0,
+            "vol": 140.0,
             "source": {
                 "well": "A4",
                 "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
@@ -3193,32 +2879,12 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A4",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 35.0,
             "target": {
                 "well": "D10",
                 "labware": "3DPrint 96 Tube Rack with Nippon 0.2 mL",
                 "slot": 7
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A4",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
             },
             "flow_rate": 7.6
         },
@@ -3233,16 +2899,6 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A4",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 35.0,
             "target": {
@@ -3251,6 +2907,14 @@
                 "slot": 7
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "D12",
+                "labware": "3DPrint 96 Tube Rack with Nippon 0.2 mL",
+                "slot": 7
+            }
         },
         {
             "action": "drop_tip",
@@ -3272,7 +2936,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 35.0,
+            "vol": 280.0,
             "source": {
                 "well": "A5",
                 "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
@@ -3291,32 +2955,12 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A5",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 35.0,
             "target": {
                 "well": "E2",
                 "labware": "3DPrint 96 Tube Rack with Nippon 0.2 mL",
                 "slot": 7
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A5",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
             },
             "flow_rate": 7.6
         },
@@ -3331,32 +2975,12 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A5",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 35.0,
             "target": {
                 "well": "E4",
                 "labware": "3DPrint 96 Tube Rack with Nippon 0.2 mL",
                 "slot": 7
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A5",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
             },
             "flow_rate": 7.6
         },
@@ -3371,32 +2995,12 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A5",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 35.0,
             "target": {
                 "well": "E6",
                 "labware": "3DPrint 96 Tube Rack with Nippon 0.2 mL",
                 "slot": 7
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A5",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
             },
             "flow_rate": 7.6
         },
@@ -3411,16 +3015,6 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A5",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 35.0,
             "target": {
@@ -3431,8 +3025,16 @@
             "flow_rate": 7.6
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "E8",
+                "labware": "3DPrint 96 Tube Rack with Nippon 0.2 mL",
+                "slot": 7
+            }
+        },
+        {
             "action": "aspirate",
-            "vol": 35.0,
+            "vol": 140.0,
             "source": {
                 "well": "A5",
                 "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
@@ -3451,32 +3053,12 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A5",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 35.0,
             "target": {
                 "well": "E10",
                 "labware": "3DPrint 96 Tube Rack with Nippon 0.2 mL",
                 "slot": 7
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A5",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
             },
             "flow_rate": 7.6
         },
@@ -3491,16 +3073,6 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A5",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 35.0,
             "target": {
@@ -3509,6 +3081,14 @@
                 "slot": 7
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "E12",
+                "labware": "3DPrint 96 Tube Rack with Nippon 0.2 mL",
+                "slot": 7
+            }
         },
         {
             "action": "drop_tip",
@@ -3530,7 +3110,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 35.0,
+            "vol": 280.0,
             "source": {
                 "well": "A6",
                 "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
@@ -3549,32 +3129,12 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A6",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 35.0,
             "target": {
                 "well": "F2",
                 "labware": "3DPrint 96 Tube Rack with Nippon 0.2 mL",
                 "slot": 7
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A6",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
             },
             "flow_rate": 7.6
         },
@@ -3589,32 +3149,12 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A6",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 35.0,
             "target": {
                 "well": "F4",
                 "labware": "3DPrint 96 Tube Rack with Nippon 0.2 mL",
                 "slot": 7
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A6",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
             },
             "flow_rate": 7.6
         },
@@ -3629,32 +3169,12 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A6",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 35.0,
             "target": {
                 "well": "F6",
                 "labware": "3DPrint 96 Tube Rack with Nippon 0.2 mL",
                 "slot": 7
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A6",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
             },
             "flow_rate": 7.6
         },
@@ -3669,16 +3189,6 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A6",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 35.0,
             "target": {
@@ -3689,8 +3199,16 @@
             "flow_rate": 7.6
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "F8",
+                "labware": "3DPrint 96 Tube Rack with Nippon 0.2 mL",
+                "slot": 7
+            }
+        },
+        {
             "action": "aspirate",
-            "vol": 35.0,
+            "vol": 140.0,
             "source": {
                 "well": "A6",
                 "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
@@ -3709,32 +3227,12 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A6",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 35.0,
             "target": {
                 "well": "F10",
                 "labware": "3DPrint 96 Tube Rack with Nippon 0.2 mL",
                 "slot": 7
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A6",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
             },
             "flow_rate": 7.6
         },
@@ -3749,16 +3247,6 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "A6",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 35.0,
             "target": {
@@ -3767,6 +3255,14 @@
                 "slot": 7
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "F12",
+                "labware": "3DPrint 96 Tube Rack with Nippon 0.2 mL",
+                "slot": 7
+            }
         },
         {
             "action": "drop_tip",
@@ -3788,7 +3284,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 35.0,
+            "vol": 280.0,
             "source": {
                 "well": "B1",
                 "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
@@ -3807,32 +3303,12 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "B1",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 35.0,
             "target": {
                 "well": "G2",
                 "labware": "3DPrint 96 Tube Rack with Nippon 0.2 mL",
                 "slot": 7
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "B1",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
             },
             "flow_rate": 7.6
         },
@@ -3847,32 +3323,12 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "B1",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 35.0,
             "target": {
                 "well": "G4",
                 "labware": "3DPrint 96 Tube Rack with Nippon 0.2 mL",
                 "slot": 7
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "B1",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
             },
             "flow_rate": 7.6
         },
@@ -3887,32 +3343,12 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "B1",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 35.0,
             "target": {
                 "well": "G6",
                 "labware": "3DPrint 96 Tube Rack with Nippon 0.2 mL",
                 "slot": 7
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "B1",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
             },
             "flow_rate": 7.6
         },
@@ -3927,16 +3363,6 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "B1",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 35.0,
             "target": {
@@ -3947,8 +3373,16 @@
             "flow_rate": 7.6
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "G8",
+                "labware": "3DPrint 96 Tube Rack with Nippon 0.2 mL",
+                "slot": 7
+            }
+        },
+        {
             "action": "aspirate",
-            "vol": 35.0,
+            "vol": 140.0,
             "source": {
                 "well": "B1",
                 "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
@@ -3967,32 +3401,12 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "B1",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 35.0,
             "target": {
                 "well": "G10",
                 "labware": "3DPrint 96 Tube Rack with Nippon 0.2 mL",
                 "slot": 7
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "B1",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
             },
             "flow_rate": 7.6
         },
@@ -4007,16 +3421,6 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "B1",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 35.0,
             "target": {
@@ -4025,6 +3429,14 @@
                 "slot": 7
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "G12",
+                "labware": "3DPrint 96 Tube Rack with Nippon 0.2 mL",
+                "slot": 7
+            }
         },
         {
             "action": "drop_tip",
@@ -4046,7 +3458,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 35.0,
+            "vol": 280.0,
             "source": {
                 "well": "B2",
                 "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
@@ -4065,32 +3477,12 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "B2",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 35.0,
             "target": {
                 "well": "H2",
                 "labware": "3DPrint 96 Tube Rack with Nippon 0.2 mL",
                 "slot": 7
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "B2",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
             },
             "flow_rate": 7.6
         },
@@ -4105,32 +3497,12 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "B2",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 35.0,
             "target": {
                 "well": "H4",
                 "labware": "3DPrint 96 Tube Rack with Nippon 0.2 mL",
                 "slot": 7
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "B2",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
             },
             "flow_rate": 7.6
         },
@@ -4145,32 +3517,12 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "B2",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 35.0,
             "target": {
                 "well": "H6",
                 "labware": "3DPrint 96 Tube Rack with Nippon 0.2 mL",
                 "slot": 7
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "B2",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
             },
             "flow_rate": 7.6
         },
@@ -4185,16 +3537,6 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "B2",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 35.0,
             "target": {
@@ -4205,8 +3547,16 @@
             "flow_rate": 7.6
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "H8",
+                "labware": "3DPrint 96 Tube Rack with Nippon 0.2 mL",
+                "slot": 7
+            }
+        },
+        {
             "action": "aspirate",
-            "vol": 35.0,
+            "vol": 140.0,
             "source": {
                 "well": "B2",
                 "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
@@ -4225,32 +3575,12 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "B2",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 35.0,
             "target": {
                 "well": "H10",
                 "labware": "3DPrint 96 Tube Rack with Nippon 0.2 mL",
                 "slot": 7
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "B2",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
             },
             "flow_rate": 7.6
         },
@@ -4265,16 +3595,6 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 35.0,
-            "source": {
-                "well": "B2",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 35.0,
             "target": {
@@ -4283,6 +3603,14 @@
                 "slot": 7
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "H12",
+                "labware": "3DPrint 96 Tube Rack with Nippon 0.2 mL",
+                "slot": 7
+            }
         },
         {
             "action": "drop_tip",

@@ -16,97 +16,41 @@
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "hcl",
-        "targets": "samples_8",
-        "asp_vols": [
-          250.0,
-          250.0
-        ],
-        "dis_vols": [
-          250.0,
-          250.0
-        ],
-        "asp_flow_rates": [
-          7.6,
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6,
-          7.6
-        ],
-        "tip_racks": "tiprack_6",
-        "liquid_height": [
-          0,
-          0
-        ]
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
         "sources": "samples",
-        "targets": "samples_9",
-        "asp_vols": [
-          250.0,
-          250.0,
-          100.0,
-          100.0,
-          100.0
-        ],
-        "dis_vols": [
-          250.0,
-          250.0,
-          100.0,
-          100.0,
-          100.0
-        ],
-        "asp_flow_rates": [
-          7.6,
-          7.6,
-          7.6,
-          7.6,
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6,
-          7.6,
-          7.6,
-          7.6,
-          7.6
-        ],
-        "tip_racks": "tiprack_6",
-        "liquid_height": [
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "naoh",
         "targets": "samples_8",
         "asp_vols": [
           250.0,
-          250.0
+          250.0,
+          100.0,
+          100.0,
+          100.0
         ],
         "dis_vols": [
           250.0,
-          250.0
+          250.0,
+          100.0,
+          100.0,
+          100.0
         ],
         "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
           7.6,
           7.6
         ],
         "dis_flow_rates": [
           7.6,
+          7.6,
+          7.6,
+          7.6,
           7.6
         ],
         "tip_racks": "tiprack_6",
         "liquid_height": [
+          0,
+          0,
+          0,
           0,
           0
         ]
@@ -116,7 +60,7 @@
       "action": "transfer_liquid",
       "action_args": {
         "sources": "ambic",
-        "targets": "samples_10",
+        "targets": "samples_9",
         "asp_vols": [
           100.0,
           100.0,
@@ -165,62 +109,6 @@
           0,
           0,
           0,
-          0,
-          0
-        ]
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "conditioning_solution",
-        "targets": "samples_11",
-        "asp_vols": [
-          250.0,
-          250.0
-        ],
-        "dis_vols": [
-          250.0,
-          250.0
-        ],
-        "asp_flow_rates": [
-          7.6,
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6,
-          7.6
-        ],
-        "tip_racks": "tiprack_6",
-        "liquid_height": [
-          0,
-          0
-        ]
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "washing_solution",
-        "targets": "samples_12",
-        "asp_vols": [
-          350.0,
-          350.0
-        ],
-        "dis_vols": [
-          350.0,
-          350.0
-        ],
-        "asp_flow_rates": [
-          7.6,
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6,
-          7.6
-        ],
-        "tip_racks": "tiprack_6",
-        "liquid_height": [
           0,
           0
         ]
@@ -230,7 +118,7 @@
       "action": "transfer_liquid",
       "action_args": {
         "sources": "samples_2",
-        "targets": "samples_13",
+        "targets": "samples_10",
         "asp_vols": [
           50.0,
           50.0,
@@ -272,7 +160,7 @@
       "action": "transfer_liquid",
       "action_args": {
         "sources": "samples_3",
-        "targets": "samples_13",
+        "targets": "samples_10",
         "asp_vols": [
           50.0,
           50.0,
@@ -313,8 +201,64 @@
     {
       "action": "transfer_liquid",
       "action_args": {
+        "sources": "hcl",
+        "targets": "samples_11",
+        "asp_vols": [
+          250.0,
+          250.0
+        ],
+        "dis_vols": [
+          250.0,
+          250.0
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_6",
+        "liquid_height": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "naoh",
+        "targets": "samples_11",
+        "asp_vols": [
+          250.0,
+          250.0
+        ],
+        "dis_vols": [
+          250.0,
+          250.0
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_6",
+        "liquid_height": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
         "sources": "samples_4",
-        "targets": "samples_14",
+        "targets": "samples_12",
         "asp_vols": [
           50.0
         ],
@@ -337,7 +281,7 @@
       "action": "transfer_liquid",
       "action_args": {
         "sources": "samples_5",
-        "targets": "samples_15",
+        "targets": "samples_13",
         "asp_vols": [
           50.0
         ],
@@ -360,7 +304,7 @@
       "action": "transfer_liquid",
       "action_args": {
         "sources": "trypsin",
-        "targets": "samples_14",
+        "targets": "samples_12",
         "asp_vols": [
           50.0
         ],
@@ -386,28 +330,70 @@
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "washing_solution_2",
-        "targets": "samples_14",
+        "sources": "washing_solution",
+        "targets": [
+          "samples_12",
+          "samples_14",
+          "samples_14"
+        ],
         "asp_vols": [
-          50.0
+          50.0,
+          350.0,
+          350.0
         ],
         "dis_vols": [
-          50.0
+          50.0,
+          350.0,
+          350.0
         ],
         "asp_flow_rates": [
+          7.6,
+          7.6,
           7.6
         ],
         "dis_flow_rates": [
+          7.6,
+          7.6,
           7.6
         ],
         "tip_racks": "tiprack_6",
         "liquid_height": [
+          0,
+          0,
           0
         ],
         "mix_stage": "after",
         "mix_times": 5,
         "mix_vol": 100.0,
         "mix_rate": 7.6
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "conditioning_solution",
+        "targets": "samples_15",
+        "asp_vols": [
+          250.0,
+          250.0
+        ],
+        "dis_vols": [
+          250.0,
+          250.0
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_6",
+        "liquid_height": [
+          0,
+          0
+        ]
       }
     },
     {
@@ -466,15 +452,6 @@
     }
   ],
   "reagent": {
-    "hcl": {
-      "slot": 9,
-      "well": [
-        "A1"
-      ],
-      "labware": "opentrons_6_tuberack_falcon_50ml_conical",
-      "object": "source",
-      "liquid_name": "hcl"
-    },
     "samples": {
       "slot": 8,
       "well": [
@@ -484,15 +461,6 @@
       "object": "source",
       "liquid_name": "sample"
     },
-    "naoh": {
-      "slot": 9,
-      "well": [
-        "A2"
-      ],
-      "labware": "opentrons_6_tuberack_falcon_50ml_conical",
-      "object": "source",
-      "liquid_name": "naoh"
-    },
     "ambic": {
       "slot": 9,
       "well": [
@@ -501,24 +469,6 @@
       "labware": "opentrons_6_tuberack_falcon_50ml_conical",
       "object": "source",
       "liquid_name": "sample"
-    },
-    "conditioning_solution": {
-      "slot": 9,
-      "well": [
-        "B1"
-      ],
-      "labware": "opentrons_6_tuberack_falcon_50ml_conical",
-      "object": "source",
-      "liquid_name": "sample"
-    },
-    "washing_solution": {
-      "slot": 9,
-      "well": [
-        "B2"
-      ],
-      "labware": "opentrons_6_tuberack_falcon_50ml_conical",
-      "object": "source",
-      "liquid_name": "wash"
     },
     "samples_2": {
       "slot": 2,
@@ -537,6 +487,24 @@
       "labware": "nest_96_wellplate_200ul_flat",
       "object": "source",
       "liquid_name": "sample"
+    },
+    "hcl": {
+      "slot": 9,
+      "well": [
+        "A1"
+      ],
+      "labware": "opentrons_6_tuberack_falcon_50ml_conical",
+      "object": "source",
+      "liquid_name": "hcl"
+    },
+    "naoh": {
+      "slot": 9,
+      "well": [
+        "A2"
+      ],
+      "labware": "opentrons_6_tuberack_falcon_50ml_conical",
+      "object": "source",
+      "liquid_name": "naoh"
     },
     "samples_4": {
       "slot": 8,
@@ -565,7 +533,7 @@
       "object": "source",
       "liquid_name": "sample"
     },
-    "washing_solution_2": {
+    "washing_solution": {
       "slot": 9,
       "well": [
         "B2"
@@ -573,6 +541,15 @@
       "labware": "opentrons_6_tuberack_falcon_50ml_conical",
       "object": "source",
       "liquid_name": "wash"
+    },
+    "conditioning_solution": {
+      "slot": 9,
+      "well": [
+        "B1"
+      ],
+      "labware": "opentrons_6_tuberack_falcon_50ml_conical",
+      "object": "source",
+      "liquid_name": "sample"
     },
     "samples_6": {
       "slot": 2,
@@ -593,16 +570,6 @@
       "liquid_name": "sample"
     },
     "samples_8": {
-      "slot": 8,
-      "well": [
-        "A1",
-        "A2"
-      ],
-      "labware": "opentrons_24_tuberack_eppendorf_1.5ml_safelock_snapcap",
-      "object": "target",
-      "liquid_name": "sample"
-    },
-    "samples_9": {
       "slot": 11,
       "well": [
         "A1"
@@ -611,15 +578,34 @@
       "object": "target",
       "liquid_name": "sample"
     },
-    "samples_10": {
+    "samples_9": {
       "slot": 8,
       "well": [
         "A1",
-        "A2",
+        "A1",
+        "A1",
         "A1",
         "A2",
-        "A1",
         "A2",
+        "A2",
+        "A2"
+      ],
+      "labware": "opentrons_24_tuberack_eppendorf_1.5ml_safelock_snapcap",
+      "object": "target",
+      "liquid_name": "sample"
+    },
+    "samples_10": {
+      "slot": 11,
+      "well": [
+        "A1"
+      ],
+      "labware": "nest_12_reservoir_15ml",
+      "object": "target",
+      "liquid_name": "sample"
+    },
+    "samples_11": {
+      "slot": 8,
+      "well": [
         "A1",
         "A2"
       ],
@@ -627,17 +613,25 @@
       "object": "target",
       "liquid_name": "sample"
     },
-    "samples_11": {
-      "slot": 2,
+    "samples_12": {
+      "slot": 8,
       "well": [
-        "A1",
-        "A2"
+        "C1"
       ],
-      "labware": "nest_96_wellplate_200ul_flat",
+      "labware": "opentrons_24_tuberack_eppendorf_1.5ml_safelock_snapcap",
       "object": "target",
       "liquid_name": "sample"
     },
-    "samples_12": {
+    "samples_13": {
+      "slot": 8,
+      "well": [
+        "C2"
+      ],
+      "labware": "opentrons_24_tuberack_eppendorf_1.5ml_safelock_snapcap",
+      "object": "target",
+      "liquid_name": "sample"
+    },
+    "samples_14": {
       "slot": 2,
       "well": [
         "B1",
@@ -647,30 +641,13 @@
       "object": "target",
       "liquid_name": "sample"
     },
-    "samples_13": {
-      "slot": 11,
-      "well": [
-        "A1"
-      ],
-      "labware": "nest_12_reservoir_15ml",
-      "object": "target",
-      "liquid_name": "sample"
-    },
-    "samples_14": {
-      "slot": 8,
-      "well": [
-        "C1"
-      ],
-      "labware": "opentrons_24_tuberack_eppendorf_1.5ml_safelock_snapcap",
-      "object": "target",
-      "liquid_name": "sample"
-    },
     "samples_15": {
-      "slot": 8,
+      "slot": 2,
       "well": [
-        "C2"
+        "A1",
+        "A2"
       ],
-      "labware": "opentrons_24_tuberack_eppendorf_1.5ml_safelock_snapcap",
+      "labware": "nest_96_wellplate_200ul_flat",
       "object": "target",
       "liquid_name": "sample"
     },

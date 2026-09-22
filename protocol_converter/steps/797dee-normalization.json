@@ -49,6 +49,84 @@
         },
         {
             "action": "aspirate",
+            "vol": 1.0,
+            "source": {
+                "well": "A3",
+                "labware": "Opentrons 10 Tube Rack with NEST 4x50 mL, 6x15 mL Conical",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(100)"
+        },
+        {
+            "action": "dispense",
+            "vol": 1.0,
+            "target": {
+                "well": "B1",
+                "labware": "NEST 96 Well Plate 200 µL Flat",
+                "slot": 3
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            }
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "C1",
+                "type": "Opentrons OT-2 96 Tip Rack 300 µL",
+                "slot": 1
+            }
+        },
+        {
+            "action": "aspirate",
+            "vol": 1.0,
+            "source": {
+                "well": "A3",
+                "labware": "Opentrons 10 Tube Rack with NEST 4x50 mL, 6x15 mL Conical",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(100)"
+        },
+        {
+            "action": "dispense",
+            "vol": 1.0,
+            "target": {
+                "well": "C1",
+                "labware": "NEST 96 Well Plate 200 µL Flat",
+                "slot": 3
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            }
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "D1",
+                "type": "Opentrons OT-2 96 Tip Rack 300 µL",
+                "slot": 1
+            }
+        },
+        {
+            "action": "aspirate",
             "vol": 2.0,
             "source": {
                 "well": "A3",
@@ -81,7 +159,85 @@
         {
             "action": "pick_tip",
             "tip_rack": {
+                "well": "E1",
+                "type": "Opentrons OT-2 96 Tip Rack 300 µL",
+                "slot": 1
+            }
+        },
+        {
+            "action": "aspirate",
+            "vol": 2.0,
+            "source": {
+                "well": "A3",
+                "labware": "Opentrons 10 Tube Rack with NEST 4x50 mL, 6x15 mL Conical",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(99.998)"
+        },
+        {
+            "action": "dispense",
+            "vol": 2.0,
+            "target": {
+                "well": "B1",
+                "labware": "NEST 96 Well Plate 200 µL Flat",
+                "slot": 3
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            }
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "F1",
+                "type": "Opentrons OT-2 96 Tip Rack 300 µL",
+                "slot": 1
+            }
+        },
+        {
+            "action": "aspirate",
+            "vol": 2.0,
+            "source": {
+                "well": "A3",
+                "labware": "Opentrons 10 Tube Rack with NEST 4x50 mL, 6x15 mL Conical",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(99.998)"
+        },
+        {
+            "action": "dispense",
+            "vol": 2.0,
+            "target": {
                 "well": "C1",
+                "labware": "NEST 96 Well Plate 200 µL Flat",
+                "slot": 3
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            }
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "G1",
                 "type": "Opentrons OT-2 96 Tip Rack 300 µL",
                 "slot": 1
             }
@@ -102,6 +258,84 @@
             "vol": 3.0,
             "target": {
                 "well": "A1",
+                "labware": "NEST 96 Well Plate 200 µL Flat",
+                "slot": 3
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            }
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "H1",
+                "type": "Opentrons OT-2 96 Tip Rack 300 µL",
+                "slot": 1
+            }
+        },
+        {
+            "action": "aspirate",
+            "vol": 3.0,
+            "source": {
+                "well": "A3",
+                "labware": "Opentrons 10 Tube Rack with NEST 4x50 mL, 6x15 mL Conical",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(99.994)"
+        },
+        {
+            "action": "dispense",
+            "vol": 3.0,
+            "target": {
+                "well": "B1",
+                "labware": "NEST 96 Well Plate 200 µL Flat",
+                "slot": 3
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            }
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "A2",
+                "type": "Opentrons OT-2 96 Tip Rack 300 µL",
+                "slot": 1
+            }
+        },
+        {
+            "action": "aspirate",
+            "vol": 3.0,
+            "source": {
+                "well": "A3",
+                "labware": "Opentrons 10 Tube Rack with NEST 4x50 mL, 6x15 mL Conical",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(99.994)"
+        },
+        {
+            "action": "dispense",
+            "vol": 3.0,
+            "target": {
+                "well": "C1",
                 "labware": "NEST 96 Well Plate 200 µL Flat",
                 "slot": 3
             },

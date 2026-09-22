@@ -10,7 +10,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 360.0,
+            "vol": 200.0,
             "source": {
                 "well": "A3",
                 "labware": "NEST 12 Well Reservoir 15 mL",
@@ -20,7 +20,28 @@
         },
         {
             "action": "dispense",
-            "vol": 360.0,
+            "vol": 200.0,
+            "target": {
+                "well": "D11",
+                "labware": "NEST 96 Deep Well Plate 2 mL",
+                "slot": 8
+            },
+            "flow_rate": 7.6,
+            "pose_z": "top(-2)"
+        },
+        {
+            "action": "aspirate",
+            "vol": 160.0,
+            "source": {
+                "well": "A3",
+                "labware": "NEST 12 Well Reservoir 15 mL",
+                "slot": 7
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 160.0,
             "target": {
                 "well": "D11",
                 "labware": "NEST 96 Deep Well Plate 2 mL",
@@ -191,7 +212,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 360.0,
+            "vol": 200.0,
             "source": {
                 "well": "A3",
                 "labware": "NEST 12 Well Reservoir 15 mL",
@@ -202,7 +223,30 @@
         },
         {
             "action": "dispense",
-            "vol": 360.0,
+            "vol": 200.0,
+            "target": {
+                "well": "A2",
+                "labware": "NEST 96 Deep Well Plate 2 mL",
+                "slot": 8
+            },
+            "flow_rate": 7.6,
+            "pose_z": "top(-2)",
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 160.0,
+            "source": {
+                "well": "A3",
+                "labware": "NEST 12 Well Reservoir 15 mL",
+                "slot": 7
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 160.0,
             "target": {
                 "well": "A2",
                 "labware": "NEST 96 Deep Well Plate 2 mL",
@@ -246,7 +290,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 300.0,
+            "vol": 200.0,
             "source": {
                 "well": "A3",
                 "labware": "NEST 12 Well Reservoir 15 mL",
@@ -257,7 +301,30 @@
         },
         {
             "action": "dispense",
-            "vol": 300.0,
+            "vol": 200.0,
+            "target": {
+                "well": "A1",
+                "labware": "NEST 96 Deep Well Plate 2 mL",
+                "slot": 8
+            },
+            "flow_rate": 7.6,
+            "pose_z": "top(-2)",
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 100.0,
+            "source": {
+                "well": "A3",
+                "labware": "NEST 12 Well Reservoir 15 mL",
+                "slot": 7
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 100.0,
             "target": {
                 "well": "A1",
                 "labware": "NEST 96 Deep Well Plate 2 mL",
@@ -705,6 +772,94 @@
             "vol": 160.0,
             "target": {
                 "well": "A1",
+                "labware": "Opentrons 96 Well Aluminum Block with Bio-Rad Well Plate 200 µL",
+                "slot": 6
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 160.0,
+            "source": {
+                "well": "A1",
+                "labware": "NEST 96 Deep Well Plate 2 mL",
+                "slot": 8
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 160.0,
+            "target": {
+                "well": "A2",
+                "labware": "Opentrons 96 Well Aluminum Block with Bio-Rad Well Plate 200 µL",
+                "slot": 6
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 160.0,
+            "source": {
+                "well": "A1",
+                "labware": "NEST 96 Deep Well Plate 2 mL",
+                "slot": 8
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 160.0,
+            "target": {
+                "well": "A3",
+                "labware": "Opentrons 96 Well Aluminum Block with Bio-Rad Well Plate 200 µL",
+                "slot": 6
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 160.0,
+            "source": {
+                "well": "A1",
+                "labware": "NEST 96 Deep Well Plate 2 mL",
+                "slot": 8
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 160.0,
+            "target": {
+                "well": "A4",
+                "labware": "Opentrons 96 Well Aluminum Block with Bio-Rad Well Plate 200 µL",
+                "slot": 6
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 160.0,
+            "source": {
+                "well": "A1",
+                "labware": "NEST 96 Deep Well Plate 2 mL",
+                "slot": 8
+            },
+            "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 160.0,
+            "target": {
+                "well": "A5",
                 "labware": "Opentrons 96 Well Aluminum Block with Bio-Rad Well Plate 200 µL",
                 "slot": 6
             },
@@ -3192,6 +3347,153 @@
             "vol": 40.0,
             "target": {
                 "well": "A5",
+                "labware": "Bio-Rad 96 Well Plate 200 µL PCR",
+                "slot": 4
+            },
+            "flow_rate": 7.6,
+            "pose_z": "top"
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
+                "well": "D12",
+                "labware": "NEST 96 Deep Well Plate 2 mL",
+                "slot": 8
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 40.0,
+            "target": {
+                "well": "B5",
+                "labware": "Bio-Rad 96 Well Plate 200 µL PCR",
+                "slot": 4
+            },
+            "flow_rate": 7.6,
+            "pose_z": "top"
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
+                "well": "D12",
+                "labware": "NEST 96 Deep Well Plate 2 mL",
+                "slot": 8
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 40.0,
+            "target": {
+                "well": "C5",
+                "labware": "Bio-Rad 96 Well Plate 200 µL PCR",
+                "slot": 4
+            },
+            "flow_rate": 7.6,
+            "pose_z": "top"
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
+                "well": "D12",
+                "labware": "NEST 96 Deep Well Plate 2 mL",
+                "slot": 8
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 40.0,
+            "target": {
+                "well": "D5",
+                "labware": "Bio-Rad 96 Well Plate 200 µL PCR",
+                "slot": 4
+            },
+            "flow_rate": 7.6,
+            "pose_z": "top"
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
+                "well": "D12",
+                "labware": "NEST 96 Deep Well Plate 2 mL",
+                "slot": 8
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 40.0,
+            "target": {
+                "well": "E5",
+                "labware": "Bio-Rad 96 Well Plate 200 µL PCR",
+                "slot": 4
+            },
+            "flow_rate": 7.6,
+            "pose_z": "top"
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
+                "well": "D12",
+                "labware": "NEST 96 Deep Well Plate 2 mL",
+                "slot": 8
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 40.0,
+            "target": {
+                "well": "F5",
+                "labware": "Bio-Rad 96 Well Plate 200 µL PCR",
+                "slot": 4
+            },
+            "flow_rate": 7.6,
+            "pose_z": "top"
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
+                "well": "D12",
+                "labware": "NEST 96 Deep Well Plate 2 mL",
+                "slot": 8
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 40.0,
+            "target": {
+                "well": "G5",
+                "labware": "Bio-Rad 96 Well Plate 200 µL PCR",
+                "slot": 4
+            },
+            "flow_rate": 7.6,
+            "pose_z": "top"
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
+                "well": "D12",
+                "labware": "NEST 96 Deep Well Plate 2 mL",
+                "slot": 8
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 40.0,
+            "target": {
+                "well": "H5",
                 "labware": "Bio-Rad 96 Well Plate 200 µL PCR",
                 "slot": 4
             },

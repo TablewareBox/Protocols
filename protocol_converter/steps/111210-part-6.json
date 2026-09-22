@@ -10988,7 +10988,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 9.4,
+            "vol": 18.8,
             "source": {
                 "well": "A1",
                 "labware": "NEST 96 Deep Well Plate 2 mL",
@@ -11006,17 +11006,6 @@
                 "slot": 2
             },
             "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 9.4,
-            "source": {
-                "well": "A1",
-                "labware": "NEST 96 Deep Well Plate 2 mL",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom"
         },
         {
             "action": "dispense",
@@ -11027,6 +11016,14 @@
                 "slot": 2
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A11",
+                "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
+                "slot": 2
+            }
         },
         {
             "action": "drop_tip",
@@ -11048,7 +11045,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 9.4,
+            "vol": 18.8,
             "source": {
                 "well": "B1",
                 "labware": "NEST 96 Deep Well Plate 2 mL",
@@ -11066,17 +11063,6 @@
                 "slot": 2
             },
             "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 9.4,
-            "source": {
-                "well": "B1",
-                "labware": "NEST 96 Deep Well Plate 2 mL",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom"
         },
         {
             "action": "dispense",
@@ -11087,6 +11073,14 @@
                 "slot": 2
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "B11",
+                "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
+                "slot": 2
+            }
         },
         {
             "action": "drop_tip",
@@ -11108,7 +11102,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 9.4,
+            "vol": 18.8,
             "source": {
                 "well": "C1",
                 "labware": "NEST 96 Deep Well Plate 2 mL",
@@ -11126,17 +11120,6 @@
                 "slot": 2
             },
             "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 9.4,
-            "source": {
-                "well": "C1",
-                "labware": "NEST 96 Deep Well Plate 2 mL",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom"
         },
         {
             "action": "dispense",
@@ -11147,6 +11130,14 @@
                 "slot": 2
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "C11",
+                "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
+                "slot": 2
+            }
         },
         {
             "action": "drop_tip",
@@ -11168,7 +11159,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 9.4,
+            "vol": 18.8,
             "source": {
                 "well": "D1",
                 "labware": "NEST 96 Deep Well Plate 2 mL",
@@ -11186,17 +11177,6 @@
                 "slot": 2
             },
             "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 9.4,
-            "source": {
-                "well": "D1",
-                "labware": "NEST 96 Deep Well Plate 2 mL",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom"
         },
         {
             "action": "dispense",
@@ -11207,6 +11187,14 @@
                 "slot": 2
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "D11",
+                "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
+                "slot": 2
+            }
         },
         {
             "action": "drop_tip",
@@ -11228,7 +11216,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 9.4,
+            "vol": 18.8,
             "source": {
                 "well": "E1",
                 "labware": "NEST 96 Deep Well Plate 2 mL",
@@ -11246,17 +11234,6 @@
                 "slot": 2
             },
             "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 9.4,
-            "source": {
-                "well": "E1",
-                "labware": "NEST 96 Deep Well Plate 2 mL",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom"
         },
         {
             "action": "dispense",
@@ -11267,6 +11244,14 @@
                 "slot": 2
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "E11",
+                "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
+                "slot": 2
+            }
         },
         {
             "action": "drop_tip",
@@ -11288,7 +11273,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 9.4,
+            "vol": 18.8,
             "source": {
                 "well": "F1",
                 "labware": "NEST 96 Deep Well Plate 2 mL",
@@ -11306,17 +11291,6 @@
                 "slot": 2
             },
             "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 9.4,
-            "source": {
-                "well": "F1",
-                "labware": "NEST 96 Deep Well Plate 2 mL",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom"
         },
         {
             "action": "dispense",
@@ -11327,6 +11301,14 @@
                 "slot": 2
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "F11",
+                "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
+                "slot": 2
+            }
         },
         {
             "action": "drop_tip",
@@ -11348,7 +11330,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 9.4,
+            "vol": 18.8,
             "source": {
                 "well": "G1",
                 "labware": "NEST 96 Deep Well Plate 2 mL",
@@ -11366,17 +11348,6 @@
                 "slot": 2
             },
             "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 9.4,
-            "source": {
-                "well": "G1",
-                "labware": "NEST 96 Deep Well Plate 2 mL",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom"
         },
         {
             "action": "dispense",
@@ -11387,6 +11358,14 @@
                 "slot": 2
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "G11",
+                "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
+                "slot": 2
+            }
         },
         {
             "action": "drop_tip",
@@ -11408,7 +11387,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 9.4,
+            "vol": 18.8,
             "source": {
                 "well": "H1",
                 "labware": "NEST 96 Deep Well Plate 2 mL",
@@ -11426,17 +11405,6 @@
                 "slot": 2
             },
             "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 9.4,
-            "source": {
-                "well": "H1",
-                "labware": "NEST 96 Deep Well Plate 2 mL",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom"
         },
         {
             "action": "dispense",
@@ -11447,6 +11415,14 @@
                 "slot": 2
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "H11",
+                "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
+                "slot": 2
+            }
         },
         {
             "action": "drop_tip",
@@ -11468,7 +11444,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 9.4,
+            "vol": 18.8,
             "source": {
                 "well": "A2",
                 "labware": "NEST 96 Deep Well Plate 2 mL",
@@ -11486,17 +11462,6 @@
                 "slot": 2
             },
             "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 9.4,
-            "source": {
-                "well": "A2",
-                "labware": "NEST 96 Deep Well Plate 2 mL",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom"
         },
         {
             "action": "dispense",
@@ -11507,6 +11472,14 @@
                 "slot": 2
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A12",
+                "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
+                "slot": 2
+            }
         },
         {
             "action": "drop_tip",
@@ -11528,7 +11501,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 9.4,
+            "vol": 18.8,
             "source": {
                 "well": "B2",
                 "labware": "NEST 96 Deep Well Plate 2 mL",
@@ -11546,17 +11519,6 @@
                 "slot": 2
             },
             "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 9.4,
-            "source": {
-                "well": "B2",
-                "labware": "NEST 96 Deep Well Plate 2 mL",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom"
         },
         {
             "action": "dispense",
@@ -11567,6 +11529,14 @@
                 "slot": 2
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "B12",
+                "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
+                "slot": 2
+            }
         },
         {
             "action": "drop_tip",
@@ -11588,7 +11558,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 9.4,
+            "vol": 18.8,
             "source": {
                 "well": "C2",
                 "labware": "NEST 96 Deep Well Plate 2 mL",
@@ -11606,17 +11576,6 @@
                 "slot": 2
             },
             "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 9.4,
-            "source": {
-                "well": "C2",
-                "labware": "NEST 96 Deep Well Plate 2 mL",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom"
         },
         {
             "action": "dispense",
@@ -11627,6 +11586,14 @@
                 "slot": 2
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "C12",
+                "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
+                "slot": 2
+            }
         },
         {
             "action": "drop_tip",
@@ -11648,7 +11615,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 9.4,
+            "vol": 18.8,
             "source": {
                 "well": "D2",
                 "labware": "NEST 96 Deep Well Plate 2 mL",
@@ -11666,17 +11633,6 @@
                 "slot": 2
             },
             "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 9.4,
-            "source": {
-                "well": "D2",
-                "labware": "NEST 96 Deep Well Plate 2 mL",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom"
         },
         {
             "action": "dispense",
@@ -11687,6 +11643,14 @@
                 "slot": 2
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "D12",
+                "labware": "Opentrons 96 Well Aluminum Block with Generic PCR Strip 200 µL",
+                "slot": 2
+            }
         },
         {
             "action": "drop_tip",

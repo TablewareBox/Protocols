@@ -41,6 +41,54 @@
             "channels": 8
         },
         {
+            "action": "aspirate",
+            "vol": 186.73,
+            "source": {
+                "well": "A1",
+                "labware": "Diluent",
+                "slot": 5
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1)",
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 186.73,
+            "target": {
+                "well": "A2",
+                "labware": "Destination Plate",
+                "slot": 6
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1)",
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 185.0,
+            "source": {
+                "well": "A1",
+                "labware": "Diluent",
+                "slot": 5
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1)",
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 185.0,
+            "target": {
+                "well": "A3",
+                "labware": "Destination Plate",
+                "slot": 6
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1)",
+            "channels": 8
+        },
+        {
             "action": "drop_tip",
             "location": {
                 "well": "A1",

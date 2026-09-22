@@ -10,7 +10,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 500.0,
+            "vol": 1000.0,
             "source": {
                 "well": "A1",
                 "labware": "Opentrons 6 Tube Rack with Falcon 50 mL Conical",
@@ -25,16 +25,6 @@
                 "well": "A1",
                 "labware": "cryo_35_tuberack_1800ul",
                 "slot": 8
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 500.0,
-            "source": {
-                "well": "A1",
-                "labware": "Opentrons 6 Tube Rack with Falcon 50 mL Conical",
-                "slot": 10
             },
             "flow_rate": 7.6
         },
@@ -49,8 +39,16 @@
             "flow_rate": 7.6
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "B1",
+                "labware": "cryo_35_tuberack_1800ul",
+                "slot": 8
+            }
+        },
+        {
             "action": "aspirate",
-            "vol": 500.0,
+            "vol": 1000.0,
             "source": {
                 "well": "A1",
                 "labware": "Opentrons 6 Tube Rack with Falcon 50 mL Conical",
@@ -69,16 +67,6 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 500.0,
-            "source": {
-                "well": "A1",
-                "labware": "Opentrons 6 Tube Rack with Falcon 50 mL Conical",
-                "slot": 10
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 500.0,
             "target": {
@@ -89,8 +77,16 @@
             "flow_rate": 7.6
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "D1",
+                "labware": "cryo_35_tuberack_1800ul",
+                "slot": 8
+            }
+        },
+        {
             "action": "aspirate",
-            "vol": 500.0,
+            "vol": 1000.0,
             "source": {
                 "well": "A1",
                 "labware": "Opentrons 6 Tube Rack with Falcon 50 mL Conical",
@@ -109,16 +105,6 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 500.0,
-            "source": {
-                "well": "A1",
-                "labware": "Opentrons 6 Tube Rack with Falcon 50 mL Conical",
-                "slot": 10
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 500.0,
             "target": {
@@ -129,8 +115,16 @@
             "flow_rate": 7.6
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "F1",
+                "labware": "cryo_35_tuberack_1800ul",
+                "slot": 8
+            }
+        },
+        {
             "action": "aspirate",
-            "vol": 500.0,
+            "vol": 1000.0,
             "source": {
                 "well": "A1",
                 "labware": "Opentrons 6 Tube Rack with Falcon 50 mL Conical",
@@ -149,16 +143,6 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 500.0,
-            "source": {
-                "well": "A1",
-                "labware": "Opentrons 6 Tube Rack with Falcon 50 mL Conical",
-                "slot": 10
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 500.0,
             "target": {
@@ -169,8 +153,16 @@
             "flow_rate": 7.6
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "H1",
+                "labware": "cryo_35_tuberack_1800ul",
+                "slot": 8
+            }
+        },
+        {
             "action": "aspirate",
-            "vol": 500.0,
+            "vol": 1000.0,
             "source": {
                 "well": "A1",
                 "labware": "Opentrons 6 Tube Rack with Falcon 50 mL Conical",
@@ -189,16 +181,6 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 500.0,
-            "source": {
-                "well": "A1",
-                "labware": "Opentrons 6 Tube Rack with Falcon 50 mL Conical",
-                "slot": 10
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 500.0,
             "target": {
@@ -209,8 +191,16 @@
             "flow_rate": 7.6
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "B2",
+                "labware": "cryo_35_tuberack_1800ul",
+                "slot": 8
+            }
+        },
+        {
             "action": "aspirate",
-            "vol": 500.0,
+            "vol": 1000.0,
             "source": {
                 "well": "A1",
                 "labware": "Opentrons 6 Tube Rack with Falcon 50 mL Conical",
@@ -229,16 +219,6 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 500.0,
-            "source": {
-                "well": "A1",
-                "labware": "Opentrons 6 Tube Rack with Falcon 50 mL Conical",
-                "slot": 10
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 500.0,
             "target": {
@@ -249,8 +229,16 @@
             "flow_rate": 7.6
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "D2",
+                "labware": "cryo_35_tuberack_1800ul",
+                "slot": 8
+            }
+        },
+        {
             "action": "aspirate",
-            "vol": 500.0,
+            "vol": 1000.0,
             "source": {
                 "well": "A1",
                 "labware": "Opentrons 6 Tube Rack with Falcon 50 mL Conical",
@@ -269,16 +257,6 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 500.0,
-            "source": {
-                "well": "A1",
-                "labware": "Opentrons 6 Tube Rack with Falcon 50 mL Conical",
-                "slot": 10
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 500.0,
             "target": {
@@ -287,6 +265,14 @@
                 "slot": 8
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "F2",
+                "labware": "cryo_35_tuberack_1800ul",
+                "slot": 8
+            }
         },
         {
             "action": "aspirate",
@@ -309,6 +295,14 @@
             "flow_rate": 7.6
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "G2",
+                "labware": "cryo_35_tuberack_1800ul",
+                "slot": 8
+            }
+        },
+        {
             "action": "drop_tip",
             "location": {
                 "well": "A1",
@@ -328,7 +322,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 500.0,
+            "vol": 1000.0,
             "source": {
                 "well": "A1",
                 "labware": "NEST 96 Deep Well Plate 2 mL",
@@ -343,16 +337,6 @@
                 "well": "A1",
                 "labware": "cryo_35_tuberack_1800ul",
                 "slot": 8
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 500.0,
-            "source": {
-                "well": "A1",
-                "labware": "NEST 96 Deep Well Plate 2 mL",
-                "slot": 9
             },
             "flow_rate": 7.6
         },
@@ -365,6 +349,14 @@
                 "slot": 8
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "B1",
+                "labware": "cryo_35_tuberack_1800ul",
+                "slot": 8
+            }
         },
         {
             "action": "aspirate",
@@ -387,6 +379,14 @@
             "flow_rate": 7.6
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "C1",
+                "labware": "cryo_35_tuberack_1800ul",
+                "slot": 8
+            }
+        },
+        {
             "action": "drop_tip",
             "location": {
                 "well": "A1",
@@ -406,7 +406,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 500.0,
+            "vol": 1000.0,
             "source": {
                 "well": "B1",
                 "labware": "NEST 96 Deep Well Plate 2 mL",
@@ -425,16 +425,6 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 500.0,
-            "source": {
-                "well": "B1",
-                "labware": "NEST 96 Deep Well Plate 2 mL",
-                "slot": 9
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 500.0,
             "target": {
@@ -443,6 +433,14 @@
                 "slot": 8
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "E1",
+                "labware": "cryo_35_tuberack_1800ul",
+                "slot": 8
+            }
         },
         {
             "action": "aspirate",
@@ -465,6 +463,14 @@
             "flow_rate": 7.6
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "F1",
+                "labware": "cryo_35_tuberack_1800ul",
+                "slot": 8
+            }
+        },
+        {
             "action": "drop_tip",
             "location": {
                 "well": "A1",
@@ -484,7 +490,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 500.0,
+            "vol": 1000.0,
             "source": {
                 "well": "C1",
                 "labware": "NEST 96 Deep Well Plate 2 mL",
@@ -503,16 +509,6 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 500.0,
-            "source": {
-                "well": "C1",
-                "labware": "NEST 96 Deep Well Plate 2 mL",
-                "slot": 9
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 500.0,
             "target": {
@@ -521,6 +517,14 @@
                 "slot": 8
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "H1",
+                "labware": "cryo_35_tuberack_1800ul",
+                "slot": 8
+            }
         },
         {
             "action": "aspirate",
@@ -543,6 +547,14 @@
             "flow_rate": 7.6
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A2",
+                "labware": "cryo_35_tuberack_1800ul",
+                "slot": 8
+            }
+        },
+        {
             "action": "drop_tip",
             "location": {
                 "well": "A1",
@@ -562,7 +574,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 500.0,
+            "vol": 1000.0,
             "source": {
                 "well": "D1",
                 "labware": "NEST 96 Deep Well Plate 2 mL",
@@ -581,16 +593,6 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 500.0,
-            "source": {
-                "well": "D1",
-                "labware": "NEST 96 Deep Well Plate 2 mL",
-                "slot": 9
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 500.0,
             "target": {
@@ -599,6 +601,14 @@
                 "slot": 8
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "C2",
+                "labware": "cryo_35_tuberack_1800ul",
+                "slot": 8
+            }
         },
         {
             "action": "aspirate",
@@ -621,6 +631,14 @@
             "flow_rate": 7.6
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "D2",
+                "labware": "cryo_35_tuberack_1800ul",
+                "slot": 8
+            }
+        },
+        {
             "action": "drop_tip",
             "location": {
                 "well": "A1",
@@ -640,7 +658,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 500.0,
+            "vol": 1000.0,
             "source": {
                 "well": "E1",
                 "labware": "NEST 96 Deep Well Plate 2 mL",
@@ -659,16 +677,6 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 500.0,
-            "source": {
-                "well": "E1",
-                "labware": "NEST 96 Deep Well Plate 2 mL",
-                "slot": 9
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 500.0,
             "target": {
@@ -677,6 +685,14 @@
                 "slot": 8
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "F2",
+                "labware": "cryo_35_tuberack_1800ul",
+                "slot": 8
+            }
         },
         {
             "action": "aspirate",
@@ -697,6 +713,14 @@
                 "slot": 8
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "G2",
+                "labware": "cryo_35_tuberack_1800ul",
+                "slot": 8
+            }
         },
         {
             "action": "drop_tip",

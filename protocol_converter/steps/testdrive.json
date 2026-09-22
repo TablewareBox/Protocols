@@ -570,7 +570,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 1.6666666666666667,
+            "vol": 13.333333333333332,
             "source": {
                 "well": "A2",
                 "labware": "Bio-Rad 96 Well Plate 200 µL PCR",
@@ -589,30 +589,10 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 1.6666666666666667,
-            "source": {
-                "well": "A2",
-                "labware": "Bio-Rad 96 Well Plate 200 µL PCR",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 1.6666666666666667,
             "target": {
                 "well": "B1",
-                "labware": "Bio-Rad 96 Well Plate 200 µL PCR",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 1.6666666666666667,
-            "source": {
-                "well": "A2",
                 "labware": "Bio-Rad 96 Well Plate 200 µL PCR",
                 "slot": 1
             },
@@ -629,30 +609,10 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 1.6666666666666667,
-            "source": {
-                "well": "A2",
-                "labware": "Bio-Rad 96 Well Plate 200 µL PCR",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 1.6666666666666667,
             "target": {
                 "well": "D1",
-                "labware": "Bio-Rad 96 Well Plate 200 µL PCR",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 1.6666666666666667,
-            "source": {
-                "well": "A2",
                 "labware": "Bio-Rad 96 Well Plate 200 µL PCR",
                 "slot": 1
             },
@@ -669,30 +629,10 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 1.6666666666666667,
-            "source": {
-                "well": "A2",
-                "labware": "Bio-Rad 96 Well Plate 200 µL PCR",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 1.6666666666666667,
             "target": {
                 "well": "F1",
-                "labware": "Bio-Rad 96 Well Plate 200 µL PCR",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 1.6666666666666667,
-            "source": {
-                "well": "A2",
                 "labware": "Bio-Rad 96 Well Plate 200 µL PCR",
                 "slot": 1
             },
@@ -709,24 +649,22 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 1.6666666666666667,
-            "source": {
-                "well": "A2",
-                "labware": "Bio-Rad 96 Well Plate 200 µL PCR",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
-            "vol": 1.6666666666666667,
+            "vol": 1.6666666666666663,
             "target": {
                 "well": "H1",
                 "labware": "Bio-Rad 96 Well Plate 200 µL PCR",
                 "slot": 1
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "H1",
+                "labware": "Bio-Rad 96 Well Plate 200 µL PCR",
+                "slot": 1
+            }
         },
         {
             "action": "drop_tip",

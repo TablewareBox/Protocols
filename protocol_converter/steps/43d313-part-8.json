@@ -11,7 +11,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 2.0,
+            "vol": 18.0,
             "source": {
                 "well": "A1",
                 "labware": "Tapestation Reagent",
@@ -28,18 +28,6 @@
                 "well": "A1",
                 "labware": "Agilent Tapestation Plate",
                 "slot": 1
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1)",
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 2.0,
-            "source": {
-                "well": "A1",
-                "labware": "Tapestation Reagent",
-                "slot": 2
             },
             "flow_rate": 7.6,
             "pose_z": "bottom(1)",
@@ -58,36 +46,12 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 2.0,
-            "source": {
-                "well": "A1",
-                "labware": "Tapestation Reagent",
-                "slot": 2
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1)",
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 2.0,
             "target": {
                 "well": "A3",
                 "labware": "Agilent Tapestation Plate",
                 "slot": 1
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1)",
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 2.0,
-            "source": {
-                "well": "A1",
-                "labware": "Tapestation Reagent",
-                "slot": 2
             },
             "flow_rate": 7.6,
             "pose_z": "bottom(1)",
@@ -106,36 +70,12 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 2.0,
-            "source": {
-                "well": "A1",
-                "labware": "Tapestation Reagent",
-                "slot": 2
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1)",
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 2.0,
             "target": {
                 "well": "A5",
                 "labware": "Agilent Tapestation Plate",
                 "slot": 1
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1)",
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 2.0,
-            "source": {
-                "well": "A1",
-                "labware": "Tapestation Reagent",
-                "slot": 2
             },
             "flow_rate": 7.6,
             "pose_z": "bottom(1)",
@@ -154,36 +94,12 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 2.0,
-            "source": {
-                "well": "A1",
-                "labware": "Tapestation Reagent",
-                "slot": 2
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1)",
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 2.0,
             "target": {
                 "well": "A7",
                 "labware": "Agilent Tapestation Plate",
                 "slot": 1
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1)",
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 2.0,
-            "source": {
-                "well": "A1",
-                "labware": "Tapestation Reagent",
-                "slot": 2
             },
             "flow_rate": 7.6,
             "pose_z": "bottom(1)",
@@ -202,18 +118,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 2.0,
-            "source": {
-                "well": "A1",
-                "labware": "Tapestation Reagent",
-                "slot": 2
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1)",
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 2.0,
             "target": {
@@ -226,8 +130,18 @@
             "channels": 8
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A9",
+                "labware": "Agilent Tapestation Plate",
+                "slot": 1
+            },
+            "pose_z": "bottom(1)",
+            "channels": 8
+        },
+        {
             "action": "aspirate",
-            "vol": 2.0,
+            "vol": 6.0,
             "source": {
                 "well": "A1",
                 "labware": "Tapestation Reagent",
@@ -250,36 +164,12 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 2.0,
-            "source": {
-                "well": "A1",
-                "labware": "Tapestation Reagent",
-                "slot": 2
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1)",
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 2.0,
             "target": {
                 "well": "A11",
                 "labware": "Agilent Tapestation Plate",
                 "slot": 1
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1)",
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 2.0,
-            "source": {
-                "well": "A1",
-                "labware": "Tapestation Reagent",
-                "slot": 2
             },
             "flow_rate": 7.6,
             "pose_z": "bottom(1)",
@@ -298,6 +188,16 @@
             "channels": 8
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A12",
+                "labware": "Agilent Tapestation Plate",
+                "slot": 1
+            },
+            "pose_z": "bottom(1)",
+            "channels": 8
+        },
+        {
             "action": "drop_tip",
             "location": {
                 "well": "A1",
@@ -319,7 +219,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 2.0,
+            "vol": 4.0,
             "source": {
                 "well": "A1",
                 "labware": "Libraries at Room Temperature",
@@ -342,18 +242,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 2.0,
-            "source": {
-                "well": "A1",
-                "labware": "Libraries at Room Temperature",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1)",
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 2.0,
             "target": {
@@ -362,6 +250,16 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
+            "pose_z": "bottom(1)",
+            "channels": 8
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A1",
+                "labware": "Agilent Tapestation Plate",
+                "slot": 1
+            },
             "pose_z": "bottom(1)",
             "channels": 8
         },
@@ -387,7 +285,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 2.0,
+            "vol": 4.0,
             "source": {
                 "well": "A2",
                 "labware": "Libraries at Room Temperature",
@@ -410,18 +308,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 2.0,
-            "source": {
-                "well": "A2",
-                "labware": "Libraries at Room Temperature",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1)",
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 2.0,
             "target": {
@@ -430,6 +316,16 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
+            "pose_z": "bottom(1)",
+            "channels": 8
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A2",
+                "labware": "Agilent Tapestation Plate",
+                "slot": 1
+            },
             "pose_z": "bottom(1)",
             "channels": 8
         },
@@ -455,7 +351,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 2.0,
+            "vol": 4.0,
             "source": {
                 "well": "A3",
                 "labware": "Libraries at Room Temperature",
@@ -478,18 +374,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 2.0,
-            "source": {
-                "well": "A3",
-                "labware": "Libraries at Room Temperature",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1)",
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 2.0,
             "target": {
@@ -498,6 +382,16 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
+            "pose_z": "bottom(1)",
+            "channels": 8
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A3",
+                "labware": "Agilent Tapestation Plate",
+                "slot": 1
+            },
             "pose_z": "bottom(1)",
             "channels": 8
         },
@@ -523,7 +417,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 2.0,
+            "vol": 4.0,
             "source": {
                 "well": "A4",
                 "labware": "Libraries at Room Temperature",
@@ -546,18 +440,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 2.0,
-            "source": {
-                "well": "A4",
-                "labware": "Libraries at Room Temperature",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1)",
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 2.0,
             "target": {
@@ -566,6 +448,16 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
+            "pose_z": "bottom(1)",
+            "channels": 8
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A4",
+                "labware": "Agilent Tapestation Plate",
+                "slot": 1
+            },
             "pose_z": "bottom(1)",
             "channels": 8
         },
@@ -591,7 +483,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 2.0,
+            "vol": 4.0,
             "source": {
                 "well": "A5",
                 "labware": "Libraries at Room Temperature",
@@ -614,18 +506,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 2.0,
-            "source": {
-                "well": "A5",
-                "labware": "Libraries at Room Temperature",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1)",
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 2.0,
             "target": {
@@ -634,6 +514,16 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
+            "pose_z": "bottom(1)",
+            "channels": 8
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A5",
+                "labware": "Agilent Tapestation Plate",
+                "slot": 1
+            },
             "pose_z": "bottom(1)",
             "channels": 8
         },
@@ -659,7 +549,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 2.0,
+            "vol": 4.0,
             "source": {
                 "well": "A6",
                 "labware": "Libraries at Room Temperature",
@@ -682,18 +572,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 2.0,
-            "source": {
-                "well": "A6",
-                "labware": "Libraries at Room Temperature",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1)",
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 2.0,
             "target": {
@@ -702,6 +580,16 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
+            "pose_z": "bottom(1)",
+            "channels": 8
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A6",
+                "labware": "Agilent Tapestation Plate",
+                "slot": 1
+            },
             "pose_z": "bottom(1)",
             "channels": 8
         },
@@ -727,7 +615,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 2.0,
+            "vol": 4.0,
             "source": {
                 "well": "A7",
                 "labware": "Libraries at Room Temperature",
@@ -750,18 +638,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 2.0,
-            "source": {
-                "well": "A7",
-                "labware": "Libraries at Room Temperature",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1)",
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 2.0,
             "target": {
@@ -770,6 +646,16 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
+            "pose_z": "bottom(1)",
+            "channels": 8
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A7",
+                "labware": "Agilent Tapestation Plate",
+                "slot": 1
+            },
             "pose_z": "bottom(1)",
             "channels": 8
         },
@@ -795,7 +681,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 2.0,
+            "vol": 4.0,
             "source": {
                 "well": "A8",
                 "labware": "Libraries at Room Temperature",
@@ -818,18 +704,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 2.0,
-            "source": {
-                "well": "A8",
-                "labware": "Libraries at Room Temperature",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1)",
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 2.0,
             "target": {
@@ -838,6 +712,16 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
+            "pose_z": "bottom(1)",
+            "channels": 8
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A8",
+                "labware": "Agilent Tapestation Plate",
+                "slot": 1
+            },
             "pose_z": "bottom(1)",
             "channels": 8
         },
@@ -863,7 +747,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 2.0,
+            "vol": 4.0,
             "source": {
                 "well": "A9",
                 "labware": "Libraries at Room Temperature",
@@ -886,18 +770,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 2.0,
-            "source": {
-                "well": "A9",
-                "labware": "Libraries at Room Temperature",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1)",
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 2.0,
             "target": {
@@ -906,6 +778,16 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
+            "pose_z": "bottom(1)",
+            "channels": 8
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A9",
+                "labware": "Agilent Tapestation Plate",
+                "slot": 1
+            },
             "pose_z": "bottom(1)",
             "channels": 8
         },
@@ -931,7 +813,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 2.0,
+            "vol": 4.0,
             "source": {
                 "well": "A10",
                 "labware": "Libraries at Room Temperature",
@@ -954,18 +836,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 2.0,
-            "source": {
-                "well": "A10",
-                "labware": "Libraries at Room Temperature",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1)",
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 2.0,
             "target": {
@@ -974,6 +844,16 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
+            "pose_z": "bottom(1)",
+            "channels": 8
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A10",
+                "labware": "Agilent Tapestation Plate",
+                "slot": 1
+            },
             "pose_z": "bottom(1)",
             "channels": 8
         },
@@ -999,7 +879,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 2.0,
+            "vol": 4.0,
             "source": {
                 "well": "A11",
                 "labware": "Libraries at Room Temperature",
@@ -1022,18 +902,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 2.0,
-            "source": {
-                "well": "A11",
-                "labware": "Libraries at Room Temperature",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1)",
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 2.0,
             "target": {
@@ -1042,6 +910,16 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
+            "pose_z": "bottom(1)",
+            "channels": 8
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A11",
+                "labware": "Agilent Tapestation Plate",
+                "slot": 1
+            },
             "pose_z": "bottom(1)",
             "channels": 8
         },
@@ -1067,7 +945,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 2.0,
+            "vol": 4.0,
             "source": {
                 "well": "A12",
                 "labware": "Libraries at Room Temperature",
@@ -1090,18 +968,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 2.0,
-            "source": {
-                "well": "A12",
-                "labware": "Libraries at Room Temperature",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1)",
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 2.0,
             "target": {
@@ -1110,6 +976,16 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
+            "pose_z": "bottom(1)",
+            "channels": 8
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A12",
+                "labware": "Agilent Tapestation Plate",
+                "slot": 1
+            },
             "pose_z": "bottom(1)",
             "channels": 8
         },

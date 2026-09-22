@@ -1337,7 +1337,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 20.0,
+            "vol": 200.0,
             "source": {
                 "well": "A2",
                 "labware": "NEST 12 Well Reservoir 15 mL",
@@ -1357,16 +1357,6 @@
             "pose_z": "top"
         },
         {
-            "action": "aspirate",
-            "vol": 20.0,
-            "source": {
-                "well": "A2",
-                "labware": "NEST 12 Well Reservoir 15 mL",
-                "slot": 2
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 20.0,
             "target": {
@@ -1376,16 +1366,6 @@
             },
             "flow_rate": 7.6,
             "pose_z": "top"
-        },
-        {
-            "action": "aspirate",
-            "vol": 20.0,
-            "source": {
-                "well": "A2",
-                "labware": "NEST 12 Well Reservoir 15 mL",
-                "slot": 2
-            },
-            "flow_rate": 7.6
         },
         {
             "action": "dispense",
@@ -1399,16 +1379,6 @@
             "pose_z": "top"
         },
         {
-            "action": "aspirate",
-            "vol": 20.0,
-            "source": {
-                "well": "A2",
-                "labware": "NEST 12 Well Reservoir 15 mL",
-                "slot": 2
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 20.0,
             "target": {
@@ -1418,16 +1388,6 @@
             },
             "flow_rate": 7.6,
             "pose_z": "top"
-        },
-        {
-            "action": "aspirate",
-            "vol": 20.0,
-            "source": {
-                "well": "A2",
-                "labware": "NEST 12 Well Reservoir 15 mL",
-                "slot": 2
-            },
-            "flow_rate": 7.6
         },
         {
             "action": "dispense",
@@ -1441,16 +1401,6 @@
             "pose_z": "top"
         },
         {
-            "action": "aspirate",
-            "vol": 20.0,
-            "source": {
-                "well": "A2",
-                "labware": "NEST 12 Well Reservoir 15 mL",
-                "slot": 2
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 20.0,
             "target": {
@@ -1460,16 +1410,6 @@
             },
             "flow_rate": 7.6,
             "pose_z": "top"
-        },
-        {
-            "action": "aspirate",
-            "vol": 20.0,
-            "source": {
-                "well": "A2",
-                "labware": "NEST 12 Well Reservoir 15 mL",
-                "slot": 2
-            },
-            "flow_rate": 7.6
         },
         {
             "action": "dispense",
@@ -1483,16 +1423,6 @@
             "pose_z": "top"
         },
         {
-            "action": "aspirate",
-            "vol": 20.0,
-            "source": {
-                "well": "A2",
-                "labware": "NEST 12 Well Reservoir 15 mL",
-                "slot": 2
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 20.0,
             "target": {
@@ -1502,16 +1432,6 @@
             },
             "flow_rate": 7.6,
             "pose_z": "top"
-        },
-        {
-            "action": "aspirate",
-            "vol": 20.0,
-            "source": {
-                "well": "A2",
-                "labware": "NEST 12 Well Reservoir 15 mL",
-                "slot": 2
-            },
-            "flow_rate": 7.6
         },
         {
             "action": "dispense",
@@ -1525,16 +1445,6 @@
             "pose_z": "top"
         },
         {
-            "action": "aspirate",
-            "vol": 20.0,
-            "source": {
-                "well": "A2",
-                "labware": "NEST 12 Well Reservoir 15 mL",
-                "slot": 2
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 20.0,
             "target": {
@@ -1546,8 +1456,17 @@
             "pose_z": "top"
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "B6",
+                "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
+                "slot": 6
+            },
+            "pose_z": "top"
+        },
+        {
             "action": "aspirate",
-            "vol": 20.0,
+            "vol": 40.0,
             "source": {
                 "well": "A2",
                 "labware": "NEST 12 Well Reservoir 15 mL",
@@ -1567,16 +1486,6 @@
             "pose_z": "top"
         },
         {
-            "action": "aspirate",
-            "vol": 20.0,
-            "source": {
-                "well": "A2",
-                "labware": "NEST 12 Well Reservoir 15 mL",
-                "slot": 2
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 20.0,
             "target": {
@@ -1585,6 +1494,15 @@
                 "slot": 6
             },
             "flow_rate": 7.6,
+            "pose_z": "top"
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "D6",
+                "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
+                "slot": 6
+            },
             "pose_z": "top"
         },
         {
@@ -1988,7 +1906,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 20.0,
+            "vol": 200.0,
             "source": {
                 "well": "A3",
                 "labware": "NEST 12 Well Reservoir 15 mL",
@@ -2007,32 +1925,12 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 20.0,
-            "source": {
-                "well": "A3",
-                "labware": "NEST 12 Well Reservoir 15 mL",
-                "slot": 2
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 20.0,
             "target": {
                 "well": "B7",
                 "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
                 "slot": 6
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 20.0,
-            "source": {
-                "well": "A3",
-                "labware": "NEST 12 Well Reservoir 15 mL",
-                "slot": 2
             },
             "flow_rate": 7.6
         },
@@ -2047,32 +1945,12 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 20.0,
-            "source": {
-                "well": "A3",
-                "labware": "NEST 12 Well Reservoir 15 mL",
-                "slot": 2
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 20.0,
             "target": {
                 "well": "D7",
                 "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
                 "slot": 6
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 20.0,
-            "source": {
-                "well": "A3",
-                "labware": "NEST 12 Well Reservoir 15 mL",
-                "slot": 2
             },
             "flow_rate": 7.6
         },
@@ -2087,32 +1965,12 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 20.0,
-            "source": {
-                "well": "A3",
-                "labware": "NEST 12 Well Reservoir 15 mL",
-                "slot": 2
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 20.0,
             "target": {
                 "well": "F7",
                 "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
                 "slot": 6
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 20.0,
-            "source": {
-                "well": "A3",
-                "labware": "NEST 12 Well Reservoir 15 mL",
-                "slot": 2
             },
             "flow_rate": 7.6
         },
@@ -2127,32 +1985,12 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 20.0,
-            "source": {
-                "well": "A3",
-                "labware": "NEST 12 Well Reservoir 15 mL",
-                "slot": 2
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 20.0,
             "target": {
                 "well": "H7",
                 "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
                 "slot": 6
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 20.0,
-            "source": {
-                "well": "A3",
-                "labware": "NEST 12 Well Reservoir 15 mL",
-                "slot": 2
             },
             "flow_rate": 7.6
         },
@@ -2167,16 +2005,6 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 20.0,
-            "source": {
-                "well": "A3",
-                "labware": "NEST 12 Well Reservoir 15 mL",
-                "slot": 2
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 20.0,
             "target": {
@@ -2187,8 +2015,16 @@
             "flow_rate": 7.6
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "B8",
+                "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
+                "slot": 6
+            }
+        },
+        {
             "action": "aspirate",
-            "vol": 20.0,
+            "vol": 40.0,
             "source": {
                 "well": "A3",
                 "labware": "NEST 12 Well Reservoir 15 mL",
@@ -2207,16 +2043,6 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 20.0,
-            "source": {
-                "well": "A3",
-                "labware": "NEST 12 Well Reservoir 15 mL",
-                "slot": 2
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 20.0,
             "target": {
@@ -2225,6 +2051,14 @@
                 "slot": 6
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "D8",
+                "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
+                "slot": 6
+            }
         },
         {
             "action": "drop_tip",

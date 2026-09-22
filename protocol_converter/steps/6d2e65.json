@@ -955,6 +955,490 @@
         },
         {
             "action": "aspirate",
+            "vol": 80.0,
+            "source": {
+                "well": "A2",
+                "labware": "NEST 12 Well Reservoir 15 mL",
+                "slot": 4
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1)",
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 80.0,
+            "target": {
+                "well": "A2",
+                "labware": "MAGPLATE",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(26)",
+            "channels": 8
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            },
+            "channels": 8
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "A3",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 6
+            },
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 80.0,
+            "source": {
+                "well": "A2",
+                "labware": "NEST 12 Well Reservoir 15 mL",
+                "slot": 4
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1)",
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 80.0,
+            "target": {
+                "well": "A3",
+                "labware": "MAGPLATE",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(26)",
+            "channels": 8
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            },
+            "channels": 8
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "A4",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 6
+            },
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 80.0,
+            "source": {
+                "well": "A2",
+                "labware": "NEST 12 Well Reservoir 15 mL",
+                "slot": 4
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1)",
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 80.0,
+            "target": {
+                "well": "A4",
+                "labware": "MAGPLATE",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(26)",
+            "channels": 8
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            },
+            "channels": 8
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "A5",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 6
+            },
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 80.0,
+            "source": {
+                "well": "A2",
+                "labware": "NEST 12 Well Reservoir 15 mL",
+                "slot": 4
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1)",
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 80.0,
+            "target": {
+                "well": "A5",
+                "labware": "MAGPLATE",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(26)",
+            "channels": 8
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            },
+            "channels": 8
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "A6",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 6
+            },
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 80.0,
+            "source": {
+                "well": "A2",
+                "labware": "NEST 12 Well Reservoir 15 mL",
+                "slot": 4
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1)",
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 80.0,
+            "target": {
+                "well": "A6",
+                "labware": "MAGPLATE",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(26)",
+            "channels": 8
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            },
+            "channels": 8
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "A7",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 6
+            },
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 80.0,
+            "source": {
+                "well": "A2",
+                "labware": "NEST 12 Well Reservoir 15 mL",
+                "slot": 4
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1)",
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 80.0,
+            "target": {
+                "well": "A7",
+                "labware": "MAGPLATE",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(26)",
+            "channels": 8
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            },
+            "channels": 8
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "A8",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 6
+            },
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 80.0,
+            "source": {
+                "well": "A2",
+                "labware": "NEST 12 Well Reservoir 15 mL",
+                "slot": 4
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1)",
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 80.0,
+            "target": {
+                "well": "A8",
+                "labware": "MAGPLATE",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(26)",
+            "channels": 8
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            },
+            "channels": 8
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "A9",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 6
+            },
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 80.0,
+            "source": {
+                "well": "A2",
+                "labware": "NEST 12 Well Reservoir 15 mL",
+                "slot": 4
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1)",
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 80.0,
+            "target": {
+                "well": "A9",
+                "labware": "MAGPLATE",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(26)",
+            "channels": 8
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            },
+            "channels": 8
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "A10",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 6
+            },
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 80.0,
+            "source": {
+                "well": "A2",
+                "labware": "NEST 12 Well Reservoir 15 mL",
+                "slot": 4
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1)",
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 80.0,
+            "target": {
+                "well": "A10",
+                "labware": "MAGPLATE",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(26)",
+            "channels": 8
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            },
+            "channels": 8
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "A11",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 6
+            },
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 80.0,
+            "source": {
+                "well": "A2",
+                "labware": "NEST 12 Well Reservoir 15 mL",
+                "slot": 4
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1)",
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 80.0,
+            "target": {
+                "well": "A11",
+                "labware": "MAGPLATE",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(26)",
+            "channels": 8
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            },
+            "channels": 8
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "A12",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 6
+            },
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 80.0,
+            "source": {
+                "well": "A2",
+                "labware": "NEST 12 Well Reservoir 15 mL",
+                "slot": 4
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1)",
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 80.0,
+            "target": {
+                "well": "A12",
+                "labware": "MAGPLATE",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(26)",
+            "channels": 8
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            },
+            "channels": 8
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "A1",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 7
+            },
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
             "vol": 40.0,
             "source": {
                 "well": "A1",
@@ -1013,9 +1497,9 @@
         {
             "action": "pick_tip",
             "tip_rack": {
-                "well": "A3",
+                "well": "A2",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
-                "slot": 6
+                "slot": 7
             },
             "channels": 8
         },
@@ -1079,9 +1563,9 @@
         {
             "action": "pick_tip",
             "tip_rack": {
-                "well": "A4",
+                "well": "A3",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
-                "slot": 6
+                "slot": 7
             },
             "channels": 8
         },
@@ -1145,9 +1629,9 @@
         {
             "action": "pick_tip",
             "tip_rack": {
-                "well": "A5",
+                "well": "A4",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
-                "slot": 6
+                "slot": 7
             },
             "channels": 8
         },
@@ -1211,9 +1695,9 @@
         {
             "action": "pick_tip",
             "tip_rack": {
-                "well": "A6",
+                "well": "A5",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
-                "slot": 6
+                "slot": 7
             },
             "channels": 8
         },
@@ -1277,9 +1761,9 @@
         {
             "action": "pick_tip",
             "tip_rack": {
-                "well": "A7",
+                "well": "A6",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
-                "slot": 6
+                "slot": 7
             },
             "channels": 8
         },
@@ -1343,9 +1827,9 @@
         {
             "action": "pick_tip",
             "tip_rack": {
-                "well": "A8",
+                "well": "A7",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
-                "slot": 6
+                "slot": 7
             },
             "channels": 8
         },
@@ -1409,9 +1893,9 @@
         {
             "action": "pick_tip",
             "tip_rack": {
-                "well": "A9",
+                "well": "A8",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
-                "slot": 6
+                "slot": 7
             },
             "channels": 8
         },
@@ -1475,9 +1959,9 @@
         {
             "action": "pick_tip",
             "tip_rack": {
-                "well": "A10",
+                "well": "A9",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
-                "slot": 6
+                "slot": 7
             },
             "channels": 8
         },
@@ -1541,9 +2025,9 @@
         {
             "action": "pick_tip",
             "tip_rack": {
-                "well": "A11",
+                "well": "A10",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
-                "slot": 6
+                "slot": 7
             },
             "channels": 8
         },
@@ -1607,9 +2091,9 @@
         {
             "action": "pick_tip",
             "tip_rack": {
-                "well": "A12",
+                "well": "A11",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
-                "slot": 6
+                "slot": 7
             },
             "channels": 8
         },
@@ -1673,7 +2157,7 @@
         {
             "action": "pick_tip",
             "tip_rack": {
-                "well": "A1",
+                "well": "A12",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 7
             },
@@ -1739,9 +2223,9 @@
         {
             "action": "pick_tip",
             "tip_rack": {
-                "well": "A2",
+                "well": "A1",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
-                "slot": 7
+                "slot": 8
             },
             "channels": 8
         },
@@ -1785,7 +2269,491 @@
             "tip_rack": {
                 "well": "A2",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
-                "slot": 6
+                "slot": 8
+            },
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 80.0,
+            "source": {
+                "well": "A3",
+                "labware": "NEST 12 Well Reservoir 15 mL",
+                "slot": 4
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1)",
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 80.0,
+            "target": {
+                "well": "A2",
+                "labware": "MAGPLATE",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(26)",
+            "channels": 8
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            },
+            "channels": 8
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "A3",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 8
+            },
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 80.0,
+            "source": {
+                "well": "A3",
+                "labware": "NEST 12 Well Reservoir 15 mL",
+                "slot": 4
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1)",
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 80.0,
+            "target": {
+                "well": "A3",
+                "labware": "MAGPLATE",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(26)",
+            "channels": 8
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            },
+            "channels": 8
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "A4",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 8
+            },
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 80.0,
+            "source": {
+                "well": "A3",
+                "labware": "NEST 12 Well Reservoir 15 mL",
+                "slot": 4
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1)",
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 80.0,
+            "target": {
+                "well": "A4",
+                "labware": "MAGPLATE",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(26)",
+            "channels": 8
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            },
+            "channels": 8
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "A5",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 8
+            },
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 80.0,
+            "source": {
+                "well": "A3",
+                "labware": "NEST 12 Well Reservoir 15 mL",
+                "slot": 4
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1)",
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 80.0,
+            "target": {
+                "well": "A5",
+                "labware": "MAGPLATE",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(26)",
+            "channels": 8
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            },
+            "channels": 8
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "A6",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 8
+            },
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 80.0,
+            "source": {
+                "well": "A3",
+                "labware": "NEST 12 Well Reservoir 15 mL",
+                "slot": 4
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1)",
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 80.0,
+            "target": {
+                "well": "A6",
+                "labware": "MAGPLATE",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(26)",
+            "channels": 8
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            },
+            "channels": 8
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "A7",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 8
+            },
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 80.0,
+            "source": {
+                "well": "A3",
+                "labware": "NEST 12 Well Reservoir 15 mL",
+                "slot": 4
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1)",
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 80.0,
+            "target": {
+                "well": "A7",
+                "labware": "MAGPLATE",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(26)",
+            "channels": 8
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            },
+            "channels": 8
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "A8",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 8
+            },
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 80.0,
+            "source": {
+                "well": "A3",
+                "labware": "NEST 12 Well Reservoir 15 mL",
+                "slot": 4
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1)",
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 80.0,
+            "target": {
+                "well": "A8",
+                "labware": "MAGPLATE",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(26)",
+            "channels": 8
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            },
+            "channels": 8
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "A9",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 8
+            },
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 80.0,
+            "source": {
+                "well": "A3",
+                "labware": "NEST 12 Well Reservoir 15 mL",
+                "slot": 4
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1)",
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 80.0,
+            "target": {
+                "well": "A9",
+                "labware": "MAGPLATE",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(26)",
+            "channels": 8
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            },
+            "channels": 8
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "A10",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 8
+            },
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 80.0,
+            "source": {
+                "well": "A3",
+                "labware": "NEST 12 Well Reservoir 15 mL",
+                "slot": 4
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1)",
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 80.0,
+            "target": {
+                "well": "A10",
+                "labware": "MAGPLATE",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(26)",
+            "channels": 8
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            },
+            "channels": 8
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "A11",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 8
+            },
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 80.0,
+            "source": {
+                "well": "A3",
+                "labware": "NEST 12 Well Reservoir 15 mL",
+                "slot": 4
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1)",
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 80.0,
+            "target": {
+                "well": "A11",
+                "labware": "MAGPLATE",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(26)",
+            "channels": 8
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            },
+            "channels": 8
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "A12",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 8
+            },
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 80.0,
+            "source": {
+                "well": "A3",
+                "labware": "NEST 12 Well Reservoir 15 mL",
+                "slot": 4
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1)",
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 80.0,
+            "target": {
+                "well": "A12",
+                "labware": "MAGPLATE",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(26)",
+            "channels": 8
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            },
+            "channels": 8
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "A1",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 7
             },
             "channels": 8
         },
@@ -1849,9 +2817,9 @@
         {
             "action": "pick_tip",
             "tip_rack": {
-                "well": "A3",
+                "well": "A2",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
-                "slot": 6
+                "slot": 7
             },
             "channels": 8
         },
@@ -1915,9 +2883,9 @@
         {
             "action": "pick_tip",
             "tip_rack": {
-                "well": "A4",
+                "well": "A3",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
-                "slot": 6
+                "slot": 7
             },
             "channels": 8
         },
@@ -1981,9 +2949,9 @@
         {
             "action": "pick_tip",
             "tip_rack": {
-                "well": "A5",
+                "well": "A4",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
-                "slot": 6
+                "slot": 7
             },
             "channels": 8
         },
@@ -2047,9 +3015,9 @@
         {
             "action": "pick_tip",
             "tip_rack": {
-                "well": "A6",
+                "well": "A5",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
-                "slot": 6
+                "slot": 7
             },
             "channels": 8
         },
@@ -2113,9 +3081,9 @@
         {
             "action": "pick_tip",
             "tip_rack": {
-                "well": "A7",
+                "well": "A6",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
-                "slot": 6
+                "slot": 7
             },
             "channels": 8
         },
@@ -2179,9 +3147,9 @@
         {
             "action": "pick_tip",
             "tip_rack": {
-                "well": "A8",
+                "well": "A7",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
-                "slot": 6
+                "slot": 7
             },
             "channels": 8
         },
@@ -2245,9 +3213,9 @@
         {
             "action": "pick_tip",
             "tip_rack": {
-                "well": "A9",
+                "well": "A8",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
-                "slot": 6
+                "slot": 7
             },
             "channels": 8
         },
@@ -2311,9 +3279,9 @@
         {
             "action": "pick_tip",
             "tip_rack": {
-                "well": "A10",
+                "well": "A9",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
-                "slot": 6
+                "slot": 7
             },
             "channels": 8
         },
@@ -2377,9 +3345,9 @@
         {
             "action": "pick_tip",
             "tip_rack": {
-                "well": "A11",
+                "well": "A10",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
-                "slot": 6
+                "slot": 7
             },
             "channels": 8
         },
@@ -2400,6 +3368,72 @@
             "vol": 40.0,
             "source": {
                 "well": "A10",
+                "labware": "MAGPLATE",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(2)",
+            "channels": 8
+        },
+        {
+            "action": "air_gap",
+            "vol": 20.0,
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 100.0,
+            "target": {
+                "well": "A11",
+                "labware": "NEST 12 Well Reservoir 15 mL",
+                "slot": 4
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(3.5)",
+            "channels": 8
+        },
+        {
+            "action": "air_gap",
+            "vol": 20.0,
+            "channels": 8
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            },
+            "channels": 8
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "A11",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 7
+            },
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
+                "well": "A11",
+                "labware": "MAGPLATE",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(4)",
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
+                "well": "A11",
                 "labware": "MAGPLATE",
                 "slot": 3
             },
@@ -2445,72 +3479,6 @@
             "tip_rack": {
                 "well": "A12",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
-                "slot": 6
-            },
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 40.0,
-            "source": {
-                "well": "A11",
-                "labware": "MAGPLATE",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(4)",
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 40.0,
-            "source": {
-                "well": "A11",
-                "labware": "MAGPLATE",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(2)",
-            "channels": 8
-        },
-        {
-            "action": "air_gap",
-            "vol": 20.0,
-            "channels": 8
-        },
-        {
-            "action": "dispense",
-            "vol": 100.0,
-            "target": {
-                "well": "A11",
-                "labware": "NEST 12 Well Reservoir 15 mL",
-                "slot": 4
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(3.5)",
-            "channels": 8
-        },
-        {
-            "action": "air_gap",
-            "vol": 20.0,
-            "channels": 8
-        },
-        {
-            "action": "drop_tip",
-            "location": {
-                "well": "A1",
-                "labware": "Opentrons Fixed Trash",
-                "slot": 12
-            },
-            "channels": 8
-        }
-    ],
-    [
-        {
-            "action": "pick_tip",
-            "tip_rack": {
-                "well": "A1",
-                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
                 "slot": 7
             },
             "channels": 8
@@ -2554,1370 +3522,6 @@
             },
             "flow_rate": 7.6,
             "pose_z": "bottom(3.5)",
-            "channels": 8
-        },
-        {
-            "action": "air_gap",
-            "vol": 20.0,
-            "channels": 8
-        },
-        {
-            "action": "drop_tip",
-            "location": {
-                "well": "A1",
-                "labware": "Opentrons Fixed Trash",
-                "slot": 12
-            },
-            "channels": 8
-        }
-    ],
-    [
-        {
-            "action": "pick_tip",
-            "tip_rack": {
-                "well": "A3",
-                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
-                "slot": 7
-            },
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 43.0,
-            "source": {
-                "well": "A4",
-                "labware": "NEST 12 Well Reservoir 15 mL",
-                "slot": 4
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1)",
-            "channels": 8
-        },
-        {
-            "action": "dispense",
-            "vol": 43.0,
-            "target": {
-                "well": "A1",
-                "labware": "NO MAG",
-                "slot": 2
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)",
-            "channels": 8
-        },
-        {
-            "action": "mix",
-            "vol": 40.0,
-            "position": {
-                "well": "A1",
-                "labware": "NO MAG",
-                "slot": 2
-            },
-            "flow_rate": 7.6,
-            "mix_time": 6,
-            "pose_z": "bottom(0.5)",
-            "channels": 8
-        },
-        {
-            "action": "air_gap",
-            "vol": 20.0,
-            "channels": 8
-        },
-        {
-            "action": "drop_tip",
-            "location": {
-                "well": "A1",
-                "labware": "Opentrons Fixed Trash",
-                "slot": 12
-            },
-            "channels": 8
-        }
-    ],
-    [
-        {
-            "action": "pick_tip",
-            "tip_rack": {
-                "well": "A4",
-                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
-                "slot": 7
-            },
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 43.0,
-            "source": {
-                "well": "A4",
-                "labware": "NEST 12 Well Reservoir 15 mL",
-                "slot": 4
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1)",
-            "channels": 8
-        },
-        {
-            "action": "dispense",
-            "vol": 43.0,
-            "target": {
-                "well": "A2",
-                "labware": "NO MAG",
-                "slot": 2
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)",
-            "channels": 8
-        },
-        {
-            "action": "mix",
-            "vol": 40.0,
-            "position": {
-                "well": "A2",
-                "labware": "NO MAG",
-                "slot": 2
-            },
-            "flow_rate": 7.6,
-            "mix_time": 6,
-            "pose_z": "bottom(0.5)",
-            "channels": 8
-        },
-        {
-            "action": "air_gap",
-            "vol": 20.0,
-            "channels": 8
-        },
-        {
-            "action": "drop_tip",
-            "location": {
-                "well": "A1",
-                "labware": "Opentrons Fixed Trash",
-                "slot": 12
-            },
-            "channels": 8
-        }
-    ],
-    [
-        {
-            "action": "pick_tip",
-            "tip_rack": {
-                "well": "A5",
-                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
-                "slot": 7
-            },
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 43.0,
-            "source": {
-                "well": "A4",
-                "labware": "NEST 12 Well Reservoir 15 mL",
-                "slot": 4
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1)",
-            "channels": 8
-        },
-        {
-            "action": "dispense",
-            "vol": 43.0,
-            "target": {
-                "well": "A3",
-                "labware": "NO MAG",
-                "slot": 2
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)",
-            "channels": 8
-        },
-        {
-            "action": "mix",
-            "vol": 40.0,
-            "position": {
-                "well": "A3",
-                "labware": "NO MAG",
-                "slot": 2
-            },
-            "flow_rate": 7.6,
-            "mix_time": 6,
-            "pose_z": "bottom(0.5)",
-            "channels": 8
-        },
-        {
-            "action": "air_gap",
-            "vol": 20.0,
-            "channels": 8
-        },
-        {
-            "action": "drop_tip",
-            "location": {
-                "well": "A1",
-                "labware": "Opentrons Fixed Trash",
-                "slot": 12
-            },
-            "channels": 8
-        }
-    ],
-    [
-        {
-            "action": "pick_tip",
-            "tip_rack": {
-                "well": "A6",
-                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
-                "slot": 7
-            },
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 43.0,
-            "source": {
-                "well": "A4",
-                "labware": "NEST 12 Well Reservoir 15 mL",
-                "slot": 4
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1)",
-            "channels": 8
-        },
-        {
-            "action": "dispense",
-            "vol": 43.0,
-            "target": {
-                "well": "A4",
-                "labware": "NO MAG",
-                "slot": 2
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)",
-            "channels": 8
-        },
-        {
-            "action": "mix",
-            "vol": 40.0,
-            "position": {
-                "well": "A4",
-                "labware": "NO MAG",
-                "slot": 2
-            },
-            "flow_rate": 7.6,
-            "mix_time": 6,
-            "pose_z": "bottom(0.5)",
-            "channels": 8
-        },
-        {
-            "action": "air_gap",
-            "vol": 20.0,
-            "channels": 8
-        },
-        {
-            "action": "drop_tip",
-            "location": {
-                "well": "A1",
-                "labware": "Opentrons Fixed Trash",
-                "slot": 12
-            },
-            "channels": 8
-        }
-    ],
-    [
-        {
-            "action": "pick_tip",
-            "tip_rack": {
-                "well": "A7",
-                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
-                "slot": 7
-            },
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 43.0,
-            "source": {
-                "well": "A4",
-                "labware": "NEST 12 Well Reservoir 15 mL",
-                "slot": 4
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1)",
-            "channels": 8
-        },
-        {
-            "action": "dispense",
-            "vol": 43.0,
-            "target": {
-                "well": "A5",
-                "labware": "NO MAG",
-                "slot": 2
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)",
-            "channels": 8
-        },
-        {
-            "action": "mix",
-            "vol": 40.0,
-            "position": {
-                "well": "A5",
-                "labware": "NO MAG",
-                "slot": 2
-            },
-            "flow_rate": 7.6,
-            "mix_time": 6,
-            "pose_z": "bottom(0.5)",
-            "channels": 8
-        },
-        {
-            "action": "air_gap",
-            "vol": 20.0,
-            "channels": 8
-        },
-        {
-            "action": "drop_tip",
-            "location": {
-                "well": "A1",
-                "labware": "Opentrons Fixed Trash",
-                "slot": 12
-            },
-            "channels": 8
-        }
-    ],
-    [
-        {
-            "action": "pick_tip",
-            "tip_rack": {
-                "well": "A8",
-                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
-                "slot": 7
-            },
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 43.0,
-            "source": {
-                "well": "A4",
-                "labware": "NEST 12 Well Reservoir 15 mL",
-                "slot": 4
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1)",
-            "channels": 8
-        },
-        {
-            "action": "dispense",
-            "vol": 43.0,
-            "target": {
-                "well": "A6",
-                "labware": "NO MAG",
-                "slot": 2
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)",
-            "channels": 8
-        },
-        {
-            "action": "mix",
-            "vol": 40.0,
-            "position": {
-                "well": "A6",
-                "labware": "NO MAG",
-                "slot": 2
-            },
-            "flow_rate": 7.6,
-            "mix_time": 6,
-            "pose_z": "bottom(0.5)",
-            "channels": 8
-        },
-        {
-            "action": "air_gap",
-            "vol": 20.0,
-            "channels": 8
-        },
-        {
-            "action": "drop_tip",
-            "location": {
-                "well": "A1",
-                "labware": "Opentrons Fixed Trash",
-                "slot": 12
-            },
-            "channels": 8
-        }
-    ],
-    [
-        {
-            "action": "pick_tip",
-            "tip_rack": {
-                "well": "A9",
-                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
-                "slot": 7
-            },
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 43.0,
-            "source": {
-                "well": "A4",
-                "labware": "NEST 12 Well Reservoir 15 mL",
-                "slot": 4
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1)",
-            "channels": 8
-        },
-        {
-            "action": "dispense",
-            "vol": 43.0,
-            "target": {
-                "well": "A7",
-                "labware": "NO MAG",
-                "slot": 2
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)",
-            "channels": 8
-        },
-        {
-            "action": "mix",
-            "vol": 40.0,
-            "position": {
-                "well": "A7",
-                "labware": "NO MAG",
-                "slot": 2
-            },
-            "flow_rate": 7.6,
-            "mix_time": 6,
-            "pose_z": "bottom(0.5)",
-            "channels": 8
-        },
-        {
-            "action": "air_gap",
-            "vol": 20.0,
-            "channels": 8
-        },
-        {
-            "action": "drop_tip",
-            "location": {
-                "well": "A1",
-                "labware": "Opentrons Fixed Trash",
-                "slot": 12
-            },
-            "channels": 8
-        }
-    ],
-    [
-        {
-            "action": "pick_tip",
-            "tip_rack": {
-                "well": "A10",
-                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
-                "slot": 7
-            },
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 43.0,
-            "source": {
-                "well": "A4",
-                "labware": "NEST 12 Well Reservoir 15 mL",
-                "slot": 4
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1)",
-            "channels": 8
-        },
-        {
-            "action": "dispense",
-            "vol": 43.0,
-            "target": {
-                "well": "A8",
-                "labware": "NO MAG",
-                "slot": 2
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)",
-            "channels": 8
-        },
-        {
-            "action": "mix",
-            "vol": 40.0,
-            "position": {
-                "well": "A8",
-                "labware": "NO MAG",
-                "slot": 2
-            },
-            "flow_rate": 7.6,
-            "mix_time": 6,
-            "pose_z": "bottom(0.5)",
-            "channels": 8
-        },
-        {
-            "action": "air_gap",
-            "vol": 20.0,
-            "channels": 8
-        },
-        {
-            "action": "drop_tip",
-            "location": {
-                "well": "A1",
-                "labware": "Opentrons Fixed Trash",
-                "slot": 12
-            },
-            "channels": 8
-        }
-    ],
-    [
-        {
-            "action": "pick_tip",
-            "tip_rack": {
-                "well": "A11",
-                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
-                "slot": 7
-            },
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 43.0,
-            "source": {
-                "well": "A4",
-                "labware": "NEST 12 Well Reservoir 15 mL",
-                "slot": 4
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1)",
-            "channels": 8
-        },
-        {
-            "action": "dispense",
-            "vol": 43.0,
-            "target": {
-                "well": "A9",
-                "labware": "NO MAG",
-                "slot": 2
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)",
-            "channels": 8
-        },
-        {
-            "action": "mix",
-            "vol": 40.0,
-            "position": {
-                "well": "A9",
-                "labware": "NO MAG",
-                "slot": 2
-            },
-            "flow_rate": 7.6,
-            "mix_time": 6,
-            "pose_z": "bottom(0.5)",
-            "channels": 8
-        },
-        {
-            "action": "air_gap",
-            "vol": 20.0,
-            "channels": 8
-        },
-        {
-            "action": "drop_tip",
-            "location": {
-                "well": "A1",
-                "labware": "Opentrons Fixed Trash",
-                "slot": 12
-            },
-            "channels": 8
-        }
-    ],
-    [
-        {
-            "action": "pick_tip",
-            "tip_rack": {
-                "well": "A12",
-                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
-                "slot": 7
-            },
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 43.0,
-            "source": {
-                "well": "A4",
-                "labware": "NEST 12 Well Reservoir 15 mL",
-                "slot": 4
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1)",
-            "channels": 8
-        },
-        {
-            "action": "dispense",
-            "vol": 43.0,
-            "target": {
-                "well": "A10",
-                "labware": "NO MAG",
-                "slot": 2
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)",
-            "channels": 8
-        },
-        {
-            "action": "mix",
-            "vol": 40.0,
-            "position": {
-                "well": "A10",
-                "labware": "NO MAG",
-                "slot": 2
-            },
-            "flow_rate": 7.6,
-            "mix_time": 6,
-            "pose_z": "bottom(0.5)",
-            "channels": 8
-        },
-        {
-            "action": "air_gap",
-            "vol": 20.0,
-            "channels": 8
-        },
-        {
-            "action": "drop_tip",
-            "location": {
-                "well": "A1",
-                "labware": "Opentrons Fixed Trash",
-                "slot": 12
-            },
-            "channels": 8
-        }
-    ],
-    [
-        {
-            "action": "pick_tip",
-            "tip_rack": {
-                "well": "A1",
-                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
-                "slot": 8
-            },
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 43.0,
-            "source": {
-                "well": "A4",
-                "labware": "NEST 12 Well Reservoir 15 mL",
-                "slot": 4
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1)",
-            "channels": 8
-        },
-        {
-            "action": "dispense",
-            "vol": 43.0,
-            "target": {
-                "well": "A11",
-                "labware": "NO MAG",
-                "slot": 2
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)",
-            "channels": 8
-        },
-        {
-            "action": "mix",
-            "vol": 40.0,
-            "position": {
-                "well": "A11",
-                "labware": "NO MAG",
-                "slot": 2
-            },
-            "flow_rate": 7.6,
-            "mix_time": 6,
-            "pose_z": "bottom(0.5)",
-            "channels": 8
-        },
-        {
-            "action": "air_gap",
-            "vol": 20.0,
-            "channels": 8
-        },
-        {
-            "action": "drop_tip",
-            "location": {
-                "well": "A1",
-                "labware": "Opentrons Fixed Trash",
-                "slot": 12
-            },
-            "channels": 8
-        }
-    ],
-    [
-        {
-            "action": "pick_tip",
-            "tip_rack": {
-                "well": "A2",
-                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
-                "slot": 8
-            },
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 43.0,
-            "source": {
-                "well": "A4",
-                "labware": "NEST 12 Well Reservoir 15 mL",
-                "slot": 4
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(1)",
-            "channels": 8
-        },
-        {
-            "action": "dispense",
-            "vol": 43.0,
-            "target": {
-                "well": "A12",
-                "labware": "NO MAG",
-                "slot": 2
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)",
-            "channels": 8
-        },
-        {
-            "action": "mix",
-            "vol": 40.0,
-            "position": {
-                "well": "A12",
-                "labware": "NO MAG",
-                "slot": 2
-            },
-            "flow_rate": 7.6,
-            "mix_time": 6,
-            "pose_z": "bottom(0.5)",
-            "channels": 8
-        },
-        {
-            "action": "air_gap",
-            "vol": 20.0,
-            "channels": 8
-        },
-        {
-            "action": "drop_tip",
-            "location": {
-                "well": "A1",
-                "labware": "Opentrons Fixed Trash",
-                "slot": 12
-            },
-            "channels": 8
-        }
-    ],
-    [
-        {
-            "action": "pick_tip",
-            "tip_rack": {
-                "well": "A3",
-                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
-                "slot": 8
-            },
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 40.0,
-            "source": {
-                "well": "A1",
-                "labware": "MAGPLATE",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(2)",
-            "channels": 8
-        },
-        {
-            "action": "dispense",
-            "vol": 40.0,
-            "target": {
-                "well": "A1",
-                "labware": "CLEAN PLATE",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)",
-            "channels": 8
-        },
-        {
-            "action": "mix",
-            "vol": 20.0,
-            "position": {
-                "well": "A1",
-                "labware": "CLEAN PLATE",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "mix_time": 1,
-            "pose_z": "bottom(0.5)",
-            "channels": 8
-        },
-        {
-            "action": "air_gap",
-            "vol": 20.0,
-            "channels": 8
-        },
-        {
-            "action": "drop_tip",
-            "location": {
-                "well": "A1",
-                "labware": "Opentrons Fixed Trash",
-                "slot": 12
-            },
-            "channels": 8
-        }
-    ],
-    [
-        {
-            "action": "pick_tip",
-            "tip_rack": {
-                "well": "A4",
-                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
-                "slot": 8
-            },
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 40.0,
-            "source": {
-                "well": "A2",
-                "labware": "MAGPLATE",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(2)",
-            "channels": 8
-        },
-        {
-            "action": "dispense",
-            "vol": 40.0,
-            "target": {
-                "well": "A2",
-                "labware": "CLEAN PLATE",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)",
-            "channels": 8
-        },
-        {
-            "action": "mix",
-            "vol": 20.0,
-            "position": {
-                "well": "A2",
-                "labware": "CLEAN PLATE",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "mix_time": 1,
-            "pose_z": "bottom(0.5)",
-            "channels": 8
-        },
-        {
-            "action": "air_gap",
-            "vol": 20.0,
-            "channels": 8
-        },
-        {
-            "action": "drop_tip",
-            "location": {
-                "well": "A1",
-                "labware": "Opentrons Fixed Trash",
-                "slot": 12
-            },
-            "channels": 8
-        }
-    ],
-    [
-        {
-            "action": "pick_tip",
-            "tip_rack": {
-                "well": "A5",
-                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
-                "slot": 8
-            },
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 40.0,
-            "source": {
-                "well": "A3",
-                "labware": "MAGPLATE",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(2)",
-            "channels": 8
-        },
-        {
-            "action": "dispense",
-            "vol": 40.0,
-            "target": {
-                "well": "A3",
-                "labware": "CLEAN PLATE",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)",
-            "channels": 8
-        },
-        {
-            "action": "mix",
-            "vol": 20.0,
-            "position": {
-                "well": "A3",
-                "labware": "CLEAN PLATE",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "mix_time": 1,
-            "pose_z": "bottom(0.5)",
-            "channels": 8
-        },
-        {
-            "action": "air_gap",
-            "vol": 20.0,
-            "channels": 8
-        },
-        {
-            "action": "drop_tip",
-            "location": {
-                "well": "A1",
-                "labware": "Opentrons Fixed Trash",
-                "slot": 12
-            },
-            "channels": 8
-        }
-    ],
-    [
-        {
-            "action": "pick_tip",
-            "tip_rack": {
-                "well": "A6",
-                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
-                "slot": 8
-            },
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 40.0,
-            "source": {
-                "well": "A4",
-                "labware": "MAGPLATE",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(2)",
-            "channels": 8
-        },
-        {
-            "action": "dispense",
-            "vol": 40.0,
-            "target": {
-                "well": "A4",
-                "labware": "CLEAN PLATE",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)",
-            "channels": 8
-        },
-        {
-            "action": "mix",
-            "vol": 20.0,
-            "position": {
-                "well": "A4",
-                "labware": "CLEAN PLATE",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "mix_time": 1,
-            "pose_z": "bottom(0.5)",
-            "channels": 8
-        },
-        {
-            "action": "air_gap",
-            "vol": 20.0,
-            "channels": 8
-        },
-        {
-            "action": "drop_tip",
-            "location": {
-                "well": "A1",
-                "labware": "Opentrons Fixed Trash",
-                "slot": 12
-            },
-            "channels": 8
-        }
-    ],
-    [
-        {
-            "action": "pick_tip",
-            "tip_rack": {
-                "well": "A7",
-                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
-                "slot": 8
-            },
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 40.0,
-            "source": {
-                "well": "A5",
-                "labware": "MAGPLATE",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(2)",
-            "channels": 8
-        },
-        {
-            "action": "dispense",
-            "vol": 40.0,
-            "target": {
-                "well": "A5",
-                "labware": "CLEAN PLATE",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)",
-            "channels": 8
-        },
-        {
-            "action": "mix",
-            "vol": 20.0,
-            "position": {
-                "well": "A5",
-                "labware": "CLEAN PLATE",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "mix_time": 1,
-            "pose_z": "bottom(0.5)",
-            "channels": 8
-        },
-        {
-            "action": "air_gap",
-            "vol": 20.0,
-            "channels": 8
-        },
-        {
-            "action": "drop_tip",
-            "location": {
-                "well": "A1",
-                "labware": "Opentrons Fixed Trash",
-                "slot": 12
-            },
-            "channels": 8
-        }
-    ],
-    [
-        {
-            "action": "pick_tip",
-            "tip_rack": {
-                "well": "A8",
-                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
-                "slot": 8
-            },
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 40.0,
-            "source": {
-                "well": "A6",
-                "labware": "MAGPLATE",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(2)",
-            "channels": 8
-        },
-        {
-            "action": "dispense",
-            "vol": 40.0,
-            "target": {
-                "well": "A6",
-                "labware": "CLEAN PLATE",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)",
-            "channels": 8
-        },
-        {
-            "action": "mix",
-            "vol": 20.0,
-            "position": {
-                "well": "A6",
-                "labware": "CLEAN PLATE",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "mix_time": 1,
-            "pose_z": "bottom(0.5)",
-            "channels": 8
-        },
-        {
-            "action": "air_gap",
-            "vol": 20.0,
-            "channels": 8
-        },
-        {
-            "action": "drop_tip",
-            "location": {
-                "well": "A1",
-                "labware": "Opentrons Fixed Trash",
-                "slot": 12
-            },
-            "channels": 8
-        }
-    ],
-    [
-        {
-            "action": "pick_tip",
-            "tip_rack": {
-                "well": "A9",
-                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
-                "slot": 8
-            },
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 40.0,
-            "source": {
-                "well": "A7",
-                "labware": "MAGPLATE",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(2)",
-            "channels": 8
-        },
-        {
-            "action": "dispense",
-            "vol": 40.0,
-            "target": {
-                "well": "A7",
-                "labware": "CLEAN PLATE",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)",
-            "channels": 8
-        },
-        {
-            "action": "mix",
-            "vol": 20.0,
-            "position": {
-                "well": "A7",
-                "labware": "CLEAN PLATE",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "mix_time": 1,
-            "pose_z": "bottom(0.5)",
-            "channels": 8
-        },
-        {
-            "action": "air_gap",
-            "vol": 20.0,
-            "channels": 8
-        },
-        {
-            "action": "drop_tip",
-            "location": {
-                "well": "A1",
-                "labware": "Opentrons Fixed Trash",
-                "slot": 12
-            },
-            "channels": 8
-        }
-    ],
-    [
-        {
-            "action": "pick_tip",
-            "tip_rack": {
-                "well": "A10",
-                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
-                "slot": 8
-            },
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 40.0,
-            "source": {
-                "well": "A8",
-                "labware": "MAGPLATE",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(2)",
-            "channels": 8
-        },
-        {
-            "action": "dispense",
-            "vol": 40.0,
-            "target": {
-                "well": "A8",
-                "labware": "CLEAN PLATE",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)",
-            "channels": 8
-        },
-        {
-            "action": "mix",
-            "vol": 20.0,
-            "position": {
-                "well": "A8",
-                "labware": "CLEAN PLATE",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "mix_time": 1,
-            "pose_z": "bottom(0.5)",
-            "channels": 8
-        },
-        {
-            "action": "air_gap",
-            "vol": 20.0,
-            "channels": 8
-        },
-        {
-            "action": "drop_tip",
-            "location": {
-                "well": "A1",
-                "labware": "Opentrons Fixed Trash",
-                "slot": 12
-            },
-            "channels": 8
-        }
-    ],
-    [
-        {
-            "action": "pick_tip",
-            "tip_rack": {
-                "well": "A11",
-                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
-                "slot": 8
-            },
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 40.0,
-            "source": {
-                "well": "A9",
-                "labware": "MAGPLATE",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(2)",
-            "channels": 8
-        },
-        {
-            "action": "dispense",
-            "vol": 40.0,
-            "target": {
-                "well": "A9",
-                "labware": "CLEAN PLATE",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)",
-            "channels": 8
-        },
-        {
-            "action": "mix",
-            "vol": 20.0,
-            "position": {
-                "well": "A9",
-                "labware": "CLEAN PLATE",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "mix_time": 1,
-            "pose_z": "bottom(0.5)",
-            "channels": 8
-        },
-        {
-            "action": "air_gap",
-            "vol": 20.0,
-            "channels": 8
-        },
-        {
-            "action": "drop_tip",
-            "location": {
-                "well": "A1",
-                "labware": "Opentrons Fixed Trash",
-                "slot": 12
-            },
-            "channels": 8
-        }
-    ],
-    [
-        {
-            "action": "pick_tip",
-            "tip_rack": {
-                "well": "A12",
-                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
-                "slot": 8
-            },
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 40.0,
-            "source": {
-                "well": "A10",
-                "labware": "MAGPLATE",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(2)",
-            "channels": 8
-        },
-        {
-            "action": "dispense",
-            "vol": 40.0,
-            "target": {
-                "well": "A10",
-                "labware": "CLEAN PLATE",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "pose_z": "bottom(0.5)",
-            "channels": 8
-        },
-        {
-            "action": "mix",
-            "vol": 20.0,
-            "position": {
-                "well": "A10",
-                "labware": "CLEAN PLATE",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "mix_time": 1,
-            "pose_z": "bottom(0.5)",
             "channels": 8
         },
         {
@@ -3947,6 +3551,1370 @@
         },
         {
             "action": "aspirate",
+            "vol": 43.0,
+            "source": {
+                "well": "A4",
+                "labware": "NEST 12 Well Reservoir 15 mL",
+                "slot": 4
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1)",
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 43.0,
+            "target": {
+                "well": "A1",
+                "labware": "NO MAG",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(0.5)",
+            "channels": 8
+        },
+        {
+            "action": "mix",
+            "vol": 40.0,
+            "position": {
+                "well": "A1",
+                "labware": "NO MAG",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "mix_time": 6,
+            "pose_z": "bottom(0.5)",
+            "channels": 8
+        },
+        {
+            "action": "air_gap",
+            "vol": 20.0,
+            "channels": 8
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            },
+            "channels": 8
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "A2",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 10
+            },
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 43.0,
+            "source": {
+                "well": "A4",
+                "labware": "NEST 12 Well Reservoir 15 mL",
+                "slot": 4
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1)",
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 43.0,
+            "target": {
+                "well": "A2",
+                "labware": "NO MAG",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(0.5)",
+            "channels": 8
+        },
+        {
+            "action": "mix",
+            "vol": 40.0,
+            "position": {
+                "well": "A2",
+                "labware": "NO MAG",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "mix_time": 6,
+            "pose_z": "bottom(0.5)",
+            "channels": 8
+        },
+        {
+            "action": "air_gap",
+            "vol": 20.0,
+            "channels": 8
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            },
+            "channels": 8
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "A3",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 10
+            },
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 43.0,
+            "source": {
+                "well": "A4",
+                "labware": "NEST 12 Well Reservoir 15 mL",
+                "slot": 4
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1)",
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 43.0,
+            "target": {
+                "well": "A3",
+                "labware": "NO MAG",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(0.5)",
+            "channels": 8
+        },
+        {
+            "action": "mix",
+            "vol": 40.0,
+            "position": {
+                "well": "A3",
+                "labware": "NO MAG",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "mix_time": 6,
+            "pose_z": "bottom(0.5)",
+            "channels": 8
+        },
+        {
+            "action": "air_gap",
+            "vol": 20.0,
+            "channels": 8
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            },
+            "channels": 8
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "A4",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 10
+            },
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 43.0,
+            "source": {
+                "well": "A4",
+                "labware": "NEST 12 Well Reservoir 15 mL",
+                "slot": 4
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1)",
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 43.0,
+            "target": {
+                "well": "A4",
+                "labware": "NO MAG",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(0.5)",
+            "channels": 8
+        },
+        {
+            "action": "mix",
+            "vol": 40.0,
+            "position": {
+                "well": "A4",
+                "labware": "NO MAG",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "mix_time": 6,
+            "pose_z": "bottom(0.5)",
+            "channels": 8
+        },
+        {
+            "action": "air_gap",
+            "vol": 20.0,
+            "channels": 8
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            },
+            "channels": 8
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "A5",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 10
+            },
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 43.0,
+            "source": {
+                "well": "A4",
+                "labware": "NEST 12 Well Reservoir 15 mL",
+                "slot": 4
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1)",
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 43.0,
+            "target": {
+                "well": "A5",
+                "labware": "NO MAG",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(0.5)",
+            "channels": 8
+        },
+        {
+            "action": "mix",
+            "vol": 40.0,
+            "position": {
+                "well": "A5",
+                "labware": "NO MAG",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "mix_time": 6,
+            "pose_z": "bottom(0.5)",
+            "channels": 8
+        },
+        {
+            "action": "air_gap",
+            "vol": 20.0,
+            "channels": 8
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            },
+            "channels": 8
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "A6",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 10
+            },
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 43.0,
+            "source": {
+                "well": "A4",
+                "labware": "NEST 12 Well Reservoir 15 mL",
+                "slot": 4
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1)",
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 43.0,
+            "target": {
+                "well": "A6",
+                "labware": "NO MAG",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(0.5)",
+            "channels": 8
+        },
+        {
+            "action": "mix",
+            "vol": 40.0,
+            "position": {
+                "well": "A6",
+                "labware": "NO MAG",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "mix_time": 6,
+            "pose_z": "bottom(0.5)",
+            "channels": 8
+        },
+        {
+            "action": "air_gap",
+            "vol": 20.0,
+            "channels": 8
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            },
+            "channels": 8
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "A7",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 10
+            },
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 43.0,
+            "source": {
+                "well": "A4",
+                "labware": "NEST 12 Well Reservoir 15 mL",
+                "slot": 4
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1)",
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 43.0,
+            "target": {
+                "well": "A7",
+                "labware": "NO MAG",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(0.5)",
+            "channels": 8
+        },
+        {
+            "action": "mix",
+            "vol": 40.0,
+            "position": {
+                "well": "A7",
+                "labware": "NO MAG",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "mix_time": 6,
+            "pose_z": "bottom(0.5)",
+            "channels": 8
+        },
+        {
+            "action": "air_gap",
+            "vol": 20.0,
+            "channels": 8
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            },
+            "channels": 8
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "A8",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 10
+            },
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 43.0,
+            "source": {
+                "well": "A4",
+                "labware": "NEST 12 Well Reservoir 15 mL",
+                "slot": 4
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1)",
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 43.0,
+            "target": {
+                "well": "A8",
+                "labware": "NO MAG",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(0.5)",
+            "channels": 8
+        },
+        {
+            "action": "mix",
+            "vol": 40.0,
+            "position": {
+                "well": "A8",
+                "labware": "NO MAG",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "mix_time": 6,
+            "pose_z": "bottom(0.5)",
+            "channels": 8
+        },
+        {
+            "action": "air_gap",
+            "vol": 20.0,
+            "channels": 8
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            },
+            "channels": 8
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "A9",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 10
+            },
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 43.0,
+            "source": {
+                "well": "A4",
+                "labware": "NEST 12 Well Reservoir 15 mL",
+                "slot": 4
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1)",
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 43.0,
+            "target": {
+                "well": "A9",
+                "labware": "NO MAG",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(0.5)",
+            "channels": 8
+        },
+        {
+            "action": "mix",
+            "vol": 40.0,
+            "position": {
+                "well": "A9",
+                "labware": "NO MAG",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "mix_time": 6,
+            "pose_z": "bottom(0.5)",
+            "channels": 8
+        },
+        {
+            "action": "air_gap",
+            "vol": 20.0,
+            "channels": 8
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            },
+            "channels": 8
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "A10",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 10
+            },
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 43.0,
+            "source": {
+                "well": "A4",
+                "labware": "NEST 12 Well Reservoir 15 mL",
+                "slot": 4
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1)",
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 43.0,
+            "target": {
+                "well": "A10",
+                "labware": "NO MAG",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(0.5)",
+            "channels": 8
+        },
+        {
+            "action": "mix",
+            "vol": 40.0,
+            "position": {
+                "well": "A10",
+                "labware": "NO MAG",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "mix_time": 6,
+            "pose_z": "bottom(0.5)",
+            "channels": 8
+        },
+        {
+            "action": "air_gap",
+            "vol": 20.0,
+            "channels": 8
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            },
+            "channels": 8
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "A11",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 10
+            },
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 43.0,
+            "source": {
+                "well": "A4",
+                "labware": "NEST 12 Well Reservoir 15 mL",
+                "slot": 4
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1)",
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 43.0,
+            "target": {
+                "well": "A11",
+                "labware": "NO MAG",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(0.5)",
+            "channels": 8
+        },
+        {
+            "action": "mix",
+            "vol": 40.0,
+            "position": {
+                "well": "A11",
+                "labware": "NO MAG",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "mix_time": 6,
+            "pose_z": "bottom(0.5)",
+            "channels": 8
+        },
+        {
+            "action": "air_gap",
+            "vol": 20.0,
+            "channels": 8
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            },
+            "channels": 8
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "A12",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 10
+            },
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 43.0,
+            "source": {
+                "well": "A4",
+                "labware": "NEST 12 Well Reservoir 15 mL",
+                "slot": 4
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1)",
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 43.0,
+            "target": {
+                "well": "A12",
+                "labware": "NO MAG",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(0.5)",
+            "channels": 8
+        },
+        {
+            "action": "mix",
+            "vol": 40.0,
+            "position": {
+                "well": "A12",
+                "labware": "NO MAG",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "mix_time": 6,
+            "pose_z": "bottom(0.5)",
+            "channels": 8
+        },
+        {
+            "action": "air_gap",
+            "vol": 20.0,
+            "channels": 8
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            },
+            "channels": 8
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "A1",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 11
+            },
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
+                "well": "A1",
+                "labware": "MAGPLATE",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(2)",
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 40.0,
+            "target": {
+                "well": "A1",
+                "labware": "CLEAN PLATE",
+                "slot": 1
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(0.5)",
+            "channels": 8
+        },
+        {
+            "action": "mix",
+            "vol": 20.0,
+            "position": {
+                "well": "A1",
+                "labware": "CLEAN PLATE",
+                "slot": 1
+            },
+            "flow_rate": 7.6,
+            "mix_time": 1,
+            "pose_z": "bottom(0.5)",
+            "channels": 8
+        },
+        {
+            "action": "air_gap",
+            "vol": 20.0,
+            "channels": 8
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            },
+            "channels": 8
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "A2",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 11
+            },
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
+                "well": "A2",
+                "labware": "MAGPLATE",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(2)",
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 40.0,
+            "target": {
+                "well": "A2",
+                "labware": "CLEAN PLATE",
+                "slot": 1
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(0.5)",
+            "channels": 8
+        },
+        {
+            "action": "mix",
+            "vol": 20.0,
+            "position": {
+                "well": "A2",
+                "labware": "CLEAN PLATE",
+                "slot": 1
+            },
+            "flow_rate": 7.6,
+            "mix_time": 1,
+            "pose_z": "bottom(0.5)",
+            "channels": 8
+        },
+        {
+            "action": "air_gap",
+            "vol": 20.0,
+            "channels": 8
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            },
+            "channels": 8
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "A3",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 11
+            },
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
+                "well": "A3",
+                "labware": "MAGPLATE",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(2)",
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 40.0,
+            "target": {
+                "well": "A3",
+                "labware": "CLEAN PLATE",
+                "slot": 1
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(0.5)",
+            "channels": 8
+        },
+        {
+            "action": "mix",
+            "vol": 20.0,
+            "position": {
+                "well": "A3",
+                "labware": "CLEAN PLATE",
+                "slot": 1
+            },
+            "flow_rate": 7.6,
+            "mix_time": 1,
+            "pose_z": "bottom(0.5)",
+            "channels": 8
+        },
+        {
+            "action": "air_gap",
+            "vol": 20.0,
+            "channels": 8
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            },
+            "channels": 8
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "A4",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 11
+            },
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
+                "well": "A4",
+                "labware": "MAGPLATE",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(2)",
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 40.0,
+            "target": {
+                "well": "A4",
+                "labware": "CLEAN PLATE",
+                "slot": 1
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(0.5)",
+            "channels": 8
+        },
+        {
+            "action": "mix",
+            "vol": 20.0,
+            "position": {
+                "well": "A4",
+                "labware": "CLEAN PLATE",
+                "slot": 1
+            },
+            "flow_rate": 7.6,
+            "mix_time": 1,
+            "pose_z": "bottom(0.5)",
+            "channels": 8
+        },
+        {
+            "action": "air_gap",
+            "vol": 20.0,
+            "channels": 8
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            },
+            "channels": 8
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "A5",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 11
+            },
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
+                "well": "A5",
+                "labware": "MAGPLATE",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(2)",
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 40.0,
+            "target": {
+                "well": "A5",
+                "labware": "CLEAN PLATE",
+                "slot": 1
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(0.5)",
+            "channels": 8
+        },
+        {
+            "action": "mix",
+            "vol": 20.0,
+            "position": {
+                "well": "A5",
+                "labware": "CLEAN PLATE",
+                "slot": 1
+            },
+            "flow_rate": 7.6,
+            "mix_time": 1,
+            "pose_z": "bottom(0.5)",
+            "channels": 8
+        },
+        {
+            "action": "air_gap",
+            "vol": 20.0,
+            "channels": 8
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            },
+            "channels": 8
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "A6",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 11
+            },
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
+                "well": "A6",
+                "labware": "MAGPLATE",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(2)",
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 40.0,
+            "target": {
+                "well": "A6",
+                "labware": "CLEAN PLATE",
+                "slot": 1
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(0.5)",
+            "channels": 8
+        },
+        {
+            "action": "mix",
+            "vol": 20.0,
+            "position": {
+                "well": "A6",
+                "labware": "CLEAN PLATE",
+                "slot": 1
+            },
+            "flow_rate": 7.6,
+            "mix_time": 1,
+            "pose_z": "bottom(0.5)",
+            "channels": 8
+        },
+        {
+            "action": "air_gap",
+            "vol": 20.0,
+            "channels": 8
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            },
+            "channels": 8
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "A7",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 11
+            },
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
+                "well": "A7",
+                "labware": "MAGPLATE",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(2)",
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 40.0,
+            "target": {
+                "well": "A7",
+                "labware": "CLEAN PLATE",
+                "slot": 1
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(0.5)",
+            "channels": 8
+        },
+        {
+            "action": "mix",
+            "vol": 20.0,
+            "position": {
+                "well": "A7",
+                "labware": "CLEAN PLATE",
+                "slot": 1
+            },
+            "flow_rate": 7.6,
+            "mix_time": 1,
+            "pose_z": "bottom(0.5)",
+            "channels": 8
+        },
+        {
+            "action": "air_gap",
+            "vol": 20.0,
+            "channels": 8
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            },
+            "channels": 8
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "A8",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 11
+            },
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
+                "well": "A8",
+                "labware": "MAGPLATE",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(2)",
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 40.0,
+            "target": {
+                "well": "A8",
+                "labware": "CLEAN PLATE",
+                "slot": 1
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(0.5)",
+            "channels": 8
+        },
+        {
+            "action": "mix",
+            "vol": 20.0,
+            "position": {
+                "well": "A8",
+                "labware": "CLEAN PLATE",
+                "slot": 1
+            },
+            "flow_rate": 7.6,
+            "mix_time": 1,
+            "pose_z": "bottom(0.5)",
+            "channels": 8
+        },
+        {
+            "action": "air_gap",
+            "vol": 20.0,
+            "channels": 8
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            },
+            "channels": 8
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "A9",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 11
+            },
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
+                "well": "A9",
+                "labware": "MAGPLATE",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(2)",
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 40.0,
+            "target": {
+                "well": "A9",
+                "labware": "CLEAN PLATE",
+                "slot": 1
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(0.5)",
+            "channels": 8
+        },
+        {
+            "action": "mix",
+            "vol": 20.0,
+            "position": {
+                "well": "A9",
+                "labware": "CLEAN PLATE",
+                "slot": 1
+            },
+            "flow_rate": 7.6,
+            "mix_time": 1,
+            "pose_z": "bottom(0.5)",
+            "channels": 8
+        },
+        {
+            "action": "air_gap",
+            "vol": 20.0,
+            "channels": 8
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            },
+            "channels": 8
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "A10",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 11
+            },
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
+            "vol": 40.0,
+            "source": {
+                "well": "A10",
+                "labware": "MAGPLATE",
+                "slot": 3
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(2)",
+            "channels": 8
+        },
+        {
+            "action": "dispense",
+            "vol": 40.0,
+            "target": {
+                "well": "A10",
+                "labware": "CLEAN PLATE",
+                "slot": 1
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(0.5)",
+            "channels": 8
+        },
+        {
+            "action": "mix",
+            "vol": 20.0,
+            "position": {
+                "well": "A10",
+                "labware": "CLEAN PLATE",
+                "slot": 1
+            },
+            "flow_rate": 7.6,
+            "mix_time": 1,
+            "pose_z": "bottom(0.5)",
+            "channels": 8
+        },
+        {
+            "action": "air_gap",
+            "vol": 20.0,
+            "channels": 8
+        },
+        {
+            "action": "drop_tip",
+            "location": {
+                "well": "A1",
+                "labware": "Opentrons Fixed Trash",
+                "slot": 12
+            },
+            "channels": 8
+        }
+    ],
+    [
+        {
+            "action": "pick_tip",
+            "tip_rack": {
+                "well": "A11",
+                "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
+                "slot": 11
+            },
+            "channels": 8
+        },
+        {
+            "action": "aspirate",
             "vol": 40.0,
             "source": {
                 "well": "A11",
@@ -4001,9 +4969,9 @@
         {
             "action": "pick_tip",
             "tip_rack": {
-                "well": "A2",
+                "well": "A12",
                 "type": "Opentrons OT-2 96 Filter Tip Rack 200 µL",
-                "slot": 10
+                "slot": 11
             },
             "channels": 8
         },

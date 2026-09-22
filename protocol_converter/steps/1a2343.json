@@ -21,8 +21,13 @@
             "channels": 8
         },
         {
+            "action": "air_gap",
+            "vol": 30.0,
+            "channels": 8
+        },
+        {
             "action": "dispense",
-            "vol": 45.0,
+            "vol": 75.0,
             "target": {
                 "well": "A5",
                 "labware": "reagent plate",
@@ -62,13 +67,17 @@
         },
         {
             "action": "aspirate",
-            "vol": 9.0,
+            "vol": 18.0,
             "source": {
                 "well": "A1",
                 "labware": "reagent plate",
                 "slot": 4
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "air_gap",
+            "vol": 1.0
         },
         {
             "action": "dispense",
@@ -81,14 +90,8 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 9.0,
-            "source": {
-                "well": "A1",
-                "labware": "reagent plate",
-                "slot": 4
-            },
-            "flow_rate": 7.6
+            "action": "air_gap",
+            "vol": 1.0
         },
         {
             "action": "dispense",
@@ -101,14 +104,26 @@
             "flow_rate": 7.6
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "B3",
+                "labware": "reagent plate",
+                "slot": 4
+            }
+        },
+        {
             "action": "aspirate",
-            "vol": 9.0,
+            "vol": 18.0,
             "source": {
                 "well": "A1",
                 "labware": "reagent plate",
                 "slot": 4
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "air_gap",
+            "vol": 1.0
         },
         {
             "action": "dispense",
@@ -121,14 +136,8 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 9.0,
-            "source": {
-                "well": "A1",
-                "labware": "reagent plate",
-                "slot": 4
-            },
-            "flow_rate": 7.6
+            "action": "air_gap",
+            "vol": 1.0
         },
         {
             "action": "dispense",
@@ -141,14 +150,26 @@
             "flow_rate": 7.6
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "D3",
+                "labware": "reagent plate",
+                "slot": 4
+            }
+        },
+        {
             "action": "aspirate",
-            "vol": 9.0,
+            "vol": 18.0,
             "source": {
                 "well": "A1",
                 "labware": "reagent plate",
                 "slot": 4
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "air_gap",
+            "vol": 1.0
         },
         {
             "action": "dispense",
@@ -161,14 +182,8 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 9.0,
-            "source": {
-                "well": "A1",
-                "labware": "reagent plate",
-                "slot": 4
-            },
-            "flow_rate": 7.6
+            "action": "air_gap",
+            "vol": 1.0
         },
         {
             "action": "dispense",
@@ -181,14 +196,26 @@
             "flow_rate": 7.6
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "F3",
+                "labware": "reagent plate",
+                "slot": 4
+            }
+        },
+        {
             "action": "aspirate",
-            "vol": 9.0,
+            "vol": 18.0,
             "source": {
                 "well": "A1",
                 "labware": "reagent plate",
                 "slot": 4
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "air_gap",
+            "vol": 1.0
         },
         {
             "action": "dispense",
@@ -201,14 +228,8 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 9.0,
-            "source": {
-                "well": "A1",
-                "labware": "reagent plate",
-                "slot": 4
-            },
-            "flow_rate": 7.6
+            "action": "air_gap",
+            "vol": 1.0
         },
         {
             "action": "dispense",
@@ -219,6 +240,14 @@
                 "slot": 4
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "H3",
+                "labware": "reagent plate",
+                "slot": 4
+            }
         },
         {
             "action": "drop_tip",
@@ -240,13 +269,17 @@
         },
         {
             "action": "aspirate",
-            "vol": 9.0,
+            "vol": 18.0,
             "source": {
                 "well": "A1",
                 "labware": "reagent plate",
                 "slot": 4
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "air_gap",
+            "vol": 1.0
         },
         {
             "action": "dispense",
@@ -259,14 +292,8 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 9.0,
-            "source": {
-                "well": "A1",
-                "labware": "reagent plate",
-                "slot": 4
-            },
-            "flow_rate": 7.6
+            "action": "air_gap",
+            "vol": 1.0
         },
         {
             "action": "dispense",
@@ -279,14 +306,26 @@
             "flow_rate": 7.6
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "B3",
+                "labware": "reagent plate",
+                "slot": 4
+            }
+        },
+        {
             "action": "aspirate",
-            "vol": 9.0,
+            "vol": 18.0,
             "source": {
                 "well": "A1",
                 "labware": "reagent plate",
                 "slot": 4
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "air_gap",
+            "vol": 1.0
         },
         {
             "action": "dispense",
@@ -299,14 +338,8 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 9.0,
-            "source": {
-                "well": "A1",
-                "labware": "reagent plate",
-                "slot": 4
-            },
-            "flow_rate": 7.6
+            "action": "air_gap",
+            "vol": 1.0
         },
         {
             "action": "dispense",
@@ -319,14 +352,26 @@
             "flow_rate": 7.6
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "D3",
+                "labware": "reagent plate",
+                "slot": 4
+            }
+        },
+        {
             "action": "aspirate",
-            "vol": 9.0,
+            "vol": 18.0,
             "source": {
                 "well": "A1",
                 "labware": "reagent plate",
                 "slot": 4
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "air_gap",
+            "vol": 1.0
         },
         {
             "action": "dispense",
@@ -339,14 +384,8 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 9.0,
-            "source": {
-                "well": "A1",
-                "labware": "reagent plate",
-                "slot": 4
-            },
-            "flow_rate": 7.6
+            "action": "air_gap",
+            "vol": 1.0
         },
         {
             "action": "dispense",
@@ -359,14 +398,26 @@
             "flow_rate": 7.6
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "F3",
+                "labware": "reagent plate",
+                "slot": 4
+            }
+        },
+        {
             "action": "aspirate",
-            "vol": 9.0,
+            "vol": 18.0,
             "source": {
                 "well": "A1",
                 "labware": "reagent plate",
                 "slot": 4
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "air_gap",
+            "vol": 1.0
         },
         {
             "action": "dispense",
@@ -379,14 +430,8 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 9.0,
-            "source": {
-                "well": "A1",
-                "labware": "reagent plate",
-                "slot": 4
-            },
-            "flow_rate": 7.6
+            "action": "air_gap",
+            "vol": 1.0
         },
         {
             "action": "dispense",
@@ -397,6 +442,14 @@
                 "slot": 4
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "H3",
+                "labware": "reagent plate",
+                "slot": 4
+            }
         },
         {
             "action": "drop_tip",
@@ -427,8 +480,12 @@
             "flow_rate": 7.6
         },
         {
+            "action": "air_gap",
+            "vol": 1.0
+        },
+        {
             "action": "dispense",
-            "vol": 9.0,
+            "vol": 10.0,
             "target": {
                 "well": "A4",
                 "labware": "reagent plate",
@@ -474,8 +531,12 @@
             "flow_rate": 7.6
         },
         {
+            "action": "air_gap",
+            "vol": 1.0
+        },
+        {
             "action": "dispense",
-            "vol": 9.0,
+            "vol": 10.0,
             "target": {
                 "well": "B4",
                 "labware": "reagent plate",
@@ -521,8 +582,12 @@
             "flow_rate": 7.6
         },
         {
+            "action": "air_gap",
+            "vol": 1.0
+        },
+        {
             "action": "dispense",
-            "vol": 9.0,
+            "vol": 10.0,
             "target": {
                 "well": "C4",
                 "labware": "reagent plate",
@@ -568,8 +633,12 @@
             "flow_rate": 7.6
         },
         {
+            "action": "air_gap",
+            "vol": 1.0
+        },
+        {
             "action": "dispense",
-            "vol": 9.0,
+            "vol": 10.0,
             "target": {
                 "well": "D4",
                 "labware": "reagent plate",
@@ -615,8 +684,12 @@
             "flow_rate": 7.6
         },
         {
+            "action": "air_gap",
+            "vol": 1.0
+        },
+        {
             "action": "dispense",
-            "vol": 9.0,
+            "vol": 10.0,
             "target": {
                 "well": "E4",
                 "labware": "reagent plate",
@@ -662,8 +735,12 @@
             "flow_rate": 7.6
         },
         {
+            "action": "air_gap",
+            "vol": 1.0
+        },
+        {
             "action": "dispense",
-            "vol": 9.0,
+            "vol": 10.0,
             "target": {
                 "well": "F4",
                 "labware": "reagent plate",
@@ -709,8 +786,12 @@
             "flow_rate": 7.6
         },
         {
+            "action": "air_gap",
+            "vol": 1.0
+        },
+        {
             "action": "dispense",
-            "vol": 9.0,
+            "vol": 10.0,
             "target": {
                 "well": "G4",
                 "labware": "reagent plate",
@@ -756,8 +837,12 @@
             "flow_rate": 7.6
         },
         {
+            "action": "air_gap",
+            "vol": 1.0
+        },
+        {
             "action": "dispense",
-            "vol": 9.0,
+            "vol": 10.0,
             "target": {
                 "well": "H4",
                 "labware": "reagent plate",
@@ -795,13 +880,18 @@
         },
         {
             "action": "aspirate",
-            "vol": 30.0,
+            "vol": 300.0,
             "source": {
                 "well": "A4",
                 "labware": "reagent plate",
                 "slot": 4
             },
             "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "air_gap",
+            "vol": 30.0,
             "channels": 8
         },
         {
@@ -816,14 +906,8 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
+            "action": "air_gap",
             "vol": 30.0,
-            "source": {
-                "well": "A4",
-                "labware": "reagent plate",
-                "slot": 4
-            },
-            "flow_rate": 7.6,
             "channels": 8
         },
         {
@@ -838,14 +922,8 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
+            "action": "air_gap",
             "vol": 30.0,
-            "source": {
-                "well": "A4",
-                "labware": "reagent plate",
-                "slot": 4
-            },
-            "flow_rate": 7.6,
             "channels": 8
         },
         {
@@ -860,14 +938,8 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
+            "action": "air_gap",
             "vol": 30.0,
-            "source": {
-                "well": "A4",
-                "labware": "reagent plate",
-                "slot": 4
-            },
-            "flow_rate": 7.6,
             "channels": 8
         },
         {
@@ -882,14 +954,8 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
+            "action": "air_gap",
             "vol": 30.0,
-            "source": {
-                "well": "A4",
-                "labware": "reagent plate",
-                "slot": 4
-            },
-            "flow_rate": 7.6,
             "channels": 8
         },
         {
@@ -904,14 +970,8 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
+            "action": "air_gap",
             "vol": 30.0,
-            "source": {
-                "well": "A4",
-                "labware": "reagent plate",
-                "slot": 4
-            },
-            "flow_rate": 7.6,
             "channels": 8
         },
         {
@@ -926,14 +986,8 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
+            "action": "air_gap",
             "vol": 30.0,
-            "source": {
-                "well": "A4",
-                "labware": "reagent plate",
-                "slot": 4
-            },
-            "flow_rate": 7.6,
             "channels": 8
         },
         {
@@ -948,14 +1002,8 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
+            "action": "air_gap",
             "vol": 30.0,
-            "source": {
-                "well": "A4",
-                "labware": "reagent plate",
-                "slot": 4
-            },
-            "flow_rate": 7.6,
             "channels": 8
         },
         {
@@ -970,14 +1018,8 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
+            "action": "air_gap",
             "vol": 30.0,
-            "source": {
-                "well": "A4",
-                "labware": "reagent plate",
-                "slot": 4
-            },
-            "flow_rate": 7.6,
             "channels": 8
         },
         {
@@ -992,14 +1034,8 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
+            "action": "air_gap",
             "vol": 30.0,
-            "source": {
-                "well": "A4",
-                "labware": "reagent plate",
-                "slot": 4
-            },
-            "flow_rate": 7.6,
             "channels": 8
         },
         {
@@ -1014,14 +1050,28 @@
             "channels": 8
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A10",
+                "labware": "reaction plate",
+                "slot": 7
+            },
+            "channels": 8
+        },
+        {
             "action": "aspirate",
-            "vol": 30.0,
+            "vol": 60.0,
             "source": {
                 "well": "A4",
                 "labware": "reagent plate",
                 "slot": 4
             },
             "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "air_gap",
+            "vol": 30.0,
             "channels": 8
         },
         {
@@ -1036,14 +1086,8 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
+            "action": "air_gap",
             "vol": 30.0,
-            "source": {
-                "well": "A4",
-                "labware": "reagent plate",
-                "slot": 4
-            },
-            "flow_rate": 7.6,
             "channels": 8
         },
         {
@@ -1055,6 +1099,15 @@
                 "slot": 7
             },
             "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A12",
+                "labware": "reaction plate",
+                "slot": 7
+            },
             "channels": 8
         },
         {

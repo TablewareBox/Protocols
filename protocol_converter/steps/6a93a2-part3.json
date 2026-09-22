@@ -423,6 +423,16 @@
             "channels": 8
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A5",
+                "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
+                "slot": 1
+            },
+            "pose_z": "top",
+            "channels": 8
+        },
+        {
             "action": "drop_tip",
             "location": {
                 "well": "A1",
@@ -964,6 +974,16 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
+            "pose_z": "top",
+            "channels": 8
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A5",
+                "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
+                "slot": 1
+            },
             "pose_z": "top",
             "channels": 8
         },

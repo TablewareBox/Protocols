@@ -11,13 +11,22 @@
         },
         {
             "action": "aspirate",
-            "vol": 100.0,
+            "vol": 300.0,
             "source": {
                 "well": "A1",
                 "labware": "NEST 12 Well Reservoir 15 mL",
                 "slot": 8
             },
             "flow_rate": 7.6,
+            "channels": 8
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A1",
+                "labware": "NEST 12 Well Reservoir 15 mL",
+                "slot": 8
+            },
             "channels": 8
         },
         {
@@ -32,25 +41,12 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
+            "action": "blow_out",
+            "at": {
                 "well": "A1",
                 "labware": "NEST 12 Well Reservoir 15 mL",
                 "slot": 8
             },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A1",
-                "labware": "NEST 12 Well Reservoir 15 mL",
-                "slot": 8
-            },
-            "flow_rate": 7.6,
             "channels": 8
         },
         {
@@ -74,7 +70,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 50.0,
+            "vol": 100.0,
             "source": {
                 "well": "A1",
                 "labware": "Opentrons 24 Tube Rack with Eppendorf 2 mL Safe-Lock Snapcap",
@@ -89,16 +85,6 @@
                 "well": "A1",
                 "labware": "Corning 96 Well Plate 360 µL Flat",
                 "slot": 9
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 50.0,
-            "source": {
-                "well": "A1",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 2 mL Safe-Lock Snapcap",
-                "slot": 4
             },
             "flow_rate": 7.6
         },
@@ -111,6 +97,14 @@
                 "slot": 9
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A2",
+                "labware": "Corning 96 Well Plate 360 µL Flat",
+                "slot": 9
+            }
         },
         {
             "action": "drop_tip",
@@ -132,7 +126,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 50.0,
+            "vol": 100.0,
             "source": {
                 "well": "A2",
                 "labware": "Opentrons 24 Tube Rack with Eppendorf 2 mL Safe-Lock Snapcap",
@@ -147,16 +141,6 @@
                 "well": "B1",
                 "labware": "Corning 96 Well Plate 360 µL Flat",
                 "slot": 9
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 50.0,
-            "source": {
-                "well": "A2",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 2 mL Safe-Lock Snapcap",
-                "slot": 4
             },
             "flow_rate": 7.6
         },
@@ -171,6 +155,14 @@
             "flow_rate": 7.6
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "B2",
+                "labware": "Corning 96 Well Plate 360 µL Flat",
+                "slot": 9
+            }
+        },
+        {
             "action": "drop_tip",
             "location": {
                 "well": "A1",
@@ -190,7 +182,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 50.0,
+            "vol": 100.0,
             "source": {
                 "well": "A3",
                 "labware": "Opentrons 24 Tube Rack with Eppendorf 2 mL Safe-Lock Snapcap",
@@ -205,16 +197,6 @@
                 "well": "C1",
                 "labware": "Corning 96 Well Plate 360 µL Flat",
                 "slot": 9
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 50.0,
-            "source": {
-                "well": "A3",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 2 mL Safe-Lock Snapcap",
-                "slot": 4
             },
             "flow_rate": 7.6
         },
@@ -229,6 +211,14 @@
             "flow_rate": 7.6
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "C2",
+                "labware": "Corning 96 Well Plate 360 µL Flat",
+                "slot": 9
+            }
+        },
+        {
             "action": "drop_tip",
             "location": {
                 "well": "A1",
@@ -248,7 +238,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 50.0,
+            "vol": 100.0,
             "source": {
                 "well": "A4",
                 "labware": "Opentrons 24 Tube Rack with Eppendorf 2 mL Safe-Lock Snapcap",
@@ -263,16 +253,6 @@
                 "well": "D1",
                 "labware": "Corning 96 Well Plate 360 µL Flat",
                 "slot": 9
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 50.0,
-            "source": {
-                "well": "A4",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 2 mL Safe-Lock Snapcap",
-                "slot": 4
             },
             "flow_rate": 7.6
         },
@@ -287,6 +267,14 @@
             "flow_rate": 7.6
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "D2",
+                "labware": "Corning 96 Well Plate 360 µL Flat",
+                "slot": 9
+            }
+        },
+        {
             "action": "drop_tip",
             "location": {
                 "well": "A1",
@@ -306,7 +294,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 50.0,
+            "vol": 100.0,
             "source": {
                 "well": "A5",
                 "labware": "Opentrons 24 Tube Rack with Eppendorf 2 mL Safe-Lock Snapcap",
@@ -321,16 +309,6 @@
                 "well": "E1",
                 "labware": "Corning 96 Well Plate 360 µL Flat",
                 "slot": 9
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 50.0,
-            "source": {
-                "well": "A5",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 2 mL Safe-Lock Snapcap",
-                "slot": 4
             },
             "flow_rate": 7.6
         },
@@ -345,6 +323,14 @@
             "flow_rate": 7.6
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "E2",
+                "labware": "Corning 96 Well Plate 360 µL Flat",
+                "slot": 9
+            }
+        },
+        {
             "action": "drop_tip",
             "location": {
                 "well": "A1",
@@ -364,7 +350,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 50.0,
+            "vol": 100.0,
             "source": {
                 "well": "A6",
                 "labware": "Opentrons 24 Tube Rack with Eppendorf 2 mL Safe-Lock Snapcap",
@@ -379,16 +365,6 @@
                 "well": "F1",
                 "labware": "Corning 96 Well Plate 360 µL Flat",
                 "slot": 9
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 50.0,
-            "source": {
-                "well": "A6",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 2 mL Safe-Lock Snapcap",
-                "slot": 4
             },
             "flow_rate": 7.6
         },
@@ -403,6 +379,14 @@
             "flow_rate": 7.6
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "F2",
+                "labware": "Corning 96 Well Plate 360 µL Flat",
+                "slot": 9
+            }
+        },
+        {
             "action": "drop_tip",
             "location": {
                 "well": "A1",
@@ -422,7 +406,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 50.0,
+            "vol": 100.0,
             "source": {
                 "well": "B1",
                 "labware": "Opentrons 24 Tube Rack with Eppendorf 2 mL Safe-Lock Snapcap",
@@ -437,16 +421,6 @@
                 "well": "G1",
                 "labware": "Corning 96 Well Plate 360 µL Flat",
                 "slot": 9
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 50.0,
-            "source": {
-                "well": "B1",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 2 mL Safe-Lock Snapcap",
-                "slot": 4
             },
             "flow_rate": 7.6
         },
@@ -461,6 +435,14 @@
             "flow_rate": 7.6
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "G2",
+                "labware": "Corning 96 Well Plate 360 µL Flat",
+                "slot": 9
+            }
+        },
+        {
             "action": "drop_tip",
             "location": {
                 "well": "A1",
@@ -480,7 +462,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 50.0,
+            "vol": 100.0,
             "source": {
                 "well": "B2",
                 "labware": "Opentrons 24 Tube Rack with Eppendorf 2 mL Safe-Lock Snapcap",
@@ -499,16 +481,6 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 50.0,
-            "source": {
-                "well": "B2",
-                "labware": "Opentrons 24 Tube Rack with Eppendorf 2 mL Safe-Lock Snapcap",
-                "slot": 4
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 50.0,
             "target": {
@@ -517,6 +489,14 @@
                 "slot": 9
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "H2",
+                "labware": "Corning 96 Well Plate 360 µL Flat",
+                "slot": 9
+            }
         },
         {
             "action": "drop_tip",

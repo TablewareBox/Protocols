@@ -10,7 +10,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 250.0,
+            "vol": 500.0,
             "source": {
                 "well": "A1",
                 "labware": "Opentrons 6 Tube Rack with Falcon 50 mL Conical",
@@ -25,16 +25,6 @@
                 "well": "A1",
                 "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
                 "slot": 8
-            },
-            "flow_rate": 7.6
-        },
-        {
-            "action": "aspirate",
-            "vol": 250.0,
-            "source": {
-                "well": "A1",
-                "labware": "Opentrons 6 Tube Rack with Falcon 50 mL Conical",
-                "slot": 9
             },
             "flow_rate": 7.6
         },
@@ -47,6 +37,14 @@
                 "slot": 8
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A2",
+                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
+                "slot": 8
+            }
         },
         {
             "action": "drop_tip",
@@ -106,7 +104,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 250.0,
+            "vol": 500.0,
             "source": {
                 "well": "A2",
                 "labware": "Opentrons 6 Tube Rack with Falcon 50 mL Conical",
@@ -125,16 +123,6 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 250.0,
-            "source": {
-                "well": "A2",
-                "labware": "Opentrons 6 Tube Rack with Falcon 50 mL Conical",
-                "slot": 9
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 250.0,
             "target": {
@@ -143,6 +131,14 @@
                 "slot": 8
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A2",
+                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
+                "slot": 8
+            }
         },
         {
             "action": "drop_tip",
@@ -202,7 +198,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 100.0,
+            "vol": 200.0,
             "source": {
                 "well": "A3",
                 "labware": "Opentrons 6 Tube Rack with Falcon 50 mL Conical",
@@ -221,16 +217,6 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A3",
-                "labware": "Opentrons 6 Tube Rack with Falcon 50 mL Conical",
-                "slot": 9
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -239,6 +225,14 @@
                 "slot": 8
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A2",
+                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
+                "slot": 8
+            }
         },
         {
             "action": "drop_tip",
@@ -298,7 +292,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 100.0,
+            "vol": 200.0,
             "source": {
                 "well": "A3",
                 "labware": "Opentrons 6 Tube Rack with Falcon 50 mL Conical",
@@ -317,16 +311,6 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A3",
-                "labware": "Opentrons 6 Tube Rack with Falcon 50 mL Conical",
-                "slot": 9
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -335,6 +319,14 @@
                 "slot": 8
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A2",
+                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
+                "slot": 8
+            }
         },
         {
             "action": "drop_tip",
@@ -394,7 +386,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 100.0,
+            "vol": 200.0,
             "source": {
                 "well": "A3",
                 "labware": "Opentrons 6 Tube Rack with Falcon 50 mL Conical",
@@ -413,16 +405,6 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A3",
-                "labware": "Opentrons 6 Tube Rack with Falcon 50 mL Conical",
-                "slot": 9
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -431,6 +413,14 @@
                 "slot": 8
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A2",
+                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
+                "slot": 8
+            }
         },
         {
             "action": "drop_tip",
@@ -490,7 +480,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 100.0,
+            "vol": 200.0,
             "source": {
                 "well": "A3",
                 "labware": "Opentrons 6 Tube Rack with Falcon 50 mL Conical",
@@ -509,16 +499,6 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A3",
-                "labware": "Opentrons 6 Tube Rack with Falcon 50 mL Conical",
-                "slot": 9
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -527,6 +507,14 @@
                 "slot": 8
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A2",
+                "labware": "Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap",
+                "slot": 8
+            }
         },
         {
             "action": "drop_tip",
@@ -722,7 +710,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 250.0,
+            "vol": 500.0,
             "source": {
                 "well": "B1",
                 "labware": "Opentrons 6 Tube Rack with Falcon 50 mL Conical",
@@ -741,16 +729,6 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 250.0,
-            "source": {
-                "well": "B1",
-                "labware": "Opentrons 6 Tube Rack with Falcon 50 mL Conical",
-                "slot": 9
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 250.0,
             "target": {
@@ -759,6 +737,14 @@
                 "slot": 2
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A2",
+                "labware": "NEST 96 Well Plate 200 µL Flat",
+                "slot": 2
+            }
         },
         {
             "action": "drop_tip",
@@ -780,7 +766,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 350.0,
+            "vol": 700.0,
             "source": {
                 "well": "B2",
                 "labware": "Opentrons 6 Tube Rack with Falcon 50 mL Conical",
@@ -799,16 +785,6 @@
             "flow_rate": 7.6
         },
         {
-            "action": "aspirate",
-            "vol": 350.0,
-            "source": {
-                "well": "B2",
-                "labware": "Opentrons 6 Tube Rack with Falcon 50 mL Conical",
-                "slot": 9
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 350.0,
             "target": {
@@ -817,6 +793,14 @@
                 "slot": 2
             },
             "flow_rate": 7.6
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "B2",
+                "labware": "NEST 96 Well Plate 200 µL Flat",
+                "slot": 2
+            }
         },
         {
             "action": "drop_tip",

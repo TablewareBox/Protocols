@@ -4581,7 +4581,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 100.0,
+            "vol": 200.0,
             "source": {
                 "well": "A2",
                 "labware": "reagent deepwell plate",
@@ -4603,17 +4603,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A2",
-                "labware": "reagent deepwell plate",
-                "slot": 7
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -4626,8 +4615,18 @@
             "channels": 8
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A2",
+                "labware": "magnetic plate",
+                "slot": 1
+            },
+            "pose_z": "top(2)",
+            "channels": 8
+        },
+        {
             "action": "aspirate",
-            "vol": 100.0,
+            "vol": 200.0,
             "source": {
                 "well": "A2",
                 "labware": "reagent deepwell plate",
@@ -4649,17 +4648,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A2",
-                "labware": "reagent deepwell plate",
-                "slot": 7
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -4672,8 +4660,18 @@
             "channels": 8
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A4",
+                "labware": "magnetic plate",
+                "slot": 1
+            },
+            "pose_z": "top(2)",
+            "channels": 8
+        },
+        {
             "action": "aspirate",
-            "vol": 100.0,
+            "vol": 200.0,
             "source": {
                 "well": "A2",
                 "labware": "reagent deepwell plate",
@@ -4695,17 +4693,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A2",
-                "labware": "reagent deepwell plate",
-                "slot": 7
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -4718,8 +4705,18 @@
             "channels": 8
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A6",
+                "labware": "magnetic plate",
+                "slot": 1
+            },
+            "pose_z": "top(2)",
+            "channels": 8
+        },
+        {
             "action": "aspirate",
-            "vol": 100.0,
+            "vol": 200.0,
             "source": {
                 "well": "A2",
                 "labware": "reagent deepwell plate",
@@ -4741,17 +4738,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A2",
-                "labware": "reagent deepwell plate",
-                "slot": 7
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -4764,8 +4750,18 @@
             "channels": 8
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A8",
+                "labware": "magnetic plate",
+                "slot": 1
+            },
+            "pose_z": "top(2)",
+            "channels": 8
+        },
+        {
             "action": "aspirate",
-            "vol": 100.0,
+            "vol": 200.0,
             "source": {
                 "well": "A2",
                 "labware": "reagent deepwell plate",
@@ -4787,17 +4783,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A2",
-                "labware": "reagent deepwell plate",
-                "slot": 7
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -4810,8 +4795,18 @@
             "channels": 8
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A10",
+                "labware": "magnetic plate",
+                "slot": 1
+            },
+            "pose_z": "top(2)",
+            "channels": 8
+        },
+        {
             "action": "aspirate",
-            "vol": 100.0,
+            "vol": 200.0,
             "source": {
                 "well": "A2",
                 "labware": "reagent deepwell plate",
@@ -4833,17 +4828,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A2",
-                "labware": "reagent deepwell plate",
-                "slot": 7
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -4852,6 +4836,16 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
+            "pose_z": "top(2)",
+            "channels": 8
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A12",
+                "labware": "magnetic plate",
+                "slot": 1
+            },
             "pose_z": "top(2)",
             "channels": 8
         },
@@ -5645,7 +5639,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 100.0,
+            "vol": 200.0,
             "source": {
                 "well": "A2",
                 "labware": "reagent deepwell plate",
@@ -5667,17 +5661,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A2",
-                "labware": "reagent deepwell plate",
-                "slot": 7
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -5690,8 +5673,18 @@
             "channels": 8
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A2",
+                "labware": "magnetic plate",
+                "slot": 1
+            },
+            "pose_z": "top(2)",
+            "channels": 8
+        },
+        {
             "action": "aspirate",
-            "vol": 100.0,
+            "vol": 200.0,
             "source": {
                 "well": "A2",
                 "labware": "reagent deepwell plate",
@@ -5713,17 +5706,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A2",
-                "labware": "reagent deepwell plate",
-                "slot": 7
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -5736,8 +5718,18 @@
             "channels": 8
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A4",
+                "labware": "magnetic plate",
+                "slot": 1
+            },
+            "pose_z": "top(2)",
+            "channels": 8
+        },
+        {
             "action": "aspirate",
-            "vol": 100.0,
+            "vol": 200.0,
             "source": {
                 "well": "A2",
                 "labware": "reagent deepwell plate",
@@ -5759,17 +5751,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A2",
-                "labware": "reagent deepwell plate",
-                "slot": 7
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -5782,8 +5763,18 @@
             "channels": 8
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A6",
+                "labware": "magnetic plate",
+                "slot": 1
+            },
+            "pose_z": "top(2)",
+            "channels": 8
+        },
+        {
             "action": "aspirate",
-            "vol": 100.0,
+            "vol": 200.0,
             "source": {
                 "well": "A2",
                 "labware": "reagent deepwell plate",
@@ -5805,17 +5796,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A2",
-                "labware": "reagent deepwell plate",
-                "slot": 7
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -5828,8 +5808,18 @@
             "channels": 8
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A8",
+                "labware": "magnetic plate",
+                "slot": 1
+            },
+            "pose_z": "top(2)",
+            "channels": 8
+        },
+        {
             "action": "aspirate",
-            "vol": 100.0,
+            "vol": 200.0,
             "source": {
                 "well": "A2",
                 "labware": "reagent deepwell plate",
@@ -5851,17 +5841,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A2",
-                "labware": "reagent deepwell plate",
-                "slot": 7
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -5874,8 +5853,18 @@
             "channels": 8
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A10",
+                "labware": "magnetic plate",
+                "slot": 1
+            },
+            "pose_z": "top(2)",
+            "channels": 8
+        },
+        {
             "action": "aspirate",
-            "vol": 100.0,
+            "vol": 200.0,
             "source": {
                 "well": "A2",
                 "labware": "reagent deepwell plate",
@@ -5897,17 +5886,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A2",
-                "labware": "reagent deepwell plate",
-                "slot": 7
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -5916,6 +5894,16 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
+            "pose_z": "top(2)",
+            "channels": 8
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A12",
+                "labware": "magnetic plate",
+                "slot": 1
+            },
             "pose_z": "top(2)",
             "channels": 8
         },
@@ -6862,7 +6850,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 50.0,
+            "vol": 150.0,
             "source": {
                 "well": "A3",
                 "labware": "reagent deepwell plate",
@@ -6884,17 +6872,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 50.0,
-            "source": {
-                "well": "A3",
-                "labware": "reagent deepwell plate",
-                "slot": 7
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 50.0,
             "target": {
@@ -6907,17 +6884,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 50.0,
-            "source": {
-                "well": "A3",
-                "labware": "reagent deepwell plate",
-                "slot": 7
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 50.0,
             "target": {
@@ -6926,6 +6892,16 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
+            "pose_z": "top(2)",
+            "channels": 8
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A3",
+                "labware": "magnetic plate",
+                "slot": 1
+            },
             "pose_z": "top(2)",
             "channels": 8
         },
@@ -6970,6 +6946,16 @@
             "channels": 8
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A4",
+                "labware": "magnetic plate",
+                "slot": 1
+            },
+            "pose_z": "top(2)",
+            "channels": 8
+        },
+        {
             "action": "air_gap",
             "vol": 20.0,
             "channels": 8
@@ -7269,7 +7255,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 50.0,
+            "vol": 150.0,
             "source": {
                 "well": "A3",
                 "labware": "reagent deepwell plate",
@@ -7291,17 +7277,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 50.0,
-            "source": {
-                "well": "A3",
-                "labware": "reagent deepwell plate",
-                "slot": 7
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 50.0,
             "target": {
@@ -7314,17 +7289,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 50.0,
-            "source": {
-                "well": "A3",
-                "labware": "reagent deepwell plate",
-                "slot": 7
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 50.0,
             "target": {
@@ -7333,6 +7297,16 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
+            "pose_z": "top(2)",
+            "channels": 8
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A7",
+                "labware": "magnetic plate",
+                "slot": 1
+            },
             "pose_z": "top(2)",
             "channels": 8
         },
@@ -7373,6 +7347,16 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
+            "pose_z": "top(2)",
+            "channels": 8
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A8",
+                "labware": "magnetic plate",
+                "slot": 1
+            },
             "pose_z": "top(2)",
             "channels": 8
         },
@@ -7676,7 +7660,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 50.0,
+            "vol": 150.0,
             "source": {
                 "well": "A3",
                 "labware": "reagent deepwell plate",
@@ -7698,17 +7682,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 50.0,
-            "source": {
-                "well": "A3",
-                "labware": "reagent deepwell plate",
-                "slot": 7
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 50.0,
             "target": {
@@ -7721,17 +7694,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 50.0,
-            "source": {
-                "well": "A3",
-                "labware": "reagent deepwell plate",
-                "slot": 7
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 50.0,
             "target": {
@@ -7740,6 +7702,16 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
+            "pose_z": "top(2)",
+            "channels": 8
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A11",
+                "labware": "magnetic plate",
+                "slot": 1
+            },
             "pose_z": "top(2)",
             "channels": 8
         },
@@ -7780,6 +7752,16 @@
                 "slot": 1
             },
             "flow_rate": 7.6,
+            "pose_z": "top(2)",
+            "channels": 8
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A12",
+                "labware": "magnetic plate",
+                "slot": 1
+            },
             "pose_z": "top(2)",
             "channels": 8
         },

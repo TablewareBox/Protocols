@@ -805,7 +805,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 90.0,
+            "vol": 180.0,
             "source": {
                 "well": "A1",
                 "labware": "Opentrons 96 Deep Well Heater-Shaker Adapter with NEST Deep Well Plate 2 mL",
@@ -823,16 +823,6 @@
             },
             "flow_rate": 7.6,
             "pose_z": "bottom(13)"
-        },
-        {
-            "action": "aspirate",
-            "vol": 90.0,
-            "source": {
-                "well": "A1",
-                "labware": "Opentrons 96 Deep Well Heater-Shaker Adapter with NEST Deep Well Plate 2 mL",
-                "slot": 1
-            },
-            "flow_rate": 7.6
         },
         {
             "action": "dispense",
@@ -846,8 +836,17 @@
             "pose_z": "bottom(13)"
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "B1",
+                "labware": "Opentrons 96 Well Aluminum Block with NEST Well Plate 100 µL",
+                "slot": 10
+            },
+            "pose_z": "bottom(13)"
+        },
+        {
             "action": "aspirate",
-            "vol": 90.0,
+            "vol": 180.0,
             "source": {
                 "well": "A1",
                 "labware": "Opentrons 96 Deep Well Heater-Shaker Adapter with NEST Deep Well Plate 2 mL",
@@ -867,16 +866,6 @@
             "pose_z": "bottom(13)"
         },
         {
-            "action": "aspirate",
-            "vol": 90.0,
-            "source": {
-                "well": "A1",
-                "labware": "Opentrons 96 Deep Well Heater-Shaker Adapter with NEST Deep Well Plate 2 mL",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 90.0,
             "target": {
@@ -888,8 +877,17 @@
             "pose_z": "bottom(13)"
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A2",
+                "labware": "Opentrons 96 Well Aluminum Block with NEST Well Plate 100 µL",
+                "slot": 10
+            },
+            "pose_z": "bottom(13)"
+        },
+        {
             "action": "aspirate",
-            "vol": 90.0,
+            "vol": 180.0,
             "source": {
                 "well": "A1",
                 "labware": "Opentrons 96 Deep Well Heater-Shaker Adapter with NEST Deep Well Plate 2 mL",
@@ -909,16 +907,6 @@
             "pose_z": "bottom(13)"
         },
         {
-            "action": "aspirate",
-            "vol": 90.0,
-            "source": {
-                "well": "A1",
-                "labware": "Opentrons 96 Deep Well Heater-Shaker Adapter with NEST Deep Well Plate 2 mL",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 90.0,
             "target": {
@@ -930,8 +918,17 @@
             "pose_z": "bottom(13)"
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "C2",
+                "labware": "Opentrons 96 Well Aluminum Block with NEST Well Plate 100 µL",
+                "slot": 10
+            },
+            "pose_z": "bottom(13)"
+        },
+        {
             "action": "aspirate",
-            "vol": 90.0,
+            "vol": 180.0,
             "source": {
                 "well": "A1",
                 "labware": "Opentrons 96 Deep Well Heater-Shaker Adapter with NEST Deep Well Plate 2 mL",
@@ -951,16 +948,6 @@
             "pose_z": "bottom(13)"
         },
         {
-            "action": "aspirate",
-            "vol": 90.0,
-            "source": {
-                "well": "A1",
-                "labware": "Opentrons 96 Deep Well Heater-Shaker Adapter with NEST Deep Well Plate 2 mL",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 90.0,
             "target": {
@@ -972,8 +959,17 @@
             "pose_z": "bottom(13)"
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "B3",
+                "labware": "Opentrons 96 Well Aluminum Block with NEST Well Plate 100 µL",
+                "slot": 10
+            },
+            "pose_z": "bottom(13)"
+        },
+        {
             "action": "aspirate",
-            "vol": 90.0,
+            "vol": 180.0,
             "source": {
                 "well": "A1",
                 "labware": "Opentrons 96 Deep Well Heater-Shaker Adapter with NEST Deep Well Plate 2 mL",
@@ -993,16 +989,6 @@
             "pose_z": "bottom(13)"
         },
         {
-            "action": "aspirate",
-            "vol": 90.0,
-            "source": {
-                "well": "A1",
-                "labware": "Opentrons 96 Deep Well Heater-Shaker Adapter with NEST Deep Well Plate 2 mL",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 90.0,
             "target": {
@@ -1014,8 +1000,17 @@
             "pose_z": "bottom(13)"
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A4",
+                "labware": "Opentrons 96 Well Aluminum Block with NEST Well Plate 100 µL",
+                "slot": 10
+            },
+            "pose_z": "bottom(13)"
+        },
+        {
             "action": "aspirate",
-            "vol": 90.0,
+            "vol": 180.0,
             "source": {
                 "well": "A1",
                 "labware": "Opentrons 96 Deep Well Heater-Shaker Adapter with NEST Deep Well Plate 2 mL",
@@ -1035,16 +1030,6 @@
             "pose_z": "bottom(13)"
         },
         {
-            "action": "aspirate",
-            "vol": 90.0,
-            "source": {
-                "well": "A1",
-                "labware": "Opentrons 96 Deep Well Heater-Shaker Adapter with NEST Deep Well Plate 2 mL",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 90.0,
             "target": {
@@ -1053,6 +1038,15 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
+            "pose_z": "bottom(13)"
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "C4",
+                "labware": "Opentrons 96 Well Aluminum Block with NEST Well Plate 100 µL",
+                "slot": 10
+            },
             "pose_z": "bottom(13)"
         },
         {
@@ -1842,7 +1836,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 90.0,
+            "vol": 180.0,
             "source": {
                 "well": "A1",
                 "labware": "Opentrons 96 Deep Well Heater-Shaker Adapter with NEST Deep Well Plate 2 mL",
@@ -1860,16 +1854,6 @@
             },
             "flow_rate": 7.6,
             "pose_z": "bottom(13)"
-        },
-        {
-            "action": "aspirate",
-            "vol": 90.0,
-            "source": {
-                "well": "A1",
-                "labware": "Opentrons 96 Deep Well Heater-Shaker Adapter with NEST Deep Well Plate 2 mL",
-                "slot": 1
-            },
-            "flow_rate": 7.6
         },
         {
             "action": "dispense",
@@ -1883,8 +1867,17 @@
             "pose_z": "bottom(13)"
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "B1",
+                "labware": "Opentrons 96 Well Aluminum Block with NEST Well Plate 100 µL",
+                "slot": 10
+            },
+            "pose_z": "bottom(13)"
+        },
+        {
             "action": "aspirate",
-            "vol": 90.0,
+            "vol": 180.0,
             "source": {
                 "well": "A1",
                 "labware": "Opentrons 96 Deep Well Heater-Shaker Adapter with NEST Deep Well Plate 2 mL",
@@ -1904,16 +1897,6 @@
             "pose_z": "bottom(13)"
         },
         {
-            "action": "aspirate",
-            "vol": 90.0,
-            "source": {
-                "well": "A1",
-                "labware": "Opentrons 96 Deep Well Heater-Shaker Adapter with NEST Deep Well Plate 2 mL",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 90.0,
             "target": {
@@ -1925,8 +1908,17 @@
             "pose_z": "bottom(13)"
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A2",
+                "labware": "Opentrons 96 Well Aluminum Block with NEST Well Plate 100 µL",
+                "slot": 10
+            },
+            "pose_z": "bottom(13)"
+        },
+        {
             "action": "aspirate",
-            "vol": 90.0,
+            "vol": 180.0,
             "source": {
                 "well": "A1",
                 "labware": "Opentrons 96 Deep Well Heater-Shaker Adapter with NEST Deep Well Plate 2 mL",
@@ -1946,16 +1938,6 @@
             "pose_z": "bottom(13)"
         },
         {
-            "action": "aspirate",
-            "vol": 90.0,
-            "source": {
-                "well": "A1",
-                "labware": "Opentrons 96 Deep Well Heater-Shaker Adapter with NEST Deep Well Plate 2 mL",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 90.0,
             "target": {
@@ -1967,8 +1949,17 @@
             "pose_z": "bottom(13)"
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "C2",
+                "labware": "Opentrons 96 Well Aluminum Block with NEST Well Plate 100 µL",
+                "slot": 10
+            },
+            "pose_z": "bottom(13)"
+        },
+        {
             "action": "aspirate",
-            "vol": 90.0,
+            "vol": 180.0,
             "source": {
                 "well": "A1",
                 "labware": "Opentrons 96 Deep Well Heater-Shaker Adapter with NEST Deep Well Plate 2 mL",
@@ -1988,16 +1979,6 @@
             "pose_z": "bottom(13)"
         },
         {
-            "action": "aspirate",
-            "vol": 90.0,
-            "source": {
-                "well": "A1",
-                "labware": "Opentrons 96 Deep Well Heater-Shaker Adapter with NEST Deep Well Plate 2 mL",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 90.0,
             "target": {
@@ -2009,8 +1990,17 @@
             "pose_z": "bottom(13)"
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "B3",
+                "labware": "Opentrons 96 Well Aluminum Block with NEST Well Plate 100 µL",
+                "slot": 10
+            },
+            "pose_z": "bottom(13)"
+        },
+        {
             "action": "aspirate",
-            "vol": 90.0,
+            "vol": 180.0,
             "source": {
                 "well": "A1",
                 "labware": "Opentrons 96 Deep Well Heater-Shaker Adapter with NEST Deep Well Plate 2 mL",
@@ -2030,16 +2020,6 @@
             "pose_z": "bottom(13)"
         },
         {
-            "action": "aspirate",
-            "vol": 90.0,
-            "source": {
-                "well": "A1",
-                "labware": "Opentrons 96 Deep Well Heater-Shaker Adapter with NEST Deep Well Plate 2 mL",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 90.0,
             "target": {
@@ -2051,8 +2031,17 @@
             "pose_z": "bottom(13)"
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A4",
+                "labware": "Opentrons 96 Well Aluminum Block with NEST Well Plate 100 µL",
+                "slot": 10
+            },
+            "pose_z": "bottom(13)"
+        },
+        {
             "action": "aspirate",
-            "vol": 90.0,
+            "vol": 180.0,
             "source": {
                 "well": "A1",
                 "labware": "Opentrons 96 Deep Well Heater-Shaker Adapter with NEST Deep Well Plate 2 mL",
@@ -2072,16 +2061,6 @@
             "pose_z": "bottom(13)"
         },
         {
-            "action": "aspirate",
-            "vol": 90.0,
-            "source": {
-                "well": "A1",
-                "labware": "Opentrons 96 Deep Well Heater-Shaker Adapter with NEST Deep Well Plate 2 mL",
-                "slot": 1
-            },
-            "flow_rate": 7.6
-        },
-        {
             "action": "dispense",
             "vol": 90.0,
             "target": {
@@ -2090,6 +2069,15 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
+            "pose_z": "bottom(13)"
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "C4",
+                "labware": "Opentrons 96 Well Aluminum Block with NEST Well Plate 100 µL",
+                "slot": 10
+            },
             "pose_z": "bottom(13)"
         },
         {

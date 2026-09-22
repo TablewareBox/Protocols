@@ -11,7 +11,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 100.0,
+            "vol": 300.0,
             "source": {
                 "well": "A1",
                 "labware": "reagent reservoir",
@@ -30,17 +30,6 @@
             },
             "flow_rate": 7.6,
             "pose_z": "top(4)",
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A1",
-                "labware": "reagent reservoir",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
             "channels": 8
         },
         {
@@ -56,17 +45,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A1",
-                "labware": "reagent reservoir",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -79,8 +57,18 @@
             "channels": 8
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A3",
+                "labware": "Teleshake with slides mounted",
+                "slot": 4
+            },
+            "pose_z": "top(4)",
+            "channels": 8
+        },
+        {
             "action": "aspirate",
-            "vol": 100.0,
+            "vol": 300.0,
             "source": {
                 "well": "A1",
                 "labware": "reagent reservoir",
@@ -102,17 +90,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A1",
-                "labware": "reagent reservoir",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -122,17 +99,6 @@
             },
             "flow_rate": 7.6,
             "pose_z": "top(4)",
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A1",
-                "labware": "reagent reservoir",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
             "channels": 8
         },
         {
@@ -148,8 +114,18 @@
             "channels": 8
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A6",
+                "labware": "Teleshake with slides mounted",
+                "slot": 4
+            },
+            "pose_z": "top(4)",
+            "channels": 8
+        },
+        {
             "action": "aspirate",
-            "vol": 100.0,
+            "vol": 200.0,
             "source": {
                 "well": "A1",
                 "labware": "reagent reservoir",
@@ -171,17 +147,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A1",
-                "labware": "reagent reservoir",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -190,6 +155,16 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
+            "pose_z": "top(4)",
+            "channels": 8
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A8",
+                "labware": "Teleshake with slides mounted",
+                "slot": 4
+            },
             "pose_z": "top(4)",
             "channels": 8
         },
@@ -419,7 +394,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 100.0,
+            "vol": 300.0,
             "source": {
                 "well": "A3",
                 "labware": "reagent reservoir",
@@ -441,17 +416,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A3",
-                "labware": "reagent reservoir",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -464,17 +428,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A3",
-                "labware": "reagent reservoir",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -487,8 +440,18 @@
             "channels": 8
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A3",
+                "labware": "Teleshake with slides mounted",
+                "slot": 4
+            },
+            "pose_z": "top(4)",
+            "channels": 8
+        },
+        {
             "action": "aspirate",
-            "vol": 100.0,
+            "vol": 300.0,
             "source": {
                 "well": "A3",
                 "labware": "reagent reservoir",
@@ -510,17 +473,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A3",
-                "labware": "reagent reservoir",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -530,17 +482,6 @@
             },
             "flow_rate": 7.6,
             "pose_z": "top(4)",
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A3",
-                "labware": "reagent reservoir",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
             "channels": 8
         },
         {
@@ -556,8 +497,18 @@
             "channels": 8
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A6",
+                "labware": "Teleshake with slides mounted",
+                "slot": 4
+            },
+            "pose_z": "top(4)",
+            "channels": 8
+        },
+        {
             "action": "aspirate",
-            "vol": 100.0,
+            "vol": 200.0,
             "source": {
                 "well": "A3",
                 "labware": "reagent reservoir",
@@ -579,17 +530,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A3",
-                "labware": "reagent reservoir",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -598,6 +538,16 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
+            "pose_z": "top(4)",
+            "channels": 8
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A8",
+                "labware": "Teleshake with slides mounted",
+                "slot": 4
+            },
             "pose_z": "top(4)",
             "channels": 8
         },
@@ -823,7 +773,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 100.0,
+            "vol": 300.0,
             "source": {
                 "well": "A3",
                 "labware": "reagent reservoir",
@@ -845,17 +795,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A3",
-                "labware": "reagent reservoir",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -868,17 +807,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A3",
-                "labware": "reagent reservoir",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -891,8 +819,18 @@
             "channels": 8
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A3",
+                "labware": "Teleshake with slides mounted",
+                "slot": 4
+            },
+            "pose_z": "top(4)",
+            "channels": 8
+        },
+        {
             "action": "aspirate",
-            "vol": 100.0,
+            "vol": 300.0,
             "source": {
                 "well": "A3",
                 "labware": "reagent reservoir",
@@ -914,17 +852,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A3",
-                "labware": "reagent reservoir",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -934,17 +861,6 @@
             },
             "flow_rate": 7.6,
             "pose_z": "top(4)",
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A3",
-                "labware": "reagent reservoir",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
             "channels": 8
         },
         {
@@ -960,8 +876,18 @@
             "channels": 8
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A6",
+                "labware": "Teleshake with slides mounted",
+                "slot": 4
+            },
+            "pose_z": "top(4)",
+            "channels": 8
+        },
+        {
             "action": "aspirate",
-            "vol": 100.0,
+            "vol": 200.0,
             "source": {
                 "well": "A3",
                 "labware": "reagent reservoir",
@@ -983,17 +909,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A3",
-                "labware": "reagent reservoir",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -1002,6 +917,16 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
+            "pose_z": "top(4)",
+            "channels": 8
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A8",
+                "labware": "Teleshake with slides mounted",
+                "slot": 4
+            },
             "pose_z": "top(4)",
             "channels": 8
         },
@@ -1431,7 +1356,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 100.0,
+            "vol": 300.0,
             "source": {
                 "well": "A4",
                 "labware": "reagent reservoir",
@@ -1453,17 +1378,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A4",
-                "labware": "reagent reservoir",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -1473,17 +1387,6 @@
             },
             "flow_rate": 7.6,
             "pose_z": "top(4)",
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A4",
-                "labware": "reagent reservoir",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
             "channels": 8
         },
         {
@@ -1499,8 +1402,18 @@
             "channels": 8
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A3",
+                "labware": "Teleshake with slides mounted",
+                "slot": 4
+            },
+            "pose_z": "top(4)",
+            "channels": 8
+        },
+        {
             "action": "aspirate",
-            "vol": 100.0,
+            "vol": 300.0,
             "source": {
                 "well": "A4",
                 "labware": "reagent reservoir",
@@ -1519,17 +1432,6 @@
             },
             "flow_rate": 7.6,
             "pose_z": "top(4)",
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A4",
-                "labware": "reagent reservoir",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
             "channels": 8
         },
         {
@@ -1545,17 +1447,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A4",
-                "labware": "reagent reservoir",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -1568,8 +1459,18 @@
             "channels": 8
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A6",
+                "labware": "Teleshake with slides mounted",
+                "slot": 4
+            },
+            "pose_z": "top(4)",
+            "channels": 8
+        },
+        {
             "action": "aspirate",
-            "vol": 100.0,
+            "vol": 200.0,
             "source": {
                 "well": "A4",
                 "labware": "reagent reservoir",
@@ -1591,17 +1492,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A4",
-                "labware": "reagent reservoir",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -1610,6 +1500,16 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
+            "pose_z": "top(4)",
+            "channels": 8
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A8",
+                "labware": "Teleshake with slides mounted",
+                "slot": 4
+            },
             "pose_z": "top(4)",
             "channels": 8
         },
@@ -1835,7 +1735,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 100.0,
+            "vol": 300.0,
             "source": {
                 "well": "A7",
                 "labware": "reagent reservoir",
@@ -1857,17 +1757,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A7",
-                "labware": "reagent reservoir",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -1877,17 +1766,6 @@
             },
             "flow_rate": 7.6,
             "pose_z": "top(4)",
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A7",
-                "labware": "reagent reservoir",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
             "channels": 8
         },
         {
@@ -1903,8 +1781,18 @@
             "channels": 8
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A3",
+                "labware": "Teleshake with slides mounted",
+                "slot": 4
+            },
+            "pose_z": "top(4)",
+            "channels": 8
+        },
+        {
             "action": "aspirate",
-            "vol": 100.0,
+            "vol": 300.0,
             "source": {
                 "well": "A7",
                 "labware": "reagent reservoir",
@@ -1926,17 +1814,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A7",
-                "labware": "reagent reservoir",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -1946,17 +1823,6 @@
             },
             "flow_rate": 7.6,
             "pose_z": "top(4)",
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A7",
-                "labware": "reagent reservoir",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
             "channels": 8
         },
         {
@@ -1972,8 +1838,18 @@
             "channels": 8
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A6",
+                "labware": "Teleshake with slides mounted",
+                "slot": 4
+            },
+            "pose_z": "top(4)",
+            "channels": 8
+        },
+        {
             "action": "aspirate",
-            "vol": 100.0,
+            "vol": 200.0,
             "source": {
                 "well": "A7",
                 "labware": "reagent reservoir",
@@ -1995,17 +1871,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A7",
-                "labware": "reagent reservoir",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -2014,6 +1879,16 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
+            "pose_z": "top(4)",
+            "channels": 8
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A8",
+                "labware": "Teleshake with slides mounted",
+                "slot": 4
+            },
             "pose_z": "top(4)",
             "channels": 8
         },
@@ -2239,7 +2114,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 100.0,
+            "vol": 300.0,
             "source": {
                 "well": "A4",
                 "labware": "reagent reservoir",
@@ -2261,17 +2136,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A4",
-                "labware": "reagent reservoir",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -2281,17 +2145,6 @@
             },
             "flow_rate": 7.6,
             "pose_z": "top(4)",
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A4",
-                "labware": "reagent reservoir",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
             "channels": 8
         },
         {
@@ -2307,8 +2160,18 @@
             "channels": 8
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A3",
+                "labware": "Teleshake with slides mounted",
+                "slot": 4
+            },
+            "pose_z": "top(4)",
+            "channels": 8
+        },
+        {
             "action": "aspirate",
-            "vol": 100.0,
+            "vol": 300.0,
             "source": {
                 "well": "A4",
                 "labware": "reagent reservoir",
@@ -2327,17 +2190,6 @@
             },
             "flow_rate": 7.6,
             "pose_z": "top(4)",
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A4",
-                "labware": "reagent reservoir",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
             "channels": 8
         },
         {
@@ -2353,17 +2205,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A4",
-                "labware": "reagent reservoir",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -2376,8 +2217,18 @@
             "channels": 8
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A6",
+                "labware": "Teleshake with slides mounted",
+                "slot": 4
+            },
+            "pose_z": "top(4)",
+            "channels": 8
+        },
+        {
             "action": "aspirate",
-            "vol": 100.0,
+            "vol": 200.0,
             "source": {
                 "well": "A4",
                 "labware": "reagent reservoir",
@@ -2399,17 +2250,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A4",
-                "labware": "reagent reservoir",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -2418,6 +2258,16 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
+            "pose_z": "top(4)",
+            "channels": 8
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A8",
+                "labware": "Teleshake with slides mounted",
+                "slot": 4
+            },
             "pose_z": "top(4)",
             "channels": 8
         },
@@ -2643,7 +2493,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 100.0,
+            "vol": 300.0,
             "source": {
                 "well": "A2",
                 "labware": "reagent reservoir",
@@ -2665,17 +2515,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A2",
-                "labware": "reagent reservoir",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -2685,17 +2524,6 @@
             },
             "flow_rate": 7.6,
             "pose_z": "top(4)",
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A2",
-                "labware": "reagent reservoir",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
             "channels": 8
         },
         {
@@ -2711,8 +2539,18 @@
             "channels": 8
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A3",
+                "labware": "Teleshake with slides mounted",
+                "slot": 4
+            },
+            "pose_z": "top(4)",
+            "channels": 8
+        },
+        {
             "action": "aspirate",
-            "vol": 100.0,
+            "vol": 300.0,
             "source": {
                 "well": "A2",
                 "labware": "reagent reservoir",
@@ -2734,17 +2572,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A2",
-                "labware": "reagent reservoir",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -2754,17 +2581,6 @@
             },
             "flow_rate": 7.6,
             "pose_z": "top(4)",
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A2",
-                "labware": "reagent reservoir",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
             "channels": 8
         },
         {
@@ -2780,8 +2596,18 @@
             "channels": 8
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A6",
+                "labware": "Teleshake with slides mounted",
+                "slot": 4
+            },
+            "pose_z": "top(4)",
+            "channels": 8
+        },
+        {
             "action": "aspirate",
-            "vol": 100.0,
+            "vol": 200.0,
             "source": {
                 "well": "A2",
                 "labware": "reagent reservoir",
@@ -2803,17 +2629,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A2",
-                "labware": "reagent reservoir",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -2822,6 +2637,16 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
+            "pose_z": "top(4)",
+            "channels": 8
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A8",
+                "labware": "Teleshake with slides mounted",
+                "slot": 4
+            },
             "pose_z": "top(4)",
             "channels": 8
         }
@@ -3042,7 +2867,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 100.0,
+            "vol": 300.0,
             "source": {
                 "well": "A5",
                 "labware": "reagent reservoir",
@@ -3064,17 +2889,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A5",
-                "labware": "reagent reservoir",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -3084,17 +2898,6 @@
             },
             "flow_rate": 7.6,
             "pose_z": "top(4)",
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A5",
-                "labware": "reagent reservoir",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
             "channels": 8
         },
         {
@@ -3110,8 +2913,18 @@
             "channels": 8
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A3",
+                "labware": "Teleshake with slides mounted",
+                "slot": 4
+            },
+            "pose_z": "top(4)",
+            "channels": 8
+        },
+        {
             "action": "aspirate",
-            "vol": 100.0,
+            "vol": 300.0,
             "source": {
                 "well": "A5",
                 "labware": "reagent reservoir",
@@ -3133,17 +2946,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A5",
-                "labware": "reagent reservoir",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -3153,17 +2955,6 @@
             },
             "flow_rate": 7.6,
             "pose_z": "top(4)",
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A5",
-                "labware": "reagent reservoir",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
             "channels": 8
         },
         {
@@ -3179,8 +2970,18 @@
             "channels": 8
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A6",
+                "labware": "Teleshake with slides mounted",
+                "slot": 4
+            },
+            "pose_z": "top(4)",
+            "channels": 8
+        },
+        {
             "action": "aspirate",
-            "vol": 100.0,
+            "vol": 200.0,
             "source": {
                 "well": "A5",
                 "labware": "reagent reservoir",
@@ -3202,17 +3003,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A5",
-                "labware": "reagent reservoir",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -3221,6 +3011,16 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
+            "pose_z": "top(4)",
+            "channels": 8
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A8",
+                "labware": "Teleshake with slides mounted",
+                "slot": 4
+            },
             "pose_z": "top(4)",
             "channels": 8
         },
@@ -3446,7 +3246,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 100.0,
+            "vol": 300.0,
             "source": {
                 "well": "A5",
                 "labware": "reagent reservoir",
@@ -3468,17 +3268,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A5",
-                "labware": "reagent reservoir",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -3488,17 +3277,6 @@
             },
             "flow_rate": 7.6,
             "pose_z": "top(4)",
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A5",
-                "labware": "reagent reservoir",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
             "channels": 8
         },
         {
@@ -3514,8 +3292,18 @@
             "channels": 8
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A3",
+                "labware": "Teleshake with slides mounted",
+                "slot": 4
+            },
+            "pose_z": "top(4)",
+            "channels": 8
+        },
+        {
             "action": "aspirate",
-            "vol": 100.0,
+            "vol": 300.0,
             "source": {
                 "well": "A5",
                 "labware": "reagent reservoir",
@@ -3537,17 +3325,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A5",
-                "labware": "reagent reservoir",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -3557,17 +3334,6 @@
             },
             "flow_rate": 7.6,
             "pose_z": "top(4)",
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A5",
-                "labware": "reagent reservoir",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
             "channels": 8
         },
         {
@@ -3583,8 +3349,18 @@
             "channels": 8
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A6",
+                "labware": "Teleshake with slides mounted",
+                "slot": 4
+            },
+            "pose_z": "top(4)",
+            "channels": 8
+        },
+        {
             "action": "aspirate",
-            "vol": 100.0,
+            "vol": 200.0,
             "source": {
                 "well": "A5",
                 "labware": "reagent reservoir",
@@ -3606,17 +3382,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A5",
-                "labware": "reagent reservoir",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -3625,6 +3390,16 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
+            "pose_z": "top(4)",
+            "channels": 8
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A8",
+                "labware": "Teleshake with slides mounted",
+                "slot": 4
+            },
             "pose_z": "top(4)",
             "channels": 8
         },
@@ -3850,7 +3625,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 100.0,
+            "vol": 300.0,
             "source": {
                 "well": "A6",
                 "labware": "reagent reservoir",
@@ -3872,17 +3647,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A6",
-                "labware": "reagent reservoir",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -3892,17 +3656,6 @@
             },
             "flow_rate": 7.6,
             "pose_z": "top(4)",
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A6",
-                "labware": "reagent reservoir",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
             "channels": 8
         },
         {
@@ -3918,8 +3671,18 @@
             "channels": 8
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A3",
+                "labware": "Teleshake with slides mounted",
+                "slot": 4
+            },
+            "pose_z": "top(4)",
+            "channels": 8
+        },
+        {
             "action": "aspirate",
-            "vol": 100.0,
+            "vol": 300.0,
             "source": {
                 "well": "A6",
                 "labware": "reagent reservoir",
@@ -3941,17 +3704,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A6",
-                "labware": "reagent reservoir",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -3964,17 +3716,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A6",
-                "labware": "reagent reservoir",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -3987,8 +3728,18 @@
             "channels": 8
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A6",
+                "labware": "Teleshake with slides mounted",
+                "slot": 4
+            },
+            "pose_z": "top(4)",
+            "channels": 8
+        },
+        {
             "action": "aspirate",
-            "vol": 100.0,
+            "vol": 200.0,
             "source": {
                 "well": "A6",
                 "labware": "reagent reservoir",
@@ -4010,17 +3761,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A6",
-                "labware": "reagent reservoir",
-                "slot": 3
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -4029,6 +3769,16 @@
                 "slot": 4
             },
             "flow_rate": 7.6,
+            "pose_z": "top(4)",
+            "channels": 8
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A8",
+                "labware": "Teleshake with slides mounted",
+                "slot": 4
+            },
             "pose_z": "top(4)",
             "channels": 8
         },

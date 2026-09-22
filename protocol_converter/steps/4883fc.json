@@ -95,7 +95,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 67.0,
+            "vol": 50.0,
             "source": {
                 "well": "C1",
                 "labware": "source plate",
@@ -105,7 +105,27 @@
         },
         {
             "action": "dispense",
-            "vol": 67.0,
+            "vol": 50.0,
+            "target": {
+                "well": "B1",
+                "labware": "end plate",
+                "slot": 6
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "aspirate",
+            "vol": 17.0,
+            "source": {
+                "well": "C1",
+                "labware": "source plate",
+                "slot": 5
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "dispense",
+            "vol": 17.0,
             "target": {
                 "well": "B1",
                 "labware": "end plate",

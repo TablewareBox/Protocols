@@ -542,22 +542,36 @@
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "Liquid_2",
+        "sources": [
+          "Liquid_2",
+          "Liquid_3",
+          "source"
+        ],
         "targets": "samples_4",
         "asp_vols": [
-          90.0
+          90.0,
+          25.0,
+          25.0
         ],
         "dis_vols": [
-          90.0
+          90.0,
+          25.0,
+          25.0
         ],
         "asp_flow_rates": [
+          7.6,
+          7.6,
           7.6
         ],
         "dis_flow_rates": [
+          7.6,
+          7.6,
           7.6
         ],
         "tip_racks": "tiprack_2",
         "liquid_height": [
+          0,
+          0,
           0
         ]
       }
@@ -565,68 +579,66 @@
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "Liquid_3",
-        "targets": "samples_4",
-        "asp_vols": [
-          25.0
+        "sources": [
+          "dna_sources",
+          "dna_sources_2",
+          "dna_sources_3",
+          "dna_sources_4",
+          "dna_sources_5",
+          "dna_sources_6",
+          "dna_sources_7",
+          "dna_sources_8"
         ],
-        "dis_vols": [
-          25.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_2",
-        "liquid_height": [
-          0
-        ]
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "source",
-        "targets": "samples_4",
-        "asp_vols": [
-          25.0
-        ],
-        "dis_vols": [
-          25.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_2",
-        "liquid_height": [
-          0
-        ]
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources",
         "targets": "samples_5",
         "asp_vols": [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
           2.0
         ],
         "dis_vols": [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
           2.0
         ],
         "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
           7.6
         ],
         "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
           7.6
         ],
         "tip_racks": "tiprack_3",
         "liquid_height": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           0
         ],
         "mix_stage": "after",
@@ -638,22 +650,66 @@
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "dna_sources_2",
+        "sources": [
+          "dna_sources_9",
+          "dna_sources_10",
+          "dna_sources_11",
+          "dna_sources_12",
+          "dna_sources_13",
+          "dna_sources_14",
+          "dna_sources_15",
+          "dna_sources_16"
+        ],
         "targets": "samples_6",
         "asp_vols": [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
           2.0
         ],
         "dis_vols": [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
           2.0
         ],
         "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
           7.6
         ],
         "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
           7.6
         ],
         "tip_racks": "tiprack_3",
         "liquid_height": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           0
         ],
         "mix_stage": "after",
@@ -665,22 +721,66 @@
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "dna_sources_3",
+        "sources": [
+          "dna_sources_17",
+          "dna_sources_18",
+          "dna_sources_19",
+          "dna_sources_20",
+          "dna_sources_21",
+          "dna_sources_22",
+          "dna_sources_23",
+          "dna_sources_24"
+        ],
         "targets": "samples_7",
         "asp_vols": [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
           2.0
         ],
         "dis_vols": [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
           2.0
         ],
         "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
           7.6
         ],
         "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
           7.6
         ],
         "tip_racks": "tiprack_3",
         "liquid_height": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           0
         ],
         "mix_stage": "after",
@@ -692,22 +792,66 @@
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "dna_sources_4",
+        "sources": [
+          "dna_sources_25",
+          "dna_sources_26",
+          "dna_sources_27",
+          "dna_sources_28",
+          "dna_sources_29",
+          "dna_sources_30",
+          "dna_sources_31",
+          "dna_sources_32"
+        ],
         "targets": "samples_8",
         "asp_vols": [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
           2.0
         ],
         "dis_vols": [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
           2.0
         ],
         "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
           7.6
         ],
         "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
           7.6
         ],
         "tip_racks": "tiprack_3",
         "liquid_height": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           0
         ],
         "mix_stage": "after",
@@ -719,22 +863,66 @@
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "dna_sources_5",
+        "sources": [
+          "dna_sources_33",
+          "dna_sources_34",
+          "dna_sources_35",
+          "dna_sources_36",
+          "dna_sources_37",
+          "dna_sources_38",
+          "dna_sources_39",
+          "dna_sources_40"
+        ],
         "targets": "samples_9",
         "asp_vols": [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
           2.0
         ],
         "dis_vols": [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
           2.0
         ],
         "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
           7.6
         ],
         "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
           7.6
         ],
         "tip_racks": "tiprack_3",
         "liquid_height": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           0
         ],
         "mix_stage": "after",
@@ -746,22 +934,66 @@
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "dna_sources_6",
+        "sources": [
+          "dna_sources_41",
+          "dna_sources_42",
+          "dna_sources_43",
+          "dna_sources_44",
+          "dna_sources_45",
+          "dna_sources_46",
+          "dna_sources_47",
+          "dna_sources_48"
+        ],
         "targets": "samples_10",
         "asp_vols": [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
           2.0
         ],
         "dis_vols": [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
           2.0
         ],
         "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
           7.6
         ],
         "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
           7.6
         ],
         "tip_racks": "tiprack_3",
         "liquid_height": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           0
         ],
         "mix_stage": "after",
@@ -773,22 +1005,66 @@
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "dna_sources_7",
+        "sources": [
+          "dna_sources_49",
+          "dna_sources_50",
+          "dna_sources_51",
+          "dna_sources_52",
+          "dna_sources_53",
+          "dna_sources_54",
+          "dna_sources_55",
+          "dna_sources_56"
+        ],
         "targets": "samples_11",
         "asp_vols": [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
           2.0
         ],
         "dis_vols": [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
           2.0
         ],
         "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
           7.6
         ],
         "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
           7.6
         ],
         "tip_racks": "tiprack_3",
         "liquid_height": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           0
         ],
         "mix_stage": "after",
@@ -800,22 +1076,66 @@
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "dna_sources_8",
+        "sources": [
+          "dna_sources_57",
+          "dna_sources_58",
+          "dna_sources_59",
+          "dna_sources_60",
+          "dna_sources_61",
+          "dna_sources_62",
+          "dna_sources_63",
+          "dna_sources_64"
+        ],
         "targets": "samples_12",
         "asp_vols": [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
           2.0
         ],
         "dis_vols": [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
           2.0
         ],
         "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
           7.6
         ],
         "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
           7.6
         ],
         "tip_racks": "tiprack_3",
         "liquid_height": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           0
         ],
         "mix_stage": "after",
@@ -827,22 +1147,66 @@
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "dna_sources_9",
+        "sources": [
+          "dna_sources_65",
+          "dna_sources_66",
+          "dna_sources_67",
+          "dna_sources_68",
+          "dna_sources_69",
+          "dna_sources_70",
+          "dna_sources_71",
+          "dna_sources_72"
+        ],
         "targets": "samples_13",
         "asp_vols": [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
           2.0
         ],
         "dis_vols": [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
           2.0
         ],
         "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
           7.6
         ],
         "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
           7.6
         ],
         "tip_racks": "tiprack_3",
         "liquid_height": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           0
         ],
         "mix_stage": "after",
@@ -854,22 +1218,66 @@
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "dna_sources_10",
+        "sources": [
+          "dna_sources_73",
+          "dna_sources_74",
+          "dna_sources_75",
+          "dna_sources_76",
+          "dna_sources_77",
+          "dna_sources_78",
+          "dna_sources_79",
+          "dna_sources_80"
+        ],
         "targets": "samples_14",
         "asp_vols": [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
           2.0
         ],
         "dis_vols": [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
           2.0
         ],
         "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
           7.6
         ],
         "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
           7.6
         ],
         "tip_racks": "tiprack_3",
         "liquid_height": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           0
         ],
         "mix_stage": "after",
@@ -881,22 +1289,66 @@
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "dna_sources_11",
+        "sources": [
+          "dna_sources_81",
+          "dna_sources_82",
+          "dna_sources_83",
+          "dna_sources_84",
+          "dna_sources_85",
+          "dna_sources_86",
+          "dna_sources_87",
+          "dna_sources_88"
+        ],
         "targets": "samples_15",
         "asp_vols": [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
           2.0
         ],
         "dis_vols": [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
           2.0
         ],
         "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
           7.6
         ],
         "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
           7.6
         ],
         "tip_racks": "tiprack_3",
         "liquid_height": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           0
         ],
         "mix_stage": "after",
@@ -908,2290 +1360,66 @@
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "dna_sources_12",
+        "sources": [
+          "dna_sources_89",
+          "dna_sources_90",
+          "dna_sources_91",
+          "dna_sources_92",
+          "dna_sources_93",
+          "dna_sources_94",
+          "dna_sources_95",
+          "dna_sources_96"
+        ],
         "targets": "samples_16",
         "asp_vols": [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
           2.0
         ],
         "dis_vols": [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
           2.0
         ],
         "asp_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
           7.6
         ],
         "dis_flow_rates": [
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
+          7.6,
           7.6
         ],
         "tip_racks": "tiprack_3",
         "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_13",
-        "targets": "samples_17",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_14",
-        "targets": "samples_18",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_15",
-        "targets": "samples_19",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_16",
-        "targets": "samples_20",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_17",
-        "targets": "samples_21",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_18",
-        "targets": "samples_22",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_19",
-        "targets": "samples_23",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_20",
-        "targets": "samples_24",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_21",
-        "targets": "samples_25",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_22",
-        "targets": "samples_26",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_23",
-        "targets": "samples_27",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_24",
-        "targets": "samples_28",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_25",
-        "targets": "samples_29",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_26",
-        "targets": "samples_30",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_27",
-        "targets": "samples_31",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_28",
-        "targets": "samples_32",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_29",
-        "targets": "samples_33",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_30",
-        "targets": "samples_34",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_31",
-        "targets": "samples_35",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_32",
-        "targets": "samples_36",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_33",
-        "targets": "samples_37",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_34",
-        "targets": "samples_38",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_35",
-        "targets": "samples_39",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_36",
-        "targets": "samples_40",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_37",
-        "targets": "samples_41",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_38",
-        "targets": "samples_42",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_39",
-        "targets": "samples_43",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_40",
-        "targets": "samples_44",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_41",
-        "targets": "samples_45",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_42",
-        "targets": "samples_46",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_43",
-        "targets": "samples_47",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_44",
-        "targets": "samples_48",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_45",
-        "targets": "samples_49",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_46",
-        "targets": "samples_50",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_47",
-        "targets": "samples_51",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_48",
-        "targets": "samples_52",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_49",
-        "targets": "samples_53",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_50",
-        "targets": "samples_54",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_51",
-        "targets": "samples_55",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_52",
-        "targets": "samples_56",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_53",
-        "targets": "samples_57",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_54",
-        "targets": "samples_58",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_55",
-        "targets": "samples_59",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_56",
-        "targets": "samples_60",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_57",
-        "targets": "samples_61",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_58",
-        "targets": "samples_62",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_59",
-        "targets": "samples_63",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_60",
-        "targets": "samples_64",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_61",
-        "targets": "samples_65",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_62",
-        "targets": "samples_66",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_63",
-        "targets": "samples_67",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_64",
-        "targets": "samples_68",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_65",
-        "targets": "samples_69",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_66",
-        "targets": "samples_70",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_67",
-        "targets": "samples_71",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_68",
-        "targets": "samples_72",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_69",
-        "targets": "samples_73",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_70",
-        "targets": "samples_74",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_71",
-        "targets": "samples_75",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_72",
-        "targets": "samples_76",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_73",
-        "targets": "samples_77",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_74",
-        "targets": "samples_78",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_75",
-        "targets": "samples_79",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_76",
-        "targets": "samples_80",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_77",
-        "targets": "samples_81",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_78",
-        "targets": "samples_82",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_79",
-        "targets": "samples_83",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_80",
-        "targets": "samples_84",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_81",
-        "targets": "samples_85",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_82",
-        "targets": "samples_86",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_83",
-        "targets": "samples_87",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_84",
-        "targets": "samples_88",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_85",
-        "targets": "samples_89",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_86",
-        "targets": "samples_90",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_87",
-        "targets": "samples_91",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_88",
-        "targets": "samples_92",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_89",
-        "targets": "samples_93",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_90",
-        "targets": "samples_94",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_91",
-        "targets": "samples_95",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_3",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_92",
-        "targets": "samples_96",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_2",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_93",
-        "targets": "samples_97",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_2",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_94",
-        "targets": "samples_98",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_2",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_95",
-        "targets": "samples_99",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_2",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 5,
-        "mix_vol": 16.4,
-        "mix_rate": 7.6
-      }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "dna_sources_96",
-        "targets": "samples_100",
-        "asp_vols": [
-          2.0
-        ],
-        "dis_vols": [
-          2.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_2",
-        "liquid_height": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           0
         ],
         "mix_stage": "after",
@@ -3223,7 +1451,9 @@
     "Liquid_2": {
       "slot": 1,
       "well": [
-        "A2"
+        "A2",
+        "A4",
+        "A5"
       ],
       "labware": "opentrons_24_aluminumblock_nest_1.5ml_screwcap",
       "object": "source",
@@ -3232,7 +1462,9 @@
     "Liquid_3": {
       "slot": 1,
       "well": [
-        "A4"
+        "A2",
+        "A4",
+        "A5"
       ],
       "labware": "opentrons_24_aluminumblock_nest_1.5ml_screwcap",
       "object": "source",
@@ -3241,6 +1473,8 @@
     "source": {
       "slot": 1,
       "well": [
+        "A2",
+        "A4",
         "A5"
       ],
       "labware": "opentrons_24_aluminumblock_nest_1.5ml_screwcap",
@@ -3250,7 +1484,14 @@
     "dna_sources": {
       "slot": 5,
       "well": [
-        "A1"
+        "A1",
+        "B1",
+        "C1",
+        "D1",
+        "E1",
+        "F1",
+        "G1",
+        "H1"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3259,7 +1500,14 @@
     "dna_sources_2": {
       "slot": 5,
       "well": [
-        "B1"
+        "A1",
+        "B1",
+        "C1",
+        "D1",
+        "E1",
+        "F1",
+        "G1",
+        "H1"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3268,7 +1516,14 @@
     "dna_sources_3": {
       "slot": 5,
       "well": [
-        "C1"
+        "A1",
+        "B1",
+        "C1",
+        "D1",
+        "E1",
+        "F1",
+        "G1",
+        "H1"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3277,7 +1532,14 @@
     "dna_sources_4": {
       "slot": 5,
       "well": [
-        "D1"
+        "A1",
+        "B1",
+        "C1",
+        "D1",
+        "E1",
+        "F1",
+        "G1",
+        "H1"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3286,7 +1548,14 @@
     "dna_sources_5": {
       "slot": 5,
       "well": [
-        "E1"
+        "A1",
+        "B1",
+        "C1",
+        "D1",
+        "E1",
+        "F1",
+        "G1",
+        "H1"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3295,7 +1564,14 @@
     "dna_sources_6": {
       "slot": 5,
       "well": [
-        "F1"
+        "A1",
+        "B1",
+        "C1",
+        "D1",
+        "E1",
+        "F1",
+        "G1",
+        "H1"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3304,7 +1580,14 @@
     "dna_sources_7": {
       "slot": 5,
       "well": [
-        "G1"
+        "A1",
+        "B1",
+        "C1",
+        "D1",
+        "E1",
+        "F1",
+        "G1",
+        "H1"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3313,6 +1596,13 @@
     "dna_sources_8": {
       "slot": 5,
       "well": [
+        "A1",
+        "B1",
+        "C1",
+        "D1",
+        "E1",
+        "F1",
+        "G1",
         "H1"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
@@ -3322,7 +1612,14 @@
     "dna_sources_9": {
       "slot": 5,
       "well": [
-        "A2"
+        "A2",
+        "B2",
+        "C2",
+        "D2",
+        "E2",
+        "F2",
+        "G2",
+        "H2"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3331,7 +1628,14 @@
     "dna_sources_10": {
       "slot": 5,
       "well": [
-        "B2"
+        "A2",
+        "B2",
+        "C2",
+        "D2",
+        "E2",
+        "F2",
+        "G2",
+        "H2"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3340,7 +1644,14 @@
     "dna_sources_11": {
       "slot": 5,
       "well": [
-        "C2"
+        "A2",
+        "B2",
+        "C2",
+        "D2",
+        "E2",
+        "F2",
+        "G2",
+        "H2"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3349,7 +1660,14 @@
     "dna_sources_12": {
       "slot": 5,
       "well": [
-        "D2"
+        "A2",
+        "B2",
+        "C2",
+        "D2",
+        "E2",
+        "F2",
+        "G2",
+        "H2"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3358,7 +1676,14 @@
     "dna_sources_13": {
       "slot": 5,
       "well": [
-        "E2"
+        "A2",
+        "B2",
+        "C2",
+        "D2",
+        "E2",
+        "F2",
+        "G2",
+        "H2"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3367,7 +1692,14 @@
     "dna_sources_14": {
       "slot": 5,
       "well": [
-        "F2"
+        "A2",
+        "B2",
+        "C2",
+        "D2",
+        "E2",
+        "F2",
+        "G2",
+        "H2"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3376,7 +1708,14 @@
     "dna_sources_15": {
       "slot": 5,
       "well": [
-        "G2"
+        "A2",
+        "B2",
+        "C2",
+        "D2",
+        "E2",
+        "F2",
+        "G2",
+        "H2"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3385,6 +1724,13 @@
     "dna_sources_16": {
       "slot": 5,
       "well": [
+        "A2",
+        "B2",
+        "C2",
+        "D2",
+        "E2",
+        "F2",
+        "G2",
         "H2"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
@@ -3394,7 +1740,14 @@
     "dna_sources_17": {
       "slot": 5,
       "well": [
-        "A3"
+        "A3",
+        "B3",
+        "C3",
+        "D3",
+        "E3",
+        "F3",
+        "G3",
+        "H3"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3403,7 +1756,14 @@
     "dna_sources_18": {
       "slot": 5,
       "well": [
-        "B3"
+        "A3",
+        "B3",
+        "C3",
+        "D3",
+        "E3",
+        "F3",
+        "G3",
+        "H3"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3412,7 +1772,14 @@
     "dna_sources_19": {
       "slot": 5,
       "well": [
-        "C3"
+        "A3",
+        "B3",
+        "C3",
+        "D3",
+        "E3",
+        "F3",
+        "G3",
+        "H3"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3421,7 +1788,14 @@
     "dna_sources_20": {
       "slot": 5,
       "well": [
-        "D3"
+        "A3",
+        "B3",
+        "C3",
+        "D3",
+        "E3",
+        "F3",
+        "G3",
+        "H3"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3430,7 +1804,14 @@
     "dna_sources_21": {
       "slot": 5,
       "well": [
-        "E3"
+        "A3",
+        "B3",
+        "C3",
+        "D3",
+        "E3",
+        "F3",
+        "G3",
+        "H3"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3439,7 +1820,14 @@
     "dna_sources_22": {
       "slot": 5,
       "well": [
-        "F3"
+        "A3",
+        "B3",
+        "C3",
+        "D3",
+        "E3",
+        "F3",
+        "G3",
+        "H3"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3448,7 +1836,14 @@
     "dna_sources_23": {
       "slot": 5,
       "well": [
-        "G3"
+        "A3",
+        "B3",
+        "C3",
+        "D3",
+        "E3",
+        "F3",
+        "G3",
+        "H3"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3457,6 +1852,13 @@
     "dna_sources_24": {
       "slot": 5,
       "well": [
+        "A3",
+        "B3",
+        "C3",
+        "D3",
+        "E3",
+        "F3",
+        "G3",
         "H3"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
@@ -3466,7 +1868,14 @@
     "dna_sources_25": {
       "slot": 5,
       "well": [
-        "A4"
+        "A4",
+        "B4",
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "H4"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3475,7 +1884,14 @@
     "dna_sources_26": {
       "slot": 5,
       "well": [
-        "B4"
+        "A4",
+        "B4",
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "H4"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3484,7 +1900,14 @@
     "dna_sources_27": {
       "slot": 5,
       "well": [
-        "C4"
+        "A4",
+        "B4",
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "H4"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3493,7 +1916,14 @@
     "dna_sources_28": {
       "slot": 5,
       "well": [
-        "D4"
+        "A4",
+        "B4",
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "H4"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3502,7 +1932,14 @@
     "dna_sources_29": {
       "slot": 5,
       "well": [
-        "E4"
+        "A4",
+        "B4",
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "H4"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3511,7 +1948,14 @@
     "dna_sources_30": {
       "slot": 5,
       "well": [
-        "F4"
+        "A4",
+        "B4",
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "H4"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3520,7 +1964,14 @@
     "dna_sources_31": {
       "slot": 5,
       "well": [
-        "G4"
+        "A4",
+        "B4",
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "H4"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3529,6 +1980,13 @@
     "dna_sources_32": {
       "slot": 5,
       "well": [
+        "A4",
+        "B4",
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
         "H4"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
@@ -3538,7 +1996,14 @@
     "dna_sources_33": {
       "slot": 5,
       "well": [
-        "A5"
+        "A5",
+        "B5",
+        "C5",
+        "D5",
+        "E5",
+        "F5",
+        "G5",
+        "H5"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3547,7 +2012,14 @@
     "dna_sources_34": {
       "slot": 5,
       "well": [
-        "B5"
+        "A5",
+        "B5",
+        "C5",
+        "D5",
+        "E5",
+        "F5",
+        "G5",
+        "H5"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3556,7 +2028,14 @@
     "dna_sources_35": {
       "slot": 5,
       "well": [
-        "C5"
+        "A5",
+        "B5",
+        "C5",
+        "D5",
+        "E5",
+        "F5",
+        "G5",
+        "H5"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3565,7 +2044,14 @@
     "dna_sources_36": {
       "slot": 5,
       "well": [
-        "D5"
+        "A5",
+        "B5",
+        "C5",
+        "D5",
+        "E5",
+        "F5",
+        "G5",
+        "H5"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3574,7 +2060,14 @@
     "dna_sources_37": {
       "slot": 5,
       "well": [
-        "E5"
+        "A5",
+        "B5",
+        "C5",
+        "D5",
+        "E5",
+        "F5",
+        "G5",
+        "H5"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3583,7 +2076,14 @@
     "dna_sources_38": {
       "slot": 5,
       "well": [
-        "F5"
+        "A5",
+        "B5",
+        "C5",
+        "D5",
+        "E5",
+        "F5",
+        "G5",
+        "H5"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3592,7 +2092,14 @@
     "dna_sources_39": {
       "slot": 5,
       "well": [
-        "G5"
+        "A5",
+        "B5",
+        "C5",
+        "D5",
+        "E5",
+        "F5",
+        "G5",
+        "H5"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3601,6 +2108,13 @@
     "dna_sources_40": {
       "slot": 5,
       "well": [
+        "A5",
+        "B5",
+        "C5",
+        "D5",
+        "E5",
+        "F5",
+        "G5",
         "H5"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
@@ -3610,7 +2124,14 @@
     "dna_sources_41": {
       "slot": 5,
       "well": [
-        "A6"
+        "A6",
+        "B6",
+        "C6",
+        "D6",
+        "E6",
+        "F6",
+        "G6",
+        "H6"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3619,7 +2140,14 @@
     "dna_sources_42": {
       "slot": 5,
       "well": [
-        "B6"
+        "A6",
+        "B6",
+        "C6",
+        "D6",
+        "E6",
+        "F6",
+        "G6",
+        "H6"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3628,7 +2156,14 @@
     "dna_sources_43": {
       "slot": 5,
       "well": [
-        "C6"
+        "A6",
+        "B6",
+        "C6",
+        "D6",
+        "E6",
+        "F6",
+        "G6",
+        "H6"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3637,7 +2172,14 @@
     "dna_sources_44": {
       "slot": 5,
       "well": [
-        "D6"
+        "A6",
+        "B6",
+        "C6",
+        "D6",
+        "E6",
+        "F6",
+        "G6",
+        "H6"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3646,7 +2188,14 @@
     "dna_sources_45": {
       "slot": 5,
       "well": [
-        "E6"
+        "A6",
+        "B6",
+        "C6",
+        "D6",
+        "E6",
+        "F6",
+        "G6",
+        "H6"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3655,7 +2204,14 @@
     "dna_sources_46": {
       "slot": 5,
       "well": [
-        "F6"
+        "A6",
+        "B6",
+        "C6",
+        "D6",
+        "E6",
+        "F6",
+        "G6",
+        "H6"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3664,7 +2220,14 @@
     "dna_sources_47": {
       "slot": 5,
       "well": [
-        "G6"
+        "A6",
+        "B6",
+        "C6",
+        "D6",
+        "E6",
+        "F6",
+        "G6",
+        "H6"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3673,6 +2236,13 @@
     "dna_sources_48": {
       "slot": 5,
       "well": [
+        "A6",
+        "B6",
+        "C6",
+        "D6",
+        "E6",
+        "F6",
+        "G6",
         "H6"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
@@ -3682,7 +2252,14 @@
     "dna_sources_49": {
       "slot": 5,
       "well": [
-        "A7"
+        "A7",
+        "B7",
+        "C7",
+        "D7",
+        "E7",
+        "F7",
+        "G7",
+        "H7"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3691,7 +2268,14 @@
     "dna_sources_50": {
       "slot": 5,
       "well": [
-        "B7"
+        "A7",
+        "B7",
+        "C7",
+        "D7",
+        "E7",
+        "F7",
+        "G7",
+        "H7"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3700,7 +2284,14 @@
     "dna_sources_51": {
       "slot": 5,
       "well": [
-        "C7"
+        "A7",
+        "B7",
+        "C7",
+        "D7",
+        "E7",
+        "F7",
+        "G7",
+        "H7"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3709,7 +2300,14 @@
     "dna_sources_52": {
       "slot": 5,
       "well": [
-        "D7"
+        "A7",
+        "B7",
+        "C7",
+        "D7",
+        "E7",
+        "F7",
+        "G7",
+        "H7"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3718,7 +2316,14 @@
     "dna_sources_53": {
       "slot": 5,
       "well": [
-        "E7"
+        "A7",
+        "B7",
+        "C7",
+        "D7",
+        "E7",
+        "F7",
+        "G7",
+        "H7"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3727,7 +2332,14 @@
     "dna_sources_54": {
       "slot": 5,
       "well": [
-        "F7"
+        "A7",
+        "B7",
+        "C7",
+        "D7",
+        "E7",
+        "F7",
+        "G7",
+        "H7"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3736,7 +2348,14 @@
     "dna_sources_55": {
       "slot": 5,
       "well": [
-        "G7"
+        "A7",
+        "B7",
+        "C7",
+        "D7",
+        "E7",
+        "F7",
+        "G7",
+        "H7"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3745,6 +2364,13 @@
     "dna_sources_56": {
       "slot": 5,
       "well": [
+        "A7",
+        "B7",
+        "C7",
+        "D7",
+        "E7",
+        "F7",
+        "G7",
         "H7"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
@@ -3754,7 +2380,14 @@
     "dna_sources_57": {
       "slot": 5,
       "well": [
-        "A8"
+        "A8",
+        "B8",
+        "C8",
+        "D8",
+        "E8",
+        "F8",
+        "G8",
+        "H8"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3763,7 +2396,14 @@
     "dna_sources_58": {
       "slot": 5,
       "well": [
-        "B8"
+        "A8",
+        "B8",
+        "C8",
+        "D8",
+        "E8",
+        "F8",
+        "G8",
+        "H8"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3772,7 +2412,14 @@
     "dna_sources_59": {
       "slot": 5,
       "well": [
-        "C8"
+        "A8",
+        "B8",
+        "C8",
+        "D8",
+        "E8",
+        "F8",
+        "G8",
+        "H8"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3781,7 +2428,14 @@
     "dna_sources_60": {
       "slot": 5,
       "well": [
-        "D8"
+        "A8",
+        "B8",
+        "C8",
+        "D8",
+        "E8",
+        "F8",
+        "G8",
+        "H8"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3790,7 +2444,14 @@
     "dna_sources_61": {
       "slot": 5,
       "well": [
-        "E8"
+        "A8",
+        "B8",
+        "C8",
+        "D8",
+        "E8",
+        "F8",
+        "G8",
+        "H8"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3799,7 +2460,14 @@
     "dna_sources_62": {
       "slot": 5,
       "well": [
-        "F8"
+        "A8",
+        "B8",
+        "C8",
+        "D8",
+        "E8",
+        "F8",
+        "G8",
+        "H8"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3808,7 +2476,14 @@
     "dna_sources_63": {
       "slot": 5,
       "well": [
-        "G8"
+        "A8",
+        "B8",
+        "C8",
+        "D8",
+        "E8",
+        "F8",
+        "G8",
+        "H8"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3817,6 +2492,13 @@
     "dna_sources_64": {
       "slot": 5,
       "well": [
+        "A8",
+        "B8",
+        "C8",
+        "D8",
+        "E8",
+        "F8",
+        "G8",
         "H8"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
@@ -3826,7 +2508,14 @@
     "dna_sources_65": {
       "slot": 5,
       "well": [
-        "A9"
+        "A9",
+        "B9",
+        "C9",
+        "D9",
+        "E9",
+        "F9",
+        "G9",
+        "H9"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3835,7 +2524,14 @@
     "dna_sources_66": {
       "slot": 5,
       "well": [
-        "B9"
+        "A9",
+        "B9",
+        "C9",
+        "D9",
+        "E9",
+        "F9",
+        "G9",
+        "H9"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3844,7 +2540,14 @@
     "dna_sources_67": {
       "slot": 5,
       "well": [
-        "C9"
+        "A9",
+        "B9",
+        "C9",
+        "D9",
+        "E9",
+        "F9",
+        "G9",
+        "H9"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3853,7 +2556,14 @@
     "dna_sources_68": {
       "slot": 5,
       "well": [
-        "D9"
+        "A9",
+        "B9",
+        "C9",
+        "D9",
+        "E9",
+        "F9",
+        "G9",
+        "H9"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3862,7 +2572,14 @@
     "dna_sources_69": {
       "slot": 5,
       "well": [
-        "E9"
+        "A9",
+        "B9",
+        "C9",
+        "D9",
+        "E9",
+        "F9",
+        "G9",
+        "H9"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3871,7 +2588,14 @@
     "dna_sources_70": {
       "slot": 5,
       "well": [
-        "F9"
+        "A9",
+        "B9",
+        "C9",
+        "D9",
+        "E9",
+        "F9",
+        "G9",
+        "H9"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3880,7 +2604,14 @@
     "dna_sources_71": {
       "slot": 5,
       "well": [
-        "G9"
+        "A9",
+        "B9",
+        "C9",
+        "D9",
+        "E9",
+        "F9",
+        "G9",
+        "H9"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3889,6 +2620,13 @@
     "dna_sources_72": {
       "slot": 5,
       "well": [
+        "A9",
+        "B9",
+        "C9",
+        "D9",
+        "E9",
+        "F9",
+        "G9",
         "H9"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
@@ -3898,7 +2636,14 @@
     "dna_sources_73": {
       "slot": 5,
       "well": [
-        "A10"
+        "A10",
+        "B10",
+        "C10",
+        "D10",
+        "E10",
+        "F10",
+        "G10",
+        "H10"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3907,7 +2652,14 @@
     "dna_sources_74": {
       "slot": 5,
       "well": [
-        "B10"
+        "A10",
+        "B10",
+        "C10",
+        "D10",
+        "E10",
+        "F10",
+        "G10",
+        "H10"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3916,7 +2668,14 @@
     "dna_sources_75": {
       "slot": 5,
       "well": [
-        "C10"
+        "A10",
+        "B10",
+        "C10",
+        "D10",
+        "E10",
+        "F10",
+        "G10",
+        "H10"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3925,7 +2684,14 @@
     "dna_sources_76": {
       "slot": 5,
       "well": [
-        "D10"
+        "A10",
+        "B10",
+        "C10",
+        "D10",
+        "E10",
+        "F10",
+        "G10",
+        "H10"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3934,7 +2700,14 @@
     "dna_sources_77": {
       "slot": 5,
       "well": [
-        "E10"
+        "A10",
+        "B10",
+        "C10",
+        "D10",
+        "E10",
+        "F10",
+        "G10",
+        "H10"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3943,7 +2716,14 @@
     "dna_sources_78": {
       "slot": 5,
       "well": [
-        "F10"
+        "A10",
+        "B10",
+        "C10",
+        "D10",
+        "E10",
+        "F10",
+        "G10",
+        "H10"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3952,7 +2732,14 @@
     "dna_sources_79": {
       "slot": 5,
       "well": [
-        "G10"
+        "A10",
+        "B10",
+        "C10",
+        "D10",
+        "E10",
+        "F10",
+        "G10",
+        "H10"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3961,6 +2748,13 @@
     "dna_sources_80": {
       "slot": 5,
       "well": [
+        "A10",
+        "B10",
+        "C10",
+        "D10",
+        "E10",
+        "F10",
+        "G10",
         "H10"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
@@ -3970,7 +2764,14 @@
     "dna_sources_81": {
       "slot": 5,
       "well": [
-        "A11"
+        "A11",
+        "B11",
+        "C11",
+        "D11",
+        "E11",
+        "F11",
+        "G11",
+        "H11"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3979,7 +2780,14 @@
     "dna_sources_82": {
       "slot": 5,
       "well": [
-        "B11"
+        "A11",
+        "B11",
+        "C11",
+        "D11",
+        "E11",
+        "F11",
+        "G11",
+        "H11"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3988,7 +2796,14 @@
     "dna_sources_83": {
       "slot": 5,
       "well": [
-        "C11"
+        "A11",
+        "B11",
+        "C11",
+        "D11",
+        "E11",
+        "F11",
+        "G11",
+        "H11"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -3997,7 +2812,14 @@
     "dna_sources_84": {
       "slot": 5,
       "well": [
-        "D11"
+        "A11",
+        "B11",
+        "C11",
+        "D11",
+        "E11",
+        "F11",
+        "G11",
+        "H11"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -4006,7 +2828,14 @@
     "dna_sources_85": {
       "slot": 5,
       "well": [
-        "E11"
+        "A11",
+        "B11",
+        "C11",
+        "D11",
+        "E11",
+        "F11",
+        "G11",
+        "H11"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -4015,7 +2844,14 @@
     "dna_sources_86": {
       "slot": 5,
       "well": [
-        "F11"
+        "A11",
+        "B11",
+        "C11",
+        "D11",
+        "E11",
+        "F11",
+        "G11",
+        "H11"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -4024,7 +2860,14 @@
     "dna_sources_87": {
       "slot": 5,
       "well": [
-        "G11"
+        "A11",
+        "B11",
+        "C11",
+        "D11",
+        "E11",
+        "F11",
+        "G11",
+        "H11"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -4033,6 +2876,13 @@
     "dna_sources_88": {
       "slot": 5,
       "well": [
+        "A11",
+        "B11",
+        "C11",
+        "D11",
+        "E11",
+        "F11",
+        "G11",
         "H11"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
@@ -4042,7 +2892,14 @@
     "dna_sources_89": {
       "slot": 5,
       "well": [
-        "A12"
+        "A12",
+        "B12",
+        "C12",
+        "D12",
+        "E12",
+        "F12",
+        "G12",
+        "H12"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -4051,7 +2908,14 @@
     "dna_sources_90": {
       "slot": 5,
       "well": [
-        "B12"
+        "A12",
+        "B12",
+        "C12",
+        "D12",
+        "E12",
+        "F12",
+        "G12",
+        "H12"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -4060,7 +2924,14 @@
     "dna_sources_91": {
       "slot": 5,
       "well": [
-        "C12"
+        "A12",
+        "B12",
+        "C12",
+        "D12",
+        "E12",
+        "F12",
+        "G12",
+        "H12"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -4069,7 +2940,14 @@
     "dna_sources_92": {
       "slot": 5,
       "well": [
-        "D12"
+        "A12",
+        "B12",
+        "C12",
+        "D12",
+        "E12",
+        "F12",
+        "G12",
+        "H12"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -4078,7 +2956,14 @@
     "dna_sources_93": {
       "slot": 5,
       "well": [
-        "E12"
+        "A12",
+        "B12",
+        "C12",
+        "D12",
+        "E12",
+        "F12",
+        "G12",
+        "H12"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -4087,7 +2972,14 @@
     "dna_sources_94": {
       "slot": 5,
       "well": [
-        "F12"
+        "A12",
+        "B12",
+        "C12",
+        "D12",
+        "E12",
+        "F12",
+        "G12",
+        "H12"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -4096,7 +2988,14 @@
     "dna_sources_95": {
       "slot": 5,
       "well": [
-        "G12"
+        "A12",
+        "B12",
+        "C12",
+        "D12",
+        "E12",
+        "F12",
+        "G12",
+        "H12"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "source",
@@ -4105,6 +3004,13 @@
     "dna_sources_96": {
       "slot": 5,
       "well": [
+        "A12",
+        "B12",
+        "C12",
+        "D12",
+        "E12",
+        "F12",
+        "G12",
         "H12"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
@@ -4236,7 +3142,14 @@
     "samples_5": {
       "slot": 7,
       "well": [
-        "A1"
+        "A1",
+        "B1",
+        "C1",
+        "D1",
+        "E1",
+        "F1",
+        "G1",
+        "H1"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "target",
@@ -4245,7 +3158,14 @@
     "samples_6": {
       "slot": 7,
       "well": [
-        "B1"
+        "A2",
+        "B2",
+        "C2",
+        "D2",
+        "E2",
+        "F2",
+        "G2",
+        "H2"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "target",
@@ -4254,7 +3174,14 @@
     "samples_7": {
       "slot": 7,
       "well": [
-        "C1"
+        "A3",
+        "B3",
+        "C3",
+        "D3",
+        "E3",
+        "F3",
+        "G3",
+        "H3"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "target",
@@ -4263,7 +3190,14 @@
     "samples_8": {
       "slot": 7,
       "well": [
-        "D1"
+        "A4",
+        "B4",
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "H4"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "target",
@@ -4272,7 +3206,14 @@
     "samples_9": {
       "slot": 7,
       "well": [
-        "E1"
+        "A5",
+        "B5",
+        "C5",
+        "D5",
+        "E5",
+        "F5",
+        "G5",
+        "H5"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "target",
@@ -4281,7 +3222,14 @@
     "samples_10": {
       "slot": 7,
       "well": [
-        "F1"
+        "A6",
+        "B6",
+        "C6",
+        "D6",
+        "E6",
+        "F6",
+        "G6",
+        "H6"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "target",
@@ -4290,7 +3238,14 @@
     "samples_11": {
       "slot": 7,
       "well": [
-        "G1"
+        "A7",
+        "B7",
+        "C7",
+        "D7",
+        "E7",
+        "F7",
+        "G7",
+        "H7"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "target",
@@ -4299,7 +3254,14 @@
     "samples_12": {
       "slot": 7,
       "well": [
-        "H1"
+        "A8",
+        "B8",
+        "C8",
+        "D8",
+        "E8",
+        "F8",
+        "G8",
+        "H8"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "target",
@@ -4308,7 +3270,14 @@
     "samples_13": {
       "slot": 7,
       "well": [
-        "A2"
+        "A9",
+        "B9",
+        "C9",
+        "D9",
+        "E9",
+        "F9",
+        "G9",
+        "H9"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "target",
@@ -4317,7 +3286,14 @@
     "samples_14": {
       "slot": 7,
       "well": [
-        "B2"
+        "A10",
+        "B10",
+        "C10",
+        "D10",
+        "E10",
+        "F10",
+        "G10",
+        "H10"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "target",
@@ -4326,7 +3302,14 @@
     "samples_15": {
       "slot": 7,
       "well": [
-        "C2"
+        "A11",
+        "B11",
+        "C11",
+        "D11",
+        "E11",
+        "F11",
+        "G11",
+        "H11"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
       "object": "target",
@@ -4335,762 +3318,13 @@
     "samples_16": {
       "slot": 7,
       "well": [
-        "D2"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_17": {
-      "slot": 7,
-      "well": [
-        "E2"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_18": {
-      "slot": 7,
-      "well": [
-        "F2"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_19": {
-      "slot": 7,
-      "well": [
-        "G2"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_20": {
-      "slot": 7,
-      "well": [
-        "H2"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_21": {
-      "slot": 7,
-      "well": [
-        "A3"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_22": {
-      "slot": 7,
-      "well": [
-        "B3"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_23": {
-      "slot": 7,
-      "well": [
-        "C3"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_24": {
-      "slot": 7,
-      "well": [
-        "D3"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_25": {
-      "slot": 7,
-      "well": [
-        "E3"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_26": {
-      "slot": 7,
-      "well": [
-        "F3"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_27": {
-      "slot": 7,
-      "well": [
-        "G3"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_28": {
-      "slot": 7,
-      "well": [
-        "H3"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_29": {
-      "slot": 7,
-      "well": [
-        "A4"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_30": {
-      "slot": 7,
-      "well": [
-        "B4"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_31": {
-      "slot": 7,
-      "well": [
-        "C4"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_32": {
-      "slot": 7,
-      "well": [
-        "D4"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_33": {
-      "slot": 7,
-      "well": [
-        "E4"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_34": {
-      "slot": 7,
-      "well": [
-        "F4"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_35": {
-      "slot": 7,
-      "well": [
-        "G4"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_36": {
-      "slot": 7,
-      "well": [
-        "H4"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_37": {
-      "slot": 7,
-      "well": [
-        "A5"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_38": {
-      "slot": 7,
-      "well": [
-        "B5"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_39": {
-      "slot": 7,
-      "well": [
-        "C5"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_40": {
-      "slot": 7,
-      "well": [
-        "D5"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_41": {
-      "slot": 7,
-      "well": [
-        "E5"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_42": {
-      "slot": 7,
-      "well": [
-        "F5"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_43": {
-      "slot": 7,
-      "well": [
-        "G5"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_44": {
-      "slot": 7,
-      "well": [
-        "H5"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_45": {
-      "slot": 7,
-      "well": [
-        "A6"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_46": {
-      "slot": 7,
-      "well": [
-        "B6"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_47": {
-      "slot": 7,
-      "well": [
-        "C6"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_48": {
-      "slot": 7,
-      "well": [
-        "D6"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_49": {
-      "slot": 7,
-      "well": [
-        "E6"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_50": {
-      "slot": 7,
-      "well": [
-        "F6"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_51": {
-      "slot": 7,
-      "well": [
-        "G6"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_52": {
-      "slot": 7,
-      "well": [
-        "H6"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_53": {
-      "slot": 7,
-      "well": [
-        "A7"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_54": {
-      "slot": 7,
-      "well": [
-        "B7"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_55": {
-      "slot": 7,
-      "well": [
-        "C7"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_56": {
-      "slot": 7,
-      "well": [
-        "D7"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_57": {
-      "slot": 7,
-      "well": [
-        "E7"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_58": {
-      "slot": 7,
-      "well": [
-        "F7"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_59": {
-      "slot": 7,
-      "well": [
-        "G7"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_60": {
-      "slot": 7,
-      "well": [
-        "H7"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_61": {
-      "slot": 7,
-      "well": [
-        "A8"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_62": {
-      "slot": 7,
-      "well": [
-        "B8"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_63": {
-      "slot": 7,
-      "well": [
-        "C8"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_64": {
-      "slot": 7,
-      "well": [
-        "D8"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_65": {
-      "slot": 7,
-      "well": [
-        "E8"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_66": {
-      "slot": 7,
-      "well": [
-        "F8"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_67": {
-      "slot": 7,
-      "well": [
-        "G8"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_68": {
-      "slot": 7,
-      "well": [
-        "H8"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_69": {
-      "slot": 7,
-      "well": [
-        "A9"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_70": {
-      "slot": 7,
-      "well": [
-        "B9"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_71": {
-      "slot": 7,
-      "well": [
-        "C9"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_72": {
-      "slot": 7,
-      "well": [
-        "D9"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_73": {
-      "slot": 7,
-      "well": [
-        "E9"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_74": {
-      "slot": 7,
-      "well": [
-        "F9"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_75": {
-      "slot": 7,
-      "well": [
-        "G9"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_76": {
-      "slot": 7,
-      "well": [
-        "H9"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_77": {
-      "slot": 7,
-      "well": [
-        "A10"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_78": {
-      "slot": 7,
-      "well": [
-        "B10"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_79": {
-      "slot": 7,
-      "well": [
-        "C10"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_80": {
-      "slot": 7,
-      "well": [
-        "D10"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_81": {
-      "slot": 7,
-      "well": [
-        "E10"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_82": {
-      "slot": 7,
-      "well": [
-        "F10"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_83": {
-      "slot": 7,
-      "well": [
-        "G10"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_84": {
-      "slot": 7,
-      "well": [
-        "H10"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_85": {
-      "slot": 7,
-      "well": [
-        "A11"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_86": {
-      "slot": 7,
-      "well": [
-        "B11"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_87": {
-      "slot": 7,
-      "well": [
-        "C11"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_88": {
-      "slot": 7,
-      "well": [
-        "D11"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_89": {
-      "slot": 7,
-      "well": [
-        "E11"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_90": {
-      "slot": 7,
-      "well": [
-        "F11"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_91": {
-      "slot": 7,
-      "well": [
-        "G11"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_92": {
-      "slot": 7,
-      "well": [
-        "H11"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_93": {
-      "slot": 7,
-      "well": [
-        "A12"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_94": {
-      "slot": 7,
-      "well": [
-        "B12"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_95": {
-      "slot": 7,
-      "well": [
-        "C12"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_96": {
-      "slot": 7,
-      "well": [
-        "D12"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_97": {
-      "slot": 7,
-      "well": [
-        "E12"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_98": {
-      "slot": 7,
-      "well": [
-        "F12"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_99": {
-      "slot": 7,
-      "well": [
-        "G12"
-      ],
-      "labware": "nest_96_wellplate_100ul_pcr_full_skirt",
-      "object": "target",
-      "liquid_name": "dna_dests"
-    },
-    "samples_100": {
-      "slot": 7,
-      "well": [
+        "A12",
+        "B12",
+        "C12",
+        "D12",
+        "E12",
+        "F12",
+        "G12",
         "H12"
       ],
       "labware": "nest_96_wellplate_100ul_pcr_full_skirt",

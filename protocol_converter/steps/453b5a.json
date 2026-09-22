@@ -5099,7 +5099,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 50.0,
+            "vol": 300.0,
             "source": {
                 "well": "A1",
                 "labware": "reagent reservoir",
@@ -5118,17 +5118,6 @@
             },
             "flow_rate": 7.6,
             "pose_z": "top(2)",
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 50.0,
-            "source": {
-                "well": "A1",
-                "labware": "reagent reservoir",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
             "channels": 8
         },
         {
@@ -5144,17 +5133,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 50.0,
-            "source": {
-                "well": "A1",
-                "labware": "reagent reservoir",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 50.0,
             "target": {
@@ -5164,17 +5142,6 @@
             },
             "flow_rate": 7.6,
             "pose_z": "top(2)",
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 50.0,
-            "source": {
-                "well": "A1",
-                "labware": "reagent reservoir",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
             "channels": 8
         },
         {
@@ -5190,17 +5157,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 50.0,
-            "source": {
-                "well": "A1",
-                "labware": "reagent reservoir",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 50.0,
             "target": {
@@ -5210,17 +5166,6 @@
             },
             "flow_rate": 7.6,
             "pose_z": "top(2)",
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 50.0,
-            "source": {
-                "well": "A1",
-                "labware": "reagent reservoir",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
             "channels": 8
         },
         {
@@ -5236,8 +5181,18 @@
             "channels": 8
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A6",
+                "labware": "PCR plate",
+                "slot": 10
+            },
+            "pose_z": "top(2)",
+            "channels": 8
+        },
+        {
             "action": "aspirate",
-            "vol": 50.0,
+            "vol": 300.0,
             "source": {
                 "well": "A1",
                 "labware": "reagent reservoir",
@@ -5259,17 +5214,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 50.0,
-            "source": {
-                "well": "A1",
-                "labware": "reagent reservoir",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 50.0,
             "target": {
@@ -5279,17 +5223,6 @@
             },
             "flow_rate": 7.6,
             "pose_z": "top(2)",
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 50.0,
-            "source": {
-                "well": "A1",
-                "labware": "reagent reservoir",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
             "channels": 8
         },
         {
@@ -5305,17 +5238,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 50.0,
-            "source": {
-                "well": "A1",
-                "labware": "reagent reservoir",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 50.0,
             "target": {
@@ -5325,17 +5247,6 @@
             },
             "flow_rate": 7.6,
             "pose_z": "top(2)",
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 50.0,
-            "source": {
-                "well": "A1",
-                "labware": "reagent reservoir",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
             "channels": 8
         },
         {
@@ -5351,17 +5262,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 50.0,
-            "source": {
-                "well": "A1",
-                "labware": "reagent reservoir",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 50.0,
             "target": {
@@ -5370,6 +5270,16 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
+            "pose_z": "top(2)",
+            "channels": 8
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A12",
+                "labware": "PCR plate",
+                "slot": 10
+            },
             "pose_z": "top(2)",
             "channels": 8
         },
@@ -5391,7 +5301,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 100.0,
+            "vol": 300.0,
             "source": {
                 "well": "A2",
                 "labware": "reagent reservoir",
@@ -5413,17 +5323,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A2",
-                "labware": "reagent reservoir",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -5433,17 +5332,6 @@
             },
             "flow_rate": 7.6,
             "pose_z": "top(2)",
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A2",
-                "labware": "reagent reservoir",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
             "channels": 8
         },
         {
@@ -5459,8 +5347,18 @@
             "channels": 8
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A3",
+                "labware": "PCR plate",
+                "slot": 10
+            },
+            "pose_z": "top(2)",
+            "channels": 8
+        },
+        {
             "action": "aspirate",
-            "vol": 100.0,
+            "vol": 300.0,
             "source": {
                 "well": "A2",
                 "labware": "reagent reservoir",
@@ -5482,17 +5380,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A2",
-                "labware": "reagent reservoir",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -5502,17 +5389,6 @@
             },
             "flow_rate": 7.6,
             "pose_z": "top(2)",
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A2",
-                "labware": "reagent reservoir",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
             "channels": 8
         },
         {
@@ -5528,8 +5404,18 @@
             "channels": 8
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A6",
+                "labware": "PCR plate",
+                "slot": 10
+            },
+            "pose_z": "top(2)",
+            "channels": 8
+        },
+        {
             "action": "aspirate",
-            "vol": 100.0,
+            "vol": 300.0,
             "source": {
                 "well": "A2",
                 "labware": "reagent reservoir",
@@ -5551,17 +5437,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A2",
-                "labware": "reagent reservoir",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -5571,17 +5446,6 @@
             },
             "flow_rate": 7.6,
             "pose_z": "top(2)",
-            "channels": 8
-        },
-        {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A2",
-                "labware": "reagent reservoir",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
             "channels": 8
         },
         {
@@ -5597,8 +5461,18 @@
             "channels": 8
         },
         {
+            "action": "blow_out",
+            "at": {
+                "well": "A9",
+                "labware": "PCR plate",
+                "slot": 10
+            },
+            "pose_z": "top(2)",
+            "channels": 8
+        },
+        {
             "action": "aspirate",
-            "vol": 100.0,
+            "vol": 300.0,
             "source": {
                 "well": "A2",
                 "labware": "reagent reservoir",
@@ -5620,17 +5494,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A2",
-                "labware": "reagent reservoir",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -5643,17 +5506,6 @@
             "channels": 8
         },
         {
-            "action": "aspirate",
-            "vol": 100.0,
-            "source": {
-                "well": "A2",
-                "labware": "reagent reservoir",
-                "slot": 1
-            },
-            "flow_rate": 7.6,
-            "channels": 8
-        },
-        {
             "action": "dispense",
             "vol": 100.0,
             "target": {
@@ -5662,6 +5514,16 @@
                 "slot": 10
             },
             "flow_rate": 7.6,
+            "pose_z": "top(2)",
+            "channels": 8
+        },
+        {
+            "action": "blow_out",
+            "at": {
+                "well": "A12",
+                "labware": "PCR plate",
+                "slot": 10
+            },
             "pose_z": "top(2)",
             "channels": 8
         },

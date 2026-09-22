@@ -16,8 +16,40 @@
     {
       "action": "transfer_liquid",
       "action_args": {
-        "sources": "Liquid_1",
+        "sources": "Liquid_3",
         "targets": "samples",
+        "asp_vols": [
+          50.0,
+          20.0
+        ],
+        "dis_vols": [
+          50.0,
+          20.0
+        ],
+        "asp_flow_rates": [
+          7.6,
+          7.6
+        ],
+        "dis_flow_rates": [
+          7.6,
+          7.6
+        ],
+        "tip_racks": "tiprack_10",
+        "liquid_height": [
+          0,
+          0
+        ],
+        "mix_stage": "after",
+        "mix_times": 3,
+        "mix_vol": 10.0,
+        "mix_rate": 7.6
+      }
+    },
+    {
+      "action": "transfer_liquid",
+      "action_args": {
+        "sources": "Liquid_1",
+        "targets": "samples_2",
         "asp_vols": [
           10.0
         ],
@@ -44,7 +76,7 @@
       "action": "transfer_liquid",
       "action_args": {
         "sources": "Liquid_2",
-        "targets": "samples_2",
+        "targets": "samples_3",
         "asp_vols": [
           40.0
         ],
@@ -66,36 +98,18 @@
         "mix_vol": 20.0,
         "mix_rate": 7.6
       }
-    },
-    {
-      "action": "transfer_liquid",
-      "action_args": {
-        "sources": "Liquid_3",
-        "targets": "samples_3",
-        "asp_vols": [
-          70.0
-        ],
-        "dis_vols": [
-          70.0
-        ],
-        "asp_flow_rates": [
-          7.6
-        ],
-        "dis_flow_rates": [
-          7.6
-        ],
-        "tip_racks": "tiprack_10",
-        "liquid_height": [
-          0
-        ],
-        "mix_stage": "after",
-        "mix_times": 3,
-        "mix_vol": 10.0,
-        "mix_rate": 7.6
-      }
     }
   ],
   "reagent": {
+    "Liquid_3": {
+      "slot": 6,
+      "well": [
+        "C3"
+      ],
+      "labware": "biorad_96_wellplate_200ul_pcr",
+      "object": "source",
+      "liquid_name": "sample"
+    },
     "Liquid_1": {
       "slot": 4,
       "well": [
@@ -114,19 +128,10 @@
       "object": "source",
       "liquid_name": "sample"
     },
-    "Liquid_3": {
-      "slot": 6,
-      "well": [
-        "C3"
-      ],
-      "labware": "biorad_96_wellplate_200ul_pcr",
-      "object": "source",
-      "liquid_name": "sample"
-    },
     "samples": {
-      "slot": 1,
+      "slot": 2,
       "well": [
-        "A12"
+        "G8"
       ],
       "labware": "biorad_96_wellplate_200ul_pcr",
       "object": "target",
@@ -135,16 +140,16 @@
     "samples_2": {
       "slot": 1,
       "well": [
-        "D12"
+        "A12"
       ],
       "labware": "biorad_96_wellplate_200ul_pcr",
       "object": "target",
       "liquid_name": "sample"
     },
     "samples_3": {
-      "slot": 2,
+      "slot": 1,
       "well": [
-        "G8"
+        "D12"
       ],
       "labware": "biorad_96_wellplate_200ul_pcr",
       "object": "target",

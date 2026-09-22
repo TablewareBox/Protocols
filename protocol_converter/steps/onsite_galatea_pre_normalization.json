@@ -28,7 +28,7 @@
         },
         {
             "action": "aspirate",
-            "vol": 50.0,
+            "vol": 20.0,
             "source": {
                 "well": "A1",
                 "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
@@ -39,7 +39,49 @@
         },
         {
             "action": "dispense",
-            "vol": 50.0,
+            "vol": 20.0,
+            "target": {
+                "well": "A1",
+                "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
+                "slot": 3
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "aspirate",
+            "vol": 20.0,
+            "source": {
+                "well": "A1",
+                "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1)"
+        },
+        {
+            "action": "dispense",
+            "vol": 20.0,
+            "target": {
+                "well": "A1",
+                "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
+                "slot": 3
+            },
+            "flow_rate": 7.6
+        },
+        {
+            "action": "aspirate",
+            "vol": 10.0,
+            "source": {
+                "well": "A1",
+                "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
+                "slot": 2
+            },
+            "flow_rate": 7.6,
+            "pose_z": "bottom(1)"
+        },
+        {
+            "action": "dispense",
+            "vol": 10.0,
             "target": {
                 "well": "A1",
                 "labware": "NEST 96 Well Plate 100 µL PCR Full Skirt",
